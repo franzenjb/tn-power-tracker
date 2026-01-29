@@ -1,18 +1,20 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useRef } from 'react'
 import { MapContainer, TileLayer, GeoJSON, useMap } from 'react-leaflet'
 import type { FeatureCollection } from 'geojson'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 
 // Fix for default marker icons
-delete (L.Icon.Default.prototype as any)._getIconUrl
-L.Icon.Default.mergeOptions({
-  iconRetinaUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon-2x.png',
-  iconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon.png',
-  shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
-})
+if (typeof window !== 'undefined') {
+  delete (L.Icon.Default.prototype as any)._getIconUrl
+  L.Icon.Default.mergeOptions({
+    iconRetinaUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon-2x.png',
+    iconUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon.png',
+    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
+  })
+}
 
 interface OutageData {
   timestamp: string
@@ -61,8 +63,12 @@ export default function OutageMap() {
   const [outageData, setOutageData] = useState<OutageData | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
+  const [isClient, setIsClient] = useState(false)
 
   useEffect(() => {
+    // Only render map on client side to avoid SSR/hydration issues
+    setIsClient(true)
+
     fetch('/data/current_outages.json')
       .then(res => {
         if (!res.ok) throw new Error('Failed to fetch data')
@@ -88,7 +94,7 @@ export default function OutageMap() {
     return () => clearInterval(interval)
   }, [])
 
-  if (loading) {
+  if (!isClient || loading) {
     return (
       <div className="h-full flex items-center justify-center bg-gray-100">
         <div className="text-center">
