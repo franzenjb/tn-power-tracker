@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://js.arcgis.com/4.27/esri/widgets/Attribution/t9n/Attribution_en.json",
+    "data": "{\"widgetLabel\":\"Attribution\"}"
+  },
+  {
+    "url": "https://js.arcgis.com/4.27/esri/t9n/basemaps_en.json",
+    "data": "{\"streets\":\"Streets\",\"satellite\":\"Imagery\",\"hybrid\":\"Imagery with Labels\",\"terrain\":\"Terrain with Labels\",\"topo\":\"Topographic\",\"gray\":\"Light Gray Canvas\",\"dark-gray\":\"Dark Gray Canvas\",\"oceans\":\"Oceans\",\"national-geographic\":\"National Geographic\",\"osm\":\"OpenStreetMap\",\"streets-night-vector\":\"World Street Map (Night)\",\"streets-relief-vector\":\"World Street Map (with Relief)\",\"streets-navigation-vector\":\"World Navigation Map\"}"
+  },
+  {
+    "url": "https://js.arcgis.com/4.27/esri/widgets/Zoom/t9n/Zoom_en.json",
+    "data": "{\"widgetLabel\":\"Zoom\",\"zoomIn\":\"Zoom in\",\"zoomOut\":\"Zoom out\"}"
+  },
+  {
+    "url": "https://js.arcgis.com/4.27/esri/t9n/common_en.json",
+    "data": "{\"about\":\"About\",\"add\":\"Add\",\"all\":\"All\",\"apply\":\"Apply\",\"auth\":{\"logOut\":\"Log out\",\"signIn\":\"Sign in\"},\"back\":\"Back\",\"cancel\":\"Cancel\",\"change\":\"Change\",\"clear\":\"Clear\",\"close\":\"Close\",\"collapse\":\"Collapse\",\"configure\":\"Configure\",\"control\":{\"pause\":\"Pause\",\"play\":\"Play\",\"resume\":\"Resume\",\"stop\":\"Stop\"},\"copy\":\"Copy\",\"create\":\"Create\",\"cut\":\"Cut\",\"delete\":\"Delete\",\"details\":\"Details\",\"done\":\"Done\",\"dragHandleTitle\":\"Drag/reorder\",\"dragHandleLabel\":\"Activate the reorder button and use the arrow "
+  },
+  {
+    "url": "https://js.arcgis.com/4.27/esri/widgets/Track/t9n/Track_en.json",
+    "data": "{\"widgetLabel\":\"Track\",\"startTracking\":\"Start tracking my location\",\"stopTracking\":\"Stop tracking my location\"}"
+  },
+  {
+    "url": "https://js.arcgis.com/4.27/esri/widgets/Locate/t9n/Locate_en.json",
+    "data": "{\"widgetLabel\":\"Locate\",\"title\":\"Find my location\",\"currentLocation\":\"Current location\",\"timestamp\":\"Timestamp\",\"latitude\":\"Latitude\",\"longitude\":\"Longitude\",\"accuracy\":\"Accuracy\",\"altitude\":\"Altitude\",\"altitudeAccuracy\":\"Altitude accuracy\",\"heading\":\"Heading\",\"speed\":\"Speed\"}"
+  },
+  {
+    "url": "https://js.arcgis.com/4.27/esri/widgets/Search/t9n/Search_en.json",
+    "data": "{\"widgetLabel\":\"Search\",\"searchButtonTitle\":\"Search\",\"clearButtonTitle\":\"Clear search\",\"placeholder\":\"Find address or place\",\"searchIn\":\"Search in\",\"all\":\"All\",\"allPlaceholder\":\"Find address or place\",\"emptyValue\":\"Please enter a search term.\",\"locateError\":\"Could not retrieve current location.\",\"untitledResult\":\"Untitled\",\"untitledSource\":\"Untitled source\",\"noResults\":\"No results\",\"noResultsFound\":\"There were no results found.\",\"noResultsFoundForValue\":\"There were no results found for {value}.\""
+  },
+  {
+    "url": "https://cdn.arcgis.com/sharing/rest/content/items/63c47b7177f946b49902c24129b87252/resources/styles/root.json?f=json",
+    "data": "{\"version\":8,\"sprite\":\"https://cdn.arcgis.com/sharing/rest/content/items/63c47b7177f946b49902c24129b87252/resources/styles/../sprites/sprite\",\"glyphs\":\"https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/resources/fonts/{fontstack}/{range}.pbf\",\"sources\":{\"esri\":{\"type\":\"vector\",\"url\":\"https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer\"}},\"layers\":[{\"id\":\"background\",\"type\":\"background\",\"layout\":{},\"paint\":{\"background-color\":\"#a7d6f"
+  },
+  {
+    "url": "https://cdn.arcgis.com/sharing/rest/content/items/63c47b7177f946b49902c24129b87252/resources/sprites/sprite.json",
+    "data": "{\"Water area/Playa\":{\"x\":0,\"y\":0,\"width\":64,\"height\":64,\"pixelRatio\":1,\"sdf\":false},\"Water area/Lake or river intermittent\":{\"x\":64,\"y\":0,\"width\":64,\"height\":64,\"pixelRatio\":1,\"sdf\":false},\"Water area/Ice mass\":{\"x\":128,\"y\":0,\"width\":64,\"height\":64,\"pixelRatio\":1,\"sdf\":false},\"Water area/Swamp or marsh\":{\"x\":192,\"y\":0,\"width\":64,\"height\":64,\"pixelRatio\":1,\"sdf\":false},\"Road/Octagon green white/6\":{\"x\":256,\"y\":0,\"width\":54,\"height\":30,\"pixelRatio\":1,\"sdf\":false},\"Road/Octagon green white (Alt)/6\""
+  }
+]

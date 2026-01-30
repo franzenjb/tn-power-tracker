@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://www.duquesnelight.com/dlc/accountSelection/current-account?_=1769786562109",
+    "data": "{\"Success\":false}"
+  },
+  {
+    "url": "https://utilisocial.io/datacapable/v2/p/dlc/map/app/settings",
+    "data": "{\"theme\":{\"palette\":{\"primary\":{\"main\":\"#000000\"},\"secondary\":{\"main\":\"#F4F4F5\"}},\"typography\":{\"fontFamily\":\"apple-system, BlinkMacSystemFont, sans-serif\"}},\"faviconUrl\":\"https://www.duquesnelight.com/Content/favicons/favicon.ico\",\"pageTitle\":\"Outages | Duquesne Light Company\",\"layers\":{\"weather\":{\"settings\":{\"defaultEnabled\":false,\"visibility\":\"PUBLIC\",\"title\":\"Weather\",\"id\":\"weather\",\"layerIcon\":{\"icon\":\"OUTAGE_WEATHER_RADAR_LEGEND\",\"color\":\"#65A30D\",\"s3Url\":\"\"},\"globalConditions\":[],\"filterB"
+  },
+  {
+    "url": "https://js.arcgis.com/4.25/@arcgis/core/assets/esri/widgets/Popup/t9n/Popup_en.json",
+    "data": "{\"widgetLabel\":\"Popup\",\"zoom\":\"Zoom to\",\"next\":\"Next feature\",\"previous\":\"Previous feature\",\"dock\":\"Dock\",\"undock\":\"Undock\",\"pageText\":\"{index} of {total}\",\"selectedFeature\":\"Selected feature\",\"selectedFeatures\":\"{total} results\",\"browseClusteredFeatures\":\"Browse features\",\"exitRelatedRecords\":\"Exit related records\"}"
+  },
+  {
+    "url": "https://js.arcgis.com/4.25/@arcgis/core/assets/esri/widgets/Attribution/t9n/Attribution_en.json",
+    "data": "{\"widgetLabel\":\"Attribution\"}"
+  },
+  {
+    "url": "https://www.duquesnelight.com/dlc/currentInfo?_=1769786562111",
+    "data": "{}"
+  },
+  {
+    "url": "https://js.arcgis.com/4.25/@arcgis/core/assets/esri/widgets/Zoom/t9n/Zoom_en.json",
+    "data": "{\"widgetLabel\":\"Zoom\",\"zoomIn\":\"Zoom in\",\"zoomOut\":\"Zoom out\"}"
+  },
+  {
+    "url": "https://js.arcgis.com/4.25/@arcgis/core/assets/esri/t9n/common_en.json",
+    "data": "{\"about\":\"About\",\"add\":\"Add\",\"all\":\"All\",\"apply\":\"Apply\",\"auth\":{\"logOut\":\"Log out\",\"signIn\":\"Sign in\"},\"back\":\"Back\",\"cancel\":\"Cancel\",\"change\":\"Change\",\"clear\":\"Clear\",\"close\":\"Close\",\"collapse\":\"Collapse\",\"configure\":\"Configure\",\"control\":{\"pause\":\"Pause\",\"play\":\"Play\",\"resume\":\"Resume\",\"stop\":\"Stop\"},\"copy\":\"Copy\",\"create\":\"Create\",\"cut\":\"Cut\",\"delete\":\"Delete\",\"details\":\"Details\",\"done\":\"Done\",\"dragHandleTitle\":\"Drag/reorder\",\"dragHandleLabel\":\"Activate the reorder button and use the arrow "
+  },
+  {
+    "url": "https://js.arcgis.com/4.25/@arcgis/core/assets/esri/widgets/Search/t9n/Search_en.json",
+    "data": "{\"widgetLabel\":\"Search\",\"searchButtonTitle\":\"Search\",\"clearButtonTitle\":\"Clear search\",\"placeholder\":\"Find address or place\",\"searchIn\":\"Search in\",\"all\":\"All\",\"allPlaceholder\":\"Find address or place\",\"emptyValue\":\"Please enter a search term.\",\"locateError\":\"Could not retrieve current location.\",\"untitledResult\":\"Untitled\",\"untitledSource\":\"Untitled source\",\"noResults\":\"No results\",\"noResultsFound\":\"There were no results found.\",\"noResultsFoundForValue\":\"There were no results found for {value}.\""
+  },
+  {
+    "url": "https://js.arcgis.com/4.25/@arcgis/core/assets/esri/widgets/Locate/t9n/Locate_en.json",
+    "data": "{\"widgetLabel\":\"Locate\",\"title\":\"Find my location\",\"currentLocation\":\"Current location\",\"timestamp\":\"Timestamp\",\"latitude\":\"Latitude\",\"longitude\":\"Longitude\",\"accuracy\":\"Accuracy\",\"altitude\":\"Altitude\",\"altitudeAccuracy\":\"Altitude accuracy\",\"heading\":\"Heading\",\"speed\":\"Speed\"}"
+  },
+  {
+    "url": "https://utilisocial.io/datacapable/v2/p/dlc/map/territory?regionIds=",
+    "data": "{\"type\":\"polygon\",\"spatialReference\":{\"latestWkid\":4326,\"wkid\":4326},\"rings\":[[[-80.335833,40.815439],[-80.341223,40.816228],[-80.347313,40.816357],[-80.358192,40.814549],[-80.367804,40.810279],[-80.372161,40.807049],[-80.375736,40.803303],[-80.379671,40.79621],[-80.382042,40.785866],[-80.382303,40.78007],[-80.380569,40.76988],[-80.384764,40.762001],[-80.385546,40.753611],[-80.402003,40.751243],[-80.426212,40.741769],[-80.440442,40.738278],[-80.448185,40.742464],[-80.4606,40.74622],[-80.466502,4"
+  },
+  {
+    "url": "https://utilisocial.io/datacapable/v2/p/dlc/map/events/count?types=ZIP,COUNTY,MUNICIPALITY",
+    "data": "[{\"name\":\"MUNHALL\",\"type\":\"MUNICIPALITY\",\"customersAffected\":0,\"customersServed\":4677},{\"name\":\"15201\",\"type\":\"ZIP\",\"customersAffected\":0,\"customersServed\":9950},{\"name\":\"15205\",\"type\":\"ZIP\",\"customersAffected\":0,\"customersServed\":14187},{\"name\":\"15204\",\"type\":\"ZIP\",\"customersAffected\":0,\"customersServed\":3911},{\"name\":\"15203\",\"type\":\"ZIP\",\"customersAffected\":0,\"customersServed\":8803},{\"name\":\"GLENWILLARD\",\"type\":\"MUNICIPALITY\",\"customersAffected\":0,\"customersServed\":198},{\"name\":\"15202\",\"type\":"
+  },
+  {
+    "url": "https://utilisocial.io/datacapable/v2/p/dlc/map/events",
+    "data": "[{\"id\":2011951,\"startTime\":1769785611000,\"lastUpdatedTime\":1769786409000,\"etrTime\":1769792400000,\"title\":\"Outage\",\"numPeople\":4,\"status\":\"Crew Dispatched\",\"cause\":\"Under Investigation\",\"identifier\":\"Job.26.01.30.00089_697cc9102694e245f47ebab7\",\"latitude\":40.37917,\"longitude\":-79.97886,\"additionalProperties\":[{\"property\":\"jobNumber\",\"value\":\"Job.26.01.30.00089\"},{\"property\":\"zips\",\"value\":[\"15227\"]},{\"property\":\"counties\",\"value\":[\"ALLEGHENY\"]},{\"property\":\"municipalities\",\"value\":[\"PITTSBURGH\"]}"
+  },
+  {
+    "url": "https://utilisocial.io/datacapable/v2/p/dlc/map/stats",
+    "data": "{\"lastUpdatedTime\":\"1769786410133\"}"
+  },
+  {
+    "url": "https://cdn.arcgis.com/sharing/rest/content/items/63c47b7177f946b49902c24129b87252/resources/sprites/sprite.json?token=AAPKd4412cd932344316a45abaa19281ff2669i1SR_COzKItN2ejXBrMjw3YaXsIgcc9wV_vmBZI0cUwW84qH-6nUn436xtHsI5",
+    "data": "{\"Water area/Playa\":{\"x\":0,\"y\":0,\"width\":64,\"height\":64,\"pixelRatio\":1,\"sdf\":false},\"Water area/Lake or river intermittent\":{\"x\":64,\"y\":0,\"width\":64,\"height\":64,\"pixelRatio\":1,\"sdf\":false},\"Water area/Ice mass\":{\"x\":128,\"y\":0,\"width\":64,\"height\":64,\"pixelRatio\":1,\"sdf\":false},\"Water area/Swamp or marsh\":{\"x\":192,\"y\":0,\"width\":64,\"height\":64,\"pixelRatio\":1,\"sdf\":false},\"Road/Octagon green white/6\":{\"x\":256,\"y\":0,\"width\":54,\"height\":30,\"pixelRatio\":1,\"sdf\":false},\"Road/Octagon green white (Alt)/6\""
+  }
+]

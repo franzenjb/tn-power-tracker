@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://cdn.cookielaw.org/consent/4e9d9dce-efe2-4f76-9c6e-7aaa0b2f1905/4e9d9dce-efe2-4f76-9c6e-7aaa0b2f1905.json",
+    "data": "{\"CookieSPAEnabled\":false,\"CookieSameSiteNoneEnabled\":false,\"CookieV2CSPEnabled\":false,\"MultiVariantTestingEnabled\":false,\"UseV2\":true,\"MobileSDK\":false,\"SkipGeolocation\":false,\"ScriptType\":\"PRODUCTION\",\"Version\":\"202511.1.0\",\"OptanonDataJSON\":\"4e9d9dce-efe2-4f76-9c6e-7aaa0b2f1905\",\"GeolocationUrl\":\"https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location\",\"BulkDomainCheckUrl\":\"https://cookies-data.onetrust.io/bannersdk/v1/domaingroupcheck\",\"RuleSet\":[{\"Id\":\"019b0928-0214-7f57-b71e-5d7a"
+  },
+  {
+    "url": "https://cdn.cookielaw.org/consent/4e9d9dce-efe2-4f76-9c6e-7aaa0b2f1905/019b0928-0214-7f57-b71e-5d7afc82039f/en.json",
+    "data": "{\"DomainData\":{\"pclifeSpanYr\":\"Year\",\"pclifeSpanYrs\":\"Years\",\"pclifeSpanSecs\":\"A few seconds\",\"pclifeSpanWk\":\"Week\",\"pclifeSpanWks\":\"Weeks\",\"pccontinueWithoutAcceptText\":\"Continue without Accepting\",\"pccloseButtonType\":\"Icon\",\"MainText\":\"Cookie Settings\",\"MainInfoText\":\"When you visit our website, it may store cookies that share information about your preferences, the device you are using, and general information about you. We use cookies to personalize the content you see on our website, to imp"
+  },
+  {
+    "url": "https://cdn.cookielaw.org/scripttemplates/202511.1.0/assets/otFlat.json",
+    "data": "{\"name\":\"otFlat\",\"html\":\"PGRpdiBpZD0ib25ldHJ1c3QtYmFubmVyLXNkayIgY2xhc3M9Im90RmxhdCI+PGRpdiByb2xlPSJkaWFsb2ciPjxkaXYgY2xhc3M9Im90LXNkay1jb250YWluZXIiPjxkaXYgY2xhc3M9Im90LXNkay1yb3ciPjxkaXYgaWQ9Im9uZXRydXN0LWdyb3VwLWNvbnRhaW5lciIgY2xhc3M9Im90LXNkay1laWdodCBvdC1zZGstY29sdW1ucyI+PGRpdiBjbGFzcz0iYmFubmVyX2xvZ28iPjwvZGl2PjxkaXYgaWQ9Im9uZXRydXN0LXBvbGljeSI+PGgyIGlkPSJvbmV0cnVzdC1wb2xpY3ktdGl0bGUiPlRpdGxlPC9oMj48ZGl2IGlkPSJvbmV0cnVzdC1wb2xpY3ktdGV4dCI+dGl0bGU8YSBocmVmPSIjIj5wb2xpY3k8L2E+PC9kaXY+PGRpdiB"
+  }
+]

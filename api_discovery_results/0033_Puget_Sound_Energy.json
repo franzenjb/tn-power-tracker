@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://www.pse.com/api/sitecore/OutageMap/AnonymoussMapListView",
+    "data": "{\"UnplannedOutageSummary\":{\"CustomerAfftectedCount\":1328,\"OutageCount\":3,\"LastUpdatedDatetime\":\"01/30 07:14 AM\"},\"PlannedOutageSummary\":{\"CustomerAfftectedCount\":6,\"OutageCount\":3,\"LastUpdatedDatetime\":\"01/30 07:14 AM\"},\"PSPSSummary\":{\"CustomerAfftectedCount\":0,\"OutageCount\":0,\"LastUpdatedDatetime\":\"01/30 07:14 AM\"},\"CustomerProfile\":null,\"PseMap\":[{\"DataProvider\":{\"Attributes\":[{\"Name\":\"Start time\",\"RefName\":\"StartDate\",\"Value\":\"01/28 12:14 PM\",\"RefValue\":\"\",\"NoDisplay\":false},{\"Name\":\"Customer"
+  },
+  {
+    "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+    "data": "{}"
+  },
+  {
+    "url": "https://www.pse.com/api/sitecore/header/getsitelanguage",
+    "data": "[{\"Disabled\":false,\"Group\":null,\"Selected\":false,\"Text\":\"English\",\"Value\":\"en\"},{\"Disabled\":false,\"Group\":null,\"Selected\":false,\"Text\":\"Español\",\"Value\":\"es\"},{\"Disabled\":false,\"Group\":null,\"Selected\":false,\"Text\":\"中文\",\"Value\":\"zh\"},{\"Disabled\":false,\"Group\":null,\"Selected\":false,\"Text\":\"Русский\",\"Value\":\"ru\"},{\"Disabled\":false,\"Group\":null,\"Selected\":false,\"Text\":\"Tiếng Việt\",\"Value\":\"vi\"},{\"Disabled\":false,\"Group\":null,\"Selected\":false,\"Text\":\"한국인\",\"Value\":\"ko\"},{\"Disabled\":false,\"Group\":null,"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://px.ads.linkedin.com/attribution_trigger?pid=5283969&time=1769787792812&url=https%3A%2F%2Fepb.com%2Foutages%2F",
+    "data": "{}"
+  },
+  {
+    "url": "https://home-c33.nice-incontact.com/inContact/ChatClient/locales/en/translation.json",
+    "data": "{\"AgentStatusConnected\":\"Connected\",\"AgentStatusWaiting\":\"Waiting\",\"AM\":\"AM\",\"ButtonCloseChatText\":\"CLOSE CHAT\",\"ButtonCloseText\":\"Close\",\"ButtonDownloadText\":\"Download Transcript\",\"ButtonEndChatText\":\"End Chat\",\"ButtonResumeText\":\"Resume\",\"ButtonSubmitText\":\"SUBMIT\",\"ErrorRequiredText\":\"Required\",\"Label1MinAgo\":\"< 1 min ago\",\"LabelChatSessionExpiredMessage\":\"Your chat session has expired.\",\"LabelChatStarted\":\"Chat Started\",\"LabelEmailName\":\"Email Address\",\"LabelEndChatConfirmation\":\"Are you sur"
+  },
+  {
+    "url": "https://home-c33.nice-incontact.com/inContact/ChatClient/locales/en-US/translation.json",
+    "data": "{\"AgentStatusConnected\":\"Connected\",\"AgentStatusWaiting\":\"Waiting\",\"AM\":\"AM\",\"ButtonCloseChatText\":\"CLOSE CHAT\",\"ButtonCloseText\":\"Close\",\"ButtonDownloadText\":\"Download Transcript\",\"ButtonEndChatText\":\"End Chat\",\"ButtonResumeText\":\"Resume\",\"ButtonSubmitText\":\"SUBMIT\",\"ErrorRequiredText\":\"Required\",\"Label1MinAgo\":\"< 1 min ago\",\"LabelChatSessionExpiredMessage\":\"Your chat session has expired.\",\"LabelChatStarted\":\"Chat Started\",\"LabelEmailName\":\"Email Address\",\"LabelEndChatConfirmation\":\"Are you sur"
+  }
+]

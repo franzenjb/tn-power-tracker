@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://cdn.cookielaw.org/consent/7e542d47-b997-4eed-9aaa-30c6c4387bb9/7e542d47-b997-4eed-9aaa-30c6c4387bb9.json",
+    "data": "{\"CookieSPAEnabled\":false,\"CookieSameSiteNoneEnabled\":false,\"CookieV2CSPEnabled\":false,\"MultiVariantTestingEnabled\":false,\"UseV2\":true,\"MobileSDK\":false,\"SkipGeolocation\":false,\"ScriptType\":\"PRODUCTION\",\"Version\":\"202309.1.0\",\"OptanonDataJSON\":\"7e542d47-b997-4eed-9aaa-30c6c4387bb9\",\"GeolocationUrl\":\"https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location\",\"BulkDomainCheckUrl\":\"https://cookies-data.onetrust.io/bannersdk/v1/domaingroupcheck\",\"RuleSet\":[{\"Id\":\"93f15c63-250f-4b32-9d28-2fac"
+  },
+  {
+    "url": "https://cdn.cookielaw.org/consent/7e542d47-b997-4eed-9aaa-30c6c4387bb9/eb4f1736-daf6-4828-8f4f-4784ee6e6aa0/en.json",
+    "data": "{\"DomainData\":{\"pclifeSpanYr\":\"Year\",\"pclifeSpanYrs\":\"Years\",\"pclifeSpanSecs\":\"A few seconds\",\"pclifeSpanWk\":\"Week\",\"pclifeSpanWks\":\"Weeks\",\"pccontinueWithoutAcceptText\":\"Continue without Accepting\",\"pccloseButtonType\":\"Icon\",\"MainText\":\"Cookie Preferences\",\"MainInfoText\":\"When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site work as "
+  },
+  {
+    "url": "https://cdn.cookielaw.org/scripttemplates/202309.1.0/assets/otFlat.json",
+    "data": "{\"name\":\"otFlat\",\"html\":\"PGRpdiBpZD0ib25ldHJ1c3QtYmFubmVyLXNkayIgY2xhc3M9Im90RmxhdCI+PGRpdiByb2xlPSJhbGVydGRpYWxvZyIgYXJpYS1kZXNjcmliZWRieT0ib25ldHJ1c3QtcG9saWN5LXRleHQiPjxkaXYgY2xhc3M9Im90LXNkay1jb250YWluZXIiPjxkaXYgY2xhc3M9Im90LXNkay1yb3ciPjxkaXYgaWQ9Im9uZXRydXN0LWdyb3VwLWNvbnRhaW5lciIgY2xhc3M9Im90LXNkay1laWdodCBvdC1zZGstY29sdW1ucyI+PGRpdiBjbGFzcz0iYmFubmVyX2xvZ28iPjwvZGl2PjxkaXYgaWQ9Im9uZXRydXN0LXBvbGljeSI+PGgyIGlkPSJvbmV0cnVzdC1wb2xpY3ktdGl0bGUiPlRpdGxlPC9oMj48ZGl2IGlkPSJvbmV0cnVzdC1wb2xpY3k"
+  },
+  {
+    "url": "https://cdn.cookielaw.org/scripttemplates/202309.1.0/assets/v2/otPcCenter.json",
+    "data": "{\"name\":\"otPcCenter\",\"html\":\"PGRpdiBpZD0ib25ldHJ1c3QtcGMtc2RrIiBjbGFzcz0ib3RQY0NlbnRlciBvdC1oaWRlIG90LWZhZGUtaW4iPjxkaXYgcm9sZT0iYWxlcnRkaWFsb2ciIGFyaWEtbW9kYWw9InRydWUiIGFyaWEtZGVzY3JpYmVkYnk9Im90LXBjLWRlc2MiPjwhLS0gQ2xvc2UgQnV0dG9uIC0tPjxkaXYgY2xhc3M9Im90LXBjLWhlYWRlciI+PCEtLSBMb2dvIFRhZyAtLT48ZGl2IGNsYXNzPSJvdC1wYy1sb2dvIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkNvbXBhbnkgTG9nbyI+PC9kaXY+PGJ1dHRvbiBpZD0iY2xvc2UtcGMtYnRuLWhhbmRsZXIiIGNsYXNzPSJvdC1jbG9zZS1pY29uIiBhcmlhLWxhYmVsPSJDbG9zZSI+PC9idXR0b24+PC9"
+  },
+  {
+    "url": "https://px.ads.linkedin.com/attribution_trigger?pid=8310932&time=1769786364564&url=https%3A%2F%2Fwww.oge.com%2Fresidential%2Foutages-safety%2Foutage-status&tm=gtmv2",
+    "data": "{}"
+  }
+]

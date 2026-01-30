@@ -1,0 +1,150 @@
+[
+  {
+    "url": "https://www.bge.com/api/GetConfig",
+    "data": "{\"AITranslationAPI\":\"https://eudapi.bge.com/eult/translate\",\"androidAppId\":\"com.exelon.mobile.bge\",\"anonBaseUrl\":\"https://www.bge.com\",\"appleAppId\":\"1274170174\",\"applicationInsightsInstrumentationKey\":\"c895238f-3bb6-4743-a3c2-81fbc893c886\",\"baseUrl\":\"https://secure.bge.com\",\"chatBotAppId\":\"ef8bc990-3d6a-4211-851a-b9ae4cfe55ea\",\"contentApiBaseUrl\":\"https://eudapi.bge.com/content-api\",\"contentPublishingEnvironment\":\"live\",\"euApiUrl\":\"https://eudapi.bge.com\",\"getSessionTimeout\":\"3000\",\"googleTagMan"
+  },
+  {
+    "url": "https://js.monitor.azure.com/scripts/b/ai.config.1.cfg.json",
+    "data": "{\"version\":\"1.0.5\",\"enabled\":true,\"featureOptIn\":{\"iKeyUsage\":{\"mode\":3,\"onCfg\":{\"throttleMgrCfg.109.disabled\":false,\"throttleMgrCfg.106.disabled\":false},\"offCfg\":{\"throttleMgrCfg.109.disabled\":true,\"throttleMgrCfg.106.disabled\":true}},\"CdnUsage\":{\"mode\":4,\"onCfg\":{\"throttleMgrCfg.109.disabled\":false,\"throttleMgrCfg.110.disabled\":false},\"offCfg\":{\"throttleMgrCfg.109.disabled\":true,\"throttleMgrCfg.110.disabled\":true}}},\"config\":{\"throttleMgrCfg\":{\"106\":{\"disabled\":false,\"limit\":{\"samplingRate\":1,"
+  },
+  {
+    "url": "https://www.bge.com/api/GetConfig",
+    "data": "{\"AITranslationAPI\":\"https://eudapi.bge.com/eult/translate\",\"androidAppId\":\"com.exelon.mobile.bge\",\"anonBaseUrl\":\"https://www.bge.com\",\"appleAppId\":\"1274170174\",\"applicationInsightsInstrumentationKey\":\"c895238f-3bb6-4743-a3c2-81fbc893c886\",\"baseUrl\":\"https://secure.bge.com\",\"chatBotAppId\":\"ef8bc990-3d6a-4211-851a-b9ae4cfe55ea\",\"contentApiBaseUrl\":\"https://eudapi.bge.com/content-api\",\"contentPublishingEnvironment\":\"live\",\"euApiUrl\":\"https://eudapi.bge.com\",\"getSessionTimeout\":\"3000\",\"googleTagMan"
+  },
+  {
+    "url": "https://secure.bge.com/api/Services/MyAccountService.svc/GetSession?v=1769786097510",
+    "data": "{\"username\":null,\"encryptedUsername\":null,\"accountNumber\":null,\"customerNumber\":null,\"customerName\":null,\"primaryEmail\":null,\"token\":null,\"isResidential\":null,\"id\":\"kilw2d1fqdbxsnveukx5ol52\",\"encryptedUID\":null,\"dc\":\"e\"}"
+  },
+  {
+    "url": "https://secure.bge.com/api/Services/MyAccountService.svc/GetAllAlerts?v=1769786097510",
+    "data": "[{\"AlertType\":0,\"AlertTypeString\":\"Global\",\"BackgroundColor\":\"#D0E4F4\",\"IsActive\":true,\"Message\":\"<p>Please note, in accordance with a recent order from the Public Service Commission, all residential turn-off notices have been canceled and customers will not be disconnected for non-payment from December 30, 2025, through February 28, 2026. We encourage you to use our self-service channels where possible, including <a href=\\\"https://www.bge.com\\\">bge.com</a> and the BGE mobile app.</p>\",\"Order\":0"
+  },
+  {
+    "url": "https://secure.bge.com/api/Services/MyAccountService.svc/GetAllAlerts",
+    "data": "[{\"AlertType\":0,\"AlertTypeString\":\"Global\",\"BackgroundColor\":\"#D0E4F4\",\"IsActive\":true,\"Message\":\"<p>Please note, in accordance with a recent order from the Public Service Commission, all residential turn-off notices have been canceled and customers will not be disconnected for non-payment from December 30, 2025, through February 28, 2026. We encourage you to use our self-service channels where possible, including <a href=\\\"https://www.bge.com\\\">bge.com</a> and the BGE mobile app.</p>\",\"Order\":0"
+  },
+  {
+    "url": "https://secure.bge.com/api/services/myaccountservice.svc/getconfiguration",
+    "data": "{\"anonBaseUrl\":\"https://www.bge.com\",\"applicationInsightsInstrumentationKey\":\"c895238f-3bb6-4743-a3c2-81fbc893c886\",\"appointmentBaseUrl\":\"/customerServices-CasR4/appointments\",\"authenticationRedirectUrl\":\"/Pages/Adaptor.aspx\",\"b2cAadInstance\":\"https://secure2.bge.com/{0}/{1}{2}{3}\",\"b2cTenantName\":\"euazurebge.onmicrosoft.com\",\"b2cClientId\":\"b0392fc0-b383-488e-83ab-83dd8ad52c50\",\"b2cScopeUri\":\"https://euazurebge.onmicrosoft.com/opower/opower_connect\",\"b2cRedirectUri\":\"/Pages/Login.aspx\",\"b2cSignI"
+  },
+  {
+    "url": "https://secure.bge.com/api/services/myaccountservice.svc/getsession",
+    "data": "{\"username\":null,\"encryptedUsername\":null,\"accountNumber\":null,\"customerNumber\":null,\"customerName\":null,\"primaryEmail\":null,\"token\":null,\"isResidential\":null,\"id\":\"qjinjn3vybwrzi0fl3watizf\",\"encryptedUID\":null,\"dc\":\"e\"}"
+  },
+  {
+    "url": "https://eudapi.bge.com/content-api/api/content/navigation/mega-menu?environment=live",
+    "data": "{\"displayText\":\"BGE Navigation\",\"url\":\"/\",\"linkType\":\"Anon\",\"nodes\":[{\"displayText\":\"My Account\",\"nodes\":[{\"displayText\":\"My Dashboard\",\"url\":\"/MyAccount/MyBillUsage/pages/secure/MyBillUsage.aspx\",\"linkType\":\"Secure\",\"nodes\":[{\"displayText\":\"Pay My Bill\",\"url\":\"/my-account/my-dashboard/pay-my-bill\",\"linkType\":\"Anon\"},{\"displayText\":\"My Bill Details\",\"url\":\"/MyAccount/MyBillUsage/pages/secure/MyBillDetails.aspx\",\"linkType\":\"Secure\"},{\"displayText\":\"Billing Options\",\"url\":\"/my-account/my-dashboard"
+  },
+  {
+    "url": "https://eudapi.bge.com/content-api/api/content/navigation/header?environment=live",
+    "data": "{\"displayText\":\"BGE Header\",\"nodes\":[{\"displayText\":\"Outage\",\"url\":\"/powerOutages/outageTracker/experiencingAnOutage\",\"linkType\":\"Secure\",\"hideFromMegaMenu\":false},{\"displayText\":\"Smell Natural Gas?\",\"url\":\"/natural-gas-safety-landing\",\"linkType\":\"Anon\"},{\"displayText\":\"Pay Bill\",\"url\":\"/my-account/my-dashboard/pay-my-bill\",\"linkType\":\"Anon\"},{\"displayText\":\"Moving\",\"url\":\"/CustomerServices/service/landing\",\"linkType\":\"Secure\"},{\"displayText\":\"Español\",\"url\":\"https://es.bge.com:443/\",\"linkType\":"
+  },
+  {
+    "url": "https://eudapi.bge.com/content-api/api/content/navigation/header?environment=live",
+    "data": "{\"displayText\":\"BGE Header\",\"nodes\":[{\"displayText\":\"Outage\",\"url\":\"/powerOutages/outageTracker/experiencingAnOutage\",\"linkType\":\"Secure\",\"hideFromMegaMenu\":false},{\"displayText\":\"Smell Natural Gas?\",\"url\":\"/natural-gas-safety-landing\",\"linkType\":\"Anon\"},{\"displayText\":\"Pay Bill\",\"url\":\"/my-account/my-dashboard/pay-my-bill\",\"linkType\":\"Anon\"},{\"displayText\":\"Moving\",\"url\":\"/CustomerServices/service/landing\",\"linkType\":\"Secure\"},{\"displayText\":\"Español\",\"url\":\"https://es.bge.com:443/\",\"linkType\":"
+  },
+  {
+    "url": "https://www.bge.com/api/GetConfig",
+    "data": "{\"AITranslationAPI\":\"https://eudapi.bge.com/eult/translate\",\"androidAppId\":\"com.exelon.mobile.bge\",\"anonBaseUrl\":\"https://www.bge.com\",\"appleAppId\":\"1274170174\",\"applicationInsightsInstrumentationKey\":\"c895238f-3bb6-4743-a3c2-81fbc893c886\",\"baseUrl\":\"https://secure.bge.com\",\"chatBotAppId\":\"ef8bc990-3d6a-4211-851a-b9ae4cfe55ea\",\"contentApiBaseUrl\":\"https://eudapi.bge.com/content-api\",\"contentPublishingEnvironment\":\"live\",\"euApiUrl\":\"https://eudapi.bge.com\",\"getSessionTimeout\":\"3000\",\"googleTagMan"
+  },
+  {
+    "url": "https://js.monitor.azure.com/scripts/b/ai.config.1.cfg.json",
+    "data": "{\"version\":\"1.0.5\",\"enabled\":true,\"featureOptIn\":{\"iKeyUsage\":{\"mode\":3,\"onCfg\":{\"throttleMgrCfg.109.disabled\":false,\"throttleMgrCfg.106.disabled\":false},\"offCfg\":{\"throttleMgrCfg.109.disabled\":true,\"throttleMgrCfg.106.disabled\":true}},\"CdnUsage\":{\"mode\":4,\"onCfg\":{\"throttleMgrCfg.109.disabled\":false,\"throttleMgrCfg.110.disabled\":false},\"offCfg\":{\"throttleMgrCfg.109.disabled\":true,\"throttleMgrCfg.110.disabled\":true}}},\"config\":{\"throttleMgrCfg\":{\"106\":{\"disabled\":false,\"limit\":{\"samplingRate\":1,"
+  },
+  {
+    "url": "https://www.bge.com/api/GetConfig",
+    "data": "{\"AITranslationAPI\":\"https://eudapi.bge.com/eult/translate\",\"androidAppId\":\"com.exelon.mobile.bge\",\"anonBaseUrl\":\"https://www.bge.com\",\"appleAppId\":\"1274170174\",\"applicationInsightsInstrumentationKey\":\"c895238f-3bb6-4743-a3c2-81fbc893c886\",\"baseUrl\":\"https://secure.bge.com\",\"chatBotAppId\":\"ef8bc990-3d6a-4211-851a-b9ae4cfe55ea\",\"contentApiBaseUrl\":\"https://eudapi.bge.com/content-api\",\"contentPublishingEnvironment\":\"live\",\"euApiUrl\":\"https://eudapi.bge.com\",\"getSessionTimeout\":\"3000\",\"googleTagMan"
+  },
+  {
+    "url": "https://secure.bge.com/api/Services/MyAccountService.svc/GetSession?v=1769786099743",
+    "data": "{\"username\":null,\"encryptedUsername\":null,\"accountNumber\":null,\"customerNumber\":null,\"customerName\":null,\"primaryEmail\":null,\"token\":null,\"isResidential\":null,\"id\":\"qjinjn3vybwrzi0fl3watizf\",\"encryptedUID\":null,\"dc\":\"e\"}"
+  },
+  {
+    "url": "https://secure.bge.com/api/Services/MyAccountService.svc/GetAllAlerts?v=1769786099743",
+    "data": "[{\"AlertType\":0,\"AlertTypeString\":\"Global\",\"BackgroundColor\":\"#D0E4F4\",\"IsActive\":true,\"Message\":\"<p>Please note, in accordance with a recent order from the Public Service Commission, all residential turn-off notices have been canceled and customers will not be disconnected for non-payment from December 30, 2025, through February 28, 2026. We encourage you to use our self-service channels where possible, including <a href=\\\"https://www.bge.com\\\">bge.com</a> and the BGE mobile app.</p>\",\"Order\":0"
+  },
+  {
+    "url": "https://eudapi.bge.com/content-api/api/content/navigation/header?environment=live",
+    "data": "{\"displayText\":\"BGE Header\",\"nodes\":[{\"displayText\":\"Outage\",\"url\":\"/powerOutages/outageTracker/experiencingAnOutage\",\"linkType\":\"Secure\",\"hideFromMegaMenu\":false},{\"displayText\":\"Smell Natural Gas?\",\"url\":\"/natural-gas-safety-landing\",\"linkType\":\"Anon\"},{\"displayText\":\"Pay Bill\",\"url\":\"/my-account/my-dashboard/pay-my-bill\",\"linkType\":\"Anon\"},{\"displayText\":\"Moving\",\"url\":\"/CustomerServices/service/landing\",\"linkType\":\"Secure\"},{\"displayText\":\"Español\",\"url\":\"https://es.bge.com:443/\",\"linkType\":"
+  },
+  {
+    "url": "https://eudapi.bge.com/content-api/api/content/navigation/header?environment=live",
+    "data": "{\"displayText\":\"BGE Header\",\"nodes\":[{\"displayText\":\"Outage\",\"url\":\"/powerOutages/outageTracker/experiencingAnOutage\",\"linkType\":\"Secure\",\"hideFromMegaMenu\":false},{\"displayText\":\"Smell Natural Gas?\",\"url\":\"/natural-gas-safety-landing\",\"linkType\":\"Anon\"},{\"displayText\":\"Pay Bill\",\"url\":\"/my-account/my-dashboard/pay-my-bill\",\"linkType\":\"Anon\"},{\"displayText\":\"Moving\",\"url\":\"/CustomerServices/service/landing\",\"linkType\":\"Secure\"},{\"displayText\":\"Español\",\"url\":\"https://es.bge.com:443/\",\"linkType\":"
+  },
+  {
+    "url": "https://eudapi.bge.com/content-api/api/content/navigation/mega-menu?environment=live",
+    "data": "{\"displayText\":\"BGE Navigation\",\"url\":\"/\",\"linkType\":\"Anon\",\"nodes\":[{\"displayText\":\"My Account\",\"nodes\":[{\"displayText\":\"My Dashboard\",\"url\":\"/MyAccount/MyBillUsage/pages/secure/MyBillUsage.aspx\",\"linkType\":\"Secure\",\"nodes\":[{\"displayText\":\"Pay My Bill\",\"url\":\"/my-account/my-dashboard/pay-my-bill\",\"linkType\":\"Anon\"},{\"displayText\":\"My Bill Details\",\"url\":\"/MyAccount/MyBillUsage/pages/secure/MyBillDetails.aspx\",\"linkType\":\"Secure\"},{\"displayText\":\"Billing Options\",\"url\":\"/my-account/my-dashboard"
+  },
+  {
+    "url": "https://eudapi.bge.com/content-api/api/content/navigation/footer?environment=live",
+    "data": "{\"displayText\":\"BGE Footer\",\"nodes\":[{\"displayText\":\"About Us\",\"url\":\"/about-us\",\"linkType\":\"Anon\",\"hideFromMegaMenu\":true},{\"displayText\":\"News\",\"url\":\"/news\",\"linkType\":\"Anon\",\"hideFromMegaMenu\":false},{\"displayText\":\"Doing Business with Us\",\"url\":\"/doing-business-with-us\",\"linkType\":\"Anon\",\"hideFromMegaMenu\":true},{\"displayText\":\"Careers\",\"url\":\"/AboutUs/Pages/Careers.aspx\",\"linkType\":\"Anon\",\"openInNewTabWindow\":true}]}"
+  },
+  {
+    "url": "https://eudapi.bge.com/content-api/api/content/navigation/footer?environment=live",
+    "data": "{\"displayText\":\"BGE Footer\",\"nodes\":[{\"displayText\":\"About Us\",\"url\":\"/about-us\",\"linkType\":\"Anon\",\"hideFromMegaMenu\":true},{\"displayText\":\"News\",\"url\":\"/news\",\"linkType\":\"Anon\",\"hideFromMegaMenu\":false},{\"displayText\":\"Doing Business with Us\",\"url\":\"/doing-business-with-us\",\"linkType\":\"Anon\",\"hideFromMegaMenu\":true},{\"displayText\":\"Careers\",\"url\":\"/AboutUs/Pages/Careers.aspx\",\"linkType\":\"Anon\",\"openInNewTabWindow\":true}]}"
+  },
+  {
+    "url": "https://resources.digital-cloud.medallia.com/wdcus/460284/onsite/onsiteData1768825426150.json",
+    "data": "{\"provisions\":{\"skipInvitationOptimization\":null,\"21dcr1_mpc3281_alignWCAGLogoMarkup\":true,\"reusableResourcesLibrary\":true,\"formTemplatesWCAG\":true,\"formSpacing\":true,\"24dcr1_MPC7724_enableFormv2andInviteCSSDelay\":null,\"20dcr4_MPC2952_enable_exemptFormsFromQuarantine\":true,\"21dcr1_MPC3199_AdditionalButtonStyles\":true,\"sharePropertyBetweenSubdomains\":true,\"24dcr4_MPC8375_enableFeedbackPayloadOptimization\":null,\"23dcr2_MPC6711_enableWCAGerrorMessagesPreQuestions\":null,\"21dcr6_MPC4296_enable_UBTIde"
+  },
+  {
+    "url": "https://secure.bge.com/api/Services/MyAccountService.svc/GetAllAlerts",
+    "data": "[{\"AlertType\":0,\"AlertTypeString\":\"Global\",\"BackgroundColor\":\"#D0E4F4\",\"IsActive\":true,\"Message\":\"<p>Please note, in accordance with a recent order from the Public Service Commission, all residential turn-off notices have been canceled and customers will not be disconnected for non-payment from December 30, 2025, through February 28, 2026. We encourage you to use our self-service channels where possible, including <a href=\\\"https://www.bge.com\\\">bge.com</a> and the BGE mobile app.</p>\",\"Order\":0"
+  },
+  {
+    "url": "https://resources.digital-cloud.medallia.com/wdcus/460284/forms/23169/formDataV2_1764753596373_en.json",
+    "data": "{\"name\":\"BGE Embedded - Report an Outage\",\"id\":23169,\"pages\":[{\"pageName\":\"Page 1\",\"view\":{\"backgroundColor\":\"\",\"backgroundRepeat\":false,\"customCssClass\":\"\"},\"components\":[{\"id\":7831,\"unique_name\":\"Page 1 text 67529\",\"type\":\"label\",\"data\":{\"text\":\"<h2>We&#39;d love your feedback!</h2>\\n\"},\"validation\":{\"required\":false,\"regex\":\"/.*/\"},\"view\":{\"numberOfLines\":18},\"descriptiveErrorMessage\":\"\"},{\"id\":7802,\"unique_name\":\"Satisfaction with Digital Experience\",\"type\":\"grading0to10\",\"data\":{\"label\":\"Ov"
+  },
+  {
+    "url": "https://resources.digital-cloud.medallia.com/wdcus/460284/forms/23170/formDataV2_1764753671937_en.json",
+    "data": "{\"name\":\"BGE Embedded - Outage Tracker\",\"id\":23170,\"pages\":[{\"pageName\":\"Page 1\",\"view\":{\"backgroundColor\":\"\",\"backgroundRepeat\":false,\"customCssClass\":\"\"},\"components\":[{\"id\":7802,\"unique_name\":\"Satisfaction with Digital Experience\",\"type\":\"grading0to10\",\"data\":{\"label\":\"Overall, how satisfied are you with the outage tracker today?\",\"alternatives\":[{\"id\":\"0\",\"label\":\"0 - Not at all satisfied\"},{\"id\":\"1\",\"label\":\"\"},{\"id\":\"2\",\"label\":\"\"},{\"id\":\"3\",\"label\":\"\"},{\"id\":\"4\",\"label\":\"\"},{\"id\":\"5\",\"lab"
+  },
+  {
+    "url": "https://collection.decibelinsight.net/i/14081/901389/c.json",
+    "data": "{\"da_websiteId\":901389,\"da_account_flags\":22527,\"da_account_flags_orig\":22527,\"da_sessionId_e\":\"89C3F6D18E3FAEA8DEBEAA13A85900DBCA.0\",\"da_leadId_e\":\"BAF0C5E29A7FEA334BEFBB99EA5B4AD079\",\"da_dnsRecord\":\"collection.decibelinsight.net\",\"da_anonymiseIP\":false,\"da_ipHandling\":0,\"da_sessCookieFlags\":4,\"da_leadCookieFlags\":0,\"analysisSessFlags\":0,\"analysisLeadFlags\":0,\"replaySessFlags\":3,\"replayLeadFlags\":0,\"int_state\":\"\",\"curTime\":1769786100,\"domains\":[\"t-c-euweb-voc-bge-ui-01.azurewebsites.net\",\"aztst"
+  },
+  {
+    "url": "https://secure.bge.com/api/services/myaccountservice.svc/getsession",
+    "data": "{\"username\":null,\"encryptedUsername\":null,\"accountNumber\":null,\"customerNumber\":null,\"customerName\":null,\"primaryEmail\":null,\"token\":null,\"isResidential\":null,\"id\":\"qjinjn3vybwrzi0fl3watizf\",\"encryptedUID\":null,\"dc\":\"e\"}"
+  },
+  {
+    "url": "https://secure.bge.com/api/services/myaccountservice.svc/getconfiguration",
+    "data": "{\"anonBaseUrl\":\"https://www.bge.com\",\"applicationInsightsInstrumentationKey\":\"c895238f-3bb6-4743-a3c2-81fbc893c886\",\"appointmentBaseUrl\":\"/customerServices-CasR4/appointments\",\"authenticationRedirectUrl\":\"/Pages/Adaptor.aspx\",\"b2cAadInstance\":\"https://secure2.bge.com/{0}/{1}{2}{3}\",\"b2cTenantName\":\"euazurebge.onmicrosoft.com\",\"b2cClientId\":\"b0392fc0-b383-488e-83ab-83dd8ad52c50\",\"b2cScopeUri\":\"https://euazurebge.onmicrosoft.com/opower/opower_connect\",\"b2cRedirectUri\":\"/Pages/Login.aspx\",\"b2cSignI"
+  },
+  {
+    "url": "https://eudapi.bge.com/content-api/api/content/products/other/pages?url=/outages/experiencing-an-outage/outage-map&environment=live",
+    "data": "{\"breadcrumbs\":{\"segments\":[{\"title\":\"Home\",\"url\":\"/\"},{\"title\":\"Outages\"},{\"title\":\"Experiencing an Outage\",\"url\":\"/powerOutages/outageTracker/experiencingAnOutage\",\"linkType\":\"Secure\"},{\"title\":\"View Outage Map\",\"url\":\"/outages/experiencing-an-outage/outage-map\",\"linkType\":\"Anon\"}]},\"url\":\"/outages/experiencing-an-outage/outage-map\",\"metadata\":{\"dataType\":\"metadata\",\"systemOwner\":[],\"systemTeam\":[]},\"contents\":[{\"dataType\":\"article_page_template.section\",\"title\":\"\",\"contents\":[{\"dataType\":\"sec"
+  },
+  {
+    "url": "https://px.ads.linkedin.com/attribution_trigger?pid=3807729&time=1769786100170&url=https%3A%2F%2Fwww.bge.com%2Foutages%2Fexperiencing-an-outage%2Foutage-map&tm=gtmv2",
+    "data": "{}"
+  },
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/3db5fd35-4a88-465f-8985-8db3eb760b61/views/1b43510f-b947-437b-9879-c0bd8f6d7816/currentState?preview=false",
+    "data": "{\"version\":\"V1\",\"controlCenter\":{\"alertDeploymentId\":null,\"settingsDeploymentId\":\"490aada8-0df4-4338-9cd6-0f64f0221820\",\"areaManager\":{\"areaManagerConfigurationDeploymentId\":null,\"disableOutagesCustomersAffectedOverride\":false,\"disableOutagesEtrOverride\":false,\"customersAffectedOverride\":false,\"etrOverride\":false},\"hazardousLayers\":[],\"customlayers\":null},\"stormcenterDeploymentId\":\"c9e261e3-c0de-41b5-9b34-b93f52de0bf4\",\"messageBundleId\":\"sfB3Yq\",\"updatedAt\":1769785912000,\"data\":{\"interval_genera"
+  },
+  {
+    "url": "https://ads.nextdoor.com/v2/api/conversions/settings?id=2d67e8a7-2287-4f61-a673-1eb09be6b4ae",
+    "data": "{\"am\":\"0\",\"em\":{},\"t\":1769764739103}"
+  },
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/3db5fd35-4a88-465f-8985-8db3eb760b61/views/1b43510f-b947-437b-9879-c0bd8f6d7816/configuration/c9e261e3-c0de-41b5-9b34-b93f52de0bf4?preview=false",
+    "data": "{\"version\":\"V3\",\"config\":{\"deploymentId\":\"c9e261e3-c0de-41b5-9b34-b93f52de0bf4\",\"deployedAt\":\"2024-03-18T20:58:53.640Z\",\"customElements\":{\"0fafe1bf-416d-4943-a8db-d098832f7faf\":{\"url\":null,\"text\":\"custom-element-message-0fafe1bf-416d-4943-a8db-d098832f7faf\",\"type\":\"staticText\",\"icon\":null,\"target\":null},\"2649e978-93ab-4804-849a-46427f35d3d5\":{\"url\":\"custom-element-url-2649e978-93ab-4804-849a-46427f35d3d5\",\"text\":\"custom-element-message-2649e978-93ab-4804-849a-46427f35d3d5\",\"type\":\"button\",\"icon\""
+  },
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/3db5fd35-4a88-465f-8985-8db3eb760b61/views/1b43510f-b947-437b-9879-c0bd8f6d7816/settings/deployed?id=490aada8-0df4-4338-9cd6-0f64f0221820",
+    "data": "{\"viewId\":\"490aada8-0df4-4338-9cd6-0f64f0221820\",\"updateWording\":{\"EN-US\":\"Information is updated approximately every 10 minutes. \"},\"stormMode\":false,\"redirectUrl\":\"\"}"
+  },
+  {
+    "url": "https://kubra.io/data/66621031-23bc-48a5-b408-aae4a8301f11/public/summary-1/data.json",
+    "data": "{\"fileTitle\":\"data\",\"summaryFileData\":{\"totals\":[{\"summaryTotalId\":\"total-1\",\"total_cust_a\":{\"val\":16},\"total_percent_cust_a\":{\"val\":0.01},\"total_percent_cust_active\":{\"val\":99.99},\"total_cust_s\":1344249,\"total_outages\":13}],\"date_generated\":\"2026-01-30T15:11:51.888Z\",\"overwritten_ca\":false,\"overwritten_etr\":false,\"page_mode\":{\"mode\":\"BLUESKY\",\"redirectURL\":\"\",\"pausePublish\":false}}}"
+  },
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/3db5fd35-4a88-465f-8985-8db3eb760b61/messages/sfB3Yq/intl/en-US/desktop",
+    "data": "{\"info-box-title-cluster-1-cluster\":\"Multiple Outages\",\"info-box-field-label-thematic-3-cust_a\":\"Customers Affected\",\"info-box-field-label-thematic-2-cust_a\":\"Customers Affected\",\"backend.tab.close\":\"Close\",\"mask-text-message-id\":\"Fewer Than {value}\",\"info-box-field-label-thematic-2-percent_cust_a\":\"Percent Affected\",\"info-box-field-label-17205078-e065-4c3f-b572-791e3bb3f4b3-percent_cust_a\":\"Percent Affected\",\"range-label-Zip code-5\":\"1-50\",\"service-territory-label-message-2fb70b3d-9ce3-4bb4-ba3"
+  },
+  {
+    "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+    "data": "{}"
+  }
+]

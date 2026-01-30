@@ -1,673 +1,673 @@
 {
-  "timestamp": "2026-01-29T12:30:24.773683Z",
+  "timestamp": "2026-01-29T16:22:27.888898Z",
   "total_counties": 95,
   "counties_affected": 0,
   "total_customers_out": 0,
-  "total_customers_tracked": 1247000,
-  "outage_percent": 0.0,
+  "total_customers_tracked": 0,
+  "outage_percent": 0,
   "counties": {
-    "Davidson": {
-      "customers_out": 0,
-      "customers_tracked": 400000,
-      "timestamp": "2026-01-29T12:30:24.773073Z",
-      "source": "Nashville Electric Service",
-      "outage_percent": 0.0
-    },
-    "Shelby": {
-      "customers_out": 0,
-      "customers_tracked": 437000,
-      "timestamp": "2026-01-29T12:30:10.374665Z",
-      "source": "Memphis Light, Gas & Water",
-      "outage_percent": 0.0
-    },
-    "Hamilton": {
-      "customers_out": 0,
-      "customers_tracked": 180000,
-      "timestamp": "2026-01-29T12:30:23.817766Z",
-      "source": "EPB Chattanooga",
-      "outage_percent": 0.0
-    },
-    "Knox": {
-      "customers_out": 0,
-      "customers_tracked": 230000,
-      "timestamp": "2026-01-29T12:30:21.170117Z",
-      "source": "Knoxville Utilities Board",
-      "outage_percent": 0.0
-    },
     "Anderson": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773311Z",
+      "timestamp": "2026-01-29T16:22:27.888274Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Bedford": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773317Z",
+      "timestamp": "2026-01-29T16:22:27.888279Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Benton": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773320Z",
+      "timestamp": "2026-01-29T16:22:27.888280Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Bledsoe": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773321Z",
+      "timestamp": "2026-01-29T16:22:27.888281Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Blount": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773323Z",
+      "timestamp": "2026-01-29T16:22:27.888282Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Bradley": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773325Z",
+      "timestamp": "2026-01-29T16:22:27.888283Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Campbell": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773326Z",
+      "timestamp": "2026-01-29T16:22:27.888284Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Cannon": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773328Z",
+      "timestamp": "2026-01-29T16:22:27.888285Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Carroll": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773329Z",
+      "timestamp": "2026-01-29T16:22:27.888286Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Carter": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773331Z",
+      "timestamp": "2026-01-29T16:22:27.888287Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Cheatham": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773332Z",
+      "timestamp": "2026-01-29T16:22:27.888288Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Chester": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773334Z",
+      "timestamp": "2026-01-29T16:22:27.888288Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Claiborne": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773335Z",
+      "timestamp": "2026-01-29T16:22:27.888289Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Clay": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773336Z",
+      "timestamp": "2026-01-29T16:22:27.888290Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Cocke": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773343Z",
+      "timestamp": "2026-01-29T16:22:27.888291Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Coffee": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773345Z",
+      "timestamp": "2026-01-29T16:22:27.888292Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Crockett": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773346Z",
+      "timestamp": "2026-01-29T16:22:27.888293Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Cumberland": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773348Z",
+      "timestamp": "2026-01-29T16:22:27.888294Z",
+      "source": "No data available",
+      "outage_percent": 0
+    },
+    "Davidson": {
+      "customers_out": 0,
+      "customers_tracked": 0,
+      "timestamp": "2026-01-29T16:22:27.888294Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Decatur": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773350Z",
+      "timestamp": "2026-01-29T16:22:27.888295Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "DeKalb": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773352Z",
+      "timestamp": "2026-01-29T16:22:27.888296Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Dickson": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773353Z",
+      "timestamp": "2026-01-29T16:22:27.888297Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Dyer": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773355Z",
+      "timestamp": "2026-01-29T16:22:27.888298Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Fayette": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773356Z",
+      "timestamp": "2026-01-29T16:22:27.888299Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Fentress": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773357Z",
+      "timestamp": "2026-01-29T16:22:27.888300Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Franklin": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773359Z",
+      "timestamp": "2026-01-29T16:22:27.888301Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Gibson": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773360Z",
+      "timestamp": "2026-01-29T16:22:27.888302Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Giles": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773362Z",
+      "timestamp": "2026-01-29T16:22:27.888303Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Grainger": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773363Z",
+      "timestamp": "2026-01-29T16:22:27.888303Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Greene": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773364Z",
+      "timestamp": "2026-01-29T16:22:27.888304Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Grundy": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773366Z",
+      "timestamp": "2026-01-29T16:22:27.888305Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Hamblen": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773367Z",
+      "timestamp": "2026-01-29T16:22:27.888306Z",
+      "source": "No data available",
+      "outage_percent": 0
+    },
+    "Hamilton": {
+      "customers_out": 0,
+      "customers_tracked": 0,
+      "timestamp": "2026-01-29T16:22:27.888307Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Hancock": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773368Z",
+      "timestamp": "2026-01-29T16:22:27.888307Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Hardeman": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773370Z",
+      "timestamp": "2026-01-29T16:22:27.888308Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Hardin": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773371Z",
+      "timestamp": "2026-01-29T16:22:27.888309Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Hawkins": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773373Z",
+      "timestamp": "2026-01-29T16:22:27.888310Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Haywood": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773374Z",
+      "timestamp": "2026-01-29T16:22:27.888311Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Henderson": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773375Z",
+      "timestamp": "2026-01-29T16:22:27.888311Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Henry": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773377Z",
+      "timestamp": "2026-01-29T16:22:27.888312Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Hickman": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773378Z",
+      "timestamp": "2026-01-29T16:22:27.888313Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Houston": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773380Z",
+      "timestamp": "2026-01-29T16:22:27.888314Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Humphreys": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773381Z",
+      "timestamp": "2026-01-29T16:22:27.888315Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Jackson": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773383Z",
+      "timestamp": "2026-01-29T16:22:27.888316Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Jefferson": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773384Z",
+      "timestamp": "2026-01-29T16:22:27.888317Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Johnson": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773385Z",
+      "timestamp": "2026-01-29T16:22:27.888318Z",
+      "source": "No data available",
+      "outage_percent": 0
+    },
+    "Knox": {
+      "customers_out": 0,
+      "customers_tracked": 0,
+      "timestamp": "2026-01-29T16:22:27.888318Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Lake": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773387Z",
+      "timestamp": "2026-01-29T16:22:27.888319Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Lauderdale": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773388Z",
+      "timestamp": "2026-01-29T16:22:27.888320Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Lawrence": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773390Z",
+      "timestamp": "2026-01-29T16:22:27.888338Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Lewis": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773391Z",
+      "timestamp": "2026-01-29T16:22:27.888350Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Lincoln": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773392Z",
+      "timestamp": "2026-01-29T16:22:27.888353Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Loudon": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773393Z",
+      "timestamp": "2026-01-29T16:22:27.888355Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Macon": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773395Z",
+      "timestamp": "2026-01-29T16:22:27.888357Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Madison": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773396Z",
+      "timestamp": "2026-01-29T16:22:27.888359Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Marion": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773397Z",
+      "timestamp": "2026-01-29T16:22:27.888361Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Marshall": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773399Z",
+      "timestamp": "2026-01-29T16:22:27.888363Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Maury": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773400Z",
+      "timestamp": "2026-01-29T16:22:27.888382Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "McMinn": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773401Z",
+      "timestamp": "2026-01-29T16:22:27.888439Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "McNairy": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773403Z",
+      "timestamp": "2026-01-29T16:22:27.888445Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Meigs": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773404Z",
+      "timestamp": "2026-01-29T16:22:27.888448Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Monroe": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773406Z",
+      "timestamp": "2026-01-29T16:22:27.888450Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Montgomery": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773407Z",
+      "timestamp": "2026-01-29T16:22:27.888452Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Moore": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773408Z",
+      "timestamp": "2026-01-29T16:22:27.888454Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Morgan": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773410Z",
+      "timestamp": "2026-01-29T16:22:27.888456Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Obion": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773411Z",
+      "timestamp": "2026-01-29T16:22:27.888458Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Overton": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773412Z",
+      "timestamp": "2026-01-29T16:22:27.888460Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Perry": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773414Z",
+      "timestamp": "2026-01-29T16:22:27.888462Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Pickett": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773415Z",
+      "timestamp": "2026-01-29T16:22:27.888464Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Polk": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773416Z",
+      "timestamp": "2026-01-29T16:22:27.888466Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Putnam": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773418Z",
+      "timestamp": "2026-01-29T16:22:27.888468Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Rhea": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773419Z",
+      "timestamp": "2026-01-29T16:22:27.888470Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Roane": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773420Z",
+      "timestamp": "2026-01-29T16:22:27.888472Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Robertson": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773422Z",
+      "timestamp": "2026-01-29T16:22:27.888474Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Rutherford": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773423Z",
+      "timestamp": "2026-01-29T16:22:27.888475Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Scott": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773424Z",
+      "timestamp": "2026-01-29T16:22:27.888564Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Sequatchie": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773425Z",
+      "timestamp": "2026-01-29T16:22:27.888570Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Sevier": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773427Z",
+      "timestamp": "2026-01-29T16:22:27.888572Z",
+      "source": "No data available",
+      "outage_percent": 0
+    },
+    "Shelby": {
+      "customers_out": 0,
+      "customers_tracked": 0,
+      "timestamp": "2026-01-29T16:22:27.888573Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Smith": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773428Z",
+      "timestamp": "2026-01-29T16:22:27.888574Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Stewart": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773430Z",
+      "timestamp": "2026-01-29T16:22:27.888575Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Sullivan": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773431Z",
+      "timestamp": "2026-01-29T16:22:27.888576Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Sumner": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773432Z",
+      "timestamp": "2026-01-29T16:22:27.888577Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Tipton": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773433Z",
+      "timestamp": "2026-01-29T16:22:27.888578Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Trousdale": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773435Z",
+      "timestamp": "2026-01-29T16:22:27.888579Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Unicoi": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773436Z",
+      "timestamp": "2026-01-29T16:22:27.888580Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Union": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773439Z",
+      "timestamp": "2026-01-29T16:22:27.888584Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Van Buren": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773440Z",
+      "timestamp": "2026-01-29T16:22:27.888585Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Warren": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773441Z",
+      "timestamp": "2026-01-29T16:22:27.888586Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Washington": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773443Z",
+      "timestamp": "2026-01-29T16:22:27.888586Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Wayne": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773444Z",
+      "timestamp": "2026-01-29T16:22:27.888587Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Weakley": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773445Z",
+      "timestamp": "2026-01-29T16:22:27.888588Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "White": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773447Z",
+      "timestamp": "2026-01-29T16:22:27.888589Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Williamson": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773448Z",
+      "timestamp": "2026-01-29T16:22:27.888590Z",
       "source": "No data available",
       "outage_percent": 0
     },
     "Wilson": {
       "customers_out": 0,
       "customers_tracked": 0,
-      "timestamp": "2026-01-29T12:30:24.773449Z",
+      "timestamp": "2026-01-29T16:22:27.888591Z",
       "source": "No data available",
       "outage_percent": 0
     }

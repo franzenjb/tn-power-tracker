@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://outagemap.duke-energy.com/config/env.json",
+    "data": "{\"env\":\"prod\",\"build-version\":\"@version@\",\"build-commit\":\"@commit@\"}"
+  },
+  {
+    "url": "https://outagemap.duke-energy.com/config/config.prod.json",
+    "data": "{\"emp\":\"https://prod.apigee.duke-energy.app/outage-maps/v1/\",\"report_outage_url\":\"https://outagereport.duke-energy.com\",\"get_outage_alerts\":\"https://www.duke-energy.com/outages/alerts\",\"req_light_repair\":\"https://www.duke-energy.com/customer-service/request-light-repair\",\"res_your_power\":\"https://www.duke-energy.com/outages/restoring-your-power\",\"genr_safety\":\"https://www.duke-energy.com/outages/generators\",\"meter_damage\":\"https://www.duke-energy.com/outages/meter-damage\",\"faq\":\"https://www.duke"
+  },
+  {
+    "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+    "data": "{}"
+  }
+]

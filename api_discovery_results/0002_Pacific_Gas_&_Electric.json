@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://cdn.cookielaw.org/consent/838e5e40-6705-4395-8583-c1a72f214e72/838e5e40-6705-4395-8583-c1a72f214e72.json",
+    "data": "{\"CookieSPAEnabled\":true,\"CookieSameSiteNoneEnabled\":false,\"CookieV2CSPEnabled\":false,\"MultiVariantTestingEnabled\":false,\"UseV2\":true,\"MobileSDK\":false,\"SkipGeolocation\":false,\"ScriptType\":\"PRODUCTION\",\"Version\":\"202512.1.0\",\"OptanonDataJSON\":\"838e5e40-6705-4395-8583-c1a72f214e72\",\"GeolocationUrl\":\"https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location\",\"BulkDomainCheckUrl\":\"https://cookies-data.onetrust.io/bannersdk/v1/domaingroupcheck\",\"RuleSet\":[{\"Id\":\"01956854-79f8-7415-b1dd-cb093"
+  },
+  {
+    "url": "https://cdn.cookielaw.org/consent/838e5e40-6705-4395-8583-c1a72f214e72/01956854-79f8-7415-b1dd-cb093582b09c/en.json",
+    "data": "{\"DomainData\":{\"pclifeSpanYr\":\"Year\",\"pclifeSpanYrs\":\"Years\",\"pclifeSpanSecs\":\"A few seconds\",\"pclifeSpanWk\":\"Week\",\"pclifeSpanWks\":\"Weeks\",\"pccontinueWithoutAcceptText\":\"Continue without Accepting\",\"pccloseButtonType\":\"Icon\",\"MainText\":\"Manage Cookie Preferences\",\"MainInfoText\":\"PG&E does not sell consumer personal information for monetary value. However, our use of certain website cookies may be considered a “sale” of information under California law. Any visitor to PG&E’s website can use this"
+  },
+  {
+    "url": "https://cdn.cookielaw.org/scripttemplates/202512.1.0/assets/otFlat.json",
+    "data": "{\"name\":\"otFlat\",\"html\":\"PGRpdiBpZD0ib25ldHJ1c3QtYmFubmVyLXNkayIgY2xhc3M9Im90RmxhdCI+PGRpdiByb2xlPSJkaWFsb2ciPjxkaXYgY2xhc3M9Im90LXNkay1jb250YWluZXIiPjxkaXYgY2xhc3M9Im90LXNkay1yb3ciPjxkaXYgaWQ9Im9uZXRydXN0LWdyb3VwLWNvbnRhaW5lciIgY2xhc3M9Im90LXNkay1laWdodCBvdC1zZGstY29sdW1ucyI+PGRpdiBjbGFzcz0iYmFubmVyX2xvZ28iPjwvZGl2PjxkaXYgaWQ9Im9uZXRydXN0LXBvbGljeSI+PGgyIGlkPSJvbmV0cnVzdC1wb2xpY3ktdGl0bGUiPlRpdGxlPC9oMj48ZGl2IGlkPSJvbmV0cnVzdC1wb2xpY3ktdGV4dCI+dGl0bGU8YSBocmVmPSIjIj5wb2xpY3k8L2E+PC9kaXY+PGRpdiB"
+  },
+  {
+    "url": "https://cdn.cookielaw.org/scripttemplates/202512.1.0/assets/v2/otPcPanel.json",
+    "data": "{\"name\":\"otPcPanel\",\"html\":\"PGRpdiBpZD0ib25ldHJ1c3QtcGMtc2RrIiBjbGFzcz0ib3RQY1BhbmVsIG90LWhpZGUgb3QtZmFkZS1pbiI+PGRpdiByb2xlPSJkaWFsb2ciIGFyaWEtbW9kYWw9InRydWUiPjwhLS0gUEMgSGVhZGVyIC0tPjxkaXYgY2xhc3M9Im90LXBjLWhlYWRlciI+PGRpdiBjbGFzcz0ib3QtcGMtbG9nbyI+PC9kaXY+PGJ1dHRvbiBpZD0iY2xvc2UtcGMtYnRuLWhhbmRsZXIiIGNsYXNzPSJvdC1jbG9zZS1pY29uIiBhcmlhLWxhYmVsPSJDbG9zZSI+PC9idXR0b24+PC9kaXY+PGRpdiBpZD0ib3QtcGMtY29udGVudCIgY2xhc3M9Im90LXBjLXNjcm9sbGJhciI+PGgyIGlkPSJvdC1wYy10aXRsZSI+WW91ciBQcml2YWN5PC9oMj48ZGl2"
+  },
+  {
+    "url": "https://pgealerts-downloads.alerts.pge.com/current_outages/outage-percentages-nonsync.json",
+    "data": "{\"county_statistics\":{\"SAN BENITO\":{\"customers_affected\":0,\"total_customers\":26248,\"outages\":0},\"SANTA CLARA\":{\"customers_affected\":2,\"total_customers\":665075,\"outages\":2},\"MONTEREY\":{\"customers_affected\":2,\"total_customers\":164328,\"outages\":1},\"SONOMA\":{\"customers_affected\":2,\"total_customers\":232438,\"outages\":1},\"NEVADA\":{\"customers_affected\":0,\"total_customers\":43736,\"outages\":0},\"MADERA\":{\"customers_affected\":54,\"total_customers\":69735,\"outages\":2},\"CALAVERAS\":{\"customers_affected\":0,\"total_"
+  }
+]

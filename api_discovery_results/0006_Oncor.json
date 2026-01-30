@@ -1,0 +1,50 @@
+[
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/560abba3-7881-4741-b538-ca416b58ba1e/views/ca124b24-9a06-4b19-aeb3-1841a9c962e1/currentState?preview=false",
+    "data": "{\"version\":\"V1\",\"controlCenter\":{\"alertDeploymentId\":\"8ddf54af-3ccc-4f47-9544-fa184592a4fe\",\"settingsDeploymentId\":\"6eb8984e-f80b-4ad1-881b-651962e204e5\",\"areaManager\":{\"areaManagerConfigurationDeploymentId\":null,\"disableOutagesCustomersAffectedOverride\":false,\"disableOutagesEtrOverride\":false,\"customersAffectedOverride\":false,\"etrOverride\":false},\"hazardousLayers\":[],\"customlayers\":{\"customlayersDeploymentId\":null}},\"stormcenterDeploymentId\":\"8488a21a-da6c-4a41-a9cb-c5277d86a270\",\"messageBundle"
+  },
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/560abba3-7881-4741-b538-ca416b58ba1e/views/ca124b24-9a06-4b19-aeb3-1841a9c962e1/settings/deployed?id=6eb8984e-f80b-4ad1-881b-651962e204e5",
+    "data": "{\"viewId\":\"6eb8984e-f80b-4ad1-881b-651962e204e5\",\"updateWording\":{\"ES-ES\":\"Información actualizada cada 10 minutos.\",\"EN-US\":\"Information updated every 10 minutes.\"},\"stormMode\":false,\"redirectUrl\":\"\"}"
+  },
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/560abba3-7881-4741-b538-ca416b58ba1e/views/ca124b24-9a06-4b19-aeb3-1841a9c962e1/configuration/8488a21a-da6c-4a41-a9cb-c5277d86a270?preview=false",
+    "data": "{\"version\":\"V3\",\"config\":{\"deploymentId\":\"8488a21a-da6c-4a41-a9cb-c5277d86a270\",\"deployedAt\":\"2026-01-13T15:28:16.056Z\",\"customElements\":{\"2780983b-d2c3-44f6-bfc0-0e58e36bcc3b\":{\"url\":null,\"text\":\"custom-element-message-2780983b-d2c3-44f6-bfc0-0e58e36bcc3b\",\"type\":\"staticText\",\"icon\":null,\"target\":null},\"31afd224-7f01-4c9b-a56a-c99909755782\":{\"url\":\"custom-element-url-31afd224-7f01-4c9b-a56a-c99909755782\",\"text\":\"custom-element-message-31afd224-7f01-4c9b-a56a-c99909755782\",\"type\":\"button\",\"icon\""
+  },
+  {
+    "url": "https://kubra.io/data/9c0e89fa-f533-453b-bf48-4a97944253f6/public/summary-1/data.json",
+    "data": "{\"fileTitle\":\"data\",\"summaryFileData\":{\"totals\":[{\"summaryTotalId\":\"total-1\",\"total_cust_a\":{\"val\":235},\"total_percent_cust_a\":{\"val\":0.01},\"total_percent_cust_active\":{\"val\":99.99},\"total_cust_s\":4138668,\"total_outages\":33}],\"date_generated\":\"2026-01-30T15:00:16.829Z\",\"overwritten_ca\":false,\"overwritten_etr\":false,\"page_mode\":{\"mode\":\"BLUESKY\",\"redirectURL\":\"\",\"pausePublish\":false}}}"
+  },
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/560abba3-7881-4741-b538-ca416b58ba1e/alerts/scheduledAlerts?viewId=ca124b24-9a06-4b19-aeb3-1841a9c962e1",
+    "data": "{\"_embedded\":{\"scheduledAlertResourceList\":[{\"id\":\"f1092dda-6394-4ffe-a0af-e4ffb319091a\",\"_links\":{\"self\":{\"href\":\"http://kubra.io/stormcenter/api/v1/stormcenters/560abba3-7881-4741-b538-ca416b58ba1e/alerts/f1092dda-6394-4ffe-a0af-e4ffb319091a\"}},\"viewId\":\"ca124b24-9a06-4b19-aeb3-1841a9c962e1\",\"viewName\":\"External\",\"archived\":null,\"bannerColor\":\"#BE281E\",\"bannerFontColor\":\"#FFFFFF\",\"bannerIcon\":\"exclamation-circle\",\"data\":[{\"bannerTitle\":\"Weather Alert\",\"localeCode\":\"EN-US\"},{\"bannerTitle\":\"Aler"
+  },
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/560abba3-7881-4741-b538-ca416b58ba1e/messages/zGwC7g/intl/en-US/desktop",
+    "data": "{\"info-box-field-label-cluster-3-cause\":\"Cause\",\"range-label-Outage Layer-1\":\">1000\",\"page-title-ca124b24-9a06-4b19-aeb3-1841a9c962e1\":\"Oncor – Outage Map\",\"backend.tab.help\":\"Help\",\"info-box-field-label-bf46edea-cddf-4abb-94d2-22f095250724-etr\":\"Latest Estimated Restoration\",\"range-label-City -2\":\"501-1000\",\"range-label-City -1\":\">1000\",\"range-label-City -4\":\"1-50\",\"info-box-title-cluster-3-cluster\":\"AREA OUTAGES\",\"range-label-City -3\":\"51-500\",\"total-last-updated-label-message-id-\":\"Last Updat"
+  },
+  {
+    "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+    "data": "{}"
+  },
+  {
+    "url": "https://kubra.io/regions/172eda4b-e360-4673-8a9d-035be2571c89/a05c6257-beb4-4b4c-bc23-e973aa40798e/serviceareas.json",
+    "data": "{\"file_title\":null,\"file_data\":[{\"id\":\"Service Area\",\"title\":\"Service Area\",\"icon\":\"\",\"desc\":{},\"geom\":{\"a\":[\"}saeEbs`tRktaBnDjAwuzAa|d@y@?cmB|`CXb@iv@}lCq@vd@yaDuc@wq@}hJ}D[vjBpyAv@`JraDexA|@iArkBlh@tAaxKg@xBe{e@hzAg@rCqnQ]oaD{yARFkmLhyAKPuwEuyALiAgrQ~sf@CfK}caA~yAKb@srSbzAFd@alB}l@o@tWgcDudAcr@k[qgCh_Qa@ox@kidBukrAVgEy}o@zhFuCzpDmpByS}dAf{AieBrDqyBbbAmVeRgtAn`BdInaDcwDzVbwCtmFmpApg@c{HpwDww@zdCvkApfAu|BhwCyq@~Ug|Age@wcB~z@ezAum@wK|e@iaCweAieA|Uu}Ad`a@dIoBbuYdje@nPoTsgBf_G_jA}`@mbIn~KgxBo`@}yCq"
+  },
+  {
+    "url": "https://kubra.io/cluster-data/211/9a815606-a2a9-4339-8930-3d14bfa385cd/9c0e89fa-f533-453b-bf48-4a97944253f6/public/cluster-3/023112.json",
+    "data": "{\"file_title\":\"023112\",\"file_data\":[{\"id\":\"6-0\",\"title\":\"Area Outage\",\"desc\":{\"n_out\":1,\"cust_a\":{\"val\":1},\"inc_id\":null,\"crew_status\":{\"EN-US\":\"Reported\",\"ES-ES\":\"Reportado\",\"orig\":\"001\"},\"cluster\":false,\"etr\":\"2026-01-30T16:00:00Z\",\"etr_confidence\":null,\"comments\":null,\"cause\":{\"orig\":\"\"},\"crew_icon\":false,\"start_time\":\"2026-01-30T14:13:09Z\"},\"geom\":{\"p\":[\"exegEnuxuQ\"]}},{\"id\":\"6-1\",\"title\":\"Area Outage\",\"desc\":{\"n_out\":18,\"cust_a\":{\"val\":156},\"inc_id\":null,\"crew_status\":null,\"cluster\":true,\"e"
+  },
+  {
+    "url": "https://kubra.io/cluster-data/121/9a815606-a2a9-4339-8930-3d14bfa385cd/9c0e89fa-f533-453b-bf48-4a97944253f6/public/cluster-3/023121.json",
+    "data": "{\"file_title\":\"023121\",\"file_data\":[{\"id\":\"6-0\",\"title\":\"Area Outage\",\"desc\":{\"n_out\":1,\"cust_a\":{\"val\":1},\"inc_id\":null,\"crew_status\":{\"EN-US\":\"Investigating\",\"ES-ES\":\"Investigando\",\"orig\":\"002\"},\"cluster\":false,\"etr\":\"2026-01-30T16:30:00Z\",\"etr_confidence\":null,\"comments\":null,\"cause\":{\"orig\":\"\"},\"crew_icon\":false,\"start_time\":\"2026-01-30T14:39:23Z\"},\"geom\":{\"p\":[\"_~paEpjapR\"]}}]}"
+  },
+  {
+    "url": "https://kubra.io/cluster-data/131/9a815606-a2a9-4339-8930-3d14bfa385cd/9c0e89fa-f533-453b-bf48-4a97944253f6/public/cluster-3/023131.json",
+    "data": "{\"file_title\":\"023131\",\"file_data\":[{\"id\":\"6-0\",\"title\":\"Area Outage\",\"desc\":{\"n_out\":3,\"cust_a\":{\"val\":8},\"inc_id\":null,\"crew_status\":null,\"cluster\":true,\"etr\":\"2026-01-30T17:30:00Z\",\"etr_confidence\":null,\"comments\":null,\"cause\":null,\"crew_icon\":false,\"start_time\":\"2026-01-30T14:06:25Z\"},\"geom\":{\"p\":[\"ou{~Db{~aQ\"]}}]}"
+  },
+  {
+    "url": "https://kubra.io/cluster-data/031/9a815606-a2a9-4339-8930-3d14bfa385cd/9c0e89fa-f533-453b-bf48-4a97944253f6/public/cluster-3/023130.json",
+    "data": "{\"file_title\":\"023130\",\"file_data\":[{\"id\":\"6-0\",\"title\":\"Area Outage\",\"desc\":{\"n_out\":2,\"cust_a\":{\"val\":23},\"inc_id\":null,\"crew_status\":null,\"cluster\":true,\"etr\":\"2026-01-30T17:00:00Z\",\"etr_confidence\":null,\"comments\":null,\"cause\":null,\"crew_icon\":false,\"start_time\":\"2026-01-30T14:43:41Z\"},\"geom\":{\"p\":[\"wtm_Ept`pQ\"]}}]}"
+  }
+]

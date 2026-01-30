@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://outage.dteenergy.com/config.json",
+    "data": "{\"RUM\":true,\"temp_enable_interruptible\":false,\"showCustomersOut\":false,\"useNewADMSTimeData\":false,\"kubraMap\":false,\"hideEstimateTime\":false,\"pictureUpload\":{\"maximumPictures\":1,\"enabled\":true,\"maximumUploadSize\":4},\"savedLocationStatus\":{\"enabled\":true},\"estimateMessageEnabled\":true,\"funcAppRouting\":{\"getIntersections\":false,\"getSites\":false,\"getSltrOutageHistory\":false,\"pstrLogin\":false,\"pstrOutageHistory\":false,\"pstrReportOutage\":false,\"sltrLogin\":false,\"sltrReportOutage\":false}}"
+  },
+  {
+    "url": "https://outage.dteenergy.com/alert.json",
+    "data": "{\"lastUpdated\":\"2023-06-26T12:00:00.000Z\",\"message\":\"\",\"title\":\"Storm Update\"}"
+  },
+  {
+    "url": "https://s.yimg.com/wi/config/10196642.json",
+    "data": "{}"
+  },
+  {
+    "url": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Asset.php?Module=SI_2lSzHkLc85xy4aW&Version=62&Q_ORIGIN=https://outage.dteenergy.com&Q_CLIENTVERSION=2.42.0&Q_CLIENTTYPE=web&Q_BrandTier=Pn2UP9lWlr&Q_ARCACHEVERSION=21&Q_BRANDDC=iad1",
+    "data": "{\"InterceptDefinition\":{\"BrandID\":\"dteenergy\",\"InterceptID\":\"SI_2lSzHkLc85xy4aW\",\"InterceptName\":\"Website Intercept\",\"Revision\":\"62\",\"DeletedDate\":null,\"ActionSets\":{\"AS_20854385\":{\"ID\":\"AS_20854385\",\"Label\":\"Desktop Browser - Authenticated User - Safari\",\"Creative\":\"CR_d4mQEDJJXiTcJOS\",\"CreativeType\":\"PopOver\",\"WeightedSampleRate\":\"\",\"Target\":{\"Type\":\"Survey\",\"PrimaryElement\":\"SV_4ZsIMXNUFBBwVGm\"},\"EmbeddedData\":[{\"name\":\"Business Partner\",\"type\":\"JavaScriptVal\",\"value\":\"window.localStorage.get"
+  },
+  {
+    "url": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Asset.php?Module=CR_d4mQEDJJXiTcJOS&Version=1&Q_InterceptID=SI_2lSzHkLc85xy4aW&Q_ORIGIN=https://outage.dteenergy.com&Q_CLIENTVERSION=2.42.0&Q_CLIENTTYPE=web&Q_BrandTier=Pn2UP9lWlr&Q_ARCACHEVERSION=21&Q_BRANDDC=iad1",
+    "data": "{\"CreativeDefinition\":{\"CreativeID\":\"CR_d4mQEDJJXiTcJOS\",\"BrandID\":\"dteenergy\",\"Revision\":\"1\",\"Title\":\"Digital Intercept Website Pop Over- Desktop Final\",\"ZoneID\":\"ZN_cHIDFnCKtgRAAcK\",\"Options\":{\"elements\":{\"Elements\":[{\"type\":\"PopOver\",\"style\":{\"width\":\"452\",\"height\":\"474\",\"borderWidth\":\"10\",\"borderColor\":\"transparent\",\"backgroundColor\":\"rgb(255, 255, 255)\",\"zIndex\":1999999998,\"opacity\":100,\"display\":\"block\",\"borderRadius\":\"0\"},\"position\":{\"top\":\"75\",\"bottom\":\"429\",\"left\":\"283\",\"right\":\"413\"},\""
+  }
+]

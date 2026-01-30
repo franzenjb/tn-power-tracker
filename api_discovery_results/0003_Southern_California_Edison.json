@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://www.sce.com/sites/default/files/webchat/i18n/widgets-en.i18n.json",
+    "data": "{\"en\":{\"calendar\":{\"CalendarDayLabels\":[\"Sunday\",\"Monday\",\"Tuesday\",\"Wednesday\",\"Thursday\",\"Friday\",\"Saturday\"],\"CalendarMonthLabels\":[\"Jan\",\"Feb\",\"Mar\",\"Apr\",\"May\",\"Jun\",\"Jul\",\"Aug\",\"Sept\",\"Oct\",\"Nov\",\"Dec\"],\"CalendarLabelToday\":\"Today\",\"CalendarLabelTomorrow\":\"Tomorrow\",\"CalendarTitle\":\"Schedule a Call\",\"CalendarOkButtonText\":\"Okay\",\"CalendarError\":\"Unable to fetch availability details.\",\"CalendarClose\":\"Cancel\",\"AriaWindowTitle\":\"Calendar Window\",\"AriaCalendarClose\":\"Cancel\",\"AriaYouHaveChose"
+  },
+  {
+    "url": "https://px.ads.linkedin.com/attribution_trigger?pid=3329764&time=1769785680698&url=https%3A%2F%2Fwww.sce.com%2Foutages-safety%2Foutage-center%2Fcheck-outage-status",
+    "data": "{}"
+  },
+  {
+    "url": "https://js.arcgis.com/4.21/esri/widgets/Attribution/t9n/Attribution_en.json",
+    "data": "{\"widgetLabel\":\"Attribution\"}"
+  },
+  {
+    "url": "https://js.arcgis.com/4.21/esri/widgets/Zoom/t9n/Zoom_en.json",
+    "data": "{\"widgetLabel\":\"Zoom\",\"zoomIn\":\"Zoom in\",\"zoomOut\":\"Zoom out\"}"
+  },
+  {
+    "url": "https://js.arcgis.com/4.21/esri/t9n/common_en.json",
+    "data": "{\"about\":\"About\",\"add\":\"Add\",\"all\":\"All\",\"apply\":\"Apply\",\"auth\":{\"logOut\":\"Log out\",\"signIn\":\"Sign in\"},\"back\":\"Back\",\"cancel\":\"Cancel\",\"change\":\"Change\",\"clear\":\"Clear\",\"close\":\"Close\",\"collapse\":\"Collapse\",\"configure\":\"Configure\",\"control\":{\"pause\":\"Pause\",\"play\":\"Play\",\"resume\":\"Resume\",\"stop\":\"Stop\"},\"copy\":\"Copy\",\"create\":\"Create\",\"cut\":\"Cut\",\"delete\":\"Delete\",\"details\":\"Details\",\"done\":\"Done\",\"dragHandleTitle\":\"drag/reorder\",\"dragHandleLabel\":\"Activate the reorder button and use the arrow "
+  },
+  {
+    "url": "https://js.arcgis.com/4.21/esri/widgets/Home/t9n/Home_en.json",
+    "data": "{\"widgetLabel\":\"Home\",\"button\":\"Home\",\"title\":\"Default map view\"}"
+  },
+  {
+    "url": "https://js.arcgis.com/4.21/esri/widgets/Expand/t9n/Expand_en.json",
+    "data": "{\"widgetLabel\":\"Expand\"}"
+  },
+  {
+    "url": "https://js.arcgis.com/4.21/esri/widgets/Popup/t9n/Popup_en.json",
+    "data": "{\"widgetLabel\":\"Popup\",\"zoom\":\"Zoom to\",\"next\":\"Next feature\",\"previous\":\"Previous feature\",\"dock\":\"Dock\",\"undock\":\"Undock\",\"pageText\":\"{index} of {total}\",\"selectedFeature\":\"Selected feature\",\"selectedFeatures\":\"{total} results\",\"browseClusteredFeatures\":\"Browse features\"}"
+  },
+  {
+    "url": "https://js.arcgis.com/4.21/esri/widgets/Search/t9n/Search_en.json",
+    "data": "{\"widgetLabel\":\"Search\",\"searchButtonTitle\":\"Search\",\"clearButtonTitle\":\"Clear search\",\"placeholder\":\"Find address or place\",\"searchIn\":\"Search in\",\"all\":\"All\",\"allPlaceholder\":\"Find address or place\",\"emptyValue\":\"Please enter a search term.\",\"locateError\":\"Could not retrieve current location.\",\"untitledResult\":\"Untitled\",\"untitledSource\":\"Untitled source\",\"noResults\":\"No results\",\"noResultsFound\":\"There were no results found.\",\"noResultsFoundForValue\":\"There were no results found for {value}.\""
+  },
+  {
+    "url": "https://js.arcgis.com/4.21/esri/widgets/Fullscreen/t9n/Fullscreen_en.json",
+    "data": "{\"widgetLabel\":\"Fullscreen\",\"enter\":\"Enter fullscreen\",\"exit\":\"Exit fullscreen\"}"
+  },
+  {
+    "url": "https://cdn.arcgis.com/sharing/rest/content/items/273bf8d5c8ac400183fc24e109d20bcf/resources/sprites/sprite.json?token=AAPK454f84165b234409a879816a55a9e04fRjrX2zbxYUQqMqy7oZXn4ZkC27-iIHZeJczcsSxkdD9cUe8KJguMPNhAtu_wuqe_",
+    "data": "{\"Special area of interest/Grass\":{\"x\":0,\"y\":0,\"width\":128,\"height\":128,\"pixelRatio\":1,\"sdf\":false},\"Special area of interest/Sand\":{\"x\":128,\"y\":0,\"width\":128,\"height\":128,\"pixelRatio\":1,\"sdf\":false},\"Tree/Elm\":{\"x\":256,\"y\":0,\"width\":92,\"height\":96,\"pixelRatio\":1,\"sdf\":false},\"Tree/Orange\":{\"x\":348,\"y\":0,\"width\":90,\"height\":90,\"pixelRatio\":1,\"sdf\":false},\"Tree/Oak\":{\"x\":438,\"y\":0,\"width\":92,\"height\":88,\"pixelRatio\":1,\"sdf\":false},\"Tree/Eucalyptus\":{\"x\":530,\"y\":0,\"width\":82,\"height\":86,\"pixelRati"
+  },
+  {
+    "url": "https://ads.nextdoor.com/v2/api/conversions/settings?id=71a51a18-3a94-46f0-90fe-2dca97a81c09",
+    "data": "{\"am\":\"0\",\"em\":{\"https://www.sce.com\":{\"/outages-safety/outage-preparedness/outage-types/public-safety-power-shutoff-psps\":[{\"e\":\"page_view\"}]}},\"t\":1769760018002}"
+  },
+  {
+    "url": "https://resources.digital-cloud.medallia.com/wdcus/177332/onsite/onsiteData1768825558055.json",
+    "data": "{\"provisions\":{\"skipInvitationOptimization\":null,\"21dcr1_mpc3281_alignWCAGLogoMarkup\":true,\"reusableResourcesLibrary\":false,\"formTemplatesWCAG\":true,\"formSpacing\":true,\"24dcr1_MPC7724_enableFormv2andInviteCSSDelay\":null,\"20dcr4_MPC2952_enable_exemptFormsFromQuarantine\":true,\"21dcr1_MPC3199_AdditionalButtonStyles\":true,\"sharePropertyBetweenSubdomains\":null,\"24dcr4_MPC8375_enableFeedbackPayloadOptimization\":null,\"23dcr2_MPC6711_enableWCAGerrorMessagesPreQuestions\":null,\"21dcr6_MPC4296_enable_UBTId"
+  },
+  {
+    "url": "https://resources.digital-cloud.medallia.com/wdcus/177332/forms/22194/formDataV2_1764753600105_en.json",
+    "data": "{\"name\":\"Project_Portal\",\"id\":22194,\"pages\":[{\"pageName\":\"Page 1\",\"view\":{\"backgroundColor\":\"\",\"backgroundRepeat\":false,\"customCssClass\":\"\"},\"components\":[{\"id\":543,\"unique_name\":\"Page 1 textInput 39123\",\"type\":\"textInput\",\"data\":{\"label\":\"How can we improve your experience with the Project Portal?\",\"autocompleteAttribute\":{\"label\":null,\"value\":null}},\"validation\":{\"required\":false,\"regex\":\"/.*/\"},\"view\":{\"maxLength\":300},\"descriptiveErrorMessage\":\"\"}]}],\"settings\":{\"formBasicSettings\":{\"widthPX"
+  }
+]

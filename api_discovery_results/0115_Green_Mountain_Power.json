@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://api.greenmountainpower.com/api/v2/users/current",
+    "data": "{\"httpStatus\":401,\"code\":20,\"message\":\"The authentication token was not valid.\",\"developerMessage\":\"We could not validate the authentication token. If the token is stored locally it should be deleted and a new token requested.\",\"field\":null,\"errorCode\":\"TOKEN_VALIDATION_FAILURE\",\"error\":\"The authentication token was not valid.\",\"url\":null}"
+  },
+  {
+    "url": "https://api.greenmountainpower.com/api/v2/applications/logout",
+    "data": "{\"httpStatus\":401,\"code\":10,\"message\":\"The username and password entered could not be validated.\",\"developerMessage\":\"\",\"field\":null,\"errorCode\":\"AUTHENTICATION_FAILURE\",\"error\":\"The username and password entered could not be validated.\",\"url\":null}"
+  },
+  {
+    "url": "https://greenmountainpower.statuspage.io/api/v2/summary.json",
+    "data": "{\"page\":{\"id\":\"jldjbplkpgfh\",\"name\":\"Green Mountain Power\",\"url\":\"https://greenmountainpower.statuspage.io\",\"time_zone\":\"America/New_York\",\"updated_at\":\"2026-01-30T02:49:39.495-05:00\"},\"components\":[{\"id\":\"q9kf4trb3728\",\"name\":\"MyAccount\",\"status\":\"operational\",\"created_at\":\"2020-06-25T09:44:02.578-04:00\",\"updated_at\":\"2025-09-20T09:15:04.102-04:00\",\"position\":1,\"description\":null,\"showcase\":true,\"start_date\":null,\"group_id\":\"sxcdm12vpyf4\",\"page_id\":\"jldjbplkpgfh\",\"group\":false,\"only_show_if_deg"
+  },
+  {
+    "url": "https://greenmountainpower.statuspage.io/api/v2/summary.json",
+    "data": "{\"page\":{\"id\":\"jldjbplkpgfh\",\"name\":\"Green Mountain Power\",\"url\":\"https://greenmountainpower.statuspage.io\",\"time_zone\":\"America/New_York\",\"updated_at\":\"2026-01-30T02:49:39.495-05:00\"},\"components\":[{\"id\":\"q9kf4trb3728\",\"name\":\"MyAccount\",\"status\":\"operational\",\"created_at\":\"2020-06-25T09:44:02.578-04:00\",\"updated_at\":\"2025-09-20T09:15:04.102-04:00\",\"position\":1,\"description\":null,\"showcase\":true,\"start_date\":null,\"group_id\":\"sxcdm12vpyf4\",\"page_id\":\"jldjbplkpgfh\",\"group\":false,\"only_show_if_deg"
+  },
+  {
+    "url": "https://o4505959029932032.ingest.us.sentry.io/api/4509112744280064/envelope/?sentry_version=7&sentry_key=8f1fbd2775ecb8f29f50b62a05e8c2f7&sentry_client=sentry.javascript.vue%2F9.47.1",
+    "data": "{}"
+  },
+  {
+    "url": "https://api.mapbox.com/styles/v1/connectedgmp/cld36q9lj000101jzui1rzxgm/4ko83xcpozf2laj4hnkly8fhu/sprite.json?access_token=pk.eyJ1IjoiY29ubmVjdGVkZ21wIiwiYSI6ImNqY2pjd3lzNjN5eTQyd3A1b2Z5cHo0cngifQ.glGIG6TP82bkPdPH2NH_XQ",
+    "data": "{\"bucket-truck-icon-circle\":{\"x\":0,\"y\":0,\"width\":32,\"height\":32,\"pixelRatio\":1,\"visible\":true},\"interstate-1\":{\"x\":32,\"y\":0,\"width\":24,\"height\":25,\"pixelRatio\":1,\"visible\":true},\"airfield-15\":{\"x\":0,\"y\":32,\"width\":21,\"height\":21,\"pixelRatio\":1,\"visible\":true},\"airport-15\":{\"x\":21,\"y\":32,\"width\":21,\"height\":21,\"pixelRatio\":1,\"visible\":true},\"alcohol-shop-15\":{\"x\":42,\"y\":32,\"width\":21,\"height\":21,\"pixelRatio\":1,\"visible\":true},\"amusement-park-15\":{\"x\":63,\"y\":32,\"width\":21,\"height\":21,\"pixelRatio\":"
+  },
+  {
+    "url": "https://api.mapbox.com/v4/connectedgmp.cjd0mgbq21x0j2wo1os953q8r-5jgm4,connectedgmp.cjdev3e2q008o31nqip4qgony-2gw9y,connectedgmp.ciicp489,connectedgmp.ck8koapqj1g492lp1mhs2cnln-9hns1,connectedgmp.bfejbgwo,mapbox.mapbox-streets-v8,connectedgmp.cld1vevnz03kl22mp4e3mwgdu-56oj3,mapbox.mapbox-terrain-v2.json?secure&access_token=pk.eyJ1IjoiY29ubmVjdGVkZ21wIiwiYSI6ImNqY2pjd3lzNjN5eTQyd3A1b2Z5cHo0cngifQ.glGIG6TP82bkPdPH2NH_XQ",
+    "data": "{\"attribution\":\"<a href=\\\"https://www.mapbox.com/about/maps\\\" target=\\\"_blank\\\" title=\\\"Mapbox\\\" aria-label=\\\"Mapbox\\\">&copy; Mapbox</a> <a href=\\\"https://www.openstreetmap.org/copyright/\\\" target=\\\"_blank\\\" title=\\\"OpenStreetMap\\\" aria-label=\\\"OpenStreetMap\\\">&copy; OpenStreetMap</a> <a class=\\\"mapbox-improve-map\\\" href=\\\"https://www.mapbox.com/contribute/\\\" target=\\\"_blank\\\" title=\\\"Improve this map\\\" aria-label=\\\"Improve this map\\\">Improve this map</a>\",\"bounds\":[-180,-85,180,85],\"cacheContro"
+  },
+  {
+    "url": "https://api.greenmountainpower.com/api/v2/outages/incidents/summary",
+    "data": "{\"customerCount\":1,\"eventCount\":1,\"townCount\":1,\"screenshotUrl\":\"https://outages.greenmountainpower.com/static/img/outagemap.png\",\"updatedAt\":\"2026-01-30T10:36:42.677-05:00\"}"
+  },
+  {
+    "url": "https://api.greenmountainpower.com/api/v2/outages/incidents?active=true&format=geojson",
+    "data": "{\"features\":[{\"geometry\":{\"coordinates\":[-72.77591380814984,43.612401580181],\"type\":\"Point\"},\"id\":972018,\"type\":\"Feature\",\"properties\":{\"customers_affected\":1,\"customers_affected_label\":\"1 Customer\",\"town\":\"Killington\",\"age_day_label\":\"0.0\",\"age_minute_label\":\"9\",\"county\":\"Rutland\",\"cause\":0,\"has_etor\":0,\"active\":true,\"age_label\":\"9m\",\"incident_id\":972018,\"street\":\"TRAILVIEW DR\",\"crew_name\":\"\",\"trouble\":\"NO_POWER\",\"age_hour_label\":\"0.2\",\"device\":\"SERVICE\",\"age\":9,\"status\":\"CREATED\",\"affectingCus"
+  },
+  {
+    "url": "https://api.greenmountainpower.com/api/v2/outages/incidents/boundaries?active=true&format=geojson&groupBy=town",
+    "data": "{\"type\":\"FeatureCollection\",\"features\":[]}"
+  },
+  {
+    "url": "https://api.greenmountainpower.com/api/v2/outages/planned?pending=true&expand=customersByTown",
+    "data": "[]"
+  },
+  {
+    "url": "https://api.greenmountainpower.com/api/v2/outages/incidents/towns?all=true",
+    "data": "[{\"customers_affected\":0,\"town_name\":\"Fairfax\",\"affected_percent\":0,\"total_customers\":1646},{\"customers_affected\":0,\"town_name\":\"Newark\",\"affected_percent\":0,\"total_customers\":0},{\"customers_affected\":0,\"town_name\":\"Fletcher\",\"affected_percent\":0,\"total_customers\":395},{\"customers_affected\":0,\"town_name\":\"Barton\",\"affected_percent\":0,\"total_customers\":0},{\"customers_affected\":0,\"town_name\":\"Sutton\",\"affected_percent\":0,\"total_customers\":0},{\"customers_affected\":0,\"town_name\":\"Glover\",\"affected_p"
+  },
+  {
+    "url": "https://api.greenmountainpower.com/api/v2/outages/incidents?active=true",
+    "data": "[{\"id\":972018,\"historyId\":0,\"isActive\":true,\"isCritical\":false,\"isPlanned\":false,\"isConfirmed\":false,\"isGMP\":true,\"isAlternateEtr\":false,\"customerCount\":1,\"messageCount\":null,\"criticalCustomerCount\":0,\"customersByTown\":{\"KILLINGTON\":1},\"dispatcherRemarks\":null,\"cause\":{\"code\":0,\"value\":\"Not Entered\"},\"weather\":{\"code\":0,\"value\":\"UNKNOWN\"},\"status\":{\"code\":0,\"value\":\"CREATED\"},\"trouble\":{\"code\":0,\"value\":\"NO_POWER\"},\"deviceType\":{\"code\":22,\"value\":\"SERVICE\"},\"taglet\":\"584077\",\"linePole\":\"L. 105 P"
+  },
+  {
+    "url": "https://api.mapbox.com/v4/connectedgmp.cjdev3e2q008o31nqip4qgony-2gw9y.json?secure&access_token=pk.eyJ1IjoiY29ubmVjdGVkZ21wIiwiYSI6ImNqY2pjd3lzNjN5eTQyd3A1b2Z5cHo0cngifQ.glGIG6TP82bkPdPH2NH_XQ",
+    "data": "{\"bounds\":[-73.437901,42.72711,-71.465281,45.016731],\"center\":[-72.45159100000001,43.8719205,0],\"created\":1518116592803,\"created_by_client\":\"studio\",\"filesize\":972174,\"format\":\"pbf\",\"id\":\"connectedgmp.cjdev3e2q008o31nqip4qgony-2gw9y\",\"mapbox_logo\":true,\"maxzoom\":13,\"minzoom\":0,\"modified\":1764789869878,\"name\":\"vermont_towns_with_gmp_customers\",\"private\":true,\"scheme\":\"xyz\",\"tilejson\":\"3.0.0\",\"tiles\":[\"https://a.tiles.mapbox.com/v4/connectedgmp.cjdev3e2q008o31nqip4qgony-2gw9y/{z}/{x}/{y}.vector.pb"
+  }
+]

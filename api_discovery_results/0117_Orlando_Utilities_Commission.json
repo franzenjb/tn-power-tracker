@@ -1,0 +1,6 @@
+[
+  {
+    "url": "https://www.onelink-edge.com/xapis/PretranslateConfig/P6119-B4AE-9B5D-E3DC.json",
+    "data": "{\"deployment_method\":\"domain\",\"deployment_name\":\"\",\"deployment_values\":{\"espanol.ouc.cbmstage.com,ouc-espanol.cbmstage.com,espanol.ouc.com\":\"Español (Estados Unidos)\",\"ouc.wpenginepowered.com\":\"English (United States)\"},\"espanol.ouc.cbmstage.com,ouc-espanol.cbmstage.com,espanol.ouc.com\":{\"custom_css\":\"0a2f2a3633383332372a2f0a2e677269642d776974682d66696c7465722d746578742d6f6e6c79202e66696c7465722d677269642d74657874202e636f6c756d6e202e636172642d636f6e74656e74202e63617465676f72790a7b0a2020202077696"
+  }
+]

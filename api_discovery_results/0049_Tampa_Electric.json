@@ -1,0 +1,6 @@
+[
+  {
+    "url": "https://cdn.weglot.com/projects-settings/074b069772f889992cba6c6a795326473.json",
+    "data": "{\"website\":\"https://www.tampaelectric.com\",\"uid\":\"0a29f8a22f\",\"project_slug\":\"teco-prod\",\"deleted_at\":null,\"api_key\":\"wg_074b069772f889992cba6c6a795326473\",\"language_from\":\"en\",\"language_from_custom_flag\":null,\"language_from_custom_name\":null,\"auto_switch\":false,\"auto_switch_fallback\":null,\"translation_engine\":3,\"excluded_paths\":[],\"excluded_blocks\":[],\"dynamics\":[{\"value\":\".EPiServerForms\"}],\"custom_settings\":{\"button_style\":{\"with_name\":true,\"full_name\":true,\"is_dropdown\":true,\"with_flags\":fal"
+  }
+]

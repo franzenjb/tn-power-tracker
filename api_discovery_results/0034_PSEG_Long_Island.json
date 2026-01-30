@@ -1,0 +1,50 @@
+[
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/48006d55-45bb-40a4-99a6-1289326f0d0d/views/fb50e444-70e5-4b69-b868-28463b5dbd19/currentState?preview=false",
+    "data": "{\"version\":\"V1\",\"controlCenter\":{\"alertDeploymentId\":\"d850dfe6-9c32-4b31-bc2d-d7c1ad7a6ed4\",\"settingsDeploymentId\":\"322636ca-c5f0-4c18-90bf-d99be1b4d59a\",\"areaManager\":{\"areaManagerConfigurationDeploymentId\":null,\"disableOutagesCustomersAffectedOverride\":false,\"disableOutagesEtrOverride\":false,\"customersAffectedOverride\":false,\"etrOverride\":false},\"hazardousLayers\":[],\"customlayers\":{\"customlayersDeploymentId\":null}},\"stormcenterDeploymentId\":\"8ea7369f-e21f-4366-a26a-3a9a40469d6f\",\"messageBundle"
+  },
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/48006d55-45bb-40a4-99a6-1289326f0d0d/views/fb50e444-70e5-4b69-b868-28463b5dbd19/settings/deployed?id=322636ca-c5f0-4c18-90bf-d99be1b4d59a",
+    "data": "{\"viewId\":\"322636ca-c5f0-4c18-90bf-d99be1b4d59a\",\"updateWording\":{\"EN-US\":\"Info updated approximately every 15-30 minutes\",\"es-US\":\"Información actualizada aproximadamente cada 15-30 minutos.\"},\"stormMode\":false,\"redirectUrl\":\"\"}"
+  },
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/48006d55-45bb-40a4-99a6-1289326f0d0d/alerts/scheduledAlerts?viewId=fb50e444-70e5-4b69-b868-28463b5dbd19",
+    "data": "{\"_embedded\":{\"scheduledAlertResourceList\":[{\"id\":\"2357dddd-4467-4366-9c5c-ab13c1443052\",\"_links\":{\"self\":{\"href\":\"http://kubra.io/stormcenter/api/v1/stormcenters/48006d55-45bb-40a4-99a6-1289326f0d0d/alerts/2357dddd-4467-4366-9c5c-ab13c1443052\"}},\"viewId\":\"fb50e444-70e5-4b69-b868-28463b5dbd19\",\"viewName\":\"External\",\"archived\":null,\"bannerColor\":\"#142c41\",\"bannerFontColor\":\"#ffffff\",\"bannerIcon\":\"exclamation-circle\",\"data\":[{\"bannerTitle\":\"WHAT TO KNOW WHEN THE POWER IS OUT\",\"localeCode\":\"EN-US\"}"
+  },
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/48006d55-45bb-40a4-99a6-1289326f0d0d/views/fb50e444-70e5-4b69-b868-28463b5dbd19/configuration/8ea7369f-e21f-4366-a26a-3a9a40469d6f?preview=false",
+    "data": "{\"version\":\"V3\",\"config\":{\"deploymentId\":\"8ea7369f-e21f-4366-a26a-3a9a40469d6f\",\"deployedAt\":\"2026-01-12T15:04:06.050Z\",\"customElements\":{\"4134630a-148e-49cf-9d0c-a02a99b8d5ab\":{\"url\":\"custom-element-url-4134630a-148e-49cf-9d0c-a02a99b8d5ab\",\"text\":\"custom-element-message-4134630a-148e-49cf-9d0c-a02a99b8d5ab\",\"type\":\"button\",\"icon\":\"\",\"target\":\"_blank\"},\"475bd701-086f-40c8-88c4-c8c7779d110b\":{\"url\":null,\"text\":\"custom-element-message-475bd701-086f-40c8-88c4-c8c7779d110b\",\"type\":\"staticText\",\"ico"
+  },
+  {
+    "url": "https://kubra.io/data/05a8f333-eef4-4a8e-ba13-d8a7bc96959a/public/summary-1/data.json",
+    "data": "{\"fileTitle\":\"data\",\"summaryFileData\":{\"totals\":[{\"summaryTotalId\":\"total-1\",\"total_cust_a\":{\"val\":19},\"total_percent_cust_a\":{\"val\":0.01},\"total_percent_cust_active\":{\"val\":99.99},\"total_cust_s\":1156506,\"total_outages\":7}],\"date_generated\":\"2026-01-30T15:11:48.610Z\",\"overwritten_ca\":false,\"overwritten_etr\":false,\"page_mode\":{\"mode\":\"BLUESKY\",\"redirectURL\":\"\",\"pausePublish\":false}}}"
+  },
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/48006d55-45bb-40a4-99a6-1289326f0d0d/messages/dYZTlZ/intl/en-US/desktop",
+    "data": "{\"custom-element-url-b275eee8-da59-4d50-9e22-f79ea78fe276\":\"https://www.instagram.com/psegli/?hl=en\",\"backend.tab.help\":\"Help\",\"custom-element-url-4134630a-148e-49cf-9d0c-a02a99b8d5ab\":\"https://myaccount.psegliny.com/dashboards/reportoutageguestdashboard\",\"total-last-updated-label-message-id-\":\"Info Updated Today:\",\"END-EXP\":\"Re-evaluating Outage\",\"visibility-option-label-message-f3284bc2-3bcd-49f3-8ba2-8859892027b6\":\"View by Village\",\"custom-element-url-bcd79f76-01f2-4445-8cec-e88854f79c09\":\"ht"
+  },
+  {
+    "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+    "data": "{}"
+  },
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/48006d55-45bb-40a4-99a6-1289326f0d0d/alerts/scheduledAlertData?deployedAlertId=2357dddd-4467-4366-9c5c-ab13c1443052",
+    "data": "{\"_links\":{\"self\":{\"href\":\"http://kubra.io/stormcenter/api/v1/stormcenters/48006d55-45bb-40a4-99a6-1289326f0d0d/alerts/2357dddd-4467-4366-9c5c-ab13c1443052\"}},\"data\":[{\"content\":\"<p><span style=\\\"box-sizing: border-box; font-family: inherit; font-size: 10pt; color: inherit; display: inline; vertical-align: baseline; margin: 0px; padding: 0px;\\\"><a href=\\\"https://mypowermap.psegliny.com/external/default.html/\\\" style=\\\"box-sizing: border-box; background-color: rgba(0, 0, 0, 0); outline: none; col"
+  },
+  {
+    "url": "https://kubra.io/regions/e72efad8-1be1-4969-8a2a-c53d7d1a6769/ee53a9cc-f5d7-4f27-aaa6-f96c19ec69b9/serviceareas.json",
+    "data": "{\"file_title\":null,\"file_data\":[{\"id\":\"Service Area\",\"title\":\"Service Area\",\"icon\":\"\",\"desc\":{},\"geom\":{\"a\":[\"oa`xFpr~zLFBF?\\\\D@?HL@\\\\E^xBnE}DeCm@`A_A|Bu@vC_@fBWzBKlCAnALr@MrD@~@PbANnBXhAXzA^vAVjAJdA?|CHz@V^X?n@GVDfAd@\\\\f@R`@f@PrAHp@S`@W~@WjBGbAAjKy@~@Kd@Wr@M\\\\Or@a@~AkBd@{@h@kCZgA\\\\m@Z[RKNFV\\\\VT^Dj@O^qADa@Im@c@}@G[_@_DYeBWaAs@qA_@_@e@E]XSp@Gr@K^OFEe@Bw@\\\\qAVs@|CaBjF}BzAy@fBs@nE]|ByArC{@jCiB`DbAhAfCdAf@Hl@eAhE?NYnIJpBTlBd@z@FVb@r@ANFj@G?KHE`@uAd@WXq@^i@HEQGDoAx@w@bAg@`@c@Fm@Ni@Da@O}@u@]g@g@LUJ?TS"
+  },
+  {
+    "url": "https://kubra.io/cluster-data/233/d9d1e5ff-bf38-45d1-ac3c-08a7b6358fc0/05a8f333-eef4-4a8e-ba13-d8a7bc96959a/public/cluster-1/0302332.json",
+    "data": "{\"file_title\":\"0302332\",\"file_data\":[{\"id\":\"7-0\",\"title\":\"Area Outage\",\"desc\":{\"n_out\":1,\"cust_a\":{\"val\":4,\"mask\":5},\"inc_id\":null,\"crew_status\":{\"EN-US\":\"Restoration in Progress\",\"es-US\":\"Restauración en progreso\",\"orig\":\"On Site\"},\"cluster\":false,\"etr\":\"ETR-NULL\",\"etr_confidence\":null,\"comments\":null,\"cause\":{\"EN-US\":\"Outage for safe repairs\",\"es-US\":\"Corte por reparaciones de seguridad\",\"orig\":\"801102892\"},\"crew_icon\":true,\"start_time\":null,\"crewType\":null,\"etrRange\":\"Today at 12:15PM\",\"id\":\""
+  },
+  {
+    "url": "https://kubra.io/cluster-data/101/d9d1e5ff-bf38-45d1-ac3c-08a7b6358fc0/05a8f333-eef4-4a8e-ba13-d8a7bc96959a/public/cluster-1/0320101.json",
+    "data": "{\"file_title\":\"0320101\",\"file_data\":[{\"id\":\"7-0\",\"title\":\"Area Outage\",\"desc\":{\"n_out\":4,\"cust_a\":{\"val\":10},\"inc_id\":null,\"crew_status\":null,\"cluster\":true,\"etr\":\"ETR-NULL\",\"etr_confidence\":null,\"comments\":null,\"cause\":null,\"crew_icon\":false,\"start_time\":null},\"geom\":{\"p\":[\"cfgwF~ct`M\"]}}]}"
+  },
+  {
+    "url": "https://kubra.io/cluster-data/011/d9d1e5ff-bf38-45d1-ac3c-08a7b6358fc0/05a8f333-eef4-4a8e-ba13-d8a7bc96959a/public/cluster-1/0320110.json",
+    "data": "{\"file_title\":\"0320110\",\"file_data\":[{\"id\":\"7-0\",\"title\":\"Area Outage\",\"desc\":{\"n_out\":2,\"cust_a\":{\"val\":6},\"inc_id\":null,\"crew_status\":null,\"cluster\":true,\"etr\":\"ETR-NULL\",\"etr_confidence\":null,\"comments\":null,\"cause\":null,\"crew_icon\":false,\"start_time\":null},\"geom\":{\"p\":[\"m`yxFjxn|L\"]}}]}"
+  }
+]

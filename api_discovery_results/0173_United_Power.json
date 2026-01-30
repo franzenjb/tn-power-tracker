@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://cdn.cookielaw.org/consent/01947102-f18d-77ad-be20-6475b14e5e02/01947102-f18d-77ad-be20-6475b14e5e02.json",
+    "data": "{\"CookieSPAEnabled\":false,\"CookieSameSiteNoneEnabled\":false,\"CookieV2CSPEnabled\":false,\"MultiVariantTestingEnabled\":false,\"UseV2\":true,\"MobileSDK\":false,\"SkipGeolocation\":false,\"ScriptType\":\"PRODUCTION\",\"Version\":\"202503.2.0\",\"OptanonDataJSON\":\"01947102-f18d-77ad-be20-6475b14e5e02\",\"GeolocationUrl\":\"https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location\",\"BulkDomainCheckUrl\":\"https://cookies-data.onetrust.io/bannersdk/v1/domaingroupcheck\",\"RuleSet\":[{\"Id\":\"0195af62-81eb-782a-b40e-1af0"
+  },
+  {
+    "url": "https://cdn.cookielaw.org/consent/01947102-f18d-77ad-be20-6475b14e5e02/0195af62-81eb-782a-b40e-1af053d459ee/en.json",
+    "data": "{\"DomainData\":{\"pclifeSpanYr\":\"Year\",\"pclifeSpanYrs\":\"Years\",\"pclifeSpanSecs\":\"A few seconds\",\"pclifeSpanWk\":\"Week\",\"pclifeSpanWks\":\"Weeks\",\"pccontinueWithoutAcceptText\":\"Continue without Accepting\",\"pccloseButtonType\":\"Icon\",\"MainText\":\"Privacy Preference Center\",\"MainInfoText\":\"When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences, or your device and is mostly used to make the site "
+  },
+  {
+    "url": "https://cdn.cookielaw.org/scripttemplates/202503.2.0/assets/otFloatingRoundedCorner.json",
+    "data": "{\"name\":\"otFloatingRoundedCorner\",\"html\":\"PGRpdiBpZD0ib25ldHJ1c3QtYmFubmVyLXNkayIgY2xhc3M9Im90RmxvYXRpbmdSb3VuZGVkQ29ybmVyIj48ZGl2IGNsYXNzPSJvdC1zZGstY29udGFpbmVyIiByb2xlPSJkaWFsb2ciPjxkaXYgY2xhc3M9Im90LXNkay1yb3ciPjxkaXYgaWQ9Im9uZXRydXN0LWdyb3VwLWNvbnRhaW5lciIgY2xhc3M9Im90LXNkay10d2VsdmUgb3Qtc2RrLWNvbHVtbnMiPjxkaXYgaWQ9Im9uZXRydXN0LXBvbGljeSI+PGRpdiBjbGFzcz0iYmFubmVyLWhlYWRlciI+PGRpdiBjbGFzcz0iYmFubmVyX2xvZ28iPjwvZGl2PjwvZGl2PjxoMiBpZD0ib25ldHJ1c3QtcG9saWN5LXRpdGxlIj5UaGlzIHNpdGUgdXNlcyBjb29raW"
+  },
+  {
+    "url": "https://cdn.acsbapp.com/config/unitedpower.com/config.json?page=%2Foutage",
+    "data": "{\"time\":\"2026-01-01T00:29:19.135Z\",\"specifics\":\"\",\"addonAnalytics\":false,\"blockMeta\":false,\"blockImages\":false,\"blockStyles\":false,\"blockTextSimplifier\":false,\"widgetSettings\":null,\"featureFlags\":{\"text-simplifier\":false}}"
+  },
+  {
+    "url": "https://cdn.cookielaw.org/scripttemplates/202503.2.0/assets/v2/otPcCenter.json",
+    "data": "{\"name\":\"otPcCenter\",\"html\":\"PGRpdiBpZD0ib25ldHJ1c3QtcGMtc2RrIiBjbGFzcz0ib3RQY0NlbnRlciBvdC1oaWRlIG90LWZhZGUtaW4iPjxkaXYgcm9sZT0iZGlhbG9nIiBhcmlhLW1vZGFsPSJ0cnVlIj48IS0tIENsb3NlIEJ1dHRvbiAtLT48ZGl2IGNsYXNzPSJvdC1wYy1oZWFkZXIiPjwhLS0gTG9nbyBUYWcgLS0+PGRpdiBjbGFzcz0ib3QtcGMtbG9nbyIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJDb21wYW55IExvZ28iPjwvZGl2PjxidXR0b24gaWQ9ImNsb3NlLXBjLWJ0bi1oYW5kbGVyIiBjbGFzcz0ib3QtY2xvc2UtaWNvbiIgYXJpYS1sYWJlbD0iQ2xvc2UiPjwvYnV0dG9uPjwvZGl2PjwhLS0gQ2xvc2UgQnV0dG9uIC0tPjxkaXYgaWQ9Im9"
+  }
+]

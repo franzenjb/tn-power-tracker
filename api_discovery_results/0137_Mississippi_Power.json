@@ -1,0 +1,34 @@
+[
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/32c5f878-d103-49e1-8a8a-ad0e2bdb4507/views/1521bb54-d36b-4d36-a64d-48a454ee39a0/currentState?preview=false",
+    "data": "{\"version\":\"V1\",\"controlCenter\":{\"alertDeploymentId\":null,\"settingsDeploymentId\":\"ba610a5d-2325-4266-a817-16481a5c5e7b\",\"areaManager\":{\"areaManagerConfigurationDeploymentId\":null,\"disableOutagesCustomersAffectedOverride\":false,\"disableOutagesEtrOverride\":false,\"customersAffectedOverride\":false,\"etrOverride\":false},\"hazardousLayers\":[],\"customlayers\":null},\"stormcenterDeploymentId\":\"4e50792b-d556-42ea-af44-a7e9d34e16b0\",\"messageBundleId\":\"cnH34q\",\"updatedAt\":1769787388000,\"data\":{\"interval_genera"
+  },
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/32c5f878-d103-49e1-8a8a-ad0e2bdb4507/views/1521bb54-d36b-4d36-a64d-48a454ee39a0/settings/deployed?id=ba610a5d-2325-4266-a817-16481a5c5e7b",
+    "data": "{\"viewId\":\"ba610a5d-2325-4266-a817-16481a5c5e7b\",\"updateWording\":{\"EN-US\":\"We are ready to assist our customers. We will respond and restore service as safely and efficiently as possible.\"},\"stormMode\":false,\"redirectUrl\":\"\"}"
+  },
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/32c5f878-d103-49e1-8a8a-ad0e2bdb4507/views/1521bb54-d36b-4d36-a64d-48a454ee39a0/configuration/4e50792b-d556-42ea-af44-a7e9d34e16b0?preview=false",
+    "data": "{\"version\":\"V3\",\"config\":{\"deploymentId\":\"4e50792b-d556-42ea-af44-a7e9d34e16b0\",\"deployedAt\":\"2023-03-28T15:36:37.809Z\",\"customElements\":{\"08154d67-4929-4b0a-b759-c5698095e685\":{\"url\":\"custom-element-url-08154d67-4929-4b0a-b759-c5698095e685\",\"text\":\"custom-element-message-08154d67-4929-4b0a-b759-c5698095e685\",\"type\":\"button\",\"icon\":\"\",\"target\":\"_blank\"},\"24ca5d27-1664-4c98-8843-926f8919de2c\":{\"url\":\"custom-element-url-24ca5d27-1664-4c98-8843-926f8919de2c\",\"text\":\"custom-element-message-24ca5d27-"
+  },
+  {
+    "url": "https://kubra.io/data/9d9bf179-b98e-407c-aab9-ea2d36ca723e/public/summary-1/data.json",
+    "data": "{\"fileTitle\":\"data\",\"summaryFileData\":{\"totals\":[{\"summaryTotalId\":\"total-1\",\"total_cust_a\":{\"val\":12},\"total_percent_cust_a\":{\"val\":0.01},\"total_percent_cust_active\":{\"val\":99.99},\"total_cust_s\":192499,\"total_outages\":4}],\"date_generated\":\"2026-01-30T15:36:28.214Z\",\"overwritten_ca\":false,\"overwritten_etr\":false,\"page_mode\":{\"mode\":\"BLUESKY\",\"redirectURL\":\"\",\"pausePublish\":false}}}"
+  },
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/32c5f878-d103-49e1-8a8a-ad0e2bdb4507/messages/cnH34q/intl/en-US/desktop",
+    "data": "{\"info-box-title-cluster-1-cluster\":\"Area Outages\",\"custom-element-url-e56a42f3-191b-4d53-a2c1-3e372f8c4e66\":\"https://customerservice2.southerncompany.com/Outages/Overview?mnuOpco=mpc\",\"info-box-field-label-thematic-2-cust_a\":\"Customers Out\",\"info-box-field-label-872da61e-a64a-495b-88aa-5b0df479dbd3-name\":\"County\",\"backend.tab.help\":\"Help\",\"backend.tab.close\":\"Close\",\"mask-text-message-id\":\"{value}\",\"custom-element-url-3692a578-6f54-40d4-898b-2f17be5b0499\":\"https://www.facebook.com/mississippipo"
+  },
+  {
+    "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+    "data": "{}"
+  },
+  {
+    "url": "https://kubra.io/regions/59795549-c739-4c35-9292-c3a2d88f8a35/6444f330-4910-496b-abd7-94930d8d7312/serviceareas.json",
+    "data": "{\"file_title\":null,\"file_data\":[{\"id\":\"Service Area\",\"title\":\"Service Area\",\"icon\":\"\",\"desc\":{},\"geom\":{\"a\":[\"gxhxDtuyzOBiC?qKZi@z@?XTlBDvA\\\\bBhA`ATtCHz@x@?dAMfBCnCQ|@wAXmHEMP{CXc@Oq@_@Ic@\",\"ibixDzfw{O~@mAAK|Co@j@qCv@e@vAs@`AyBlBmCjEgEvByAt@_@bC^~@Kf@f@?f@b@\\\\WpA{JrKc@z@y@vDBpAq@pAe@pAClA^hAlB|@~BFvItD|@tBIrBUN]TyYvCqIIuKe@w@k@a@o@?}@Pq@~A{BNe@XeBR{@r@s@`AeB^{@j@eAz@qB\",\"qgixDlxqzOlD@bBR`ExAzATfAx@pA~Av@XzBVlAj@lBbC~AhAbBx@LTlE~@dBEt@YhBiBpHkKr@UzDNpCThA_@t@e@pA?~@dADZ_@fBw@hAg@|Cf@lCG~@aA^Yh@_@"
+  },
+  {
+    "url": "https://kubra.io/cluster-data/002/3b51315a-7959-489a-a0c9-baf3fc68ca1b/9d9bf179-b98e-407c-aab9-ea2d36ca723e/public/cluster-1/0320200.json",
+    "data": "{\"file_title\":\"0320200\",\"file_data\":[{\"id\":\"7-0\",\"title\":\"Area Outage\",\"desc\":{\"n_out\":2,\"cust_a\":{\"val\":7},\"inc_id\":null,\"crew_status\":null,\"cluster\":true,\"etr\":\"2026-01-30T16:15:00Z\",\"etr_confidence\":null,\"outages\":[{\"cust_a\":{\"val\":6},\"crew_icon\":false,\"etr\":\"2026-01-30T16:15:00Z\",\"comments\":\"A crew has been assigned to locate and repair the problem reported in your area. We apologize for any inconvenience and will provide updates as more information becomes available.\"},{\"cust_a\":{\"val\":1},\""
+  }
+]

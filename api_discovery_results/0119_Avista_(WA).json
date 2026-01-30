@@ -1,0 +1,6 @@
+[
+  {
+    "url": "https://cdn.weglot.com/projects-settings/d6b463cf4e158493fb88a35f14b96eee5.json",
+    "data": "{\"website\":\"https://myavista.com\",\"uid\":\"6041db884e\",\"project_slug\":\"myavista-com\",\"deleted_at\":null,\"api_key\":\"wg_d6b463cf4e158493fb88a35f14b96eee5\",\"language_from\":\"en\",\"language_from_custom_flag\":null,\"language_from_custom_name\":null,\"auto_switch\":false,\"auto_switch_fallback\":null,\"translation_engine\":3,\"excluded_paths\":[{\"type\":\"START_WITH\",\"value\":\"/eawb\",\"language_button_displayed\":false,\"exclusion_behavior\":\"REDIRECT\",\"excluded_languages\":[],\"regex\":\"^/eawb\"}],\"excluded_blocks\":[{\"value\":"
+  }
+]

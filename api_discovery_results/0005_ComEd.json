@@ -1,0 +1,122 @@
+[
+  {
+    "url": "https://www.comed.com/api/GetConfig",
+    "data": "{\"AITranslationAPI\":\"https://eudapi.comed.com/eult/translate\",\"androidAppId\":\"com.comed.mobile\",\"anonBaseUrl\":\"https://www.comed.com\",\"appleAppId\":\"519716176\",\"applicationInsightsInstrumentationKey\":\"c895238f-3bb6-4743-a3c2-81fbc893c886\",\"baseUrl\":\"https://secure.comed.com\",\"chatBotAppId\":\"3902ea77-777f-4f94-90fe-5c3624c56a5d\",\"contentApiBaseUrl\":\"https://eudapi.comed.com/content-api\",\"contentPublishingEnvironment\":\"live\",\"euApiUrl\":\"https://eudapi.comed.com\",\"getSessionTimeout\":\"3000\",\"googleTa"
+  },
+  {
+    "url": "https://js.monitor.azure.com/scripts/b/ai.config.1.cfg.json",
+    "data": "{\"version\":\"1.0.5\",\"enabled\":true,\"featureOptIn\":{\"iKeyUsage\":{\"mode\":3,\"onCfg\":{\"throttleMgrCfg.109.disabled\":false,\"throttleMgrCfg.106.disabled\":false},\"offCfg\":{\"throttleMgrCfg.109.disabled\":true,\"throttleMgrCfg.106.disabled\":true}},\"CdnUsage\":{\"mode\":4,\"onCfg\":{\"throttleMgrCfg.109.disabled\":false,\"throttleMgrCfg.110.disabled\":false},\"offCfg\":{\"throttleMgrCfg.109.disabled\":true,\"throttleMgrCfg.110.disabled\":true}}},\"config\":{\"throttleMgrCfg\":{\"106\":{\"disabled\":false,\"limit\":{\"samplingRate\":1,"
+  },
+  {
+    "url": "https://www.comed.com/api/GetConfig",
+    "data": "{\"AITranslationAPI\":\"https://eudapi.comed.com/eult/translate\",\"androidAppId\":\"com.comed.mobile\",\"anonBaseUrl\":\"https://www.comed.com\",\"appleAppId\":\"519716176\",\"applicationInsightsInstrumentationKey\":\"c895238f-3bb6-4743-a3c2-81fbc893c886\",\"baseUrl\":\"https://secure.comed.com\",\"chatBotAppId\":\"3902ea77-777f-4f94-90fe-5c3624c56a5d\",\"contentApiBaseUrl\":\"https://eudapi.comed.com/content-api\",\"contentPublishingEnvironment\":\"live\",\"euApiUrl\":\"https://eudapi.comed.com\",\"getSessionTimeout\":\"3000\",\"googleTa"
+  },
+  {
+    "url": "https://secure.comed.com/api/Services/MyAccountService.svc/GetAllAlerts?v=1769785732754",
+    "data": "[]"
+  },
+  {
+    "url": "https://secure.comed.com/api/Services/MyAccountService.svc/GetSession?v=1769785732754",
+    "data": "{\"username\":null,\"encryptedUsername\":null,\"accountNumber\":null,\"customerNumber\":null,\"customerName\":null,\"primaryEmail\":null,\"token\":null,\"isResidential\":null,\"id\":\"ihthjy4vxuvpmzyob2xhuuaw\",\"encryptedUID\":null,\"dc\":\"e\"}"
+  },
+  {
+    "url": "https://www.comed.com/api/GetConfig",
+    "data": "{\"AITranslationAPI\":\"https://eudapi.comed.com/eult/translate\",\"androidAppId\":\"com.comed.mobile\",\"anonBaseUrl\":\"https://www.comed.com\",\"appleAppId\":\"519716176\",\"applicationInsightsInstrumentationKey\":\"c895238f-3bb6-4743-a3c2-81fbc893c886\",\"baseUrl\":\"https://secure.comed.com\",\"chatBotAppId\":\"3902ea77-777f-4f94-90fe-5c3624c56a5d\",\"contentApiBaseUrl\":\"https://eudapi.comed.com/content-api\",\"contentPublishingEnvironment\":\"live\",\"euApiUrl\":\"https://eudapi.comed.com\",\"getSessionTimeout\":\"3000\",\"googleTa"
+  },
+  {
+    "url": "https://js.monitor.azure.com/scripts/b/ai.config.1.cfg.json",
+    "data": "{\"version\":\"1.0.5\",\"enabled\":true,\"featureOptIn\":{\"iKeyUsage\":{\"mode\":3,\"onCfg\":{\"throttleMgrCfg.109.disabled\":false,\"throttleMgrCfg.106.disabled\":false},\"offCfg\":{\"throttleMgrCfg.109.disabled\":true,\"throttleMgrCfg.106.disabled\":true}},\"CdnUsage\":{\"mode\":4,\"onCfg\":{\"throttleMgrCfg.109.disabled\":false,\"throttleMgrCfg.110.disabled\":false},\"offCfg\":{\"throttleMgrCfg.109.disabled\":true,\"throttleMgrCfg.110.disabled\":true}}},\"config\":{\"throttleMgrCfg\":{\"106\":{\"disabled\":false,\"limit\":{\"samplingRate\":1,"
+  },
+  {
+    "url": "https://www.comed.com/api/GetConfig",
+    "data": "{\"AITranslationAPI\":\"https://eudapi.comed.com/eult/translate\",\"androidAppId\":\"com.comed.mobile\",\"anonBaseUrl\":\"https://www.comed.com\",\"appleAppId\":\"519716176\",\"applicationInsightsInstrumentationKey\":\"c895238f-3bb6-4743-a3c2-81fbc893c886\",\"baseUrl\":\"https://secure.comed.com\",\"chatBotAppId\":\"3902ea77-777f-4f94-90fe-5c3624c56a5d\",\"contentApiBaseUrl\":\"https://eudapi.comed.com/content-api\",\"contentPublishingEnvironment\":\"live\",\"euApiUrl\":\"https://eudapi.comed.com\",\"getSessionTimeout\":\"3000\",\"googleTa"
+  },
+  {
+    "url": "https://secure.comed.com/api/Services/MyAccountService.svc/GetAllAlerts?v=1769785734994",
+    "data": "[]"
+  },
+  {
+    "url": "https://secure.comed.com/api/Services/MyAccountService.svc/GetSession?v=1769785734994",
+    "data": "{\"username\":null,\"encryptedUsername\":null,\"accountNumber\":null,\"customerNumber\":null,\"customerName\":null,\"primaryEmail\":null,\"token\":null,\"isResidential\":null,\"id\":\"ihthjy4vxuvpmzyob2xhuuaw\",\"encryptedUID\":null,\"dc\":\"e\"}"
+  },
+  {
+    "url": "https://eudapi.comed.com/content-api/api/content/navigation/header?environment=live",
+    "data": "{\"displayText\":\"ComEd Header\",\"nodes\":[{\"displayText\":\"Outage\",\"url\":\"/outages/experiencing-an-outage\",\"linkType\":\"Anon\"},{\"displayText\":\"Pay Bill\",\"url\":\"/my-account/my-dashboard/payment-options\",\"linkType\":\"Anon\"},{\"displayText\":\"Moving\",\"url\":\"https://secure.comed.com/CustomerServices/service/landing\",\"linkType\":\"Secure\"},{\"displayText\":\"Español\",\"url\":\"https://es.comed.com:443/\",\"linkType\":\"External\"}]}"
+  },
+  {
+    "url": "https://eudapi.comed.com/content-api/api/content/navigation/header?environment=live",
+    "data": "{\"displayText\":\"ComEd Header\",\"nodes\":[{\"displayText\":\"Outage\",\"url\":\"/outages/experiencing-an-outage\",\"linkType\":\"Anon\"},{\"displayText\":\"Pay Bill\",\"url\":\"/my-account/my-dashboard/payment-options\",\"linkType\":\"Anon\"},{\"displayText\":\"Moving\",\"url\":\"https://secure.comed.com/CustomerServices/service/landing\",\"linkType\":\"Secure\"},{\"displayText\":\"Español\",\"url\":\"https://es.comed.com:443/\",\"linkType\":\"External\"}]}"
+  },
+  {
+    "url": "https://eudapi.comed.com/content-api/api/content/navigation/mega-menu?environment=live",
+    "data": "{\"displayText\":\"ComEd Navigation\",\"url\":\"/\",\"linkType\":\"Anon\",\"nodes\":[{\"displayText\":\"My Account\",\"nodes\":[{\"displayText\":\"My Dashboard\",\"url\":\"/MyAccount/MyBillUsage/Pages/Secure/MyBillUsage.aspx\",\"linkType\":\"Secure\",\"nodes\":[{\"displayText\":\"Payment Options\",\"url\":\"/my-account/my-dashboard/payment-options\",\"linkType\":\"Anon\"},{\"displayText\":\"My Bill Details\",\"url\":\"/MyAccount/MyBillUsage/Pages/Secure/MyBillDetails.aspx\",\"linkType\":\"Secure\"},{\"displayText\":\"Billing Options\",\"url\":\"/my-account/my"
+  },
+  {
+    "url": "https://eudapi.comed.com/content-api/api/content/navigation/footer?environment=live",
+    "data": "{\"displayText\":\"ComEd Footer\",\"nodes\":[{\"displayText\":\"About Us\",\"url\":\"/about-us\",\"linkType\":\"Anon\",\"hideFromMegaMenu\":true},{\"displayText\":\"News\",\"url\":\"/news\",\"linkType\":\"Anon\",\"hideFromMegaMenu\":true},{\"displayText\":\"Doing Business with Us\",\"url\":\"/doing-business-with-us\",\"linkType\":\"Anon\",\"hideFromMegaMenu\":true},{\"displayText\":\"Careers\",\"url\":\"/AboutUs/Pages/Careers.aspx\",\"linkType\":\"Anon\",\"openInNewTabWindow\":true}]}"
+  },
+  {
+    "url": "https://eudapi.comed.com/content-api/api/content/navigation/footer?environment=live",
+    "data": "{\"displayText\":\"ComEd Footer\",\"nodes\":[{\"displayText\":\"About Us\",\"url\":\"/about-us\",\"linkType\":\"Anon\",\"hideFromMegaMenu\":true},{\"displayText\":\"News\",\"url\":\"/news\",\"linkType\":\"Anon\",\"hideFromMegaMenu\":true},{\"displayText\":\"Doing Business with Us\",\"url\":\"/doing-business-with-us\",\"linkType\":\"Anon\",\"hideFromMegaMenu\":true},{\"displayText\":\"Careers\",\"url\":\"/AboutUs/Pages/Careers.aspx\",\"linkType\":\"Anon\",\"openInNewTabWindow\":true}]}"
+  },
+  {
+    "url": "https://eudapi.comed.com/content-api/api/content/products/other/pages?url=/outages/experiencing-an-outage/outage-map&environment=live",
+    "data": "{\"breadcrumbs\":{\"segments\":[{\"title\":\"Home\",\"url\":\"/\"},{\"title\":\"Outages\"},{\"title\":\"Experiencing an Outage\",\"url\":\"/outages/experiencing-an-outage\",\"linkType\":\"Anon\"},{\"title\":\"View Outage Map\",\"url\":\"/outages/experiencing-an-outage/outage-map\",\"linkType\":\"Anon\"}]},\"url\":\"/outages/experiencing-an-outage/outage-map\",\"metadata\":{\"dataType\":\"metadata\",\"systemOwner\":[{\"uniqueId\":\"bltb5cde452b0b8fdf1\",\"contentTypeId\":\"system_owner\",\"dataType\":\"metadata.system_owner\",\"reference\":\"metadata.system_owne"
+  },
+  {
+    "url": "https://secure.comed.com/api/Services/MyAccountService.svc/GetAllAlerts",
+    "data": "[]"
+  },
+  {
+    "url": "https://collection.decibelinsight.net/i/14081/901393/c.json",
+    "data": "{\"da_websiteId\":901393,\"da_account_flags\":22527,\"da_account_flags_orig\":22527,\"da_sessionId_e\":\"F62E1A688E3DAEA8BE15AA13A8590B2E7E.0\",\"da_leadId_e\":\"C51D295B9A7DEA332B44BB99EA5B4125CD\",\"da_dnsRecord\":\"collection.decibelinsight.net\",\"da_anonymiseIP\":false,\"da_ipHandling\":0,\"da_sessCookieFlags\":4,\"da_leadCookieFlags\":0,\"analysisSessFlags\":0,\"analysisLeadFlags\":0,\"replaySessFlags\":3,\"replayLeadFlags\":0,\"int_state\":\"\",\"curTime\":1769785736,\"domains\":[\"comed.com\",\"secure1.comed.com\",\"secure.comed.com\""
+  },
+  {
+    "url": "https://secure.comed.com/api/services/myaccountservice.svc/getsession",
+    "data": "{\"username\":null,\"encryptedUsername\":null,\"accountNumber\":null,\"customerNumber\":null,\"customerName\":null,\"primaryEmail\":null,\"token\":null,\"isResidential\":null,\"id\":\"ihthjy4vxuvpmzyob2xhuuaw\",\"encryptedUID\":null,\"dc\":\"e\"}"
+  },
+  {
+    "url": "https://secure.comed.com/api/services/myaccountservice.svc/getconfiguration",
+    "data": "{\"anonBaseUrl\":\"https://www.comed.com\",\"applicationInsightsInstrumentationKey\":\"c895238f-3bb6-4743-a3c2-81fbc893c886\",\"appointmentBaseUrl\":\"/customerServices-CasR4/appointments\",\"authenticationRedirectUrl\":\"/Pages/Adaptor.aspx\",\"b2cAadInstance\":\"https://secure1.comed.com/{0}/{1}{2}{3}\",\"b2cTenantName\":\"euazurecomed.onmicrosoft.com\",\"b2cClientId\":\"f74fa02d-985c-48ff-b9e2-a2017db421b8\",\"b2cScopeUri\":\"https://euazurecomed.onmicrosoft.com/opower/opower_connect\",\"b2cRedirectUri\":\"/Pages/Login.aspx\",\""
+  },
+  {
+    "url": "https://resources.digital-cloud.medallia.com/wdcus/460283/onsite/onsiteData1768825430449.json",
+    "data": "{\"provisions\":{\"skipInvitationOptimization\":null,\"21dcr1_mpc3281_alignWCAGLogoMarkup\":true,\"reusableResourcesLibrary\":true,\"formTemplatesWCAG\":true,\"formSpacing\":true,\"24dcr1_MPC7724_enableFormv2andInviteCSSDelay\":null,\"20dcr4_MPC2952_enable_exemptFormsFromQuarantine\":true,\"21dcr1_MPC3199_AdditionalButtonStyles\":true,\"sharePropertyBetweenSubdomains\":true,\"24dcr4_MPC8375_enableFeedbackPayloadOptimization\":null,\"23dcr2_MPC6711_enableWCAGerrorMessagesPreQuestions\":null,\"21dcr6_MPC4296_enable_UBTIde"
+  },
+  {
+    "url": "https://px.ads.linkedin.com/attribution_trigger?pid=7208274&time=1769785735995&url=https%3A%2F%2Fwww.comed.com%2Foutages%2Fexperiencing-an-outage%2Foutage-map",
+    "data": "{}"
+  },
+  {
+    "url": "https://cm.teads.tv/v2/advertiser?referer=https%3A%2F%2Fwww.comed.com%2Foutages%2Fexperiencing-an-outage%2Foutage-map&buyer_pixel_id=13842&gtm_consent=false",
+    "data": "{\"tracking_allowed\":true,\"first_party_cookie_allowed\":true,\"session_id\":\"c7aaf480-3e30-4137-be06-7637bd5c4ade\",\"domain\":\"comed.com\"}"
+  },
+  {
+    "url": "https://resources.digital-cloud.medallia.com/wdcus/460283/forms/23055/formDataV2_1764753629443_en.json",
+    "data": "{\"name\":\"Outage Tracker-Restored\",\"id\":23055,\"pages\":[{\"pageName\":\"Page 1\",\"view\":{\"backgroundColor\":\"\",\"backgroundRepeat\":false,\"customCssClass\":\"\"},\"components\":[{\"id\":7802,\"unique_name\":\"Satisfaction with Digital Experience\",\"type\":\"grading0to10\",\"data\":{\"label\":\"Overall, how satisfied are you with the outage tracker today?\",\"alternatives\":[{\"id\":\"0\",\"label\":\"0 - Not at all satisfied\"},{\"id\":\"1\",\"label\":\"\"},{\"id\":\"2\",\"label\":\"\"},{\"id\":\"3\",\"label\":\"\"},{\"id\":\"4\",\"label\":\"\"},{\"id\":\"5\",\"label\":\"\""
+  },
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/0f46457f-e3ee-473c-8040-d7da9e776ccb/views/2e108172-d24f-4c2b-ad49-23a3b1589688/currentState?preview=false",
+    "data": "{\"version\":\"V1\",\"controlCenter\":{\"alertDeploymentId\":null,\"settingsDeploymentId\":\"a672f501-4db7-4e91-803a-90d980689a52\",\"areaManager\":{\"areaManagerConfigurationDeploymentId\":null,\"disableOutagesCustomersAffectedOverride\":false,\"disableOutagesEtrOverride\":false,\"customersAffectedOverride\":false,\"etrOverride\":false},\"hazardousLayers\":[],\"customlayers\":{\"customlayersDeploymentId\":null}},\"stormcenterDeploymentId\":\"8db525b2-bc93-4263-9153-f0511b2cc258\",\"messageBundleId\":\"uLllfq\",\"updatedAt\":176978556"
+  },
+  {
+    "url": "https://ads.nextdoor.com/v2/api/conversions/settings?id=70e08659-7ff0-4dee-9897-aab54e2a8b94",
+    "data": "{\"am\":\"0\",\"em\":{},\"t\":1769760018002}"
+  },
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/0f46457f-e3ee-473c-8040-d7da9e776ccb/views/2e108172-d24f-4c2b-ad49-23a3b1589688/settings/deployed?id=a672f501-4db7-4e91-803a-90d980689a52",
+    "data": "{\"viewId\":\"a672f501-4db7-4e91-803a-90d980689a52\",\"updateWording\":{\"ES-ES\":\"La información se actualiza aproximadamente cada 15 minutos\",\"EN-US\":\"Information is updated approximately every 15 minutes \"},\"stormMode\":false,\"redirectUrl\":\"\"}"
+  },
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/0f46457f-e3ee-473c-8040-d7da9e776ccb/views/2e108172-d24f-4c2b-ad49-23a3b1589688/configuration/8db525b2-bc93-4263-9153-f0511b2cc258?preview=false",
+    "data": "{\"version\":\"V3\",\"config\":{\"deploymentId\":\"8db525b2-bc93-4263-9153-f0511b2cc258\",\"deployedAt\":\"2023-06-27T14:24:52.728Z\",\"customElements\":{\"2d7dff53-cfaf-4543-9ba1-23514d233294\":{\"url\":null,\"text\":\"custom-element-message-2d7dff53-cfaf-4543-9ba1-23514d233294\",\"type\":\"staticText\",\"icon\":null,\"target\":null},\"822c11e4-e2d1-4ed0-a4be-3e8061faebde\":{\"url\":null,\"text\":\"custom-element-message-822c11e4-e2d1-4ed0-a4be-3e8061faebde\",\"type\":\"staticText\",\"icon\":null,\"target\":null},\"d91c8b87-5383-414e-94ee-8ce"
+  },
+  {
+    "url": "https://kubra.io/data/35344c17-425a-48a4-afa0-54cbcaadae6e/public/summary-1/data.json",
+    "data": "{\"fileTitle\":\"data\",\"summaryFileData\":{\"totals\":[{\"summaryTotalId\":\"total-1\",\"total_cust_a\":{\"val\":7},\"total_percent_cust_a\":{\"val\":0.01},\"total_percent_cust_active\":{\"val\":99.99},\"total_cust_s\":4088575,\"total_outages\":7}],\"date_generated\":\"2026-01-30T15:06:08.749Z\",\"overwritten_ca\":false,\"overwritten_etr\":false,\"page_mode\":{\"mode\":\"BLUESKY\",\"redirectURL\":\"\",\"pausePublish\":false}}}"
+  },
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/0f46457f-e3ee-473c-8040-d7da9e776ccb/messages/uLllfq/intl/en-US/desktop",
+    "data": "{\"info-box-field-label-cluster-3-cause\":\"Probable Cause\",\"range-label-Zip-5\":\"1-10000\",\"total-outages-label-message-id-c597a696-5a7c-4908-ae9d-da73c66c0bff\":\"Active Outages\",\"info-box-title-cluster-3-cluster\":\"Multiple Outages\",\"info-box-field-label-cluster-3-n_out\":\"Number of Outages\",\"total-last-updated-label-message-id-\":\"Last Updated:\",\"END-EXP\":\"Pending Assesment \",\"info-box-field-label-thematic-4-percent_cust_a\":\"Percent affected\",\"report-total-cust-a-a591b405-3383-47cb-8073-8756e44c91f3\":"
+  }
+]

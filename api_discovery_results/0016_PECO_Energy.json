@@ -1,0 +1,82 @@
+[
+  {
+    "url": "https://www.peco.com/api/GetConfig",
+    "data": "{\"AITranslationAPI\":\"https://eudapi.peco.com/eult/translate\",\"androidAppId\":\"com.exelon.mobile.peco\",\"anonBaseUrl\":\"https://www.peco.com\",\"appleAppId\":\"1274171957\",\"applicationInsightsInstrumentationKey\":\"c895238f-3bb6-4743-a3c2-81fbc893c886\",\"baseUrl\":\"https://secure.peco.com\",\"chatBotAppId\":\"abaa0eed-bd3b-48a3-9921-2c77304be207\",\"contentApiBaseUrl\":\"https://eudapi.peco.com/content-api\",\"contentPublishingEnvironment\":\"live\",\"euApiUrl\":\"https://eudapi.peco.com\",\"getSessionTimeout\":\"3000\",\"google"
+  },
+  {
+    "url": "https://js.monitor.azure.com/scripts/b/ai.config.1.cfg.json",
+    "data": "{\"version\":\"1.0.5\",\"enabled\":true,\"featureOptIn\":{\"iKeyUsage\":{\"mode\":3,\"onCfg\":{\"throttleMgrCfg.109.disabled\":false,\"throttleMgrCfg.106.disabled\":false},\"offCfg\":{\"throttleMgrCfg.109.disabled\":true,\"throttleMgrCfg.106.disabled\":true}},\"CdnUsage\":{\"mode\":4,\"onCfg\":{\"throttleMgrCfg.109.disabled\":false,\"throttleMgrCfg.110.disabled\":false},\"offCfg\":{\"throttleMgrCfg.109.disabled\":true,\"throttleMgrCfg.110.disabled\":true}}},\"config\":{\"throttleMgrCfg\":{\"106\":{\"disabled\":false,\"limit\":{\"samplingRate\":1,"
+  },
+  {
+    "url": "https://www.peco.com/api/GetConfig",
+    "data": "{\"AITranslationAPI\":\"https://eudapi.peco.com/eult/translate\",\"androidAppId\":\"com.exelon.mobile.peco\",\"anonBaseUrl\":\"https://www.peco.com\",\"appleAppId\":\"1274171957\",\"applicationInsightsInstrumentationKey\":\"c895238f-3bb6-4743-a3c2-81fbc893c886\",\"baseUrl\":\"https://secure.peco.com\",\"chatBotAppId\":\"abaa0eed-bd3b-48a3-9921-2c77304be207\",\"contentApiBaseUrl\":\"https://eudapi.peco.com/content-api\",\"contentPublishingEnvironment\":\"live\",\"euApiUrl\":\"https://eudapi.peco.com\",\"getSessionTimeout\":\"3000\",\"google"
+  },
+  {
+    "url": "https://secure.peco.com/api/Services/MyAccountService.svc/GetSession?v=1769785912217",
+    "data": "{\"username\":null,\"encryptedUsername\":null,\"accountNumber\":null,\"customerNumber\":null,\"customerName\":null,\"primaryEmail\":null,\"token\":null,\"isResidential\":null,\"id\":\"fgqtzgejo0ux1zct4lfgrcq1\",\"encryptedUID\":null,\"dc\":\"e\"}"
+  },
+  {
+    "url": "https://secure.peco.com/api/Services/MyAccountService.svc/GetAllAlerts?v=1769785912217",
+    "data": "[]"
+  },
+  {
+    "url": "https://secure.peco.com/api/Services/MyAccountService.svc/GetAllAlerts",
+    "data": "[]"
+  },
+  {
+    "url": "https://secure.peco.com/api/services/myaccountservice.svc/getconfiguration",
+    "data": "{\"anonBaseUrl\":\"https://www.peco.com\",\"applicationInsightsInstrumentationKey\":\"c895238f-3bb6-4743-a3c2-81fbc893c886\",\"appointmentBaseUrl\":\"/customerServices-CasR4/appointments\",\"authenticationRedirectUrl\":\"/Pages/Adaptor.aspx\",\"b2cAadInstance\":\"https://secure1.peco.com/{0}/{1}{2}{3}\",\"b2cTenantName\":\"euazurepeco.onmicrosoft.com\",\"b2cClientId\":\"425196bd-a1d0-46e2-8cc3-2fbecc70faf6\",\"b2cScopeUri\":\"https://euazurepeco.onmicrosoft.com/opower/opower_connect\",\"b2cRedirectUri\":\"/Pages/Login.aspx\",\"b2cS"
+  },
+  {
+    "url": "https://secure.peco.com/api/services/myaccountservice.svc/getsession",
+    "data": "{\"username\":null,\"encryptedUsername\":null,\"accountNumber\":null,\"customerNumber\":null,\"customerName\":null,\"primaryEmail\":null,\"token\":null,\"isResidential\":null,\"id\":\"ibcwxns4njvzsybzo1ljszzx\",\"encryptedUID\":null,\"dc\":\"e\"}"
+  },
+  {
+    "url": "https://eudapi.peco.com/content-api/api/content/navigation/mega-menu?environment=live",
+    "data": "{\"displayText\":\"PECO Navigation\",\"url\":\"/\",\"linkType\":\"Anon\",\"nodes\":[{\"displayText\":\"My Account\",\"nodes\":[{\"displayText\":\"My Dashboard\",\"url\":\"/MyAccount/MyBillUsage/pages/secure/MyBillUsage.aspx\",\"linkType\":\"Secure\",\"nodes\":[{\"displayText\":\"Payment Options\",\"url\":\"/my-account/my-dashboard/payment-options\",\"linkType\":\"Anon\"},{\"displayText\":\"My Bill Details\",\"url\":\"/MyAccount/MyBillUsage/pages/secure/MyBillDetails.aspx\",\"linkType\":\"Secure\"},{\"displayText\":\"Billing Options\",\"url\":\"/my-account/my-"
+  },
+  {
+    "url": "https://eudapi.peco.com/content-api/api/content/navigation/footer?environment=live",
+    "data": "{\"displayText\":\"PECO Footer\",\"nodes\":[{\"displayText\":\"About Us\",\"url\":\"/about-us\",\"linkType\":\"Anon\",\"hideFromMegaMenu\":true},{\"displayText\":\"News\",\"url\":\"/news\",\"linkType\":\"Anon\",\"hideFromMegaMenu\":true},{\"displayText\":\"Doing Business with Us\",\"url\":\"/doing-business-with-us\",\"linkType\":\"Anon\",\"hideFromMegaMenu\":true},{\"displayText\":\"Careers\",\"url\":\"https://careers.peco.com/peco\",\"linkType\":\"External\",\"openInNewTabWindow\":true,\"hideFromMegaMenu\":true}]}"
+  },
+  {
+    "url": "https://eudapi.peco.com/content-api/api/content/navigation/footer?environment=live",
+    "data": "{\"displayText\":\"PECO Footer\",\"nodes\":[{\"displayText\":\"About Us\",\"url\":\"/about-us\",\"linkType\":\"Anon\",\"hideFromMegaMenu\":true},{\"displayText\":\"News\",\"url\":\"/news\",\"linkType\":\"Anon\",\"hideFromMegaMenu\":true},{\"displayText\":\"Doing Business with Us\",\"url\":\"/doing-business-with-us\",\"linkType\":\"Anon\",\"hideFromMegaMenu\":true},{\"displayText\":\"Careers\",\"url\":\"https://careers.peco.com/peco\",\"linkType\":\"External\",\"openInNewTabWindow\":true,\"hideFromMegaMenu\":true}]}"
+  },
+  {
+    "url": "https://eudapi.peco.com/content-api/api/content/navigation/header?environment=live",
+    "data": "{\"displayText\":\"PECO Header\",\"nodes\":[{\"displayText\":\"Smell Natural Gas?\",\"url\":\"/safety-community/safety/natural-gas-safety\",\"linkType\":\"Anon\"},{\"displayText\":\"Outage\",\"url\":\"/powerOutages/outageTracker/experiencingAnOutage\",\"linkType\":\"Secure\",\"hideFromMegaMenu\":false},{\"displayText\":\"Pay Bill\",\"url\":\"/my-account/my-dashboard/payment-options\",\"linkType\":\"Anon\"},{\"displayText\":\"Moving\",\"url\":\"/CustomerServices/service/landing\",\"linkType\":\"Secure\"},{\"displayText\":\"Español\",\"url\":\"https://es.peco"
+  },
+  {
+    "url": "https://eudapi.peco.com/content-api/api/content/products/other/pages?url=/outages/outage-map&environment=live",
+    "data": "{\"type\":\"https://tools.ietf.org/html/rfc7231#section-6.5.4\",\"title\":\"Not Found\",\"status\":404,\"detail\":\"Resource not found and no recommended redirect was found\"}"
+  },
+  {
+    "url": "https://eudapi.peco.com/content-api/api/content/navigation/header?environment=live",
+    "data": "{\"displayText\":\"PECO Header\",\"nodes\":[{\"displayText\":\"Smell Natural Gas?\",\"url\":\"/safety-community/safety/natural-gas-safety\",\"linkType\":\"Anon\"},{\"displayText\":\"Outage\",\"url\":\"/powerOutages/outageTracker/experiencingAnOutage\",\"linkType\":\"Secure\",\"hideFromMegaMenu\":false},{\"displayText\":\"Pay Bill\",\"url\":\"/my-account/my-dashboard/payment-options\",\"linkType\":\"Anon\"},{\"displayText\":\"Moving\",\"url\":\"/CustomerServices/service/landing\",\"linkType\":\"Secure\"},{\"displayText\":\"Español\",\"url\":\"https://es.peco"
+  },
+  {
+    "url": "https://eudapi.peco.com/content-api/api/content/products/other/pages?url=/page-not-found-error&environment=live",
+    "data": "{\"breadcrumbs\":{\"segments\":[{\"title\":\"Home\",\"url\":\"/\"},{\"title\":\"Page Not Found\",\"url\":\"/page-not-found-error\"}]},\"url\":\"/page-not-found-error\",\"metadata\":{\"keywords\":{},\"dataType\":\"metadata\"},\"contents\":[{\"dataType\":\"article_page_template.section\",\"title\":\"\",\"contents\":[{\"dataType\":\"section.rich_text\",\"richTextContent\":{\"html\":\"<p>We’re sorry, but the page you requested cannot be found.</p><p>Please note that we update our website frequently, so if you reached this page via a bookmark, please u"
+  },
+  {
+    "url": "https://resources.digital-cloud.medallia.com/wdcus/459417/onsite/onsiteData1768825956788.json",
+    "data": "{\"provisions\":{\"skipInvitationOptimization\":null,\"21dcr1_mpc3281_alignWCAGLogoMarkup\":true,\"reusableResourcesLibrary\":true,\"formTemplatesWCAG\":true,\"formSpacing\":true,\"24dcr1_MPC7724_enableFormv2andInviteCSSDelay\":null,\"20dcr4_MPC2952_enable_exemptFormsFromQuarantine\":true,\"21dcr1_MPC3199_AdditionalButtonStyles\":true,\"sharePropertyBetweenSubdomains\":true,\"24dcr4_MPC8375_enableFeedbackPayloadOptimization\":null,\"23dcr2_MPC6711_enableWCAGerrorMessagesPreQuestions\":null,\"21dcr6_MPC4296_enable_UBTIde"
+  },
+  {
+    "url": "https://resources.digital-cloud.medallia.com/wdcus/459417/forms/23132/formDataV2_1764753673973_en.json",
+    "data": "{\"name\":\"PECO Embedded - Report an Outage\",\"id\":23132,\"pages\":[{\"pageName\":\"Page 1\",\"view\":{\"backgroundColor\":\"\",\"backgroundRepeat\":false,\"customCssClass\":\"\"},\"components\":[{\"id\":7831,\"unique_name\":\"Page 1 text 67529\",\"type\":\"label\",\"data\":{\"text\":\"<h2>We&#39;d love your feedback!</h2>\\n\"},\"validation\":{\"required\":false,\"regex\":\"/.*/\"},\"view\":{\"numberOfLines\":18},\"descriptiveErrorMessage\":\"\"},{\"id\":7802,\"unique_name\":\"Satisfaction with Digital Experience\",\"type\":\"grading0to10\",\"data\":{\"label\":\"O"
+  },
+  {
+    "url": "https://collection.decibelinsight.net/i/14081/901403/c.json",
+    "data": "{\"da_websiteId\":901403,\"da_account_flags\":22527,\"da_account_flags_orig\":22527,\"da_sessionId_e\":\"84BB1C2C8E3DAEA8858EAA13A8590DE690.0\",\"da_leadId_e\":\"B7882F1F9A7DEA3310DFBB99EA5B47ED23\",\"da_dnsRecord\":\"collection.decibelinsight.net\",\"da_anonymiseIP\":false,\"da_ipHandling\":0,\"da_sessCookieFlags\":4,\"da_leadCookieFlags\":0,\"analysisSessFlags\":0,\"analysisLeadFlags\":0,\"replaySessFlags\":3,\"replayLeadFlags\":0,\"int_state\":\"\",\"curTime\":1769785914,\"domains\":[\"aztest.peco.com\",\"azstg-secure.peco.com\",\"aztst1-"
+  },
+  {
+    "url": "https://ads.nextdoor.com/v2/api/conversions/settings?id=ed61898e-964b-42ea-9a73-ba03660107b7",
+    "data": "{\"am\":\"0\",\"em\":{},\"t\":1769760055933}"
+  },
+  {
+    "url": "https://ads.nextdoor.com/v2/api/conversions/settings?id=7557a3c8-8c3f-43e0-a489-415d3dff7c3b",
+    "data": "{\"am\":\"0\",\"em\":{},\"t\":1769760018002}"
+  }
+]

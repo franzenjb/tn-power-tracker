@@ -1,0 +1,10 @@
+[
+  {
+    "url": "https://accdn.lpsnmedia.net/api/account/19119846/configuration/le-campaigns/zones?fields=id&fields=zoneValue&__d=9624",
+    "data": "[{\"id\":144057812,\"createdDate\":\"2015-01-13 04:53:54\",\"modifiedDate\":\"2015-01-13 04:53:54\",\"name\":\"lpButDivID-1421142751\",\"deleted\":false,\"zoneType\":0,\"zoneValue\":\"lpButDivID-1421142751\",\"mainZone\":false,\"capping\":2,\"mapping\":[],\"isDeleted\":false},{\"id\":243477612,\"createdDate\":\"2015-05-12 05:33:27\",\"modifiedDate\":\"2015-05-12 05:33:27\",\"name\":\"LP_DIV_1431423291261\",\"deleted\":false,\"zoneType\":0,\"zoneValue\":\"LP_DIV_1431423291261\",\"mainZone\":false,\"capping\":2,\"mapping\":[],\"isDeleted\":false},{\"id\":328"
+  },
+  {
+    "url": "https://accdn.lpsnmedia.net/api/account/19119846/configuration/setting/accountproperties?__d=72498",
+    "data": "[{\"id\":\"messaging.ios.sdk.min.version\",\"createdDate\":\"2017-01-10 04:11:41\",\"modifiedDate\":\"2023-01-22 16:38:10\",\"type\":2,\"propertyValue\":{\"value\":\"1.1.36\"},\"deleted\":false},{\"id\":\"nbc.integrations.adobe.analytics\",\"createdDate\":\"2021-07-07 07:29:31\",\"type\":2,\"propertyValue\":{\"value\":\"false\"},\"deleted\":false},{\"id\":\"messaging.audio.sharing.enabled\",\"createdDate\":\"2018-05-13 02:02:09\",\"modifiedDate\":\"2018-11-14 08:32:03\",\"type\":2,\"propertyValue\":{\"value\":\"false\"},\"deleted\":false},{\"id\":\"messaging."
+  }
+]

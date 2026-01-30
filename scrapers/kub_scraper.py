@@ -1,4 +1,7 @@
-"""Knoxville Utilities Board scraper."""
+"""
+Knoxville Utilities Board (KUB) scraper.
+REAL ENDPOINT discovered via Playwright network interception on 2026-01-29
+"""
 from base_scraper import BaseScraper
 from typing import Dict, Any
 import logging
@@ -11,21 +14,33 @@ class KUBScraper(BaseScraper):
 
     def __init__(self):
         super().__init__("Knoxville Utilities Board")
-        self.api_url = "https://kubinteractive.com/outage/data"
+        # REAL ENDPOINT (verified working 2026-01-29)
+        self.api_url = "https://www.kub.org/outage-data/data.json"
 
     def scrape(self) -> Dict[str, Dict[str, Any]]:
         """
         Scrape KUB outage data.
 
         KUB primarily serves Knox County.
+        Real API structure:
+        {
+          "electricOutageInfo": {
+            "totalElectricCustomers": 226715,
+            "electricCustomersWithoutPower": 0,
+            "lastUpdated": "2026-01-29T01:45:25.080+00:00"
+          },
+          "electricOutages": [],
+          "stormMode": "normal"
+        }
         """
         try:
             data = self.fetch_json(self.api_url)
 
-            customers_out = data.get('totalOut', 0)
-            customers_tracked = data.get('totalCustomers', 230000)
+            outage_info = data.get('electricOutageInfo', {})
+            customers_out = outage_info.get('electricCustomersWithoutPower', 0)
+            customers_tracked = outage_info.get('totalElectricCustomers', 226715)
 
-            logger.info(f"[{self.utility_name}] Found {customers_out} customers out")
+            logger.info(f"[{self.utility_name}] {customers_out:,} / {customers_tracked:,} customers out")
 
             return {
                 'Knox': self.standardize_output(
@@ -38,7 +53,7 @@ class KUBScraper(BaseScraper):
         except Exception as e:
             logger.error(f"[{self.utility_name}] Error scraping: {e}")
             return {
-                'Knox': self.standardize_output('Knox', 0, 230000)
+                'Knox': self.standardize_output('Knox', 0, 226715)
             }
 
 

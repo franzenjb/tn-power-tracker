@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/7636a60f-7b81-4fb0-a30d-ed79a8e271e7/views/c3471c92-6e1b-494b-a884-391139a2cc18/currentState?preview=false",
+    "data": "{\"version\":\"V1\",\"controlCenter\":{\"alertDeploymentId\":\"37866707-9df0-4880-adc2-b296fe25cff5\",\"settingsDeploymentId\":\"2eebf736-4421-4210-a308-f4fe23fab249\",\"areaManager\":{\"areaManagerConfigurationDeploymentId\":null,\"disableOutagesCustomersAffectedOverride\":false,\"disableOutagesEtrOverride\":false,\"customersAffectedOverride\":false,\"etrOverride\":false},\"hazardousLayers\":[],\"customlayers\":null},\"stormcenterDeploymentId\":\"b9e25b4c-7c3c-48fa-a161-ecf2f34986ba\",\"messageBundleId\":\"u8OiMM\",\"updatedAt\":1769"
+  },
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/7636a60f-7b81-4fb0-a30d-ed79a8e271e7/alerts/scheduledAlerts?viewId=c3471c92-6e1b-494b-a884-391139a2cc18",
+    "data": "{\"_embedded\":{\"scheduledAlertResourceList\":[{\"id\":\"0654734f-8dc2-43a1-b707-d26469f55180\",\"_links\":{\"self\":{\"href\":\"http://kubra.io/stormcenter/api/v1/stormcenters/7636a60f-7b81-4fb0-a30d-ed79a8e271e7/alerts/0654734f-8dc2-43a1-b707-d26469f55180\"}},\"viewId\":\"c3471c92-6e1b-494b-a884-391139a2cc18\",\"viewName\":\"Outage Map\",\"archived\":null,\"bannerColor\":\"#00baf2\",\"bannerFontColor\":\"#FFFFFF\",\"bannerIcon\":\"exclamation-circle\",\"data\":[{\"bannerTitle\":\"Winter Storm Fern\",\"localeCode\":\"EN-US\"}],\"position\":\"T"
+  },
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/7636a60f-7b81-4fb0-a30d-ed79a8e271e7/views/c3471c92-6e1b-494b-a884-391139a2cc18/settings/deployed?id=2eebf736-4421-4210-a308-f4fe23fab249",
+    "data": "{\"viewId\":\"2eebf736-4421-4210-a308-f4fe23fab249\",\"updateWording\":{\"EN-US\":\"Alabama Power Outage Map, updated approximately every 10 min\"},\"stormMode\":false,\"redirectUrl\":\"\"}"
+  },
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/7636a60f-7b81-4fb0-a30d-ed79a8e271e7/views/c3471c92-6e1b-494b-a884-391139a2cc18/configuration/b9e25b4c-7c3c-48fa-a161-ecf2f34986ba?preview=false",
+    "data": "{\"version\":\"V3\",\"config\":{\"deploymentId\":\"b9e25b4c-7c3c-48fa-a161-ecf2f34986ba\",\"deployedAt\":\"2025-06-25T20:51:52.731Z\",\"customElements\":{\"03e9ffd9-f130-437f-b20f-7bea921bdc81\":{\"url\":\"custom-element-url-03e9ffd9-f130-437f-b20f-7bea921bdc81\",\"text\":\"custom-element-message-03e9ffd9-f130-437f-b20f-7bea921bdc81\",\"type\":\"iconButton\",\"icon\":\"facebook\",\"target\":\"_blank\"},\"05e3b7d7-284e-49ee-904b-2904f5d07cb3\":{\"url\":\"custom-element-url-05e3b7d7-284e-49ee-904b-2904f5d07cb3\",\"text\":\"custom-element-messa"
+  },
+  {
+    "url": "https://kubra.io/data/64fc2c8d-9ef3-4697-9504-22a330107fa8/public/summary-1/data.json",
+    "data": "{\"fileTitle\":\"data\",\"summaryFileData\":{\"totals\":[{\"summaryTotalId\":\"total-1\",\"total_cust_a\":{\"val\":352},\"total_percent_cust_a\":{\"val\":0.03},\"total_percent_cust_active\":{\"val\":99.97},\"total_cust_s\":1604002,\"total_outages\":32}],\"date_generated\":\"2026-01-30T15:07:02.333Z\",\"overwritten_ca\":false,\"overwritten_etr\":false,\"page_mode\":{\"mode\":\"BLUESKY\",\"redirectURL\":\"\",\"pausePublish\":false}}}"
+  },
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/7636a60f-7b81-4fb0-a30d-ed79a8e271e7/messages/u8OiMM/intl/en-US/desktop",
+    "data": "{\"custom-element-message-14d6b39c-c624-4c8e-939b-eb71750f9377\":\"How to use this map\",\"visibility-option-label-message-d1da6167-f031-4fae-8f46-353f0b15549b\":\"View by Locations\",\"visibility-option-label-message-b3dbbd78-f1b6-47e0-8606-4a20e8d78fd5\":\"View by County\",\"backend.tab.help\":\"Help\",\"info-box-field-label-8791cade-2c18-4cb5-9960-0bae29b514e5-cust_s\":\"Customers Served\",\"visibility-control-label-message-VisibilityConfig\":\"\",\"report-total-cust-s-906492be-264f-4219-ad31-51e969248437\":\"Total Cus"
+  },
+  {
+    "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+    "data": "{}"
+  },
+  {
+    "url": "https://kubra.io/regions/13692dcd-ef74-451a-80c7-1219a0b5681c/a482178e-eec3-4a8c-84ee-761c43ddbf96/serviceareas.json",
+    "data": "{\"file_title\":null,\"file_data\":[{\"id\":\"Service Area\",\"title\":\"Service Area\",\"icon\":\"\",\"desc\":{},\"geom\":{\"a\":[\"gz|}DbtmfOJh@|BhLvDjHzCjErBlBdC|AHFtFlBd@Tp@AzCGtAoAdA{Bp@k@pDwClBeAlG{@hDEhFIlN^vDd@~I~CdCf@z@PbBg@zBq@zFeAdB@jF@bBQd@GhAe@f@s@zBEhA_@`CoB`DiCdKeGzF{BzHyAxHyBBAtG}CdCkAFUrFoCnBi@`Be@rIi@~LuBvB_AfAI~@e@hGyBvG{BlAy@^EbAe@|@a@~E{BzBeATQh@u@bB}@^YpCkDhC_ArAYzCs@\\\\IfBa@HIl@EFOdCi@hFoA~D_ARMXQxE]XAtAKpANVHbNpDfBd@fHlBlFd@xCFdFJvBDtBYrJ[pGUp@FdIf@nDvAFBJHnBnBTXnBhCjB~BzH~J`GvFbE|DPx@lDzBh@\\\\nA"
+  },
+  {
+    "url": "https://kubra.io/cluster-data/200/5182a906-9bd4-45db-9507-dd11d2e3ae0c/64fc2c8d-9ef3-4697-9504-22a330107fa8/public/cluster-1/032002.json",
+    "data": "{\"file_title\":\"032002\",\"file_data\":[{\"id\":\"6-0\",\"title\":\"Area Outage\",\"desc\":{\"n_out\":2,\"cust_a\":{\"val\":8},\"inc_id\":null,\"crew_status\":null,\"cluster\":true,\"etr\":\"2026-01-30T17:30:00Z\",\"etr_confidence\":null,\"comments\":null,\"cause\":null,\"crew_icon\":false,\"start_time\":null},\"geom\":{\"p\":[\"azxmE`h}sO\"]}},{\"id\":\"6-1\",\"title\":\"Area Outage\",\"desc\":{\"n_out\":2,\"cust_a\":{\"val\":4,\"mask\":5},\"inc_id\":null,\"crew_status\":null,\"cluster\":true,\"etr\":\"2026-01-30T17:00:00Z\",\"etr_confidence\":null,\"comments\":null,\"cau"
+  },
+  {
+    "url": "https://kubra.io/cluster-data/020/5182a906-9bd4-45db-9507-dd11d2e3ae0c/64fc2c8d-9ef3-4697-9504-22a330107fa8/public/cluster-1/032020.json",
+    "data": "{\"file_title\":\"032020\",\"file_data\":[{\"id\":\"6-0\",\"title\":\"Area Outage\",\"desc\":{\"n_out\":1,\"cust_a\":{\"val\":4,\"mask\":5},\"inc_id\":\"0308603799\",\"crew_status\":null,\"cluster\":false,\"etr\":\"2026-01-30T16:30:00Z\",\"etr_confidence\":null,\"comments\":\"Field personnel are on their way to evaluate the outage in your area. Your estimated repair time for this location is currently 1/30/2026 10:30 AM Central. As the outage is evaluated, this message will be updated.\",\"cause\":null,\"crew_icon\":false,\"start_time\":null}"
+  }
+]

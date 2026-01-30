@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/dd9c446f-f6b8-43f9-8f80-83f5245c60a1/views/76446308-a901-4fa3-849c-3dd569933a51/currentState?preview=false",
+    "data": "{\"version\":\"V1\",\"controlCenter\":{\"alertDeploymentId\":null,\"settingsDeploymentId\":\"79a7d345-f604-4514-9ed7-97acf2a358c4\",\"areaManager\":{\"areaManagerConfigurationDeploymentId\":null,\"disableOutagesCustomersAffectedOverride\":false,\"disableOutagesEtrOverride\":false,\"customersAffectedOverride\":false,\"etrOverride\":false},\"hazardousLayers\":[],\"customlayers\":null},\"stormcenterDeploymentId\":\"809d7c83-9fea-419f-b3d8-53847a2b22ba\",\"messageBundleId\":\"bd8agZ\",\"updatedAt\":1769786625000,\"data\":{\"interval_genera"
+  },
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/dd9c446f-f6b8-43f9-8f80-83f5245c60a1/views/76446308-a901-4fa3-849c-3dd569933a51/settings/deployed?id=79a7d345-f604-4514-9ed7-97acf2a358c4",
+    "data": "{\"viewId\":\"79a7d345-f604-4514-9ed7-97acf2a358c4\",\"updateWording\":{\"EN-US\":\"Information updated every 10 minutes.\",\"ES-ES\":\"Información actualizada cada 10 minutos.\"},\"stormMode\":false,\"redirectUrl\":\"\"}"
+  },
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/dd9c446f-f6b8-43f9-8f80-83f5245c60a1/views/76446308-a901-4fa3-849c-3dd569933a51/configuration/809d7c83-9fea-419f-b3d8-53847a2b22ba?preview=false",
+    "data": "{\"version\":\"V3\",\"config\":{\"deploymentId\":\"809d7c83-9fea-419f-b3d8-53847a2b22ba\",\"deployedAt\":\"2026-01-06T19:22:42.118Z\",\"customElements\":{\"181b26ca-c4c9-4649-a069-e5b12e246bf5\":{\"url\":\"custom-element-url-181b26ca-c4c9-4649-a069-e5b12e246bf5\",\"text\":\"custom-element-message-181b26ca-c4c9-4649-a069-e5b12e246bf5\",\"type\":\"button\",\"icon\":\"\",\"target\":\"_blank\"},\"2194764b-476f-43cc-8828-b3a7ffa9d82b\":{\"url\":\"custom-element-url-2194764b-476f-43cc-8828-b3a7ffa9d82b\",\"text\":\"custom-element-message-2194764b-"
+  },
+  {
+    "url": "https://kubra.io/data/4494c7fd-cee4-4a9e-a89e-21f0d3d2f166/public/summary-2/data.json",
+    "data": "{\"fileTitle\":\"data\",\"summaryFileData\":{\"date_generated\":\"2026-01-30T15:23:42.567\",\"totals\":[{\"summaryTotalId\":\"summary-2\",\"hazardId\":\"2\"}]}}"
+  },
+  {
+    "url": "https://kubra.io/data/502e0173-d25f-442a-b409-0bdb261f563a/public/summary-1/data.json",
+    "data": "{\"fileTitle\":\"data\",\"summaryFileData\":{\"totals\":[{\"summaryTotalId\":\"total-1\",\"total_cust_a\":{\"val\":28},\"total_percent_cust_a\":{\"val\":0.01},\"total_percent_cust_active\":{\"val\":99.99},\"total_cust_s\":586222,\"total_outages\":3}],\"date_generated\":\"2026-01-30T15:18:02.080Z\",\"overwritten_ca\":false,\"overwritten_etr\":false,\"page_mode\":{\"mode\":\"BLUESKY\",\"redirectURL\":\"\",\"pausePublish\":false}}}"
+  },
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/dd9c446f-f6b8-43f9-8f80-83f5245c60a1/messages/bd8agZ/intl/en-US/desktop",
+    "data": "{\"info-box-title-cluster-1-cluster\":\"Area Outages\",\"custom-element-message-55c07d26-32f6-44c4-b94d-3d9e539f8143\":\"Outage Map Help\",\"custom-element-message-fcc6d33c-7812-4c05-8a43-5a1cc257737b\":\"<p>​<a target=\\\"_blank\\\" href=\\\"https://austinenergy.com/outages/current-conditions/how-we-restore-power\\\" alt=\\\"How We Restore Power\\\" class=\\\"on\\\" rel=\\\"noopener noreferrer\\\">How We Restore Power</a>​<br /></p>\",\"info-box-field-label-thematic-2-cust_a\":\"Customers Affected\",\"report-general-option-message"
+  },
+  {
+    "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+    "data": "{}"
+  },
+  {
+    "url": "https://kubra.io/cluster-data/302/20d293c6-08fd-41b3-b96b-d2f522c74990/502e0173-d25f-442a-b409-0bdb261f563a/public/cluster-1/0231301203.json",
+    "data": "{\"file_title\":\"0231301203\",\"file_data\":[{\"id\":\"10-0\",\"title\":\"Area Outage\",\"desc\":{\"n_out\":1,\"cust_a\":{\"val\":5},\"inc_id\":null,\"crew_status\":{\"EN-US\":\"One or more crews have been assigned. \",\"ES-ES\":\"Uno o más equipos se ha asignado. \",\"es-US\":\"Uno o más equipos están trabajando en reparaciones. \",\"orig\":\"Onsite\"},\"cluster\":false,\"etr\":\"2026-01-30T16:14:51Z\",\"etr_confidence\":null,\"comments\":null,\"cause\":{\"EN-US\":\"Austin Energy: Maintenance scheduled today in your area may require an interruption "
+  },
+  {
+    "url": "https://kubra.io/cluster-data/212/20d293c6-08fd-41b3-b96b-d2f522c74990/502e0173-d25f-442a-b409-0bdb261f563a/public/cluster-1/0231301212.json",
+    "data": "{\"file_title\":\"0231301212\",\"file_data\":[{\"id\":\"10-0\",\"title\":\"Area Outage\",\"desc\":{\"n_out\":1,\"cust_a\":{\"val\":1},\"inc_id\":null,\"crew_status\":{\"EN-US\":\"One or more crews have been assigned. \",\"ES-ES\":\"Uno o más equipos se ha asignado. \",\"es-US\":\"Uno o más equipos están trabajando en reparaciones. \",\"orig\":\"Onsite\"},\"cluster\":false,\"etr\":\"2026-01-30T16:12:18Z\",\"etr_confidence\":null,\"comments\":null,\"cause\":{\"EN-US\":\"Austin Energy: Maintenance scheduled today in your area may require an interruption "
+  },
+  {
+    "url": "https://kubra.io/regions/77b0f9c0-ffd3-480d-8a45-fb9dc782bc64/9c80a417-0d03-4486-8df8-329d0dcd27d1/serviceareas.json",
+    "data": "{\"file_title\":null,\"file_data\":[{\"id\":\"Service Area\",\"title\":\"Service Area\",\"icon\":\"\",\"desc\":{},\"geom\":{\"a\":[\"}oayDt`osQ`KbJjB`Dz{A{i@d\\\\no@thAuu@lLjZnVoOqE{Pbl@w_Bgo@w]|AqDeHuDpGkQ_H{D`GgNyCqBxXwv@er@}`@s@eH_^gPhpAoiDiGgmAnYst@bSbKjGeO`Fb@|BcKvFw@fHaXwNgIpIaWwEaF`BwGqBsAhf@auAzGqKvGkLhFiQ|DqJ`Qog@~Vwp@lAi@lAVrBjAnbCrrArWxLnCmAG_F\\\\cD|B}ArCbBdDyA~@ZMhBr@`@hAEfA[t@Xi@|AFfAtAE`BeAvAmDZuG[kEtBSrD`C`AnCN|Gl@jBtA`A|AmAl@yBWiC`BwBbm@j^nBmFLHfFvCt@b@xi@b[eOj`@rGrD}AzBuAdCkAlCaApCu@xCk@~Ck@rEkGgA{B~Q?B?"
+  }
+]

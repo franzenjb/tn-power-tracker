@@ -1,0 +1,10 @@
+[
+  {
+    "url": "https://www.rienergy.com//sitecore/api/jss/dictionary/ppl-jss-app/en?sc_apikey=%7BF5E7CBFD-8550-4C1B-AFA4-0F384279E3F2%7D",
+    "data": "{\"lang\":\"en\",\"app\":\"ppl-jss-app\",\"phrases\":{\"Documentation\":\"Documentation\",\"GraphQL\":\"GraphQL\",\"Search\":\"Search\",\"Styleguide\":\"Styleguide\",\"styleguide-sample\":\"This is a dictionary entry in English as a demonstration\"}}"
+  },
+  {
+    "url": "https://www.rienergy.com//sitecore/api/layout/render/jss?item=%2Fsite%2FOutages&sc_lang=en&sc_apikey=%7BF5E7CBFD-8550-4C1B-AFA4-0F384279E3F2%7D&sc_site=ppl-jss-appservices",
+    "data": "{\"sitecore\":{\"context\":{\"pageEditing\":false,\"site\":{\"name\":\"ppl-jss-appservices\"},\"pageState\":\"normal\",\"language\":\"en\"},\"route\":null}}"
+  }
+]

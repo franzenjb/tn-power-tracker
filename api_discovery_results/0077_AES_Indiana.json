@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://cdn.cookielaw.org/consent/634fa0ee-4bb9-4208-aa91-db2eafc9e3c5/634fa0ee-4bb9-4208-aa91-db2eafc9e3c5.json",
+    "data": "{\"CookieSPAEnabled\":false,\"CookieSameSiteNoneEnabled\":false,\"CookieV2CSPEnabled\":false,\"MultiVariantTestingEnabled\":false,\"UseV2\":true,\"MobileSDK\":false,\"SkipGeolocation\":false,\"ScriptType\":\"PRODUCTION\",\"Version\":\"202301.2.0\",\"OptanonDataJSON\":\"634fa0ee-4bb9-4208-aa91-db2eafc9e3c5\",\"GeolocationUrl\":\"https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location\",\"BulkDomainCheckUrl\":\"https://cookies-data.onetrust.io/bannersdk/v1/domaingroupcheck\",\"RuleSet\":[{\"Id\":\"6cc53e1a-cef3-46fa-ba94-d38e"
+  },
+  {
+    "url": "https://cdn.cookielaw.org/consent/634fa0ee-4bb9-4208-aa91-db2eafc9e3c5/6cc53e1a-cef3-46fa-ba94-d38ead830e10/en-us.json",
+    "data": "{\"DomainData\":{\"pclifeSpanYr\":\"Year\",\"pclifeSpanYrs\":\"Years\",\"pclifeSpanSecs\":\"A few seconds\",\"pclifeSpanWk\":\"Week\",\"pclifeSpanWks\":\"Weeks\",\"pccloseButtonType\":\"Icon\",\"pccontinueWithoutAcceptText\":\"Continue without Accepting\",\"MainText\":\"Privacy Preference Center\",\"MainInfoText\":\"When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site w"
+  },
+  {
+    "url": "https://cdn.cookielaw.org/scripttemplates/202301.2.0/assets/otFlat.json",
+    "data": "{\"name\":\"otFlat\",\"html\":\"PGRpdiBpZD0ib25ldHJ1c3QtYmFubmVyLXNkayIgY2xhc3M9Im90RmxhdCI+PGRpdiByb2xlPSJhbGVydGRpYWxvZyIgYXJpYS1kZXNjcmliZWRieT0ib25ldHJ1c3QtcG9saWN5LXRleHQiPjxkaXYgY2xhc3M9Im90LXNkay1jb250YWluZXIiPjxkaXYgY2xhc3M9Im90LXNkay1yb3ciPjxkaXYgaWQ9Im9uZXRydXN0LWdyb3VwLWNvbnRhaW5lciIgY2xhc3M9Im90LXNkay1laWdodCBvdC1zZGstY29sdW1ucyI+PGRpdiBjbGFzcz0iYmFubmVyX2xvZ28iPjwvZGl2PjxkaXYgaWQ9Im9uZXRydXN0LXBvbGljeSI+PGgyIGlkPSJvbmV0cnVzdC1wb2xpY3ktdGl0bGUiPlRpdGxlPC9oMj48cCBpZD0ib25ldHJ1c3QtcG9saWN5LXR"
+  },
+  {
+    "url": "https://cdn.cookielaw.org/scripttemplates/202301.2.0/assets/v2/otPcCenter.json",
+    "data": "{\"name\":\"otPcCenter\",\"html\":\"PGRpdiBpZD0ib25ldHJ1c3QtcGMtc2RrIiBjbGFzcz0ib3RQY0NlbnRlciBvdC1oaWRlIG90LWZhZGUtaW4iPjxkaXYgcm9sZT0iYWxlcnRkaWFsb2ciIGFyaWEtbW9kYWw9InRydWUiIGFyaWEtZGVzY3JpYmVkYnk9Im90LXBjLWRlc2MiPjwhLS0gQ2xvc2UgQnV0dG9uIC0tPjxkaXYgY2xhc3M9Im90LXBjLWhlYWRlciI+PCEtLSBMb2dvIFRhZyAtLT48ZGl2IGNsYXNzPSJvdC1wYy1sb2dvIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IkNvbXBhbnkgTG9nbyI+PC9kaXY+PGJ1dHRvbiBpZD0iY2xvc2UtcGMtYnRuLWhhbmRsZXIiIGNsYXNzPSJvdC1jbG9zZS1pY29uIiBhcmlhLWxhYmVsPSJDbG9zZSI+PC9idXR0b24+PC9"
+  },
+  {
+    "url": "https://px.ads.linkedin.com/attribution_trigger?pid=6958297&time=1769786802824&url=https%3A%2F%2Fwww.aesindiana.com%2Foutages&tm=gtmv2",
+    "data": "{}"
+  },
+  {
+    "url": "https://widgets.hive.genesys.com/i18n/widgetsClientStrings.json",
+    "data": "{\"ar\":{\"webchat\":{\"ActionsCobrowseStart\":\"ابدأ مشاركة التصفح\",\"ActionsCobrowseStop\":\"الخروج من التصفح المشترك\",\"ActionsDownload\":\"تنزيل النص\",\"ActionsEmail\":\"نص رسالة البريد\",\"ActionsEmoji\":\"إرسال إيموجي\",\"ActionsInvite\":\"دعوة\",\"ActionsPrint\":\"طباعة النص\",\"ActionsSendFile\":\"إرفاق ملف\",\"ActionsTransfer\":\"تحويل\",\"ActionsVideo\":\"دعوة إلى دردشة الفيديو\",\"AgentConnected\":\"<%Agent%> متصل\",\"AgentDisconnected\":\"<%Agent%> غير متصل\",\"AgentNameDefault\":\"الوكيل\",\"AgentTyping\":\"...\",\"AgentUnavailable\":\"معذرة"
+  }
+]

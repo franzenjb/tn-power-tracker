@@ -1,0 +1,10 @@
+[
+  {
+    "url": "https://cta-service-cms2.hubspot.com/web-interactives/public/v1/embed/combinedConfigs?portalId=39606065&currentUrl=https%3A%2F%2Fwww.csu.org%2FPages%2Felectric-outage-map.aspx&contentId=null",
+    "data": "{\"sortedAudienceConfigs\":[],\"requestedConfigs\":[],\"gates\":[]}"
+  },
+  {
+    "url": "https://px.ads.linkedin.com/attribution_trigger?pid=33970&time=1769787488413&url=https%3A%2F%2Fwww.csu.org%2FPages%2Felectric-outage-map.aspx",
+    "data": "{}"
+  }
+]

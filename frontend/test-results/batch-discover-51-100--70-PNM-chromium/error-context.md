@@ -1,0 +1,580 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Español" [ref=e4] [cursor=pointer]:
+      - /url: /web/espanol/
+    - banner [ref=e5]:
+      - link "Powering New Mexico, Together." [ref=e7] [cursor=pointer]:
+        - /url: /web/pnm.com/home
+      - generic [ref=e11]:
+        - generic [ref=e13] [cursor=pointer]: 
+        - textbox "Search" [ref=e14]
+      - link "Live chat button" [ref=e17] [cursor=pointer]:
+        - /url: javascript:void(0);
+        - img "Live chat button" [ref=e18]
+      - list [ref=e21]:
+        - listitem [ref=e22]:
+          - link "About PNM" [ref=e23] [cursor=pointer]:
+            - /url: /about-pnm
+            - generic [ref=e24]: About PNM
+        - listitem [ref=e25]: "|"
+        - listitem [ref=e26]:
+          - link "Contact Us" [ref=e27] [cursor=pointer]:
+            - /url: /contact-us
+            - generic [ref=e28]: Contact Us
+        - listitem [ref=e29]: "|"
+        - listitem [ref=e30]:
+          - link "My Account" [ref=e31] [cursor=pointer]:
+            - /url: /c/portal/login
+            - generic [ref=e32]: My Account
+        - listitem [ref=e33]: "|"
+        - listitem [ref=e34]:
+          - link "Sign Up" [ref=e35] [cursor=pointer]:
+            - /url: /c/portal/login?hint=signup
+            - generic [ref=e36]: Sign Up
+        - listitem [ref=e37]: "|"
+        - listitem [ref=e38]:
+          - link "Login" [ref=e39] [cursor=pointer]:
+            - /url: /c/portal/login
+            - img "Login" [ref=e40]
+          - link "Login" [ref=e41] [cursor=pointer]:
+            - /url: /c/portal/login
+            - generic [ref=e42]: Login
+    - navigation [ref=e45]:
+      - menubar "Site Pages" [ref=e46]:
+        - menuitem "For Homes" [ref=e47] [cursor=pointer]:
+          - generic [ref=e48]: For Homes
+        - menuitem "For Businesses" [ref=e49] [cursor=pointer]:
+          - generic [ref=e50]: For Businesses
+        - menuitem "In The Community" [ref=e51] [cursor=pointer]:
+          - generic [ref=e52]: In The Community
+        - menuitem "Our Environment" [ref=e53] [cursor=pointer]:
+          - generic [ref=e54]: Our Environment
+        - menuitem "Safety" [ref=e55] [cursor=pointer]:
+          - generic [ref=e56]: Safety
+        - menuitem "Quick Links" [ref=e57] [cursor=pointer]:
+          - generic [ref=e58]: Quick Links
+        - menuitem "Outage Center" [ref=e59] [cursor=pointer]:
+          - img [ref=e60]
+          - generic [ref=e61]: Outage Center
+    - main [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e67]:
+          - generic [ref=e76]:
+            - img "Outage Center image" [ref=e78]
+            - paragraph [ref=e79]: Providing reliable service is the foundation of everything we do at PNM. Our electricity reliability is among the best in the nation, and we're proud of it. However, outages do happen once in a while. We know they're frustrating when they do. The Outage Center is your resource to report a new outage, view current outages and more.
+            - list [ref=e80]:
+              - listitem [ref=e81]:
+                - img "Outage map icon" [ref=e84]
+                - generic [ref=e85]:
+                  - heading "View the Outage Map" [level=3] [ref=e86]
+                  - paragraph [ref=e87]:
+                    - text: Stay informed during a power outage with the PNM Outage Map. The map lets you quickly check the estimated restore time, current outage status, and the cause of the outage, if known. You can also report your outage and sign up for real-time alerts
+                    - generic [ref=e88]: —
+                    - text: all in one convenient place.
+                  - link "Visit the Outage Map Now" [ref=e89] [cursor=pointer]:
+                    - /url: https://outagemap.pnm.com/
+              - listitem [ref=e90]:
+                - img "Report an Outage icon" [ref=e93]
+                - generic [ref=e94]:
+                  - heading "Report an Outage" [level=3] [ref=e95]
+                  - paragraph [ref=e96]: "Tell us about a new outage, so we can send out our team to restore it. You can also report an outage by texting #OUT to 78766. (Message and data rates apply. Text #HELP for options or #STOP to cancel.)"
+                  - link "Report an outage online now" [ref=e97] [cursor=pointer]:
+                    - /url: /report-an-outage
+              - listitem [ref=e98]:
+                - img "Sign Up for Outage Alerts" [ref=e101]
+                - generic [ref=e102]:
+                  - heading "Sign Up for Outage Alerts" [level=3] [ref=e103]
+                  - paragraph [ref=e104]: Outage Alerts are a convenient way for you to receive the latest updates in the event of a power outage, plus it is free and simple to sign up.
+                  - link "Learn More" [ref=e105] [cursor=pointer]:
+                    - /url: /outagealerts
+              - listitem [ref=e106]:
+                - img "Outage safety icon" [ref=e109]
+                - generic [ref=e110]:
+                  - heading "Outage Safety Tips" [level=3] [ref=e111]
+                  - paragraph [ref=e112]: Learn how to prepare for and stay safe during a power outage.
+                  - link "Read the outage safety tips" [ref=e113] [cursor=pointer]:
+                    - /url: /outagesafety
+              - listitem [ref=e114]:
+                - img "Report a streetlight out icon" [ref=e117]
+                - generic [ref=e118]:
+                  - heading "Report a Streetlight Out" [level=3] [ref=e119]
+                  - paragraph [ref=e120]: We rely on community members like you to let us know when a streetlight is out, so we can get it repaired quickly.
+                  - link "Report a streetlight out" [ref=e121] [cursor=pointer]:
+                    - /url: /streetlights
+              - listitem [ref=e122]:
+                - img "Renters" [ref=e125]
+                - generic [ref=e126]:
+                  - heading "Keep Informed as a Renter" [level=3] [ref=e127]
+                  - paragraph [ref=e128]:
+                    - text: If you're renting a home or apartment and are not a PNM account holder, you can still keep updated on power outages and Public Safety Power Shutoffs on the
+                    - link "PNM Wildfire Safety" [ref=e129] [cursor=pointer]:
+                      - /url: wildfire-safety#renters
+                    - text: page.
+                  - link "Learn More" [ref=e130] [cursor=pointer]:
+                    - /url: /wildfire-safety
+          - generic [ref=e138]:
+            - heading "Why Power Outages May Occur" [level=3] [ref=e139]
+            - paragraph [ref=e140]: Power outages are frustrating, and we do everything we can to prevent them. The graphic below illustrates a few reasons why they happen.
+            - paragraph [ref=e141]
+            - paragraph [ref=e142]:
+              - img "Why Power Outages May Occur" [ref=e144]
+          - generic [ref=e151]:
+            - heading "Meet Your Line Crew" [level=3] [ref=e152]
+            - paragraph [ref=e153]: "PNM's linemen and women are like doctors: They're always on call."
+            - generic [ref=e154]:
+              - paragraph:
+                - iframe [ref=e155]:
+                  - generic "YouTube Video Player" [ref=f1e3]:
+                    - generic [ref=f1e5]:
+                      - link "Photo image of PNMelectric" [ref=f1e8] [cursor=pointer]:
+                        - /url: https://www.youtube.com/channel/UCUtMJC1HC3El6kAD35N3iUQ?embeds_referring_euri=https%3A%2F%2Fwww.pnm.com%2F
+                      - link "Linemen Are Always On Call" [ref=f1e11] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=QBWZ9Y8DthY
+                      - button "Share" [ref=f1e13] [cursor=pointer]:
+                        - generic [ref=f1e14]:
+                          - img
+                        - generic [ref=f1e15]: Share
+                    - button "Play" [ref=f1e18] [cursor=pointer]:
+                      - img
+                    - link "Watch on YouTube" [ref=f1e19] [cursor=pointer]:
+                      - /url: https://www.youtube.com/watch?v=QBWZ9Y8DthY&embeds_referring_euri=https%3A%2F%2Fwww.pnm.com%2F
+                      - generic [ref=f1e20]: Watch on
+                      - generic [ref=f1e21]:
+                        - img
+        - generic [ref=e157]:
+          - iframe [ref=e169]:
+            - generic [ref=f3e3]:
+              - link:
+                - /url: https://www.facebook.com/PNMelectric?ref=embed_page
+              - generic [ref=f3e6]:
+                - generic [ref=f3e8]:
+                  - generic [ref=f3e9]:
+                    - link [ref=f3e10] [cursor=pointer]:
+                      - /url: https://www.facebook.com/161759071017?ref=embed_page
+                    - generic [ref=f3e11]:
+                      - link "PNM" [ref=f3e13] [cursor=pointer]:
+                        - /url: https://www.facebook.com/161759071017?ref=embed_page
+                      - generic [ref=f3e14]: 20K followers
+                  - button "Follow Page" [ref=f3e19] [cursor=pointer]: Follow Page
+                - generic [ref=f3e27]:
+                  - feed [ref=f3e29]:
+                    - generic [ref=f3e32]:
+                      - generic [ref=f3e34]:
+                        - generic [ref=f3e35]:
+                          - link [ref=f3e36] [cursor=pointer]:
+                            - /url: https://www.facebook.com/PNMelectric?fref=nf&ref=embed_page
+                            - img [ref=f3e39]
+                          - link [ref=f3e42] [cursor=pointer]:
+                            - /url: /PNMelectric/posts/pfbid0xw2kNM8KcroFG4G4JwDxaPnrQFZogyaSrNy2DQY6aChDRR5wHDunr57TvtYBKNFVl?ref=embed_page
+                          - generic [ref=f3e47]:
+                            - generic [ref=f3e48]: PNM
+                            - link "on Wednesday" [ref=f3e49] [cursor=pointer]:
+                              - /url: /PNMelectric/posts/pfbid0xw2kNM8KcroFG4G4JwDxaPnrQFZogyaSrNy2DQY6aChDRR5wHDunr57TvtYBKNFVl?ref=embed_page
+                              - generic [ref=f3e50]: on Wednesday
+                        - generic [ref=f3e52]:
+                          - paragraph [ref=f3e53]: "Ruidoso Update: Crews have restored power to all customers affected by last weekend’s winter storm in Ruidoso."
+                          - paragraph [ref=f3e54]: 80 linemen and 20 vegetation management personnel worked around the clock since Saturday morning to restore power to about 8,800 customers at peak. Thank you for your patience as crews worked in challenging conditions to safely restore power to all customers as quickly as possible.
+                          - paragraph [ref=f3e55]:
+                            - text: If you currently do not have power or experience a new power outage, please report i
+                            - generic [ref=f3e56]: ...
+                          - link "See more" [ref=f3e59] [cursor=pointer]:
+                            - /url: /PNMelectric/posts/pfbid0xw2kNM8KcroFG4G4JwDxaPnrQFZogyaSrNy2DQY6aChDRR5wHDunr57TvtYBKNFVl?ref=embed_page
+                        - generic [ref=f3e63]:
+                          - generic [ref=f3e64]:
+                            - img "May be an image of tree" [ref=f3e67]
+                            - img "No photo description available." [ref=f3e70]
+                            - img "May be an image of lighting and road" [ref=f3e73]
+                            - img "May be an image of road" [ref=f3e76]
+                            - generic [ref=f3e77]:
+                              - img "May be an image of tree and text" [ref=f3e79]
+                              - generic [ref=f3e82]: "+2"
+                          - generic [ref=f3e84]:
+                            - generic [ref=f3e85]: PNM
+                            - generic [ref=f3e86]: Energy Company
+                      - table [ref=f3e88]:
+                        - rowgroup [ref=f3e89]:
+                          - row "621 92 64" [ref=f3e90]:
+                            - cell "621" [ref=f3e91]:
+                              - button "621" [ref=f3e92]:
+                                - generic "Like" [ref=f3e93] [cursor=pointer]: "621"
+                            - cell "92" [ref=f3e95]:
+                              - link "92" [ref=f3e96] [cursor=pointer]:
+                                - /url: https://www.facebook.com/PNMelectric/posts/pfbid0xw2kNM8KcroFG4G4JwDxaPnrQFZogyaSrNy2DQY6aChDRR5wHDunr57TvtYBKNFVl?ref=embed_page
+                                - generic "Comment" [ref=f3e97]: "92"
+                            - cell "64" [ref=f3e99]:
+                              - link "64" [ref=f3e100] [cursor=pointer]:
+                                - /url: /sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2FPNMelectric%2Fposts%2Fpfbid0xw2kNM8KcroFG4G4JwDxaPnrQFZogyaSrNy2DQY6aChDRR5wHDunr57TvtYBKNFVl&display=popup&ref=embed_page&src=post
+                                - generic "Share" [ref=f3e101]: "64"
+                    - generic [ref=f3e105]:
+                      - generic [ref=f3e107]:
+                        - generic [ref=f3e108]:
+                          - link [ref=f3e109] [cursor=pointer]:
+                            - /url: https://www.facebook.com/PNMelectric?fref=nf&ref=embed_page
+                            - img [ref=f3e112]
+                          - link [ref=f3e115] [cursor=pointer]:
+                            - /url: /PNMelectric/posts/pfbid0YgBjeLzUXMRuUA8KUcSEa1HCbQZHdZxAxs6vk712spJBdavx9Xs28roKV8X6Teqal?ref=embed_page
+                          - generic [ref=f3e120]:
+                            - generic [ref=f3e121]: PNM
+                            - link "on Tuesday" [ref=f3e122] [cursor=pointer]:
+                              - /url: /PNMelectric/posts/pfbid0YgBjeLzUXMRuUA8KUcSEa1HCbQZHdZxAxs6vk712spJBdavx9Xs28roKV8X6Teqal?ref=embed_page
+                              - generic [ref=f3e123]: on Tuesday
+                        - generic [ref=f3e125]:
+                          - paragraph [ref=f3e126]: "Ruidoso Update: Our crews made strong progress today restoring power in Ruidoso. As of now, 8,710 customers have been restored, and crews will continue working throughout the night - staying on site until everyone is back online."
+                          - paragraph [ref=f3e127]:
+                            - text: Restoration work has been challenging due to difficult terrain and ongoing issues like falling trees causing new outages. We know being without power is disruptive and stressful, and please know every crew member is focused on restoring service as sa
+                            - generic [ref=f3e128]: ...
+                          - link "See more" [ref=f3e131] [cursor=pointer]:
+                            - /url: /PNMelectric/posts/pfbid0YgBjeLzUXMRuUA8KUcSEa1HCbQZHdZxAxs6vk712spJBdavx9Xs28roKV8X6Teqal?ref=embed_page
+                        - generic [ref=f3e135]:
+                          - img "The main content is a utility truck with a boom lift in a snowy forest. The truck is white with a large boom lift extending upwards. Two people in hard hats and vests are standing near the truck. Orange cones are placed around the truck. Trees are covered in snow. The sky is blue." [ref=f3e138]
+                          - img "May be an image of ski slope and road" [ref=f3e141]
+                      - table [ref=f3e143]:
+                        - rowgroup [ref=f3e144]:
+                          - row "228 37 26" [ref=f3e145]:
+                            - cell "228" [ref=f3e146]:
+                              - button "228" [ref=f3e147]:
+                                - generic "Like" [ref=f3e148] [cursor=pointer]: "228"
+                            - cell "37" [ref=f3e150]:
+                              - link "37" [ref=f3e151] [cursor=pointer]:
+                                - /url: https://www.facebook.com/PNMelectric/posts/pfbid0YgBjeLzUXMRuUA8KUcSEa1HCbQZHdZxAxs6vk712spJBdavx9Xs28roKV8X6Teqal?ref=embed_page
+                                - generic "Comment" [ref=f3e152]: "37"
+                            - cell "26" [ref=f3e154]:
+                              - link "26" [ref=f3e155] [cursor=pointer]:
+                                - /url: /sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2FPNMelectric%2Fposts%2Fpfbid0YgBjeLzUXMRuUA8KUcSEa1HCbQZHdZxAxs6vk712spJBdavx9Xs28roKV8X6Teqal&display=popup&ref=embed_page&src=post
+                                - generic "Share" [ref=f3e156]: "26"
+                    - generic [ref=f3e160]:
+                      - generic [ref=f3e162]:
+                        - generic [ref=f3e163]:
+                          - link [ref=f3e164] [cursor=pointer]:
+                            - /url: https://www.facebook.com/PNMelectric?fref=nf&ref=embed_page
+                            - img [ref=f3e167]
+                          - link [ref=f3e170] [cursor=pointer]:
+                            - /url: /PNMelectric/posts/pfbid02mUGULFWuMzMQc6eXjJuKgiHU1jgjHbL6FgefJXhGZjYzwR4pxSVuyH2XWnccGfaYl?ref=embed_page
+                          - generic [ref=f3e175]:
+                            - generic [ref=f3e176]: PNM
+                            - link "on Tuesday" [ref=f3e177] [cursor=pointer]:
+                              - /url: /PNMelectric/posts/pfbid02mUGULFWuMzMQc6eXjJuKgiHU1jgjHbL6FgefJXhGZjYzwR4pxSVuyH2XWnccGfaYl?ref=embed_page
+                              - generic [ref=f3e178]: on Tuesday
+                        - generic [ref=f3e180]:
+                          - paragraph [ref=f3e181]: We wanted to address some of the common questions we’re receiving related to Safety and Restoration times.
+                          - paragraph [ref=f3e182]: First and foremost is the safety of our crews and the community.
+                          - paragraph [ref=f3e183]:
+                            - text: • Please be mindful of crews actively working – do not try to pass around/through barricades that have been placed for the safety of utility or Village workers
+                            - generic [ref=f3e184]: ...
+                          - link "See more" [ref=f3e187] [cursor=pointer]:
+                            - /url: /PNMelectric/posts/pfbid02mUGULFWuMzMQc6eXjJuKgiHU1jgjHbL6FgefJXhGZjYzwR4pxSVuyH2XWnccGfaYl?ref=embed_page
+                        - generic [ref=f3e191]:
+                          - generic [ref=f3e192]:
+                            - img "May be an image of lighting and road" [ref=f3e195]
+                            - img "May be an image of snowplow and text" [ref=f3e198]
+                            - img "May be an image of ski slope" [ref=f3e201]
+                            - img "May be an image of tree and text" [ref=f3e204]
+                          - generic [ref=f3e206]:
+                            - generic [ref=f3e207]: PNM
+                            - generic [ref=f3e208]: Energy Company
+                      - table [ref=f3e210]:
+                        - rowgroup [ref=f3e211]:
+                          - row "235 33 34" [ref=f3e212]:
+                            - cell "235" [ref=f3e213]:
+                              - button "235" [ref=f3e214]:
+                                - generic "Like" [ref=f3e215] [cursor=pointer]: "235"
+                            - cell "33" [ref=f3e217]:
+                              - link "33" [ref=f3e218] [cursor=pointer]:
+                                - /url: https://www.facebook.com/PNMelectric/posts/pfbid02mUGULFWuMzMQc6eXjJuKgiHU1jgjHbL6FgefJXhGZjYzwR4pxSVuyH2XWnccGfaYl?ref=embed_page
+                                - generic "Comment" [ref=f3e219]: "33"
+                            - cell "34" [ref=f3e221]:
+                              - link "34" [ref=f3e222] [cursor=pointer]:
+                                - /url: /sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2FPNMelectric%2Fposts%2Fpfbid02mUGULFWuMzMQc6eXjJuKgiHU1jgjHbL6FgefJXhGZjYzwR4pxSVuyH2XWnccGfaYl&display=popup&ref=embed_page&src=post
+                                - generic "Share" [ref=f3e223]: "34"
+                    - generic [ref=f3e227]:
+                      - generic [ref=f3e228]:
+                        - link [ref=f3e233] [cursor=pointer]:
+                          - /url: https://www.facebook.com/photo.php?fbid=1335778151923891&set=a.222013856633665&type=3&ref=embed_page
+                        - generic [ref=f3e234]:
+                          - generic [ref=f3e235]:
+                            - link [ref=f3e236] [cursor=pointer]:
+                              - /url: https://www.facebook.com/PNMelectric?fref=nf&ref=embed_page
+                              - img [ref=f3e239]
+                            - link [ref=f3e242] [cursor=pointer]:
+                              - /url: /PNMelectric/posts/pfbid06ZmaHx5ipamJNd6VJPfvVpQnZXFNx5wzPxUZCkBGeeJ534Fr3ov5dq1yjah9pkAUl?ref=embed_page
+                            - generic [ref=f3e247]:
+                              - generic [ref=f3e248]: PNM
+                              - link "on Monday" [ref=f3e249] [cursor=pointer]:
+                                - /url: /PNMelectric/posts/pfbid06ZmaHx5ipamJNd6VJPfvVpQnZXFNx5wzPxUZCkBGeeJ534Fr3ov5dq1yjah9pkAUl?ref=embed_page
+                                - generic [ref=f3e250]: on Monday
+                          - paragraph [ref=f3e252]: "Ruidoso Update: Our crews made great progress today. We know many are still without power, and we understand how difficult that can be. Conditions remain challenging, with frozen trees and branches continuing to fall, sometimes impacting areas that were close to being restored. Please know our crews are working around the clock and will not stop until power is safely restored. For support, continue to follow the Village of Ruidoso’s social media or contact them at 575-258-6900. Stay away from downed power lines and report them immediately to PNM at 888 DIAL PNM (888-324-5766)."
+                      - table [ref=f3e254]:
+                        - rowgroup [ref=f3e255]:
+                          - row "333 51 26" [ref=f3e256]:
+                            - cell "333" [ref=f3e257]:
+                              - button "333" [ref=f3e258]:
+                                - generic "Like" [ref=f3e259] [cursor=pointer]: "333"
+                            - cell "51" [ref=f3e261]:
+                              - link "51" [ref=f3e262] [cursor=pointer]:
+                                - /url: https://www.facebook.com/PNMelectric/posts/pfbid06ZmaHx5ipamJNd6VJPfvVpQnZXFNx5wzPxUZCkBGeeJ534Fr3ov5dq1yjah9pkAUl?ref=embed_page
+                                - generic "Comment" [ref=f3e263]: "51"
+                            - cell "26" [ref=f3e265]:
+                              - link "26" [ref=f3e266] [cursor=pointer]:
+                                - /url: /sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2FPNMelectric%2Fposts%2Fpfbid06ZmaHx5ipamJNd6VJPfvVpQnZXFNx5wzPxUZCkBGeeJ534Fr3ov5dq1yjah9pkAUl&display=popup&ref=embed_page&src=post
+                                - generic "Share" [ref=f3e267]: "26"
+                    - generic [ref=f3e271]:
+                      - generic [ref=f3e273]:
+                        - generic [ref=f3e274]:
+                          - link [ref=f3e275] [cursor=pointer]:
+                            - /url: https://www.facebook.com/PNMelectric?fref=nf&ref=embed_page
+                            - img [ref=f3e278]
+                          - link [ref=f3e281] [cursor=pointer]:
+                            - /url: /PNMelectric/posts/pfbid034pCfM2NzaMGbFCu1hkjRTVtPEBchQ7vGihjsSiahKEowpudhnGyt5qRuVG5H8DzTl?ref=embed_page
+                          - generic [ref=f3e286]:
+                            - generic [ref=f3e287]: PNM
+                            - link "on Monday" [ref=f3e288] [cursor=pointer]:
+                              - /url: /PNMelectric/posts/pfbid034pCfM2NzaMGbFCu1hkjRTVtPEBchQ7vGihjsSiahKEowpudhnGyt5qRuVG5H8DzTl?ref=embed_page
+                              - generic [ref=f3e289]: on Monday
+                        - generic [ref=f3e290]:
+                          - generic [ref=f3e291]:
+                            - paragraph [ref=f3e292]: Ruidoso Storm Recovery Update - 1/26/2026 at 10:15 a.m.
+                            - paragraph [ref=f3e293]: Our line crews worked hard yesterday and late into the night, restoring power to as many customers as possible. However, falling trees continue to create additional outages for customers. There were many instances last night where crews would make repairs and restore a number of customers, only to have those same customers impacted by more falling trees later.
+                            - paragraph [ref=f3e294]:
+                              - text: Even as trees continue to fall, crews are pushing forward w
+                              - generic [ref=f3e295]: ...
+                            - link "See more" [ref=f3e298] [cursor=pointer]:
+                              - /url: /PNMelectric/posts/pfbid034pCfM2NzaMGbFCu1hkjRTVtPEBchQ7vGihjsSiahKEowpudhnGyt5qRuVG5H8DzTl?ref=embed_page
+                          - generic [ref=f3e299]:
+                            - text: — with
+                            - link "Village of Ruidoso" [ref=f3e300] [cursor=pointer]:
+                              - /url: https://www.facebook.com/villageofruidoso?ref=embed_page
+                            - text: .
+                        - generic [ref=f3e304]:
+                          - link [ref=f3e308] [cursor=pointer]:
+                            - /url: https://www.facebook.com/photo.php?fbid=1204576655167466&set=a.297973965827744&type=3&ref=embed_page
+                          - generic [ref=f3e309]:
+                            - link "Village of Ruidoso" [ref=f3e312] [cursor=pointer]:
+                              - /url: https://www.facebook.com/villageofruidoso?hc_ref=ARQeeuiBz8VCL7KYay1-QokVgIYS27YrOI6wd2eNYAhkf4Vs3m-pYuquG8dSnU6J3so&fref=nf&ref=embed_page
+                            - generic [ref=f3e314]:
+                              - generic [ref=f3e315]: 63,827 followers
+                              - text: ·
+                              - link "4d" [ref=f3e318] [cursor=pointer]:
+                                - /url: https://www.facebook.com/photo.php?fbid=1204576655167466&set=a.297973965827744&type=3&ref=embed_page
+                                - generic [ref=f3e319]: 4d
+                            - generic [ref=f3e321]:
+                              - paragraph [ref=f3e322]:
+                                - text: 𝗠𝗢𝗥𝗡𝗜𝗡𝗚 𝗨𝗣𝗗𝗔𝗧𝗘
+                                - text: Monday, January 26, 2026
+                                - text: 7:00 AM
+                              - paragraph [ref=f3e323]:
+                                - text: The Village of Ruidoso Emergency Operations Center remains activated at Level II – High Readiness following acti
+                                - generic [ref=f3e324]: ...
+                              - button "See more" [ref=f3e327] [cursor=pointer]
+                      - table [ref=f3e329]:
+                        - rowgroup [ref=f3e330]:
+                          - row "12 10 3" [ref=f3e331]:
+                            - cell "12" [ref=f3e332]:
+                              - button "12" [ref=f3e333]:
+                                - generic "Like" [ref=f3e334] [cursor=pointer]: "12"
+                            - cell "10" [ref=f3e336]:
+                              - link "10" [ref=f3e337] [cursor=pointer]:
+                                - /url: https://www.facebook.com/PNMelectric/posts/pfbid034pCfM2NzaMGbFCu1hkjRTVtPEBchQ7vGihjsSiahKEowpudhnGyt5qRuVG5H8DzTl?ref=embed_page
+                                - generic "Comment" [ref=f3e338]: "10"
+                            - cell "3" [ref=f3e340]:
+                              - link "3" [ref=f3e341] [cursor=pointer]:
+                                - /url: /sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2FPNMelectric%2Fposts%2Fpfbid034pCfM2NzaMGbFCu1hkjRTVtPEBchQ7vGihjsSiahKEowpudhnGyt5qRuVG5H8DzTl&display=popup&ref=embed_page&src=post
+                                - generic "Share" [ref=f3e342]: "3"
+                  - progressbar [ref=f3e345]
+          - generic [ref=e177]:
+            - paragraph [ref=e178]:
+              - generic [ref=e179]: "FAQs:"
+              - text: Power Outages
+            - list [ref=e181]:
+              - listitem [ref=e182] [cursor=pointer]:
+                - text: How can I find the status of an outage without having to call?
+                - list [ref=e183]:
+                  - listitem [ref=e184]:
+                    - text: You can view our
+                    - link "online outage map" [ref=e185]:
+                      - /url: https://outagemap.pnm.com
+                    - text: or check our mobile outage map to view the status of an outage. For large outages, generally those affecting 1,000 customers or more, we post updates on our Twitter and Facebook pages.
+              - listitem [ref=e186] [cursor=pointer]: Is it necessary to let PNM know when my power goes out?
+              - listitem [ref=e187] [cursor=pointer]: When is the estimated restore time updated?
+              - listitem [ref=e188] [cursor=pointer]: How do I report a street light that is out?
+          - generic [ref=e195]:
+            - generic [ref=e196]:
+              - paragraph [ref=e197]:
+                - strong [ref=e198]: Get updates on large outages
+              - list [ref=e199]:
+                - listitem [ref=e200]:
+                  - link "Facebook" [ref=e201] [cursor=pointer]:
+                    - /url: facebook-site
+                    - img "Facebook" [ref=e203]
+                - listitem [ref=e204]:
+                  - link "Twitter" [ref=e205] [cursor=pointer]:
+                    - /url: twitter
+            - generic [ref=e207]:
+              - paragraph [ref=e208]:
+                - strong [ref=e209]: What PNM does during an outage
+              - paragraph [ref=e210]:
+                - link "Learn more" [ref=e211] [cursor=pointer]:
+                  - /url: during-an-outage
+  - contentinfo [ref=e213]:
+    - generic [ref=e214]:
+      - img "PNM Logo" [ref=e216]
+      - generic [ref=e217]:
+        - link "Facebook Logo" [ref=e218] [cursor=pointer]:
+          - /url: https://www.facebook.com/PNMelectric
+          - img "Facebook Logo" [ref=e219]
+        - link "Instagram Logo" [ref=e220] [cursor=pointer]:
+          - /url: https://www.instagram.com/pnmtalk/
+          - img "Instagram Logo" [ref=e221]
+        - link "Visit PNM X page" [ref=e222] [cursor=pointer]:
+          - /url: https://twitter.com/pnmtalk
+          - img "Visit PNM X page" [ref=e223]
+        - link "Youtube Logo" [ref=e224] [cursor=pointer]:
+          - /url: https://www.youtube.com/user/PNMelectric
+          - img "Youtube Logo" [ref=e225]
+        - link "LinkedIn Logo" [ref=e226] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/public-service-company-of-new-mexico-pnm-
+          - img "LinkedIn Logo" [ref=e227]
+    - generic [ref=e229]:
+      - generic [ref=e230]:
+        - heading "Helpful Links" [level=4] [ref=e231]
+        - list [ref=e232]:
+          - listitem [ref=e233]:
+            - link "Contact Us" [ref=e234] [cursor=pointer]:
+              - /url: /contact-us
+          - listitem [ref=e235]:
+            - link "About PNM" [ref=e236] [cursor=pointer]:
+              - /url: /about-pnm
+          - listitem [ref=e237]:
+            - link "Media Center" [ref=e238] [cursor=pointer]:
+              - /url: /media-center
+          - listitem [ref=e239]:
+            - link "Investors" [ref=e240] [cursor=pointer]:
+              - /url: /investors
+          - listitem [ref=e241]:
+            - link "Careers" [ref=e242] [cursor=pointer]:
+              - /url: /careers
+          - listitem [ref=e243]:
+            - link "Support" [ref=e244] [cursor=pointer]:
+              - /url: /support
+          - listitem [ref=e245]:
+            - link "Privacy Policy and Terms of Service" [ref=e246] [cursor=pointer]:
+              - /url: /terms-of-use
+              - text: Privacy Policy
+              - text: and Terms of Service
+      - generic [ref=e248]:
+        - generic [ref=e249]:
+          - heading "Homes" [level=4] [ref=e250]
+          - list [ref=e251]:
+            - listitem [ref=e252]:
+              - link "Payment options" [ref=e253] [cursor=pointer]:
+                - /url: /paybill
+            - listitem [ref=e254]:
+              - link "Billing" [ref=e255] [cursor=pointer]:
+                - /url: /billing
+            - listitem [ref=e256]:
+              - link "Save money & energy" [ref=e257] [cursor=pointer]:
+                - /url: /save-money-and-energy
+            - listitem [ref=e258]:
+              - link "Solar & wind energy" [ref=e259] [cursor=pointer]:
+                - /url: /solar-and-wind-energy
+            - listitem [ref=e260]:
+              - link "Move in/out" [ref=e261] [cursor=pointer]:
+                - /url: /move-in-out
+            - listitem [ref=e262]:
+              - link "More services" [ref=e263] [cursor=pointer]:
+                - /url: /more-services
+        - generic [ref=e264]:
+          - heading "Businesses" [level=4] [ref=e265]
+          - list [ref=e266]:
+            - listitem [ref=e267]:
+              - link "Payment options" [ref=e268] [cursor=pointer]:
+                - /url: /payment-options1
+            - listitem [ref=e269]:
+              - link "Billing" [ref=e270] [cursor=pointer]:
+                - /url: /billing1
+            - listitem [ref=e271]:
+              - link "Save money & energy" [ref=e272] [cursor=pointer]:
+                - /url: /bizrebates
+            - listitem [ref=e273]:
+              - link "Solar & wind energy" [ref=e274] [cursor=pointer]:
+                - /url: /solar-and-wind-energy1
+            - listitem [ref=e275]:
+              - link "Move in/out" [ref=e276] [cursor=pointer]:
+                - /url: /move-in-out1
+            - listitem [ref=e277]:
+              - link "More services" [ref=e278] [cursor=pointer]:
+                - /url: /more-services1
+        - generic [ref=e279]:
+          - heading "Community" [level=4] [ref=e280]
+          - list [ref=e281]:
+            - listitem [ref=e282]:
+              - link "Giving back" [ref=e283] [cursor=pointer]:
+                - /url: /giving-back
+            - listitem [ref=e284]:
+              - link "Good Neighbor Fund" [ref=e285] [cursor=pointer]:
+                - /url: /good-neighbor-fund
+            - listitem [ref=e286]:
+              - link "Apply for a grant" [ref=e287] [cursor=pointer]:
+                - /url: /apply-for-grant
+            - listitem [ref=e288]:
+              - link "Economic development" [ref=e289] [cursor=pointer]:
+                - /url: /economic-development
+        - generic [ref=e290]:
+          - heading "Environment" [level=4] [ref=e291]
+          - list [ref=e292]:
+            - listitem [ref=e293]:
+              - link "Our commitment" [ref=e294] [cursor=pointer]:
+                - /url: /our-commitment
+            - listitem [ref=e295]:
+              - link "Get involved" [ref=e296] [cursor=pointer]:
+                - /url: /get-involved
+            - listitem [ref=e297]:
+              - link "Energy sources" [ref=e298] [cursor=pointer]:
+                - /url: /energy-sources
+            - listitem [ref=e299]:
+              - link "Renewable energy" [ref=e300] [cursor=pointer]:
+                - /url: /renewableenergy
+        - generic [ref=e301]:
+          - heading "Reliability & Safety" [level=4] [ref=e302]
+          - list [ref=e303]:
+            - listitem [ref=e304]:
+              - link "Reliability projects map" [ref=e305] [cursor=pointer]:
+                - /url: /reliability-commitment
+            - listitem [ref=e306]:
+              - link "Outage safety" [ref=e307] [cursor=pointer]:
+                - /url: /outages1
+            - listitem [ref=e308]:
+              - link "PNM employee safety" [ref=e309] [cursor=pointer]:
+                - /url: meter-reader-safety
+            - listitem [ref=e310]:
+              - link "Call before you dig" [ref=e311] [cursor=pointer]:
+                - /url: /call-before-you-dig1
+            - listitem [ref=e312]:
+              - link "More safety tips" [ref=e313] [cursor=pointer]:
+                - /url: /safety
+        - generic [ref=e314]:
+          - heading "Looking Ahead" [level=4] [ref=e315]
+          - list [ref=e316]:
+            - listitem [ref=e317]:
+              - link "Innovation & new technologies" [ref=e318] [cursor=pointer]:
+                - /url: /innovation-and-new-technologies
+            - listitem [ref=e319]:
+              - link "Research & planning" [ref=e320] [cursor=pointer]:
+                - /url: /research-and-planning
+            - listitem [ref=e321]:
+              - link "SITEMAP" [ref=e322] [cursor=pointer]:
+                - /url: /sitemap.xml
+                - strong [ref=e323]: SITEMAP
+    - paragraph [ref=e325]: As the state's largest electricity provider, PNM serves more than 530K New Mexico residential and business customers in Greater Albuquerque, Rio Rancho, Los Lunas, Belen, Santa Fe, Las Vegas, Alamogordo, Ruidoso, Silver City, Deming, Bayard, Lordsburg and Clayton. We also serve the New Mexico tribal communities of the Tesuque, Cochiti, Santo Domingo, San Felipe, Santa Ana, Sandia, Isleta and Laguna Pueblos
+    - generic [ref=e326]: Copyright © 2025 PNM. All Rights Reserved
+  - link "Chat Now":
+    - /url: javascript:void(0);
+    - img "Chat Now" [ref=e327] [cursor=pointer]
+  - generic:
+    - iframe [ref=e332]:
+      
+    - img [ref=e335] [cursor=pointer]
+    - img [ref=e338]
+```

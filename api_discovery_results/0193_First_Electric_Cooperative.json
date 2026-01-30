@@ -1,0 +1,6 @@
+[
+  {
+    "url": "https://cdn.acsbapp.com/config/firstelectric.coop/config.json?page=%2Foutage-center%2F",
+    "data": "{\"time\":\"2026-01-01T00:42:40.334Z\",\"specifics\":\"\",\"addonAnalytics\":false,\"blockMeta\":false,\"blockImages\":false,\"blockStyles\":false,\"blockTextSimplifier\":false,\"widgetSettings\":{\"consistentHelpData\":[],\"disableBgProcess\":false,\"footerHtml\":\"\",\"hideComponents\":[],\"hideMobile\":false,\"hideTrigger\":false,\"language\":\"en\",\"leadColor\":\"#0554ad\",\"mobile\":{\"triggerOffsetX\":3,\"triggerOffsetY\":3,\"triggerPositionX\":\"right\",\"triggerPositionY\":\"bottom\",\"triggerRadius\":\"50%\",\"triggerSize\":\"medium\",\"triggerIcon\""
+  }
+]

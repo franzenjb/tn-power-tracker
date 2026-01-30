@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://columbiagas-svc.smartcmobile.com/SmartChatBotAgentService/api/1/ChatBot/GetConfigSettings",
+    "data": "{\"status\":{\"type\":\"success\",\"code\":200,\"message\":\"success\",\"error\":false},\"data\":{\"isChatbotAvailable\":true,\"isCaptchaAvailable\":false}}"
+  },
+  {
+    "url": "https://cdn.walkme.com/users/c7ad4ebff0b04409a5be4210cdf41447/external-data/insights-configuration/insights_configuration_a27b40451ac24746b99f672484d9d516.json",
+    "data": "{}"
+  },
+  {
+    "url": "https://cdn.walkme.com/users/c7ad4ebff0b04409a5be4210cdf41447/data_4d575f0b5eab4a3aa6e5b42f5ed220cc.br.json",
+    "data": "{\"UserGuid\":\"c7ad4ebff0b04409a5be4210cdf41447\",\"BusinessSolutions\":[{\"ConditionTrees\":{},\"DeployableSystems\":null,\"Description\":null,\"Flow\":{\"Id\":1339100,\"Name\":\"\",\"Nodes\":{\"19012601\":{\"ErrorHandlingParentId\":null,\"Guid\":\"a6de27958306872925d19600e9c1fc9e\",\"Id\":19012601,\"Name\":null,\"PointIndex\":0,\"Settings\":{},\"Source\":null,\"Type\":\"UI\",\"UIElements\":[{\"AccessibilityConfigs\":[],\"ConditionTrees\":{},\"DesignTemplateId\":1057920,\"DesignTemplatePlaceholderConfigs\":[],\"Id\":11188954,\"IdentifySettings\":{\"El"
+  },
+  {
+    "url": "https://cdn.walkme.com/users/c7ad4ebff0b04409a5be4210cdf41447/runtime_data.json",
+    "data": "{\"timestamp\":1769605110051,\"keyMap\":{\"d\":\"duration_median\",\"f\":\"found_count\",\"s\":\"sticky_type\"},\"forceAuto\":0.1,\"items\":[{\"id\":84389,\"type\":32,\"data\":{\"d\":8.4,\"f\":10629,\"s\":0}},{\"id\":639303,\"type\":19,\"data\":{\"d\":13.1,\"f\":7016,\"s\":0}},{\"id\":639305,\"type\":19,\"data\":{\"d\":7.5,\"f\":1229,\"s\":0}},{\"id\":1301489,\"type\":19,\"data\":{\"d\":7.5,\"f\":748,\"s\":0}},{\"id\":1301479,\"type\":19,\"data\":{\"d\":7.5,\"f\":892,\"s\":0}},{\"id\":1304974,\"type\":19,\"data\":{\"d\":7,\"f\":571,\"s\":0}},{\"id\":1468608,\"type\":19,\"data\":{\"d\":7.3,\"f\":"
+  }
+]

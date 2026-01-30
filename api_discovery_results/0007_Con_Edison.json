@@ -1,0 +1,22 @@
+[
+  {
+    "url": "https://cdn.weglot.com/projects-settings/a186ae7313bdecf545dd02cd071a25736.json",
+    "data": "{\"website\":\"https://www.coned.com\",\"uid\":\"3b3985c25b\",\"project_slug\":\"prod-coned\",\"deleted_at\":null,\"api_key\":\"wg_a186ae7313bdecf545dd02cd071a25736\",\"language_from\":\"en\",\"language_from_custom_flag\":null,\"language_from_custom_name\":\"English|English\",\"auto_switch\":false,\"auto_switch_fallback\":null,\"translation_engine\":3,\"excluded_paths\":[],\"excluded_blocks\":[{\"value\":\".no-translate\",\"description\":\"Coned No Translate\"}],\"dynamics\":[{\"value\":\".translate-async\"}],\"custom_settings\":{\"button_style\":{\"w"
+  },
+  {
+    "url": "https://s.yimg.com/wi/config/10174439.json",
+    "data": "{}"
+  },
+  {
+    "url": "https://px.ads.linkedin.com/attribution_trigger?pid=3017178&time=1769785753137&url=https%3A%2F%2Fwww.coned.com%2Fen%2Foutages",
+    "data": "{}"
+  },
+  {
+    "url": "https://s.yimg.com/wi/config/10150137.json",
+    "data": "{}"
+  },
+  {
+    "url": "https://ads.nextdoor.com/v2/api/conversions/settings?id=fb730f08-cdaa-41b9-a564-5f6586b8a175",
+    "data": "{\"am\":\"0\",\"em\":{},\"t\":1769764739103}"
+  }
+]

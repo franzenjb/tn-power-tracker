@@ -1,0 +1,38 @@
+[
+  {
+    "url": "https://onlineaccount.nppd.com/Portal/public/meta.json",
+    "data": "{\"version\":\"11.1.30\"}"
+  },
+  {
+    "url": "https://nppd-svc.cxlive.ai/configurationapi/api/1/Configuration/Languages",
+    "data": "{\"status\":{\"type\":\"success\",\"code\":200,\"message\":\"success\",\"error\":false,\"msgcode\":\"\"},\"data\":[{\"languageCode\":\"EN_US\",\"language\":\"English\"},{\"languageCode\":\"ES\",\"language\":\"Spanish\"}]}"
+  },
+  {
+    "url": "https://nppd-svc.cxlive.ai/configurationapi/api/1/Configuration/MatricSystemSettings",
+    "data": "{\"status\":{\"type\":\"success\",\"code\":200,\"message\":\"success\",\"error\":false,\"msgcode\":\"\"},\"data\":[{\"format\":\"12 Hour\",\"value\":\"12 Hour\",\"type\":\"2\",\"sampleData\":\"1:30 PM\"},{\"format\":\"Fahrenheit (°F)\",\"value\":\"°F\",\"type\":\"3\",\"sampleData\":\"100°F\"},{\"format\":\"mi – (Mile)\",\"value\":\"mi\",\"type\":\"4\",\"sampleData\":\"10 mi\"},{\"format\":\"$ - (Dollar)\",\"value\":\"$\",\"type\":\"5\",\"sampleData\":\"$10\"},{\"format\":\"MM/dd/yyyy\",\"value\":\"MM/dd/yyyy\",\"type\":\"1\",\"sampleData\":\"12/30/2020\"}]}"
+  },
+  {
+    "url": "https://nppd-svc.cxlive.ai/configurationapi/api/1/Configuration/SystemMaintainance/EN_US",
+    "data": "{\"status\":{\"type\":\"success\",\"code\":200,\"message\":\"success\",\"error\":false,\"msgcode\":\"\"},\"data\":[]}"
+  },
+  {
+    "url": "https://nppd-svc.cxlive.ai/configurationapi/api/1/Configuration/Languages",
+    "data": "{\"status\":{\"type\":\"success\",\"code\":200,\"message\":\"success\",\"error\":false,\"msgcode\":\"\"},\"data\":[{\"languageCode\":\"EN_US\",\"language\":\"English\"},{\"languageCode\":\"ES\",\"language\":\"Spanish\"}]}"
+  },
+  {
+    "url": "https://nppd-svc.cxlive.ai/CustomAPI/api/V1/Outage/OutageFileDetails",
+    "data": "{\"status\":{\"type\":\"success\",\"code\":200,\"message\":\"success\",\"error\":false,\"msgcode\":\"\"},\"data\":{\"outageFileName\":\"Outage_013020260917.csv\",\"outageLastUpdated\":\"01/30/2026 09:17 AM Central Time\"}}"
+  },
+  {
+    "url": "https://nppd-svc.cxlive.ai/Outageservice/api/1/outage/alloutages/2/1/false",
+    "data": "{\"status\":{\"type\":null,\"code\":200,\"message\":\"Your service address is not part of an outage.\",\"error\":false,\"msgcode\":\"OUT001\"}}"
+  },
+  {
+    "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+    "data": "{}"
+  },
+  {
+    "url": "https://nppd-svc.cxlive.ai/Outageservice/api/1/outage/get/count/0/false/2",
+    "data": "{\"status\":{\"type\":\"success\",\"code\":200,\"message\":\"success\",\"error\":false,\"msgcode\":\"\"},\"data\":[{\"state\":\"\",\"locationName\":\"\",\"accountsAffected\":0,\"accountsServed\":4,\"numberOfOutages\":0},{\"state\":\"KS\",\"locationName\":\"66541\",\"accountsAffected\":0,\"accountsServed\":6,\"numberOfOutages\":0},{\"state\":\"NE\",\"locationName\":\"57770\",\"accountsAffected\":0,\"accountsServed\":17,\"numberOfOutages\":0},{\"state\":\"NE\",\"locationName\":\"66845\",\"accountsAffected\":0,\"accountsServed\":2,\"numberOfOutages\":0},{\"state\":\"NE\",\"loca"
+  }
+]

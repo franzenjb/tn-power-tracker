@@ -1,0 +1,10 @@
+[
+  {
+    "url": "https://js.stripe.com/v3/.deploy_status_henson.json",
+    "data": "{\"canaryPercentage\":0,\"deployedRevisions\":[\"a10732936bd0ee28c8cc6cb9210c4f0bcf4a05c8\",\"d68784f13beac164ad34404e39e5264be2542e3f\",\"c59f9dfd6e045e86f678938b2e47e5f8e0133c1d\",\"4ce67fde21c008d295c1061ca1bb443da5b150c4\",\"4fb75431b211e416a4e5ee61ae06d12d1f32488f\",\"54adcc5d6cb354de1b4d3dd17fb7bcdbda7b6632\",\"4ce67fde21c008d295c1061ca1bb443da5b150c4\",\"c8cd270e71b2fdd81cd8d333e05da8825e6f82ec\",\"c557f68b8d4a7f925a9bd1d91e22cf4ff5d6dc66\",\"065b474d3347245f4be22764af851c2c45f9b772\"]}"
+  },
+  {
+    "url": "https://js.stripe.com/v3/.deploy_status_henson.json",
+    "data": "{\"canaryPercentage\":0,\"deployedRevisions\":[\"a10732936bd0ee28c8cc6cb9210c4f0bcf4a05c8\",\"d68784f13beac164ad34404e39e5264be2542e3f\",\"c59f9dfd6e045e86f678938b2e47e5f8e0133c1d\",\"4ce67fde21c008d295c1061ca1bb443da5b150c4\",\"4fb75431b211e416a4e5ee61ae06d12d1f32488f\",\"54adcc5d6cb354de1b4d3dd17fb7bcdbda7b6632\",\"4ce67fde21c008d295c1061ca1bb443da5b150c4\",\"c8cd270e71b2fdd81cd8d333e05da8825e6f82ec\",\"c557f68b8d4a7f925a9bd1d91e22cf4ff5d6dc66\",\"065b474d3347245f4be22764af851c2c45f9b772\"]}"
+  }
+]

@@ -1,0 +1,6 @@
+[
+  {
+    "url": "https://cdn.acsbapp.com/config/mypec.com/config.json?page=%2Foutage-map-src%2F",
+    "data": "{\"time\":\"2026-01-01T00:43:24.184Z\",\"specifics\":\"\",\"addonAnalytics\":false,\"blockMeta\":false,\"blockImages\":false,\"blockStyles\":false,\"blockTextSimplifier\":false,\"widgetSettings\":{\"consistentHelpData\":[],\"disableBgProcess\":false,\"footerHtml\":\"\",\"hideComponents\":[],\"hideMobile\":false,\"hideTrigger\":false,\"language\":\"en\",\"leadColor\":\"#0847b7\",\"mobile\":{\"triggerOffsetX\":10,\"triggerOffsetY\":10,\"triggerPositionX\":\"left\",\"triggerPositionY\":\"bottom\",\"triggerRadius\":\"50%\",\"triggerSize\":\"small\",\"triggerIcon\""
+  }
+]

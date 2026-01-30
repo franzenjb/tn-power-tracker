@@ -1,0 +1,10 @@
+[
+  {
+    "url": "https://www.cityutilities.net/api/v1/SplashModal/Get?targetId=&targetType=0&requestMode=0&_=1769788301056",
+    "data": "{\"Id\":1,\"TargetId\":\"\",\"TargetType\":0,\"InheritedFrom\":null,\"InheritedFromPageTitle\":null,\"Title\":\"Splash Screen\",\"Content\":\"\",\"StartDate\":\"\",\"StartTime\":\"\",\"EndDate\":\"\",\"EndTime\":\"\",\"AllowScheduling\":false,\"Visibility\":0,\"DateFormat\":\"mm/dd/yyyy\",\"EnableFontOptions\":false,\"LastModifiedBy\":708,\"LastModifiedOn\":\"2025-10-30T11:42:54.897\",\"PushDown\":false,\"Inherited\":false}"
+  },
+  {
+    "url": "https://docaccess.com/domains/cityutilities.net/domain.json?cb=2949647",
+    "data": "{\"domain\":\"cityutilities.net\",\"aliases\":[],\"docbox_enabled\":false,\"0c73b5f1043c21a911683f2feeb0dc7a92b39b44417d8962d03c9c5ccc92a018\":false,\"367533f5a035541beb8673f83a0b2e3ea3a8eb7b0cf789f31c279cf79414c060\":\"66a746b01fa4786b94f0c02e73b8580a06d70f3255e51d9f7f8a5eaa5405125c\",\"66a746b01fa4786b94f0c02e73b8580a06d70f3255e51d9f7f8a5eaa5405125c\":false,\"442cf49ad465e48ecbd3a1977bc745420ecc66b21cf5b333d0a92521ba28653d\":\"7c9ac5965b2ada89b5feadb8a5b861168c8a36ca18945b9a1a327c50fc50723f\",\"7c9ac5965b2ada89b5f"
+  }
+]

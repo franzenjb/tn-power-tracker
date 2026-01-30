@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://api-cdn.mypurecloud.com/webdeployments/v1/deployments/2538f05c-e9e7-426f-98d2-ab54d66bb27d/domains.json",
+    "data": "{\"allowAllDomains\":true,\"allowedDomains\":[]}"
+  },
+  {
+    "url": "https://api-cdn.mypurecloud.com/webdeployments/v1/deployments/2538f05c-e9e7-426f-98d2-ab54d66bb27d/config.json",
+    "data": "{\"id\":\"d27b0577-1b39-47fe-9320-588d380c7d8d\",\"version\":\"3\",\"headlessMode\":{\"enabled\":false},\"languages\":[\"en-us\"],\"defaultLanguage\":\"en-us\",\"apiEndpoint\":\"https://api.mypurecloud.com\",\"messenger\":{\"enabled\":true,\"apps\":{\"conversations\":{\"enabled\":true,\"messagingEndpoint\":\"wss://webmessaging.mypurecloud.com\",\"showAgentTypingIndicator\":true,\"showUserTypingIndicator\":true,\"autoStart\":{\"enabled\":true},\"markdown\":{\"enabled\":true},\"conversationDisconnect\":{\"enabled\":true,\"type\":\"ReadOnly\"},\"conversati"
+  },
+  {
+    "url": "https://apps.mypurecloud.com/messenger/i18n/en-us.json",
+    "data": "{\"language\":\"en-us\",\"home\":{\"headerTitle\":\"Welcome\",\"headerSubTitle\":\"We're here to help\",\"ariaHomeScreenOpenStatus\":\"HomeScreen is opened\",\"ariaExpandMenu\":\"Expand menu\"},\"conversations\":{\"headerTitle\":\"Message Us\",\"inputMessagePlaceholder\":\"Send a message...\",\"typeMessagePlaceholder\":\"Type your message here\",\"startConversationMessage\":\"This is the beginning of your conversation with us. Please send a message to get started.\",\"autoStartConversationMessage\":\"This is the beginning of your convers"
+  },
+  {
+    "url": "https://apps.mypurecloud.com/messenger/i18n/en-us.json",
+    "data": "{\"language\":\"en-us\",\"home\":{\"headerTitle\":\"Welcome\",\"headerSubTitle\":\"We're here to help\",\"ariaHomeScreenOpenStatus\":\"HomeScreen is opened\",\"ariaExpandMenu\":\"Expand menu\"},\"conversations\":{\"headerTitle\":\"Message Us\",\"inputMessagePlaceholder\":\"Send a message...\",\"typeMessagePlaceholder\":\"Type your message here\",\"startConversationMessage\":\"This is the beginning of your conversation with us. Please send a message to get started.\",\"autoStartConversationMessage\":\"This is the beginning of your convers"
+  }
+]

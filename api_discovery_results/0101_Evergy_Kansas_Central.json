@@ -1,0 +1,10 @@
+[
+  {
+    "url": "https://api-engage-us.sitecorecloud.io/v1.2/browser/create.json?client_key=77c6b08e47b988d13c05ddf9b0d3f826&message={}",
+    "data": "{\"status\":\"OK\",\"version\":\"1.2\",\"client_key\":\"77c6b08e47b988d13c05ddf9b0d3f826\",\"ref\":\"0c6367bb-bf7e-461b-95a3-48e6fef1179a\",\"customer_ref\":\"2442ee55-5069-40a8-84e7-ee4fc361a362\"}"
+  },
+  {
+    "url": "https://px.ads.linkedin.com/attribution_trigger?pid=1491234&time=1769787208994&url=https%3A%2F%2Fwww.evergy.com%2Foutages%2Foutage-map",
+    "data": "{}"
+  }
+]

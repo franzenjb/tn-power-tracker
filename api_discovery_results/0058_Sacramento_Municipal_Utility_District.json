@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+    "data": "{}"
+  },
+  {
+    "url": "https://www.smud.org/sitecore/api/ssc/Beacon/Service/beacon/trackPageVisit/?contactId=&sessionId=&page=https%3A%2F%2Fmyaccount.smud.org%2Fmanage%2Foutage&referrer=&rt=1769786525648",
+    "data": "{\"ContactId\":\"aef167f216e84ab89b458b0f0e972904|False\",\"SessionId\":\"zcvt4nt0jpogj2lyxs0mmql5\",\"ContactExpires\":\"2028-01-30T07:22:05.852427\",\"SessionPath\":\"/\",\"ElementMatches\":[{\"RenderedContent\":\"\",\"RenderedPosition\":\"{FDBF46B4-5B52-4C7A-A254-B588EC52944E}\",\"Selector\":\"#fxm-outage-globalalert\",\"MatchType\":\"content\",\"Id\":\"{E4CDC2AB-3240-4D9E-ADF7-579FFE5730F4}\"},{\"RenderedContent\":\"<div class=\\\"flex-vertical\\\">\\r\\n            <h2>Flexible due date</h2>\\r\\n\\r\\n            <div class=\\\"flex-grow-1\\\""
+  },
+  {
+    "url": "https://usage.smud.org/omkml/api/communitylist/?_=1769786525558",
+    "data": "{\"totalCount\":\"3\",\"returndata\":[{\"Title\":\"SMUD\",\"OutageCount\":\"3\",\"CustomersImpacted\":\"3\",\"UpdateOn\":\"Today at 7:18 AM\",\"BoundaryMinLong\":-121.63708659331773,\"BoundaryMinLat\":38.212298394581914,\"BoundaryMaxLong\":-121.01657377943388,\"BoundaryMaxLat\":38.74091148875486,\"ZoomLevel\":10,\"GeocenterLat\":38.477020820165045,\"GeocenterLong\":-121.32797806780856},{\"Title\":\"Elk Grove\",\"OutageCount\":\"1\",\"CustomersImpacted\":\"1\",\"UpdateOn\":\"Today at 7:18 AM\",\"BoundaryMinLong\":-121.40952885215756,\"BoundaryMinLat\""
+  },
+  {
+    "url": "https://services.quorum.works/audience/api/core/v1/adminReport.json/getParamountCompanyId?url=myaccount.smud.org",
+    "data": "{\"id\":\"0\"}"
+  }
+]

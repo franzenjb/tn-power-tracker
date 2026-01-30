@@ -1,0 +1,110 @@
+[
+  {
+    "url": "https://www.atlanticcityelectric.com/api/GetConfig",
+    "data": "{\"AITranslationAPI\":\"https://eudapi.atlanticcityelectric.com/eult/translate\",\"androidAppId\":\"com.ifactorconsulting.acelectric\",\"anonBaseUrl\":\"https://www.atlanticcityelectric.com\",\"appleAppId\":\"489963640\",\"applicationInsightsInstrumentationKey\":\"c895238f-3bb6-4743-a3c2-81fbc893c886\",\"baseUrl\":\"https://secure.atlanticcityelectric.com\",\"chatBotAppId\":\"5d487ed3-ae34-4572-9373-bcff51b7faa1\",\"contentApiBaseUrl\":\"https://eudapi.atlanticcityelectric.com/content-api\",\"contentPublishingEnvironment\":\"live"
+  },
+  {
+    "url": "https://js.monitor.azure.com/scripts/b/ai.config.1.cfg.json",
+    "data": "{\"version\":\"1.0.5\",\"enabled\":true,\"featureOptIn\":{\"iKeyUsage\":{\"mode\":3,\"onCfg\":{\"throttleMgrCfg.109.disabled\":false,\"throttleMgrCfg.106.disabled\":false},\"offCfg\":{\"throttleMgrCfg.109.disabled\":true,\"throttleMgrCfg.106.disabled\":true}},\"CdnUsage\":{\"mode\":4,\"onCfg\":{\"throttleMgrCfg.109.disabled\":false,\"throttleMgrCfg.110.disabled\":false},\"offCfg\":{\"throttleMgrCfg.109.disabled\":true,\"throttleMgrCfg.110.disabled\":true}}},\"config\":{\"throttleMgrCfg\":{\"106\":{\"disabled\":false,\"limit\":{\"samplingRate\":1,"
+  },
+  {
+    "url": "https://www.atlanticcityelectric.com/api/GetConfig",
+    "data": "{\"AITranslationAPI\":\"https://eudapi.atlanticcityelectric.com/eult/translate\",\"androidAppId\":\"com.ifactorconsulting.acelectric\",\"anonBaseUrl\":\"https://www.atlanticcityelectric.com\",\"appleAppId\":\"489963640\",\"applicationInsightsInstrumentationKey\":\"c895238f-3bb6-4743-a3c2-81fbc893c886\",\"baseUrl\":\"https://secure.atlanticcityelectric.com\",\"chatBotAppId\":\"5d487ed3-ae34-4572-9373-bcff51b7faa1\",\"contentApiBaseUrl\":\"https://eudapi.atlanticcityelectric.com/content-api\",\"contentPublishingEnvironment\":\"live"
+  },
+  {
+    "url": "https://secure.atlanticcityelectric.com/api/Services/MyAccountService.svc/GetAllAlerts?v=1769786632509",
+    "data": "[{\"AlertType\":17,\"AlertTypeString\":\"MarketPlace\",\"BackgroundColor\":\"#D0E4F4\",\"IsActive\":true,\"Message\":\"<p>We're sorry! Checkout is temporarily unavailable due to site maintenance. Please visit the site later to complete your order and checkout. For immediate help, visit the <a href=\\\"https://secure.atlanticcityelectric.com/marketplace/support\\\">ACE Marketplace Support</a> page.</p>\",\"Order\":110}]"
+  },
+  {
+    "url": "https://secure.atlanticcityelectric.com/api/Services/MyAccountService.svc/GetSession?v=1769786632509",
+    "data": "{\"username\":null,\"encryptedUsername\":null,\"accountNumber\":null,\"customerNumber\":null,\"customerName\":null,\"primaryEmail\":null,\"token\":null,\"isResidential\":null,\"id\":\"3niw5np4d1efjzhcsxqbnlwm\",\"encryptedUID\":null,\"dc\":\"e\"}"
+  },
+  {
+    "url": "https://secure.atlanticcityelectric.com/api/Services/MyAccountService.svc/GetAllAlerts",
+    "data": "[{\"AlertType\":17,\"AlertTypeString\":\"MarketPlace\",\"BackgroundColor\":\"#D0E4F4\",\"IsActive\":true,\"Message\":\"<p>We're sorry! Checkout is temporarily unavailable due to site maintenance. Please visit the site later to complete your order and checkout. For immediate help, visit the <a href=\\\"https://secure.atlanticcityelectric.com/marketplace/support\\\">ACE Marketplace Support</a> page.</p>\",\"Order\":110}]"
+  },
+  {
+    "url": "https://secure.atlanticcityelectric.com/api/services/myaccountservice.svc/getconfiguration",
+    "data": "{\"anonBaseUrl\":\"https://www.atlanticcityelectric.com\",\"applicationInsightsInstrumentationKey\":\"c895238f-3bb6-4743-a3c2-81fbc893c886\",\"appointmentBaseUrl\":\"/customerServices-CasR4/appointments\",\"authenticationRedirectUrl\":\"/Pages/Adaptor.aspx\",\"b2cAadInstance\":\"https://secure.exeloncorp.com/{0}/{1}{2}{3}\",\"b2cTenantName\":\"euazurephi.onmicrosoft.com\",\"b2cClientId\":\"2fee254e-25a8-4e34-b07a-51743f88615a\",\"b2cScopeUri\":\"https://euazurephi.onmicrosoft.com/opower/opower_connect\",\"b2cRedirectUri\":\"/Page"
+  },
+  {
+    "url": "https://secure.atlanticcityelectric.com/api/services/myaccountservice.svc/getsession",
+    "data": "{\"username\":null,\"encryptedUsername\":null,\"accountNumber\":null,\"customerNumber\":null,\"customerName\":null,\"primaryEmail\":null,\"token\":null,\"isResidential\":null,\"id\":\"3niw5np4d1efjzhcsxqbnlwm\",\"encryptedUID\":null,\"dc\":\"e\"}"
+  },
+  {
+    "url": "https://eudapi.atlanticcityelectric.com/content-api/api/content/navigation/mega-menu?environment=live",
+    "data": "{\"displayText\":\"ACE Navigation\",\"url\":\"/\",\"linkType\":\"Anon\",\"nodes\":[{\"displayText\":\"My Account\",\"nodes\":[{\"displayText\":\"My Dashboard\",\"url\":\"/MyAccount/MyBillUsage/pages/secure/MyBillUsage.aspx\",\"linkType\":\"Secure\",\"nodes\":[{\"displayText\":\"Pay My Bill\",\"url\":\"/my-account/my-dashboard/pay-my-bill\",\"linkType\":\"Anon\"},{\"displayText\":\"My Bill Details\",\"url\":\"/MyAccount/MyBillUsage/pages/secure/MyBillDetails.aspx\",\"linkType\":\"Secure\"},{\"displayText\":\"Billing Options\",\"url\":\"/my-account/my-dashboard"
+  },
+  {
+    "url": "https://eudapi.atlanticcityelectric.com/content-api/api/content/navigation/header?environment=live",
+    "data": "{\"displayText\":\"ACE Header\",\"nodes\":[{\"displayText\":\"Outage\",\"url\":\"/powerOutages/outageTracker/experiencingAnOutage\",\"linkType\":\"Secure\",\"hideFromMegaMenu\":false},{\"displayText\":\"Pay Bill\",\"url\":\"/my-account/my-dashboard/pay-my-bill\",\"linkType\":\"Anon\"},{\"displayText\":\"Moving\",\"url\":\"https://secure.atlanticcityelectric.com:443/CustomerServices/service/landing\",\"linkType\":\"External\"},{\"displayText\":\"Español\",\"url\":\"https://es.atlanticcityelectric.com/\",\"linkType\":\"External\"}]}"
+  },
+  {
+    "url": "https://eudapi.atlanticcityelectric.com/content-api/api/content/navigation/header?environment=live",
+    "data": "{\"displayText\":\"ACE Header\",\"nodes\":[{\"displayText\":\"Outage\",\"url\":\"/powerOutages/outageTracker/experiencingAnOutage\",\"linkType\":\"Secure\",\"hideFromMegaMenu\":false},{\"displayText\":\"Pay Bill\",\"url\":\"/my-account/my-dashboard/pay-my-bill\",\"linkType\":\"Anon\"},{\"displayText\":\"Moving\",\"url\":\"https://secure.atlanticcityelectric.com:443/CustomerServices/service/landing\",\"linkType\":\"External\"},{\"displayText\":\"Español\",\"url\":\"https://es.atlanticcityelectric.com/\",\"linkType\":\"External\"}]}"
+  },
+  {
+    "url": "https://collection.decibelinsight.net/i/14081/899395/c.json",
+    "data": "{\"da_websiteId\":899395,\"da_account_flags\":22527,\"da_account_flags_orig\":22527,\"da_sessionId_e\":\"84BB1C2C8E3FAEA89CB9AA13A859F8FDE6.0\",\"da_leadId_e\":\"B7882F1F9A7FEA3309E8BB99EA5BB2F655\",\"da_dnsRecord\":\"collection.decibelinsight.net\",\"da_anonymiseIP\":false,\"da_ipHandling\":0,\"da_sessCookieFlags\":4,\"da_leadCookieFlags\":0,\"analysisSessFlags\":0,\"analysisLeadFlags\":0,\"replaySessFlags\":3,\"replayLeadFlags\":0,\"int_state\":\"\",\"curTime\":1769786634,\"domains\":[\"aztest.atlanticcityelectric.com\",\"t-c-euweb-voc-a"
+  },
+  {
+    "url": "https://eudapi.atlanticcityelectric.com/content-api/api/content/navigation/footer?environment=live",
+    "data": "{\"displayText\":\"ACE Footer\",\"nodes\":[{\"displayText\":\"About Us\",\"url\":\"/about-us\",\"linkType\":\"Anon\",\"hideFromMegaMenu\":true},{\"displayText\":\"News\",\"url\":\"/news\",\"linkType\":\"Anon\",\"hideFromMegaMenu\":true},{\"displayText\":\"Doing Business with Us\",\"url\":\"/doing-business-with-us\",\"linkType\":\"Anon\",\"hideFromMegaMenu\":true},{\"displayText\":\"Public Postings\",\"url\":\"/public-postings\",\"linkType\":\"Anon\"},{\"displayText\":\"Careers\",\"url\":\"https://careers.atlanticcityelectric.com/atlantic-city-electric\",\"linkTyp"
+  },
+  {
+    "url": "https://eudapi.atlanticcityelectric.com/content-api/api/content/navigation/footer?environment=live",
+    "data": "{\"displayText\":\"ACE Footer\",\"nodes\":[{\"displayText\":\"About Us\",\"url\":\"/about-us\",\"linkType\":\"Anon\",\"hideFromMegaMenu\":true},{\"displayText\":\"News\",\"url\":\"/news\",\"linkType\":\"Anon\",\"hideFromMegaMenu\":true},{\"displayText\":\"Doing Business with Us\",\"url\":\"/doing-business-with-us\",\"linkType\":\"Anon\",\"hideFromMegaMenu\":true},{\"displayText\":\"Public Postings\",\"url\":\"/public-postings\",\"linkType\":\"Anon\"},{\"displayText\":\"Careers\",\"url\":\"https://careers.atlanticcityelectric.com/atlantic-city-electric\",\"linkTyp"
+  },
+  {
+    "url": "https://resources.digital-cloud.medallia.com/wdcus/460287/onsite/onsiteData1768825433650.json",
+    "data": "{\"provisions\":{\"skipInvitationOptimization\":null,\"21dcr1_mpc3281_alignWCAGLogoMarkup\":true,\"reusableResourcesLibrary\":true,\"formTemplatesWCAG\":true,\"formSpacing\":true,\"24dcr1_MPC7724_enableFormv2andInviteCSSDelay\":null,\"20dcr4_MPC2952_enable_exemptFormsFromQuarantine\":true,\"21dcr1_MPC3199_AdditionalButtonStyles\":true,\"sharePropertyBetweenSubdomains\":true,\"24dcr4_MPC8375_enableFeedbackPayloadOptimization\":null,\"23dcr2_MPC6711_enableWCAGerrorMessagesPreQuestions\":null,\"21dcr6_MPC4296_enable_UBTIde"
+  },
+  {
+    "url": "https://resources.digital-cloud.medallia.com/wdcus/460287/forms/23283/formDataV2_1764753594596_en.json",
+    "data": "{\"name\":\"ACE Embedded - Report an Outage\",\"id\":23283,\"pages\":[{\"pageName\":\"Page 1\",\"view\":{\"backgroundColor\":\"\",\"backgroundRepeat\":false,\"customCssClass\":\"\"},\"components\":[{\"id\":7829,\"unique_name\":\"Page 1 text 70969\",\"type\":\"label\",\"data\":{\"text\":\"<h2>We&#39;d love your feedback!</h2>\\n\"},\"validation\":{\"required\":false,\"regex\":\"/.*/\"},\"view\":{\"numberOfLines\":18},\"descriptiveErrorMessage\":\"\"},{\"id\":7802,\"unique_name\":\"Satisfaction with Digital Experience\",\"type\":\"grading0to10\",\"data\":{\"label\":\"Ov"
+  },
+  {
+    "url": "https://secure.atlanticcityelectric.com/api/Services/MyAccountService.svc/GetConfiguration",
+    "data": "{\"anonBaseUrl\":\"https://www.atlanticcityelectric.com\",\"applicationInsightsInstrumentationKey\":\"c895238f-3bb6-4743-a3c2-81fbc893c886\",\"appointmentBaseUrl\":\"/customerServices-CasR4/appointments\",\"authenticationRedirectUrl\":\"/Pages/Adaptor.aspx\",\"b2cAadInstance\":\"https://secure.exeloncorp.com/{0}/{1}{2}{3}\",\"b2cTenantName\":\"euazurephi.onmicrosoft.com\",\"b2cClientId\":\"2fee254e-25a8-4e34-b07a-51743f88615a\",\"b2cScopeUri\":\"https://euazurephi.onmicrosoft.com/opower/opower_connect\",\"b2cRedirectUri\":\"/Page"
+  },
+  {
+    "url": "https://secure.atlanticcityelectric.com/api/Services/MyAccountService.svc/GetFeatureFlags",
+    "data": "{\"AccountsOnboardingModal\":true,\"AccountsPrepaidBanner\":true,\"ActiveAlertsSource\":true,\"AlternateFindEmail\":true,\"AlternateRegistration\":true,\"AssistanceOfferingLink\":true,\"GenerateCustomerTouchPoints\":true,\"HidePecoHighUsageIsumTile\":true,\"isAITranslate\":true,\"IsOutageTracker\":true,\"IsumNewEditStartService\":true,\"IsumNewEditStopService\":true,\"IsumLandingFaqSection\":true,\"LCSDashboard\":true,\"MyPowerStatusAlert\":true,\"NewAutopaySecureLandingPage\":true,\"NewBudgetBillingSecureLandingPage\":true,\"New"
+  },
+  {
+    "url": "https://secure.atlanticcityelectric.com/api/Services/MyAccountService.svc/GetSession",
+    "data": "{\"username\":null,\"encryptedUsername\":null,\"accountNumber\":null,\"customerNumber\":null,\"customerName\":null,\"primaryEmail\":null,\"token\":null,\"isResidential\":null,\"id\":\"3niw5np4d1efjzhcsxqbnlwm\",\"encryptedUID\":null,\"dc\":\"e\"}"
+  },
+  {
+    "url": "https://secure.atlanticcityelectric.com/api/Services/MyAccountService.svc/GetAllAlerts",
+    "data": "[{\"AlertType\":17,\"AlertTypeString\":\"MarketPlace\",\"BackgroundColor\":\"#D0E4F4\",\"IsActive\":true,\"Message\":\"<p>We're sorry! Checkout is temporarily unavailable due to site maintenance. Please visit the site later to complete your order and checkout. For immediate help, visit the <a href=\\\"https://secure.atlanticcityelectric.com/marketplace/support\\\">ACE Marketplace Support</a> page.</p>\",\"Order\":110}]"
+  },
+  {
+    "url": "https://secure.atlanticcityelectric.com/api/Services/MyAccountService.svc/GetAllAlerts",
+    "data": "[{\"AlertType\":17,\"AlertTypeString\":\"MarketPlace\",\"BackgroundColor\":\"#D0E4F4\",\"IsActive\":true,\"Message\":\"<p>We're sorry! Checkout is temporarily unavailable due to site maintenance. Please visit the site later to complete your order and checkout. For immediate help, visit the <a href=\\\"https://secure.atlanticcityelectric.com/marketplace/support\\\">ACE Marketplace Support</a> page.</p>\",\"Order\":110}]"
+  },
+  {
+    "url": "https://secure.atlanticcityelectric.com/api/services/myaccountservice.svc/getconfiguration",
+    "data": "{\"anonBaseUrl\":\"https://www.atlanticcityelectric.com\",\"applicationInsightsInstrumentationKey\":\"c895238f-3bb6-4743-a3c2-81fbc893c886\",\"appointmentBaseUrl\":\"/customerServices-CasR4/appointments\",\"authenticationRedirectUrl\":\"/Pages/Adaptor.aspx\",\"b2cAadInstance\":\"https://secure.exeloncorp.com/{0}/{1}{2}{3}\",\"b2cTenantName\":\"euazurephi.onmicrosoft.com\",\"b2cClientId\":\"2fee254e-25a8-4e34-b07a-51743f88615a\",\"b2cScopeUri\":\"https://euazurephi.onmicrosoft.com/opower/opower_connect\",\"b2cRedirectUri\":\"/Page"
+  },
+  {
+    "url": "https://secure.atlanticcityelectric.com/api/services/myaccountservice.svc/getsession",
+    "data": "{\"username\":null,\"encryptedUsername\":null,\"accountNumber\":null,\"customerNumber\":null,\"customerName\":null,\"primaryEmail\":null,\"token\":null,\"isResidential\":null,\"id\":\"3niw5np4d1efjzhcsxqbnlwm\",\"encryptedUID\":null,\"dc\":\"e\"}"
+  },
+  {
+    "url": "https://resources.digital-cloud.medallia.com/wdcus/460287/onsite/onsiteData1768825433650.json",
+    "data": "{\"provisions\":{\"skipInvitationOptimization\":null,\"21dcr1_mpc3281_alignWCAGLogoMarkup\":true,\"reusableResourcesLibrary\":true,\"formTemplatesWCAG\":true,\"formSpacing\":true,\"24dcr1_MPC7724_enableFormv2andInviteCSSDelay\":null,\"20dcr4_MPC2952_enable_exemptFormsFromQuarantine\":true,\"21dcr1_MPC3199_AdditionalButtonStyles\":true,\"sharePropertyBetweenSubdomains\":true,\"24dcr4_MPC8375_enableFeedbackPayloadOptimization\":null,\"23dcr2_MPC6711_enableWCAGerrorMessagesPreQuestions\":null,\"21dcr6_MPC4296_enable_UBTIde"
+  },
+  {
+    "url": "https://resources.digital-cloud.medallia.com/wdcus/460287/forms/23283/formDataV2_1764753594596_en.json",
+    "data": "{\"name\":\"ACE Embedded - Report an Outage\",\"id\":23283,\"pages\":[{\"pageName\":\"Page 1\",\"view\":{\"backgroundColor\":\"\",\"backgroundRepeat\":false,\"customCssClass\":\"\"},\"components\":[{\"id\":7829,\"unique_name\":\"Page 1 text 70969\",\"type\":\"label\",\"data\":{\"text\":\"<h2>We&#39;d love your feedback!</h2>\\n\"},\"validation\":{\"required\":false,\"regex\":\"/.*/\"},\"view\":{\"numberOfLines\":18},\"descriptiveErrorMessage\":\"\"},{\"id\":7802,\"unique_name\":\"Satisfaction with Digital Experience\",\"type\":\"grading0to10\",\"data\":{\"label\":\"Ov"
+  },
+  {
+    "url": "https://ads.nextdoor.com/v2/api/conversions/settings?id=4189c6a9-c2bd-4274-a0e4-8ce63cbfeeb0",
+    "data": "{\"am\":\"0\",\"em\":{},\"t\":1769764739103}"
+  },
+  {
+    "url": "https://collection.decibelinsight.net/i/14081/899395/c.json",
+    "data": "{\"da_websiteId\":899395,\"da_account_flags\":22527,\"da_account_flags_orig\":22527,\"da_sessionId_e\":\"84BB1C2C8E3FAEA89CB9AA13A859F8FDE6.0\",\"da_leadId_e\":\"B7882F1F9A7FEA3309E8BB99EA5BB2F655\",\"da_dnsRecord\":\"collection.decibelinsight.net\",\"da_anonymiseIP\":false,\"da_ipHandling\":0,\"da_sessCookieFlags\":4,\"da_leadCookieFlags\":0,\"analysisSessFlags\":0,\"analysisLeadFlags\":0,\"replaySessFlags\":3,\"replayLeadFlags\":0,\"int_state\":\"\",\"curTime\":1769786634,\"domains\":[\"aztest.atlanticcityelectric.com\",\"t-c-euweb-voc-a"
+  }
+]

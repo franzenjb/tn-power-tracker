@@ -1,0 +1,10 @@
+[
+  {
+    "url": "https://www.eversource.com/RestApi/personalizations/render?pageNodeId=540db03e-9545-4ea6-a604-eaae7b959509&pageDataId=7a439edc-7a56-4552-b493-8d2ff924773e&pageNodeKey=540DB03E-9545-4EA6-A604-EAAE7B959509/bafed630-1d7b-4a4c-acac-6a2160725a00/SitefinitySiteMap&url=https%3A%2F%2Fwww.eversource.com%2Ferror%2Fpage-not-found%3FinitialRequestUrl%3Dhttps%253a%252f%252fwww.eversource.com%252fresidential%252foutages%252fcurrent-outages&controls=dcfb6ea8-7aaa-438f-80b4-7dd24ac482b2_1,d6c2f7b4-c44a-4b83-a853-78fb6d19a5c6_1&correlationId=ml11c0btatvp9ez2ylj",
+    "data": "[{\"ControlId\":\"dcfb6ea8-7aaa-438f-80b4-7dd24ac482b2\",\"Content\":\"<div class=\\\"header-crown--desktop\\\" id=\\\"dt-headercrown-d\\\">\\r\\n        <div class=\\\"header-container\\\">\\r\\n            <div class=\\\"header-container header-crown__items\\\">\\r\\n                <ul class=\\\"header-crown__switch-site\\\">\\r\\n                        <li class=\\\"header-crown__switch-site-item\\\">Residential</li>\\r\\n                        <li class=\\\"header-crown__switch-site-item\\\"><a href=\\\"https://east-sf.eversource.com/"
+  },
+  {
+    "url": "https://collection.decibelinsight.net/i/13791/129932/c.json",
+    "data": "{\"da_websiteId\":129932,\"da_account_flags\":22527,\"da_account_flags_orig\":22527,\"da_sessionId_e\":\"76DE0D778E38AEA87AD6AA13A859FAB6D7.1\",\"da_leadId_e\":\"45ED3E449A78EA33EF87BB99EA5BB0BD64\",\"da_dnsRecord\":\"collection.decibelinsight.net\",\"da_anonymiseIP\":false,\"da_ipHandling\":0,\"da_sessCookieFlags\":3,\"da_leadCookieFlags\":0,\"analysisSessFlags\":0,\"analysisLeadFlags\":0,\"replaySessFlags\":3,\"replayLeadFlags\":0,\"int_state\":\"\",\"curTime\":1769786746,\"domains\":[\"sit15.eversource.me\",\"pre01.eversource.me\",\"www.e"
+  }
+]

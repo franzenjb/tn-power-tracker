@@ -1,0 +1,46 @@
+[
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/7b38c047-7950-444b-a25c-9b3e5ab986eb/views/67b44af5-3847-4ca3-9f4e-9190aac343d6/currentState?preview=false",
+    "data": "{\"version\":\"V1\",\"controlCenter\":{\"alertDeploymentId\":\"a440c2b6-b4eb-409b-bed0-5972456cc827\",\"settingsDeploymentId\":\"a6c91d3f-2e94-4614-950f-d8df02ae251b\",\"areaManager\":{\"areaManagerConfigurationDeploymentId\":null,\"disableOutagesCustomersAffectedOverride\":false,\"disableOutagesEtrOverride\":false,\"customersAffectedOverride\":false,\"etrOverride\":false},\"hazardousLayers\":[],\"customlayers\":null},\"stormcenterDeploymentId\":\"37dbc0b4-d554-49f0-943b-b5166a385444\",\"messageBundleId\":\"9rQZgL\",\"updatedAt\":1769"
+  },
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/7b38c047-7950-444b-a25c-9b3e5ab986eb/views/67b44af5-3847-4ca3-9f4e-9190aac343d6/configuration/37dbc0b4-d554-49f0-943b-b5166a385444?preview=false",
+    "data": "{\"version\":\"V3\",\"config\":{\"deploymentId\":\"37dbc0b4-d554-49f0-943b-b5166a385444\",\"deployedAt\":\"2025-12-08T22:04:37.776Z\",\"customElements\":{\"49d488d0-76e2-4d4c-9bb6-68f8d7edf74d\":{\"url\":null,\"text\":\"custom-element-message-49d488d0-76e2-4d4c-9bb6-68f8d7edf74d\",\"type\":\"staticText\",\"icon\":null,\"target\":null},\"6124c0c9-f4b6-400e-b7f6-8b063d2804f4\":{\"url\":\"custom-element-url-6124c0c9-f4b6-400e-b7f6-8b063d2804f4\",\"text\":\"custom-element-message-6124c0c9-f4b6-400e-b7f6-8b063d2804f4\",\"type\":\"button\",\"icon\""
+  },
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/7b38c047-7950-444b-a25c-9b3e5ab986eb/views/67b44af5-3847-4ca3-9f4e-9190aac343d6/settings/deployed?id=a6c91d3f-2e94-4614-950f-d8df02ae251b",
+    "data": "{\"viewId\":\"a6c91d3f-2e94-4614-950f-d8df02ae251b\",\"updateWording\":{\"EN-US\":\"Georgia Power Outage Map, updated every 10 min\"},\"stormMode\":false,\"redirectUrl\":\"\"}"
+  },
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/7b38c047-7950-444b-a25c-9b3e5ab986eb/alerts/scheduledAlerts?viewId=67b44af5-3847-4ca3-9f4e-9190aac343d6",
+    "data": "{\"_embedded\":{\"scheduledAlertResourceList\":[{\"id\":\"b272d91f-3bc6-4341-bd7c-ee5f3d59dd2e\",\"_links\":{\"self\":{\"href\":\"http://kubra.io/stormcenter/api/v1/stormcenters/7b38c047-7950-444b-a25c-9b3e5ab986eb/alerts/b272d91f-3bc6-4341-bd7c-ee5f3d59dd2e\"}},\"viewId\":\"67b44af5-3847-4ca3-9f4e-9190aac343d6\",\"viewName\":\"External Map\",\"archived\":null,\"bannerColor\":\"#BE281E\",\"bannerFontColor\":\"#FFFFFF\",\"bannerIcon\":\"exclamation-circle\",\"data\":[{\"bannerTitle\":\"Winter Weather\",\"localeCode\":\"EN-US\"}],\"position\":\"BO"
+  },
+  {
+    "url": "https://kubra.io/data/66a4e0ff-a8b1-4d0a-bf08-84d3b8ddafbf/public/summary-1/data.json",
+    "data": "{\"fileTitle\":\"data\",\"summaryFileData\":{\"totals\":[{\"summaryTotalId\":\"total-1\",\"total_cust_a\":{\"val\":335},\"total_percent_cust_a\":{\"val\":0.02},\"total_percent_cust_active\":{\"val\":99.98},\"total_cust_s\":2762228,\"total_outages\":65}],\"date_generated\":\"2026-01-30T15:04:15.795Z\",\"overwritten_ca\":false,\"overwritten_etr\":false,\"page_mode\":{\"mode\":\"BLUESKY\",\"redirectURL\":\"\",\"pausePublish\":false}}}"
+  },
+  {
+    "url": "https://kubra.io/stormcenter/api/v1/stormcenters/7b38c047-7950-444b-a25c-9b3e5ab986eb/messages/9rQZgL/intl/en-US/desktop",
+    "data": "{\"custom-element-message-dbc73468-964c-4caa-aadd-3485eaf40e0d\":\"Report An Outage\",\"info-box-field-label-59c1e70f-68f4-4dcb-a92e-c096199a1ebf-name\":\"County\",\"report-general-title-message-59c1e70f-68f4-4dcb-a92e-c096199a1ebf\":\"Outages by County\",\"info-box-field-label-thematic-3-cust_a\":\"Customers Affected\",\"backend.tab.help\":\"Help\",\"backend.tab.close\":\"Close\",\"mask-text-message-id\":\"Less Than  {value}\",\"custom-element-message-66d7ee44-dacf-4cf3-a307-c22b1f16e00e\":\"<p>This screen provides a summary"
+  },
+  {
+    "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+    "data": "{}"
+  },
+  {
+    "url": "https://kubra.io/cluster-data/200/f738adb9-3478-457e-9af5-fc3b91ec6aec/66a4e0ff-a8b1-4d0a-bf08-84d3b8ddafbf/public/cluster-2/032002.json",
+    "data": "{\"file_title\":\"032002\",\"file_data\":[{\"id\":\"6-0\",\"title\":\"Area Outage\",\"desc\":{\"n_out\":3,\"cust_a\":{\"val\":8},\"inc_id\":null,\"crew_status\":null,\"cluster\":true,\"etr\":\"2026-01-30T19:00:00Z\",\"etr_confidence\":null,\"comments\":null,\"cause\":null,\"crew_icon\":false,\"start_time\":null},\"geom\":{\"p\":[\"_luqErrvgO\"]}},{\"id\":\"6-1\",\"title\":\"Area Outage\",\"desc\":{\"n_out\":2,\"cust_a\":{\"val\":138},\"inc_id\":null,\"crew_status\":null,\"cluster\":true,\"etr\":\"2026-01-30T17:15:00Z\",\"etr_confidence\":null,\"comments\":null,\"cause\":nul"
+  },
+  {
+    "url": "https://kubra.io/cluster-data/300/f738adb9-3478-457e-9af5-fc3b91ec6aec/66a4e0ff-a8b1-4d0a-bf08-84d3b8ddafbf/public/cluster-2/032003.json",
+    "data": "{\"file_title\":\"032003\",\"file_data\":[{\"id\":\"6-0\",\"title\":\"Area Outage\",\"desc\":{\"n_out\":4,\"cust_a\":{\"val\":4,\"mask\":5},\"inc_id\":null,\"crew_status\":null,\"cluster\":true,\"etr\":\"ETR-EXP\",\"etr_confidence\":null,\"comments\":null,\"cause\":null,\"crew_icon\":false,\"start_time\":null},\"geom\":{\"p\":[\"}eksEnz{{N\"]}},{\"id\":\"6-1\",\"title\":\"Area Outage\",\"desc\":{\"n_out\":12,\"cust_a\":{\"val\":20},\"inc_id\":null,\"crew_status\":null,\"cluster\":true,\"etr\":\"ETR-NULL\",\"etr_confidence\":null,\"comments\":null,\"cause\":null,\"crew_icon\":fa"
+  },
+  {
+    "url": "https://kubra.io/cluster-data/120/f738adb9-3478-457e-9af5-fc3b91ec6aec/66a4e0ff-a8b1-4d0a-bf08-84d3b8ddafbf/public/cluster-2/032021.json",
+    "data": "{\"file_title\":\"032021\",\"file_data\":[{\"id\":\"6-0\",\"title\":\"Area Outage\",\"desc\":{\"n_out\":5,\"cust_a\":{\"val\":5},\"inc_id\":null,\"crew_status\":null,\"cluster\":true,\"etr\":\"ETR-EXP\",\"etr_confidence\":null,\"comments\":null,\"cause\":null,\"crew_icon\":false,\"start_time\":null},\"geom\":{\"p\":[\"{b}|DlfkpN\"]}},{\"id\":\"6-1\",\"title\":\"Area Outage\",\"desc\":{\"n_out\":2,\"cust_a\":{\"val\":4,\"mask\":5},\"inc_id\":null,\"crew_status\":null,\"cluster\":true,\"etr\":\"2026-01-30T16:45:00Z\",\"etr_confidence\":null,\"comments\":null,\"cause\":null,\"cre"
+  },
+  {
+    "url": "https://kubra.io/regions/517ccefe-13fb-4056-a8d4-265180842af6/e319d5d2-c3ef-4297-9140-6f9481ee0201/serviceareas.json",
+    "data": "{\"file_title\":null,\"file_data\":[{\"id\":\"Service Area\",\"title\":\"Service Area\",\"icon\":\"\",\"desc\":{},\"geom\":{\"a\":[\"kuvsEtancO@?SuTFmP?_@D}LA}^Ng}@Pi_@C}\\\\J{NCuOMYHsORaLEwRLal@EmRLuMAqHR}ROmT?sj@Fmb@JyFDkODu~@JoMBsPLm^D}^Pm\\\\DuyEAs~@Bi^?a_@Ew^Bu^@{rB?k@?o@l@m@HCj@IH?l@@??\\\\Kp@m@V_@Pa@NMH?j@BD?PAtCe@h@E??zBMv@Qp@[VUPW\\\\{@JOBCLS^S\\\\E@?B??A@EvScv@jAkElLec@rFwSpPum@ZiLWse@?g@?OrIiNuDkBoCyAmGcDAG?A}BeR`@mB_DeCaAu@s@k@u@qAcDuF[i@HGb_@sWteAcu@Ni@J@X@@A|JkH^YKKcByBY_@CE}@iAU[H[g@uDIuFL{Mn@}HdAmK~@}G~BiI`AoCX]"
+  }
+]

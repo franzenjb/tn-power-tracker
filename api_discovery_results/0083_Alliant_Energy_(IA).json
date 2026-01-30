@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://cdn.cookielaw.org/consent/01943d3a-c4d8-78f0-bb04-160bd3d94b4f/01943d3a-c4d8-78f0-bb04-160bd3d94b4f.json",
+    "data": "{\"CookieSPAEnabled\":false,\"CookieSameSiteNoneEnabled\":false,\"CookieV2CSPEnabled\":false,\"MultiVariantTestingEnabled\":false,\"UseV2\":true,\"MobileSDK\":false,\"SkipGeolocation\":false,\"ScriptType\":\"PRODUCTION\",\"Version\":\"202501.1.0\",\"OptanonDataJSON\":\"01943d3a-c4d8-78f0-bb04-160bd3d94b4f\",\"GeolocationUrl\":\"https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location\",\"BulkDomainCheckUrl\":\"https://cookies-data.onetrust.io/bannersdk/v1/domaingroupcheck\",\"RuleSet\":[{\"Id\":\"01953e0f-0eda-7b75-af36-2b3a"
+  },
+  {
+    "url": "https://cdn.cookielaw.org/consent/01943d3a-c4d8-78f0-bb04-160bd3d94b4f/01953e0f-0eda-7b75-af36-2b3a1d3c303a/en.json",
+    "data": "{\"DomainData\":{\"pclifeSpanYr\":\"Year\",\"pclifeSpanYrs\":\"Years\",\"pclifeSpanSecs\":\"A few seconds\",\"pclifeSpanWk\":\"Week\",\"pclifeSpanWks\":\"Weeks\",\"pccontinueWithoutAcceptText\":\"Continue without Accepting\",\"pccloseButtonType\":\"Icon\",\"MainText\":\"Update Cookie Preferences\",\"MainInfoText\":\"We use cookies and other technologies to collect information about your use of our website. Some of this collection is required for the website to work and cannot be disabled. Unless you chose to \\\"Reject All,\\\" on the "
+  },
+  {
+    "url": "https://cdn.cookielaw.org/scripttemplates/202501.1.0/assets/v2/otPcCenter.json",
+    "data": "{\"name\":\"otPcCenter\",\"html\":\"PGRpdiBpZD0ib25ldHJ1c3QtcGMtc2RrIiBjbGFzcz0ib3RQY0NlbnRlciBvdC1oaWRlIG90LWZhZGUtaW4iPjxkaXYgcm9sZT0iZGlhbG9nIiBhcmlhLW1vZGFsPSJ0cnVlIj48IS0tIENsb3NlIEJ1dHRvbiAtLT48ZGl2IGNsYXNzPSJvdC1wYy1oZWFkZXIiPjwhLS0gTG9nbyBUYWcgLS0+PGRpdiBjbGFzcz0ib3QtcGMtbG9nbyIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsPSJDb21wYW55IExvZ28iPjwvZGl2PjxidXR0b24gaWQ9ImNsb3NlLXBjLWJ0bi1oYW5kbGVyIiBjbGFzcz0ib3QtY2xvc2UtaWNvbiIgYXJpYS1sYWJlbD0iQ2xvc2UiPjwvYnV0dG9uPjwvZGl2PjwhLS0gQ2xvc2UgQnV0dG9uIC0tPjxkaXYgaWQ9Im9"
+  },
+  {
+    "url": "https://cdn.cookielaw.org/scripttemplates/202501.1.0/assets/otFloatingFlat.json",
+    "data": "{\"name\":\"otFloatingFlat\",\"html\":\"PGRpdiBpZD0ib25ldHJ1c3QtYmFubmVyLXNkayIgY2xhc3M9Im90RmxvYXRpbmdGbGF0Ij48ZGl2IHJvbGU9ImRpYWxvZyI+PGRpdiBjbGFzcz0ib3Qtc2RrLWNvbnRhaW5lciBvdC1kcGQtY29udGFpbmVyIj48aDIgY2xhc3M9Im90LWRwZC10aXRsZSI+PC9oMj48ZGl2IGNsYXNzPSJvdC1kcGQtY29udGVudCI+PHAgY2xhc3M9Im90LWRwZC1kZXNjIj48L3A+PC9kaXY+PC9kaXY+PGRpdiBjbGFzcz0ib3Qtc2RrLWNvbnRhaW5lciI+PCEtLSBCYW5uZXIgY2xvc2UgaWNvbiBzdGFydHMgLS0+PGRpdiBjbGFzcz0iYmFubmVyLWNsb3NlLWJ0bi1jb250YWluZXIiPjxidXR0b24gY2xhc3M9Im9uZXRydXN0LWNsb3NlLWJ"
+  }
+]

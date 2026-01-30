@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://cdn.cookielaw.org/consent/e5dffbdb-5407-499a-97bf-16e0f36978be/e5dffbdb-5407-499a-97bf-16e0f36978be.json",
+    "data": "{\"CookieSPAEnabled\":false,\"CookieSameSiteNoneEnabled\":false,\"CookieV2CSPEnabled\":false,\"MultiVariantTestingEnabled\":false,\"UseV2\":true,\"MobileSDK\":false,\"SkipGeolocation\":false,\"ScriptType\":\"PRODUCTION\",\"Version\":\"202511.1.0\",\"OptanonDataJSON\":\"e5dffbdb-5407-499a-97bf-16e0f36978be\",\"GeolocationUrl\":\"https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location\",\"BulkDomainCheckUrl\":\"https://cookies-data.onetrust.io/bannersdk/v1/domaingroupcheck\",\"RuleSet\":[{\"Id\":\"c1edbc61-0e81-46df-8a1b-d777"
+  },
+  {
+    "url": "https://cdn.cookielaw.org/consent/e5dffbdb-5407-499a-97bf-16e0f36978be/c1edbc61-0e81-46df-8a1b-d7770254dff1/en.json",
+    "data": "{\"DomainData\":{\"pclifeSpanYr\":\"Year\",\"pclifeSpanYrs\":\"Years\",\"pclifeSpanSecs\":\"A few seconds\",\"pclifeSpanWk\":\"Week\",\"pclifeSpanWks\":\"Weeks\",\"pccontinueWithoutAcceptText\":\"Continue without Accepting\",\"pccloseButtonType\":\"Icon\",\"MainText\":\"Privacy Preference Center\",\"MainInfoText\":\"When you visit any website, it may store or retrieve information on your browser, mostly in the form of cookies. This information might be about you, your preferences or your device and is mostly used to make the site w"
+  },
+  {
+    "url": "https://cdn.cookielaw.org/scripttemplates/202511.1.0/assets/otCenterRounded.json",
+    "data": "{\"name\":\"otCenterRounded\",\"html\":\"PGRpdiBpZD0ib25ldHJ1c3QtYmFubmVyLXNkayIgY2xhc3M9Im90Q2VudGVyUm91bmRlZCI+PGRpdiBjbGFzcz0ib3Qtc2RrLWNvbnRhaW5lciIgcm9sZT0iZGlhbG9nIj48ZGl2IGNsYXNzPSJvdC1zZGstcm93Ij48ZGl2IGlkPSJvbmV0cnVzdC1ncm91cC1jb250YWluZXIiIGNsYXNzPSJvdC1zZGstdHdlbHZlIG90LXNkay1jb2x1bW5zIj48ZGl2IGlkPSJvbmV0cnVzdC1wb2xpY3kiPjxkaXYgY2xhc3M9ImJhbm5lci1oZWFkZXIiPjxkaXYgY2xhc3M9ImJhbm5lcl9sb2dvIj48L2Rpdj48L2Rpdj48aDIgaWQ9Im9uZXRydXN0LXBvbGljeS10aXRsZSI+VGl0bGU8L2gyPjxkaXYgaWQ9Im9uZXRydXN0LXBvbGljeS"
+  },
+  {
+    "url": "https://cdn.cookielaw.org/scripttemplates/202511.1.0/assets/otCookieSettingsButton.json",
+    "data": "{\"name\":\"otCookieSettingsButton\",\"html\":\"PGRpdiBpZD0ib3Qtc2RrLWJ0bi1mbG9hdGluZyIgY2xhc3M9Im90LWZsb2F0aW5nLWJ1dHRvbiBvdC1oaWRlIj48ZGl2IGNsYXNzPSJvdC1mbG9hdGluZy1idXR0b25fX2Zyb250Ij48YnV0dG9uIHR5cGU9ImJ1dHRvbiIgY2xhc3M9Im90LWZsb2F0aW5nLWJ1dHRvbl9fb3BlbiI+PC9idXR0b24+PC9kaXY+PGRpdiBjbGFzcz0ib3QtZmxvYXRpbmctYnV0dG9uX19iYWNrIj48YnV0dG9uIHR5cGU9ImJ1dHRvbiIgY2xhc3M9Im90LWZsb2F0aW5nLWJ1dHRvbl9fY2xvc2UiPjwhLS0/eG1sIHZlcnNpb249IjEuMCIgZW5jb2Rpbmc9IlVURi04Ij8tLT4gPHN2ZyByb2xlPSJwcmVzZW50YXRpb24iIHRhYmluZGV"
+  }
+]

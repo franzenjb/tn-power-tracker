@@ -1,4 +1,4 @@
-"""Run all scrapers and aggregate results."""
+"""Run all scrapers and aggregate results using REAL PowerOutage.us scraper."""
 import asyncio
 import json
 import sys
@@ -6,14 +6,11 @@ import os
 from pathlib import Path
 from datetime import datetime
 import logging
+import requests
 
 # Add scrapers directory to path
 sys.path.insert(0, str(Path(__file__).parent))
 
-from nes_scraper import NEScraper
-from mlgw_scraper import MLGWScraper
-from epb_scraper import EPBScraper
-from kub_scraper import KUBScraper
 from utils.aggregator import aggregate_by_county, fill_missing_counties
 from utils.service_territories import TN_COUNTIES
 
@@ -24,36 +21,85 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-async def run_scraper_async(scraper):
-    """Run a single scraper asynchronously."""
-    loop = asyncio.get_event_loop()
-    return await loop.run_in_executor(None, scraper.scrape)
+def scrape_poweroutage_us():
+    """Scrape PowerOutage.us API for Tennessee data."""
+    try:
+        logger.info("Scraping PowerOutage.us API...")
+
+        url = "https://poweroutage.us/api/states"
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+            'Accept': 'application/json',
+            'Referer': 'https://poweroutage.us/'
+        }
+
+        response = requests.get(url, headers=headers, timeout=15)
+        response.raise_for_status()
+
+        data = response.json()
+
+        # Find Tennessee
+        for state in data:
+            if state.get('name') == 'Tennessee' or state.get('id') == 'Tennessee':
+                logger.info(f"Found TN state data: {state.get('customers_out', 0)} customers out")
+
+                # Try to get county-level data
+                state_id = state.get('id', 'Tennessee').lower()
+                county_url = f"https://poweroutage.us/api/counties?state={state_id}"
+
+                county_response = requests.get(county_url, headers=headers, timeout=15)
+                if county_response.status_code == 200:
+                    counties_data = county_response.json()
+                    logger.info(f"Got county data: {len(counties_data) if isinstance(counties_data, list) else 'state-level only'}")
+                    return parse_poweroutage_data(counties_data)
+
+                # Fallback to state-level data
+                return {
+                    'Statewide': {
+                        'customers_out': state.get('customers_out', 0),
+                        'customers_tracked': state.get('customers_tracked', 0),
+                        'timestamp': datetime.utcnow().isoformat() + 'Z',
+                        'source': 'PowerOutage.us',
+                        'outage_percent': 0
+                    }
+                }
+
+        logger.warning("Tennessee not found in PowerOutage.us API")
+        return {}
+
+    except Exception as e:
+        logger.error(f"PowerOutage.us scraping failed: {e}")
+        return {}
+
+
+def parse_poweroutage_data(data):
+    """Parse county data from PowerOutage.us."""
+    result = {}
+
+    if isinstance(data, list):
+        for county_data in data:
+            county_name = county_data.get('name', '').replace(' County', '').strip()
+            if county_name in TN_COUNTIES:
+                result[county_name] = {
+                    'customers_out': county_data.get('customers_out', 0),
+                    'customers_tracked': county_data.get('customers_tracked', 0),
+                    'timestamp': datetime.utcnow().isoformat() + 'Z',
+                    'source': 'PowerOutage.us',
+                    'outage_percent': 0
+                }
+
+    return result
 
 
 async def run_all_scrapers():
-    """Run all scrapers in parallel and aggregate results."""
-    scrapers = [
-        NEScraper(),
-        MLGWScraper(),
-        EPBScraper(),
-        KUBScraper(),
-    ]
+    """Run PowerOutage.us scraper (the one that actually works)."""
+    logger.info("Running PowerOutage.us scraper...")
 
-    logger.info(f"Running {len(scrapers)} scrapers in parallel...")
+    # Use the REAL scraper that we already built
+    poweroutage_data = scrape_poweroutage_us()
 
-    # Run all scrapers concurrently
-    tasks = [run_scraper_async(scraper) for scraper in scrapers]
-    results = await asyncio.gather(*tasks, return_exceptions=True)
-
-    # Filter out exceptions
-    valid_results = []
-    for i, result in enumerate(results):
-        if isinstance(result, Exception):
-            logger.error(f"Scraper {scrapers[i].utility_name} failed: {result}")
-        else:
-            valid_results.append(result)
-
-    logger.info(f"Successfully ran {len(valid_results)}/{len(scrapers)} scrapers")
+    valid_results = [poweroutage_data] if poweroutage_data else []
+    logger.info(f"PowerOutage.us returned {len(poweroutage_data)} counties with data")
 
     # Aggregate by county
     aggregated = aggregate_by_county(valid_results)

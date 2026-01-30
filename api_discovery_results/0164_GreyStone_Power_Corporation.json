@@ -1,0 +1,10 @@
+[
+  {
+    "url": "https://cdn.acsbapp.com/config/greystonepower.com/config.json?page=%2Foutage-center%2F",
+    "data": "{\"time\":\"2026-01-01T00:29:13.116Z\",\"specifics\":\"\",\"addonAnalytics\":false,\"blockMeta\":false,\"blockImages\":false,\"blockStyles\":false,\"blockTextSimplifier\":false,\"widgetSettings\":null,\"featureFlags\":{\"text-simplifier\":false}}"
+  },
+  {
+    "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+    "data": "{}"
+  }
+]

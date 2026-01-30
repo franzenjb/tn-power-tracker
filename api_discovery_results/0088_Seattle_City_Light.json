@@ -1,0 +1,66 @@
+[
+  {
+    "url": "https://www.seattle.gov/api/content/x121473/elements/LanguagesList,Page,DisclaimerLanguageExcerpts",
+    "data": "{\"attributes\":{\"id\":\"x121473\",\"name\":\"Languages Drop Down - VueJS\",\"locale\":\"\",\"expanded\":\"20260130T07:22:21\"},\"elements\":[{\"name\":\"LanguagesList\",\"value\":\"English - en|Español - es|繁體中文 - zh-TW|简体中文 - zh-CN|Tiếng Việt - vi|Af-Soomaali - so|Tagalog - tl|한국어 - ko|አማርኛ - am|русский язык - ru|日本語 - ja|ትግርኛ - ti|Oromiffa - om|हिन्दी - hi|Français - fr|Українська - uk|ภาษาไทย - th|ភាសាខ្មែរ  - km|ພາສາລາວ - lo|ਪੰਜਾਬੀ - pa|عربى - ar\",\"children\":[],\"attributes\":{\"openByDefault\":\"false\",\"maxChoices\":\"\",\""
+  },
+  {
+    "url": "https://www.seattle.gov/api/content/x112386/elements/DeptGoogleSearchCode",
+    "data": "{\"attributes\":{\"id\":\"x112386\",\"name\":\"Top Nav_SCL\",\"locale\":\"\",\"expanded\":\"20260130T07:25:06\"},\"elements\":[{\"name\":\"DeptGoogleSearchCode\",\"value\":\"1890\",\"children\":[],\"attributes\":{\"openByDefault\":\"false\"}}]}"
+  },
+  {
+    "url": "https://www.seattle.gov/api/content/x121475/elements/SitewideMegaMenuItems/",
+    "data": "{\"attributes\":{\"id\":\"x121475\",\"name\":\"Sitewide Mega Menu\",\"locale\":\"\",\"expanded\":\"20260130T07:26:53\"},\"elements\":[{\"name\":\"SitewideMegaMenuItems\",\"value\":\"\\r\\n  City Administration\\r\\n  Council, Mayor, Court, Law, Finance\\r\\n  \\r\\n  bulleted\\r\\n  Connect with Elected Officials\\r\\n  \\r\\n  \\r\\n\\r\\n  bulleted\\r\\n  Departments and Contacts\\r\\n  \\r\\n  \\r\\n\\r\\n  bulleted\\r\\n  Get Involved with the City\\r\\n  \\r\\n  \\r\\n\\r\\n  bulleted\\r\\n  Finance and Purchasing\\r\\n  \\r\\n  \\r\\n\\r\\n  bulleted\\r\\n  Issues "
+  },
+  {
+    "url": "https://utilisocial.io/datacapable/v2/p/scl/map/app/settings",
+    "data": "{\"theme\":{\"palette\":{\"primary\":{\"main\":\"#003da5\"},\"secondary\":{\"main\":\"#F4F4F5\"}},\"typography\":{\"fontFamily\":\"apple-system, BlinkMacSystemFont, sans-serif\"}},\"faviconUrl\":\"https://www.seattle.gov/favicon-32x32.png\",\"pageTitle\":\"Outages | Seattle City Light\",\"layers\":{\"weather\":{\"settings\":{\"defaultEnabled\":false,\"visibility\":\"PUBLIC\",\"title\":\"Weather\",\"id\":\"weather\",\"layerIcon\":{\"icon\":\"OUTAGE_WEATHER_RADAR_LEGEND\",\"color\":\"#65A30D\",\"s3Url\":\"\"},\"globalConditions\":[],\"filterByLegacyDisplayTime\":f"
+  },
+  {
+    "url": "https://js.arcgis.com/4.25/@arcgis/core/assets/esri/t9n/common_en.json",
+    "data": "{\"about\":\"About\",\"add\":\"Add\",\"all\":\"All\",\"apply\":\"Apply\",\"auth\":{\"logOut\":\"Log out\",\"signIn\":\"Sign in\"},\"back\":\"Back\",\"cancel\":\"Cancel\",\"change\":\"Change\",\"clear\":\"Clear\",\"close\":\"Close\",\"collapse\":\"Collapse\",\"configure\":\"Configure\",\"control\":{\"pause\":\"Pause\",\"play\":\"Play\",\"resume\":\"Resume\",\"stop\":\"Stop\"},\"copy\":\"Copy\",\"create\":\"Create\",\"cut\":\"Cut\",\"delete\":\"Delete\",\"details\":\"Details\",\"done\":\"Done\",\"dragHandleTitle\":\"Drag/reorder\",\"dragHandleLabel\":\"Activate the reorder button and use the arrow "
+  },
+  {
+    "url": "https://js.arcgis.com/4.25/@arcgis/core/assets/esri/widgets/Attribution/t9n/Attribution_en.json",
+    "data": "{\"widgetLabel\":\"Attribution\"}"
+  },
+  {
+    "url": "https://js.arcgis.com/4.25/@arcgis/core/assets/esri/widgets/Search/t9n/Search_en.json",
+    "data": "{\"widgetLabel\":\"Search\",\"searchButtonTitle\":\"Search\",\"clearButtonTitle\":\"Clear search\",\"placeholder\":\"Find address or place\",\"searchIn\":\"Search in\",\"all\":\"All\",\"allPlaceholder\":\"Find address or place\",\"emptyValue\":\"Please enter a search term.\",\"locateError\":\"Could not retrieve current location.\",\"untitledResult\":\"Untitled\",\"untitledSource\":\"Untitled source\",\"noResults\":\"No results\",\"noResultsFound\":\"There were no results found.\",\"noResultsFoundForValue\":\"There were no results found for {value}.\""
+  },
+  {
+    "url": "https://js.arcgis.com/4.25/@arcgis/core/assets/esri/widgets/Popup/t9n/Popup_en.json",
+    "data": "{\"widgetLabel\":\"Popup\",\"zoom\":\"Zoom to\",\"next\":\"Next feature\",\"previous\":\"Previous feature\",\"dock\":\"Dock\",\"undock\":\"Undock\",\"pageText\":\"{index} of {total}\",\"selectedFeature\":\"Selected feature\",\"selectedFeatures\":\"{total} results\",\"browseClusteredFeatures\":\"Browse features\",\"exitRelatedRecords\":\"Exit related records\"}"
+  },
+  {
+    "url": "https://js.arcgis.com/4.25/@arcgis/core/assets/esri/widgets/Locate/t9n/Locate_en.json",
+    "data": "{\"widgetLabel\":\"Locate\",\"title\":\"Find my location\",\"currentLocation\":\"Current location\",\"timestamp\":\"Timestamp\",\"latitude\":\"Latitude\",\"longitude\":\"Longitude\",\"accuracy\":\"Accuracy\",\"altitude\":\"Altitude\",\"altitudeAccuracy\":\"Altitude accuracy\",\"heading\":\"Heading\",\"speed\":\"Speed\"}"
+  },
+  {
+    "url": "https://js.arcgis.com/4.25/@arcgis/core/assets/esri/t9n/basemaps_en.json",
+    "data": "{\"streets\":\"Streets\",\"satellite\":\"Imagery\",\"hybrid\":\"Imagery with Labels\",\"terrain\":\"Terrain with Labels\",\"topo\":\"Topographic\",\"gray\":\"Light Gray Canvas\",\"dark-gray\":\"Dark Gray Canvas\",\"oceans\":\"Oceans\",\"national-geographic\":\"National Geographic\",\"osm\":\"OpenStreetMap\",\"streets-night-vector\":\"World Street Map (Night)\",\"streets-relief-vector\":\"World Street Map (with Relief)\",\"streets-navigation-vector\":\"World Navigation Map\"}"
+  },
+  {
+    "url": "https://utilisocial.io/datacapable/v2/p/scl/map/territory?regionIds=",
+    "data": "{\"type\":\"polygon\",\"spatialReference\":{\"latestWkid\":4326,\"wkid\":4326},\"rings\":[[[-122.270664,47.777094],[-122.288585,47.777535],[-122.394487,47.777969],[-122.393275,47.77355],[-122.393823,47.771733],[-122.392664,47.769885],[-122.387292,47.766275],[-122.386995,47.763956],[-122.382639,47.761535],[-122.380051,47.759161],[-122.379512,47.756716],[-122.381111,47.753932],[-122.38254,47.747994],[-122.377006,47.739864],[-122.373655,47.731877],[-122.373431,47.726632],[-122.37565,47.723133],[-122.376117,47."
+  },
+  {
+    "url": "https://utilisocial.io/datacapable/v2/p/scl/map/stats",
+    "data": "{\"lastUpdatedTime\":\"1769786883421\"}"
+  },
+  {
+    "url": "https://js.arcgis.com/4.25/@arcgis/core/assets/esri/widgets/Zoom/t9n/Zoom_en.json",
+    "data": "{\"widgetLabel\":\"Zoom\",\"zoomIn\":\"Zoom in\",\"zoomOut\":\"Zoom out\"}"
+  },
+  {
+    "url": "https://utilisocial.io/datacapable/v2/p/scl/map/events",
+    "data": "[]"
+  },
+  {
+    "url": "https://cdn.arcgis.com/sharing/rest/content/items/63c47b7177f946b49902c24129b87252/resources/styles/root.json?f=json&token=AAPKd4412cd932344316a45abaa19281ff2669i1SR_COzKItN2ejXBrMjw3YaXsIgcc9wV_vmBZI0cUwW84qH-6nUn436xtHsI5",
+    "data": "{\"version\":8,\"sprite\":\"https://cdn.arcgis.com/sharing/rest/content/items/63c47b7177f946b49902c24129b87252/resources/styles/../sprites/sprite\",\"glyphs\":\"https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/resources/fonts/{fontstack}/{range}.pbf\",\"sources\":{\"esri\":{\"type\":\"vector\",\"url\":\"https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer\"}},\"layers\":[{\"id\":\"background\",\"type\":\"background\",\"layout\":{},\"paint\":{\"background-color\":\"#a7d6f"
+  },
+  {
+    "url": "https://cdn.arcgis.com/sharing/rest/content/items/63c47b7177f946b49902c24129b87252/resources/sprites/sprite.json?token=AAPKd4412cd932344316a45abaa19281ff2669i1SR_COzKItN2ejXBrMjw3YaXsIgcc9wV_vmBZI0cUwW84qH-6nUn436xtHsI5",
+    "data": "{\"Water area/Playa\":{\"x\":0,\"y\":0,\"width\":64,\"height\":64,\"pixelRatio\":1,\"sdf\":false},\"Water area/Lake or river intermittent\":{\"x\":64,\"y\":0,\"width\":64,\"height\":64,\"pixelRatio\":1,\"sdf\":false},\"Water area/Ice mass\":{\"x\":128,\"y\":0,\"width\":64,\"height\":64,\"pixelRatio\":1,\"sdf\":false},\"Water area/Swamp or marsh\":{\"x\":192,\"y\":0,\"width\":64,\"height\":64,\"pixelRatio\":1,\"sdf\":false},\"Road/Octagon green white/6\":{\"x\":256,\"y\":0,\"width\":54,\"height\":30,\"pixelRatio\":1,\"sdf\":false},\"Road/Octagon green white (Alt)/6\""
+  }
+]

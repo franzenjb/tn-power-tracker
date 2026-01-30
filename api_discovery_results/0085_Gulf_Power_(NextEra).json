@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://www.fpl.com/data/persisted-local-storage.json?10272025103115",
+    "data": "{\"fpl\":{\"serviceOrders\":\"\",\"remembered-email\":\"\",\"mediaChannel\":\"\",\"primaryterritory\":\"\",\"secondaryterritory\":\"\",\"multipleterritory\":\"\",\"selfIndentifiedterritory\":\"\",\"fpl-remind-later-ebill\":\"\",\"fpl-remind-later-bb\":\"\",\"fpl-remind-later-sms\":\"\",\"fpl-remind-later-tcpa\":\"\",\"fpl-remind-later-dynamic\":\"\"},\"fplNW\":{\"remind-later\":\"\",\"serviceOrders\":\"\",\"remembered-email\":\"\",\"mediaChannel\":\"\",\"primaryterritory\":\"\",\"secondaryterritory\":\"\",\"multipleterritory\":\"\",\"selfIndentifiedterritory\":\"\",\"connectInfo"
+  },
+  {
+    "url": "https://www.fpl.com/data/eso-cq-values.json?10272025103115",
+    "data": "{\"ESO\":{\"preTokenUrl\":\"https://www.fpl.com/fpl-app/eso/\",\"tokenExpirePeriod\":3888000000,\"disqualifiedApplicationList\":[\"/my-account/profile-account-settings.html#profile\",\"/my-account/add-account.html#add-accts/1\",\"account-settings\",\"acct-summary-account-settings\",\"global-profile-settings\",\"/account/name-change.html\",\"/my-account/multi-pay-navigation-gateway.html\",\"/my-account/multi-dashboard.html\",\"/my-account/pay-online.html\",\"/my-account/stop-move.html\"],\"disqualifiedApplicationListInternal\":"
+  },
+  {
+    "url": "https://prod-live-chat.sprinklr.com/api/livechat/handshake/appHandshake",
+    "data": "{\"chatSessionToken\":\"eyJhbGciOiJSUzI1NiJ9.eyJ2aXNpdFNlc3Npb25JZCI6IjY5N2NjZTM3MzNkY2RhNzk2ODNlNmE1MyIsInN1YiI6IkFjY2VzcyBUb2tlbiBHZW5lcmF0ZWQgQnkgU3ByaW5rbHIiLCJjaGF0TG9jYWxlIjoiZW4iLCJjaGF0VXNlckhhc0NvbnZlcnNhdGlvblN0YXJ0ZWQiOmZhbHNlLCJpc3MiOiJTUFJJTktMUiIsInZpc2l0U2Vzc2lvbklkRXhwaXJlQXQiOjE3Njk4MzAxMzU2NjQsInR5cCI6IkpXVCIsImlzRGVmbGVjdGlvblRva2VuIjpmYWxzZSwidXNlclNlc3Npb25Mb2dpbk1ldGhvZCI6IntcInR5cGVcIjpcIkFOT05ZTU9VU1wifSIsImNoYXRVc2VySWQiOiJBXzY5N2NjZTM3MzNkY2RhNzk2ODNlNmE1MiIsImFwcElkIjoiYX"
+  },
+  {
+    "url": "https://prod-live-chat.sprinklr.com/api/livechat/handshake/application/6425e3f0dfbe9a440cbae2b3_app_1624422",
+    "data": "{\"createdTime\":1688143824025,\"deleted\":false,\"canEdit\":false,\"id\":\"app_1624422\",\"accountId\":1624422,\"partnerId\":478,\"name\":\"Care Center\",\"description\":\"FPL Contact Center\",\"showBrandProfile\":false,\"brandProfileImgUrl\":\"https://prod.cdata.app.sprinklr.com/478/ACCOUNT/IMAGE/8457D7DEE671CA4AE8FD38DC2ABFDD70\",\"botName\":\"Julia\",\"botProfileImgUrl\":\"https://sprcdn-assets.sprinklr.com/2190/28756bef-794a-4313-994a-d3e855ed9ad8-1871692025/FPL-Blue_120x120_p.png\",\"allowedTags\":[\"target\"],\"expireAfterDurati"
+  },
+  {
+    "url": "https://prod-live-chat.sprinklr.com/api/livechat/conversation/fetch?sortKey=lastInteractionTime",
+    "data": "{\"results\":[],\"hasMore\":false,\"totalCount\":0,\"before\":1769786935975,\"after\":1769786935974}"
+  },
+  {
+    "url": "https://px.ads.linkedin.com/attribution_trigger?pid=6400868&time=1769786935940&url=https%3A%2F%2Fwww.fpl.com%2Fnorthwest%2Foutages%2Foutage-map.html",
+    "data": "{}"
+  },
+  {
+    "url": "https://prod-live-chat.sprinklr.com/api/livechat/event/fetch-notifications?cursor=A_697cce370000000000000000",
+    "data": "{\"results\":[],\"hasMore\":false,\"totalCount\":0,\"beforeCursor\":\"B_697cce370000000000000001\",\"afterCursor\":\"A_697cce370000000000000000\",\"details\":{\"SERVER_TIMESTAMP\":1769786936413}}"
+  }
+]

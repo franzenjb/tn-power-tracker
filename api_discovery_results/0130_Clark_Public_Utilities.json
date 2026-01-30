@@ -1,0 +1,6 @@
+[
+  {
+    "url": "https://cdn.acsbapp.com/config/clarkpublicutilities.com/config.json?page=%2Foutages%2F",
+    "data": "{\"time\":\"2026-01-01T00:43:24.188Z\",\"specifics\":\"\",\"addonAnalytics\":true,\"blockMeta\":false,\"blockImages\":false,\"blockStyles\":false,\"blockTextSimplifier\":false,\"widgetSettings\":{\"consistentHelpData\":[],\"disableBgProcess\":false,\"footerHtml\":\"Powered by Stellaractive\",\"hideComponents\":[],\"hideMobile\":false,\"hideTrigger\":false,\"language\":\"en\",\"leadColor\":\"#007fca\",\"mobile\":{\"triggerOffsetX\":3,\"triggerOffsetY\":3,\"triggerPositionX\":\"left\",\"triggerPositionY\":\"bottom\",\"triggerRadius\":\"50%\",\"triggerSize\":"
+  }
+]

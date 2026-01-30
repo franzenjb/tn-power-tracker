@@ -1,0 +1,10 @@
+[
+  {
+    "url": "https://maps.googleapis.com/maps/api/mapsjs/gen_204?csp_test=true",
+    "data": "{}"
+  },
+  {
+    "url": "https://api.idahopower.com/IpcWeb/api/v1/CallToAction/ListByUrl?requestUrl=/outages/outage-map/",
+    "data": "{\"page\":0,\"pageSize\":0,\"pageCount\":0,\"totalCount\":0,\"list\":[],\"wasSuccessful\":true,\"message\":null}"
+  }
+]
