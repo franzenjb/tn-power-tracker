@@ -82,6 +82,15 @@ const TN_UTILITIES = [
     type: 'outagemap',
     hasCountyBreakdown: true
   },
+  // Additional Cooperatives - Expanding Coverage
+  {
+    name: 'Gibson Electric',
+    county: 'Multiple',
+    customers: 39949,
+    url: 'https://outagemap-data.cloud.coop/gibsonconnect/Hosted_Outage_Map/summary.json',
+    type: 'outagemap',
+    hasCountyBreakdown: true
+  },
 ];
 
 export async function GET() {
