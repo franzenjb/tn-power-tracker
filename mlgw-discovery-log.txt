@@ -1,0 +1,1134 @@
+🌐 Navigating to MLGW Outage Map...
+
+📡 GET https://outagemap.mlgw.org/
+
+✅ 200 https://outagemap.mlgw.org/
+   Type: text/html; charset=UTF-8
+✅ Page loaded
+
+⏳ Waiting for map and API calls to load...
+
+📡 GET https://outagemap.mlgw.org/OutageSummary.php
+
+✅ 200 https://outagemap.mlgw.org/OutageSummary.php
+   Type: text/html; charset=UTF-8
+📡 GET https://js.arcgis.com/calcite-components/3.2.1/calcite.esm.js
+📡 GET https://js.arcgis.com/4.33/esri/themes/light/main.css
+📡 GET https://js.arcgis.com/4.33/
+📡 GET https://js.arcgis.com/4.33/map-components/
+📡 GET https://outagemap.mlgw.org/assets/MLGWLogo.png
+📡 GET https://outagemap.mlgw.org/assets/PhoneOutage.png
+📡 GET https://outagemap.mlgw.org/assets/OutageHeader.png
+📡 GET https://outagemap.mlgw.org/assets/LightningLeft.png
+📡 GET https://outagemap.mlgw.org/assets/LightningRight.png
+📡 GET https://outagemap.mlgw.org/assets/RefreshButton.png
+   ⚠️  Error reading response: response.text: Protocol error (Network.getResponseBody): No resource with given identifier found
+   🎯 OUTAGE DATA DETECTED!
+   💾 Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803247681.json
+   Size: 19588 bytes
+   Preview:
+<!---- 2025/00/00 - ACH - Inital Release   ---->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html" charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE"/>
+    <title>MLGW Outage</title>
+    <script type="module" src="https://js.arcgis.com/calcite-components/3.2.1/calcite.esm.js"></script>
+    <link rel="stylesheet" href="https://js.arcgis.com/4.33/esri...
+
+
+✅ 200 https://outagemap.mlgw.org/assets/MLGWLogo.png
+   Type: image/png
+
+✅ 301 https://js.arcgis.com/4.33/
+   Type: 
+📡 GET https://js.arcgis.com/4.33/init.js
+   ⚠️  Error reading response: response.text: Response body is unavailable for redirect responses
+
+✅ 301 https://js.arcgis.com/4.33/map-components/
+   Type: 
+📡 GET https://js.arcgis.com/4.33/map-components/index.js
+
+✅ 200 https://outagemap.mlgw.org/assets/PhoneOutage.png
+   Type: image/png
+
+✅ 200 https://js.arcgis.com/calcite-components/3.2.1/calcite.esm.js
+   Type: application/javascript
+📡 GET https://js.arcgis.com/calcite-components/3.2.1/BJZTU5BQ.js
+   ⚠️  Error reading response: response.text: Response body is unavailable for redirect responses
+
+✅ 200 https://js.arcgis.com/4.33/map-components/index.js
+   Type: application/javascript
+
+✅ 200 https://js.arcgis.com/calcite-components/3.2.1/BJZTU5BQ.js
+   Type: application/javascript
+   🎯 OUTAGE DATA DETECTED!
+   💾 Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803247861.json
+   Size: 29978 bytes
+   Preview:
+/*! All material copyright Esri, All Rights Reserved, unless otherwise specified.
+See https://js.arcgis.com/4.33/esri/copyright.txt for details.
+v4.33.24 */
+import{F as e,T as t}from"./76AVWXSQ.js";var i=e(t,{"arcgis-area-measurement-2d":[()=>import("./S227H7YC.js"),"autoDestroyDisabled,icon,label,position,referenceElement,snappingOptions:,state,unit,unitOptions:;clear,destroy,start"],"arcgis-area-measurement-3d":[()=>import("./4MWAWD5F.js"),"analysis:,autoDestroyDisabled,icon,label,position,ref...
+
+
+✅ 200 https://outagemap.mlgw.org/assets/OutageHeader.png
+   Type: image/png
+
+✅ 200 https://outagemap.mlgw.org/assets/LightningLeft.png
+   Type: image/png
+
+✅ 200 https://js.arcgis.com/4.33/esri/themes/light/main.css
+   Type: text/css
+
+✅ 200 https://js.arcgis.com/4.33/init.js
+   Type: application/javascript
+   🎯 OUTAGE DATA DETECTED!
+   💾 Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803247961.json
+   Size: 1662641 bytes
+   Preview:
+// All material copyright Esri, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.33/esri/copyright.txt for details.
+if("undefined"!=typeof window&&"undefined"!=typeof navigator&&window.document&&(window.dojoConfig||(window.dojoConfig={}),!window.dojoConfig.hasOwnProperty("baseUrl"))){const o=window.document.currentScript.src;let d;d=o.endsWith("/init.js")?o.slice(0,o.lastIndexOf("/"))+"/dojo":o.endsWith("/dojo/dojo.js")?o.slice(0,o.lastIndexOf("/")):o+(o.endsWith("...
+
+📡 GET https://js.arcgis.com/4.33/esri/layers/GeoJSONLayer.js
+📡 GET https://js.arcgis.com/4.33/esri/views/MapView.js
+📡 GET https://js.arcgis.com/4.33/esri/themes/base/fonts/fonts/09ab0626-bb45-4650-acc8-0182d693df02.woff2
+📡 GET https://js.arcgis.com/4.33/map-components/76AVWXSQ.js
+
+✅ 200 https://outagemap.mlgw.org/assets/LightningRight.png
+   Type: image/png
+
+✅ 200 https://js.arcgis.com/4.33/esri/layers/GeoJSONLayer.js
+   Type: application/javascript
+
+✅ 200 https://js.arcgis.com/4.33/esri/themes/base/fonts/fonts/09ab0626-bb45-4650-acc8-0182d693df02.woff2
+   Type: binary/octet-stream
+   🎯 OUTAGE DATA DETECTED!
+   💾 Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248106.json
+   Size: 14479 bytes
+   Preview:
+// All material copyright Esri, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.33/esri/copyright.txt for details.
+//>>built
+require({cache:{"esri/layers/graphics/sources/GeoJSONSource":function(){define(["exports","../../../chunks/tslib.es6","../../../core/Error","../../../core/has","../../../core/Loadable","../../../core/Logger","../../../core/promiseUtils","../../../core/workers/workers","../../../core/accessorSupport/decorators/property","../../../core/RandomL...
+
+
+✅ 200 https://js.arcgis.com/4.33/esri/views/MapView.js
+   Type: application/javascript
+
+✅ 200 https://js.arcgis.com/4.33/map-components/76AVWXSQ.js
+   Type: application/javascript
+📡 GET https://js.arcgis.com/4.33/esri/applications/Components/reactiveUtils.js
+   🎯 OUTAGE DATA DETECTED!
+   💾 Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248112.json
+   Size: 350491 bytes
+   Preview:
+// All material copyright Esri, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.33/esri/copyright.txt for details.
+//>>built
+require({cache:{"esri/views/View2D":function(){define(["require","../chunks/tslib.es6","../Viewpoint","../core/Collection","../core/CollectionFlattener","../core/Error","../core/has","../core/Logger","../core/maybe","../core/reactiveUtils","../core/workers/workers","../core/accessorSupport/decorators/property","../core/accessorSupport/decora...
+
+📡 GET blob:https://outagemap.mlgw.org/9dee7c61-a55a-4a53-b8e0-9e12c6d9d04b
+📡 GET blob:https://outagemap.mlgw.org/9dee7c61-a55a-4a53-b8e0-9e12c6d9d04b
+📡 GET blob:https://outagemap.mlgw.org/9dee7c61-a55a-4a53-b8e0-9e12c6d9d04b
+📡 GET blob:https://outagemap.mlgw.org/9dee7c61-a55a-4a53-b8e0-9e12c6d9d04b
+📡 GET blob:https://outagemap.mlgw.org/9dee7c61-a55a-4a53-b8e0-9e12c6d9d04b
+📡 GET blob:https://outagemap.mlgw.org/9dee7c61-a55a-4a53-b8e0-9e12c6d9d04b
+📡 GET blob:https://outagemap.mlgw.org/9dee7c61-a55a-4a53-b8e0-9e12c6d9d04b
+📡 GET blob:https://outagemap.mlgw.org/9dee7c61-a55a-4a53-b8e0-9e12c6d9d04b
+📡 GET https://js.arcgis.com/4.33/esri/views/2d/webglDeps.js
+📡 GET https://js.arcgis.com/4.33/esri/views/2d/mapViewDeps.js
+📡 GET https://outagemap.mlgw.org/mapStyling.json
+📡 GET https://js.arcgis.com/4.33/esri/layers/TileLayer.js
+📡 GET https://js.arcgis.com/4.33/esri/layers/VectorTileLayer.js
+📡 GET https://js.arcgis.com/4.33/esri/widgets/Attribution/t9n/Attribution_en.json
+📡 GET https://js.arcgis.com/4.33/esri/widgets/Zoom/t9n/Zoom_en.json
+📡 GET https://js.arcgis.com/4.33/esri/t9n/basemaps_en.json
+
+✅ 200 https://outagemap.mlgw.org/assets/RefreshButton.png
+   Type: image/png
+
+✅ 200 https://js.arcgis.com/4.33/esri/applications/Components/reactiveUtils.js
+   Type: application/javascript
+
+✅ 200 blob:https://outagemap.mlgw.org/9dee7c61-a55a-4a53-b8e0-9e12c6d9d04b
+   Type: text/javascript
+
+✅ 200 blob:https://outagemap.mlgw.org/9dee7c61-a55a-4a53-b8e0-9e12c6d9d04b
+   Type: text/javascript
+📡 GET https://js.arcgis.com/4.33/esri/core/workers/init.js
+📡 GET https://js.arcgis.com/4.33/esri/core/workers/init.js
+
+✅ 200 blob:https://outagemap.mlgw.org/9dee7c61-a55a-4a53-b8e0-9e12c6d9d04b
+   Type: text/javascript
+
+✅ 200 blob:https://outagemap.mlgw.org/9dee7c61-a55a-4a53-b8e0-9e12c6d9d04b
+   Type: text/javascript
+📡 GET https://js.arcgis.com/4.33/esri/core/workers/init.js
+📡 GET https://js.arcgis.com/4.33/esri/core/workers/init.js
+
+✅ 200 blob:https://outagemap.mlgw.org/9dee7c61-a55a-4a53-b8e0-9e12c6d9d04b
+   Type: text/javascript
+📡 GET https://js.arcgis.com/4.33/esri/core/workers/init.js
+
+✅ 200 blob:https://outagemap.mlgw.org/9dee7c61-a55a-4a53-b8e0-9e12c6d9d04b
+   Type: text/javascript
+📡 GET https://js.arcgis.com/4.33/esri/core/workers/init.js
+
+✅ 200 blob:https://outagemap.mlgw.org/9dee7c61-a55a-4a53-b8e0-9e12c6d9d04b
+   Type: text/javascript
+📡 GET https://js.arcgis.com/4.33/esri/core/workers/init.js
+
+✅ 200 blob:https://outagemap.mlgw.org/9dee7c61-a55a-4a53-b8e0-9e12c6d9d04b
+   Type: text/javascript
+📡 GET https://js.arcgis.com/4.33/esri/core/workers/init.js
+
+✅ 200 https://js.arcgis.com/4.33/esri/views/2d/webglDeps.js
+   Type: application/javascript
+
+✅ 200 https://js.arcgis.com/4.33/esri/widgets/Attribution/t9n/Attribution_en.json
+   Type: application/json
+
+✅ 200 https://js.arcgis.com/4.33/esri/widgets/Zoom/t9n/Zoom_en.json
+   Type: application/json
+
+✅ 200 https://js.arcgis.com/4.33/esri/t9n/basemaps_en.json
+   Type: application/json
+📡 GET https://js.arcgis.com/calcite-components/3.2.1/A7B5L2SW.js
+
+✅ 200 https://js.arcgis.com/4.33/esri/layers/TileLayer.js
+   Type: application/javascript
+
+✅ 200 https://js.arcgis.com/4.33/esri/layers/VectorTileLayer.js
+   Type: application/javascript
+   🎯 OUTAGE DATA DETECTED!
+   💾 Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248163.json
+   Size: 65451 bytes
+   Preview:
+// All material copyright Esri, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.33/esri/copyright.txt for details.
+//>>built
+require({cache:{"esri/layers/mixins/ArcGISCachedService":function(){define(["exports","../../chunks/tslib.es6","../../core/accessorSupport/decorators/property","../../core/has","../../core/Logger","../../core/RandomLCG","../../core/accessorSupport/decorators/reader","../../core/accessorSupport/decorators/subclass","../../geometry/SpatialRefe...
+
+📡 GET https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer?f=json
+📡 GET https://cdn.arcgis.com/sharing/rest/content/items/7dc6cea0b1764a1f9af2e679f642f0f5/resources/styles/root.json?f=json
+
+✅ 200 https://js.arcgis.com/4.33/esri/views/2d/mapViewDeps.js
+   Type: application/javascript
+
+✅ 200 https://js.arcgis.com/4.33/esri/core/workers/init.js
+   Type: application/javascript
+   🎯 OUTAGE DATA DETECTED!
+   💾 Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248181.json
+   Size: 5084 bytes
+   Preview:
+let globalId=0;const outgoing=new Map,configuration={"esriConfig":{"apiKeys":{"scopes":[]},"applicationName":"","applicationUrl":"https://outagemap.mlgw.org/OutageSummary.php","assetsPath":"https://js.arcgis.com/4.33/","fontsUrl":"https://static.arcgis.com/fonts","geometryServiceUrl":"https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer","geoRSSServiceUrl":"https://utility.arcgis.com/sharing/rss","kmlServiceUrl":"https://utility.arcgis.com/sharing/kml","userPrivilegesApp...
+
+📡 GET https://js.arcgis.com/4.33/esri/views/2d/layers/TileLayerView2D.js
+📡 GET https://js.arcgis.com/4.33/esri/views/2d/layers/VectorTileLayerView2D.js
+   🎯 OUTAGE DATA DETECTED!
+   💾 Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248197.json
+   Size: 692458 bytes
+   Preview:
+// All material copyright Esri, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.33/esri/copyright.txt for details.
+//>>built
+!function(e,t){var r=function(){return void 0!==y&&"function"!=typeof y?y:"undefined"!=typeof window?window:"undefined"!=typeof self?self:this}(),n=function(){},i=function(e){for(var t in e)return 0;return 1},o={}.toString,s=function(e){return"[object Function]"==o.call(e)},a=function(e){return"[object String]"==o.call(e)},l=function(e){retu...
+
+
+✅ 200 https://js.arcgis.com/4.33/esri/core/workers/init.js
+   Type: application/javascript
+   🎯 OUTAGE DATA DETECTED!
+   💾 Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248198.json
+   Size: 5084 bytes
+   Preview:
+let globalId=0;const outgoing=new Map,configuration={"esriConfig":{"apiKeys":{"scopes":[]},"applicationName":"","applicationUrl":"https://outagemap.mlgw.org/OutageSummary.php","assetsPath":"https://js.arcgis.com/4.33/","fontsUrl":"https://static.arcgis.com/fonts","geometryServiceUrl":"https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer","geoRSSServiceUrl":"https://utility.arcgis.com/sharing/rss","kmlServiceUrl":"https://utility.arcgis.com/sharing/kml","userPrivilegesApp...
+
+   🎯 OUTAGE DATA DETECTED!
+   💾 Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248214.json
+   Size: 1310058 bytes
+   Preview:
+// All material copyright Esri, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.33/esri/copyright.txt for details.
+//>>built
+require({cache:{"esri/views/2d/engine/Stage":function(){define(["require","exports","../../../core/Error","../../../core/has","../../../core/maybe","../../../core/scheduling","../../../core/signal","../../../core/libs/gl-matrix-2/factories/mat3f32","../../../symbols/cim/cimAnalyzer","./Container","./webgl/definitions","./webgl/enums","./webg...
+
+
+✅ 200 https://js.arcgis.com/calcite-components/3.2.1/A7B5L2SW.js
+   Type: application/javascript
+
+✅ 200 https://outagemap.mlgw.org/mapStyling.json
+   Type: application/json
+📡 GET https://js.arcgis.com/calcite-components/3.2.1/ZAT242GT.js
+📡 GET https://js.arcgis.com/calcite-components/3.2.1/JSDTVKI3.js
+📡 GET https://js.arcgis.com/calcite-components/3.2.1/VAHSXLFS.js
+📡 GET https://js.arcgis.com/calcite-components/3.2.1/BVJFCLMH.js
+📡 GET https://js.arcgis.com/calcite-components/3.2.1/M7EAHGE3.js
+📡 GET https://js.arcgis.com/calcite-components/3.2.1/CKRTMNFR.js
+📡 GET https://js.arcgis.com/calcite-components/3.2.1/5RDOSP2E.js
+📡 GET https://js.arcgis.com/calcite-components/3.2.1/3ADX47DD.js
+📡 GET https://js.arcgis.com/calcite-components/3.2.1/HPN2C7M6.js
+📡 GET https://js.arcgis.com/calcite-components/3.2.1/JOSABGK6.js
+📡 GET https://js.arcgis.com/calcite-components/3.2.1/NNVH7JUI.js
+📡 GET https://js.arcgis.com/4.33/esri/views/2d/layers/FeatureLayerView2D.js
+
+✅ 200 https://js.arcgis.com/4.33/esri/views/2d/layers/TileLayerView2D.js
+   Type: application/javascript
+
+✅ 200 https://js.arcgis.com/4.33/esri/views/2d/layers/VectorTileLayerView2D.js
+   Type: application/javascript
+   🎯 OUTAGE DATA DETECTED!
+   💾 Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248223.json
+   Size: 692458 bytes
+   Preview:
+// All material copyright Esri, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.33/esri/copyright.txt for details.
+//>>built
+!function(e,t){var r=function(){return void 0!==y&&"function"!=typeof y?y:"undefined"!=typeof window?window:"undefined"!=typeof self?self:this}(),n=function(){},i=function(e){for(var t in e)return 0;return 1},o={}.toString,s=function(e){return"[object Function]"==o.call(e)},a=function(e){return"[object String]"==o.call(e)},l=function(e){retu...
+
+
+✅ 200 https://js.arcgis.com/4.33/esri/core/workers/init.js
+   Type: application/javascript
+   🎯 OUTAGE DATA DETECTED!
+   💾 Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248226.json
+   Size: 50988 bytes
+   Preview:
+// All material copyright Esri, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.33/esri/copyright.txt for details.
+//>>built
+require({cache:{"esri/views/2d/layers/BitmapTileLayerView2D":function(){define(["exports","../../../chunks/tslib.es6","../../../core/Logger","../../../core/has","../../../core/RandomLCG","../../../core/Error","../../../core/accessorSupport/decorators/subclass","../engine/BitmapTileContainer"],(function(e,t,r,i,s,o,n,a){"use strict";e.BitmapT...
+
+   🎯 OUTAGE DATA DETECTED!
+   💾 Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248227.json
+   Size: 137500 bytes
+   Preview:
+// All material copyright Esri, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.33/esri/copyright.txt for details.
+//>>built
+require({cache:{"esri/views/2d/engine/vectorTiles/TileHandler":function(){define(["exports","../../../../core/maybe","../../../../core/promiseUtils","../../../../core/urlUtils","../../../../core/workers/workers","./enums","./GlyphMosaic","./GlyphSource","./SpriteMosaic","../../tiling/TileKey"],(function(e,t,i,r,s,n,a,o,l,c){"use strict";e.Ti...
+
+
+✅ 200 https://js.arcgis.com/calcite-components/3.2.1/ZAT242GT.js
+   Type: application/javascript
+
+✅ 200 https://js.arcgis.com/calcite-components/3.2.1/JSDTVKI3.js
+   Type: application/javascript
+
+✅ 200 https://js.arcgis.com/calcite-components/3.2.1/BVJFCLMH.js
+   Type: application/javascript
+
+✅ 200 https://js.arcgis.com/calcite-components/3.2.1/VAHSXLFS.js
+   Type: application/javascript
+
+✅ 200 https://js.arcgis.com/calcite-components/3.2.1/M7EAHGE3.js
+   Type: application/javascript
+   🎯 OUTAGE DATA DETECTED!
+   💾 Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248230.json
+   Size: 5084 bytes
+   Preview:
+let globalId=0;const outgoing=new Map,configuration={"esriConfig":{"apiKeys":{"scopes":[]},"applicationName":"","applicationUrl":"https://outagemap.mlgw.org/OutageSummary.php","assetsPath":"https://js.arcgis.com/4.33/","fontsUrl":"https://static.arcgis.com/fonts","geometryServiceUrl":"https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer","geoRSSServiceUrl":"https://utility.arcgis.com/sharing/rss","kmlServiceUrl":"https://utility.arcgis.com/sharing/kml","userPrivilegesApp...
+
+
+✅ 200 https://js.arcgis.com/4.33/esri/views/2d/layers/FeatureLayerView2D.js
+   Type: application/javascript
+
+✅ 200 https://js.arcgis.com/calcite-components/3.2.1/5RDOSP2E.js
+   Type: application/javascript
+
+✅ 200 https://js.arcgis.com/calcite-components/3.2.1/CKRTMNFR.js
+   Type: application/javascript
+
+✅ 200 https://js.arcgis.com/calcite-components/3.2.1/HPN2C7M6.js
+   Type: application/javascript
+
+✅ 200 https://js.arcgis.com/calcite-components/3.2.1/JOSABGK6.js
+   Type: application/javascript
+
+✅ 200 https://js.arcgis.com/calcite-components/3.2.1/NNVH7JUI.js
+   Type: application/javascript
+
+✅ 200 https://js.arcgis.com/calcite-components/3.2.1/3ADX47DD.js
+   Type: application/javascript
+📡 GET https://js.arcgis.com/calcite-components/3.2.1/assets/button/t9n/messages.en.json
+📡 GET https://js.arcgis.com/calcite-components/3.2.1/RWXANKAK.js
+   🎯 OUTAGE DATA DETECTED!
+   💾 Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248237.json
+   Size: 203124 bytes
+   Preview:
+// All material copyright Esri, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.33/esri/copyright.txt for details.
+//>>built
+require({cache:{"esri/AggregateGraphic":function(){define(["./chunks/tslib.es6","./Graphic","./core/accessorSupport/decorators/property","./core/has","./core/Logger","./core/RandomLCG","./core/accessorSupport/decorators/subclass"],(function(e,t,r,i,s,a,n){"use strict";let o=class extends t{constructor(){super(...arguments),this.isAggregate=!...
+
+
+✅ 200 https://js.arcgis.com/4.33/esri/core/workers/init.js
+   Type: application/javascript
+   🎯 OUTAGE DATA DETECTED!
+   💾 Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248242.json
+   Size: 692458 bytes
+   Preview:
+// All material copyright Esri, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.33/esri/copyright.txt for details.
+//>>built
+!function(e,t){var r=function(){return void 0!==y&&"function"!=typeof y?y:"undefined"!=typeof window?window:"undefined"!=typeof self?self:this}(),n=function(){},i=function(e){for(var t in e)return 0;return 1},o={}.toString,s=function(e){return"[object Function]"==o.call(e)},a=function(e){return"[object String]"==o.call(e)},l=function(e){retu...
+
+   🎯 OUTAGE DATA DETECTED!
+   💾 Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248244.json
+   Size: 5084 bytes
+   Preview:
+let globalId=0;const outgoing=new Map,configuration={"esriConfig":{"apiKeys":{"scopes":[]},"applicationName":"","applicationUrl":"https://outagemap.mlgw.org/OutageSummary.php","assetsPath":"https://js.arcgis.com/4.33/","fontsUrl":"https://static.arcgis.com/fonts","geometryServiceUrl":"https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer","geoRSSServiceUrl":"https://utility.arcgis.com/sharing/rss","kmlServiceUrl":"https://utility.arcgis.com/sharing/kml","userPrivilegesApp...
+
+
+✅ 200 https://js.arcgis.com/calcite-components/3.2.1/assets/button/t9n/messages.en.json
+   Type: application/json
+
+✅ 200 https://js.arcgis.com/calcite-components/3.2.1/RWXANKAK.js
+   Type: application/javascript
+   🎯 OUTAGE DATA DETECTED!
+   💾 Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248258.json
+   Size: 692458 bytes
+   Preview:
+// All material copyright Esri, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.33/esri/copyright.txt for details.
+//>>built
+!function(e,t){var r=function(){return void 0!==y&&"function"!=typeof y?y:"undefined"!=typeof window?window:"undefined"!=typeof self?self:this}(),n=function(){},i=function(e){for(var t in e)return 0;return 1},o={}.toString,s=function(e){return"[object Function]"==o.call(e)},a=function(e){return"[object String]"==o.call(e)},l=function(e){retu...
+
+
+✅ 200 https://js.arcgis.com/4.33/esri/core/workers/init.js
+   Type: application/javascript
+   🎯 OUTAGE DATA DETECTED!
+   💾 Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248260.json
+   Size: 5084 bytes
+   Preview:
+let globalId=0;const outgoing=new Map,configuration={"esriConfig":{"apiKeys":{"scopes":[]},"applicationName":"","applicationUrl":"https://outagemap.mlgw.org/OutageSummary.php","assetsPath":"https://js.arcgis.com/4.33/","fontsUrl":"https://static.arcgis.com/fonts","geometryServiceUrl":"https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer","geoRSSServiceUrl":"https://utility.arcgis.com/sharing/rss","kmlServiceUrl":"https://utility.arcgis.com/sharing/kml","userPrivilegesApp...
+
+📡 GET https://js.arcgis.com/calcite-components/3.2.1/assets/icon/minus16.json
+📡 GET https://js.arcgis.com/calcite-components/3.2.1/assets/icon/plus16.json
+   🎯 OUTAGE DATA DETECTED!
+   💾 Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248277.json
+   Size: 692458 bytes
+   Preview:
+// All material copyright Esri, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.33/esri/copyright.txt for details.
+//>>built
+!function(e,t){var r=function(){return void 0!==y&&"function"!=typeof y?y:"undefined"!=typeof window?window:"undefined"!=typeof self?self:this}(),n=function(){},i=function(e){for(var t in e)return 0;return 1},o={}.toString,s=function(e){return"[object Function]"==o.call(e)},a=function(e){return"[object String]"==o.call(e)},l=function(e){retu...
+
+
+✅ 200 https://js.arcgis.com/4.33/esri/core/workers/init.js
+   Type: application/javascript
+   🎯 OUTAGE DATA DETECTED!
+   💾 Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248279.json
+   Size: 5084 bytes
+   Preview:
+let globalId=0;const outgoing=new Map,configuration={"esriConfig":{"apiKeys":{"scopes":[]},"applicationName":"","applicationUrl":"https://outagemap.mlgw.org/OutageSummary.php","assetsPath":"https://js.arcgis.com/4.33/","fontsUrl":"https://static.arcgis.com/fonts","geometryServiceUrl":"https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer","geoRSSServiceUrl":"https://utility.arcgis.com/sharing/rss","kmlServiceUrl":"https://utility.arcgis.com/sharing/kml","userPrivilegesApp...
+
+
+✅ 200 https://js.arcgis.com/calcite-components/3.2.1/assets/icon/minus16.json
+   Type: application/json
+
+✅ 200 https://js.arcgis.com/calcite-components/3.2.1/assets/icon/plus16.json
+   Type: application/json
+   🎯 OUTAGE DATA DETECTED!
+   💾 Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248293.json
+   Size: 692458 bytes
+   Preview:
+// All material copyright Esri, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.33/esri/copyright.txt for details.
+//>>built
+!function(e,t){var r=function(){return void 0!==y&&"function"!=typeof y?y:"undefined"!=typeof window?window:"undefined"!=typeof self?self:this}(),n=function(){},i=function(e){for(var t in e)return 0;return 1},o={}.toString,s=function(e){return"[object Function]"==o.call(e)},a=function(e){return"[object String]"==o.call(e)},l=function(e){retu...
+
+
+✅ 200 https://js.arcgis.com/4.33/esri/core/workers/init.js
+   Type: application/javascript
+   🎯 OUTAGE DATA DETECTED!
+   💾 Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248295.json
+   Size: 5084 bytes
+   Preview:
+let globalId=0;const outgoing=new Map,configuration={"esriConfig":{"apiKeys":{"scopes":[]},"applicationName":"","applicationUrl":"https://outagemap.mlgw.org/OutageSummary.php","assetsPath":"https://js.arcgis.com/4.33/","fontsUrl":"https://static.arcgis.com/fonts","geometryServiceUrl":"https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer","geoRSSServiceUrl":"https://utility.arcgis.com/sharing/rss","kmlServiceUrl":"https://utility.arcgis.com/sharing/kml","userPrivilegesApp...
+
+   🎯 OUTAGE DATA DETECTED!
+   💾 Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248309.json
+   Size: 692458 bytes
+   Preview:
+// All material copyright Esri, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.33/esri/copyright.txt for details.
+//>>built
+!function(e,t){var r=function(){return void 0!==y&&"function"!=typeof y?y:"undefined"!=typeof window?window:"undefined"!=typeof self?self:this}(),n=function(){},i=function(e){for(var t in e)return 0;return 1},o={}.toString,s=function(e){return"[object Function]"==o.call(e)},a=function(e){return"[object String]"==o.call(e)},l=function(e){retu...
+
+
+✅ 200 https://js.arcgis.com/4.33/esri/core/workers/init.js
+   Type: application/javascript
+📡 GET https://js.arcgis.com/4.33/esri/layers/graphics/sources/geojson/GeoJSONSourceWorker.js
+   🎯 OUTAGE DATA DETECTED!
+   💾 Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248313.json
+   Size: 5084 bytes
+   Preview:
+let globalId=0;const outgoing=new Map,configuration={"esriConfig":{"apiKeys":{"scopes":[]},"applicationName":"","applicationUrl":"https://outagemap.mlgw.org/OutageSummary.php","assetsPath":"https://js.arcgis.com/4.33/","fontsUrl":"https://static.arcgis.com/fonts","geometryServiceUrl":"https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer","geoRSSServiceUrl":"https://utility.arcgis.com/sharing/rss","kmlServiceUrl":"https://utility.arcgis.com/sharing/kml","userPrivilegesApp...
+
+   🎯 OUTAGE DATA DETECTED!
+   💾 Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248327.json
+   Size: 692458 bytes
+   Preview:
+// All material copyright Esri, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.33/esri/copyright.txt for details.
+//>>built
+!function(e,t){var r=function(){return void 0!==y&&"function"!=typeof y?y:"undefined"!=typeof window?window:"undefined"!=typeof self?self:this}(),n=function(){},i=function(e){for(var t in e)return 0;return 1},o={}.toString,s=function(e){return"[object Function]"==o.call(e)},a=function(e){return"[object String]"==o.call(e)},l=function(e){retu...
+
+
+✅ 200 https://cdn.arcgis.com/sharing/rest/content/items/7dc6cea0b1764a1f9af2e679f642f0f5/resources/styles/root.json?f=json
+   Type: application/json;charset=utf-8
+📡 GET https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer?f=json
+
+✅ 200 https://js.arcgis.com/4.33/esri/layers/graphics/sources/geojson/GeoJSONSourceWorker.js
+   Type: application/javascript
+📡 GET https://js.arcgis.com/4.33/esri/core/sql/WhereClause.js
+
+✅ 200 https://js.arcgis.com/4.33/esri/core/sql/WhereClause.js
+   Type: application/javascript
+   🎯 OUTAGE DATA DETECTED!
+   💾 Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248378.json
+   Size: 273460 bytes
+   Preview:
+// All material copyright Esri, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.33/esri/copyright.txt for details.
+//>>built
+require({cache:{"esri/core/asyncUtils":function(){define(["exports","../chunks/tslib.es6","./Accessor","./maybe","./promiseUtils","./accessorSupport/decorators/property","./accessorSupport/decorators/subclass"],(function(e,t,r,s,i,n,a){"use strict";function o(e){return{ok:!0,value:e}}function l(e){return{ok:!1,error:e}}function u(e){return n...
+
+📡 GET https://js.arcgis.com/4.33/esri/core/sql/DateOnly.js
+
+✅ 200 https://js.arcgis.com/4.33/esri/core/sql/DateOnly.js
+   Type: application/javascript
+📡 GET https://js.arcgis.com/4.33/esri/arcade/ArcadeDate.js
+
+✅ 200 https://js.arcgis.com/4.33/esri/arcade/ArcadeDate.js
+   Type: application/javascript
+📡 GET https://js.arcgis.com/4.33/esri/arcade/enum.js
+
+✅ 200 https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer?f=json
+   Type: application/json;charset=UTF-8
+📡 GET https://js.arcgis.com/4.33/esri/chunks/libtess.js
+📡 GET https://static.arcgis.com/attribution/Elevation/World_Hillshade?f=json
+📡 GET https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tilemap/11/800/512/32/32?f=json
+📡 GET https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tilemap/11/800/480/32/32?f=json
+📡 GET https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tilemap/10/384/256/32/32?f=json
+📡 GET https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tilemap/9/192/128/32/32?f=json
+📡 GET https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tilemap/8/96/64/32/32?f=json
+📡 GET https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tilemap/7/32/32/32/32?f=json
+
+✅ 200 https://js.arcgis.com/4.33/esri/arcade/enum.js
+   Type: application/javascript
+📡 GET https://js.arcgis.com/4.33/esri/arcade/executionError.js
+
+✅ 200 https://js.arcgis.com/4.33/esri/arcade/executionError.js
+   Type: application/javascript
+📡 GET https://js.arcgis.com/4.33/esri/core/sql/UnknownTimeZone.js
+
+✅ 200 https://js.arcgis.com/4.33/esri/core/sql/UnknownTimeZone.js
+   Type: application/javascript
+   🎯 OUTAGE DATA DETECTED!
+   💾 Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248657.json
+   Size: 7853 bytes
+   Preview:
+// All material copyright Esri, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.33/esri/copyright.txt for details.
+//>>built
+define(["exports","../core/string"],(function(e,r){"use strict";var o;e.ExecutionErrorCodes=void 0,(o=e.ExecutionErrorCodes||(e.ExecutionErrorCodes={})).AsyncNotEnabled="AsyncNotEnabled",o.ModulesNotSupported="ModulesNotSupported",o.CircularModules="CircularModules",o.CannotCompareDateAndTime="CannotCompareDateAndTime",o.NeverReach="NeverRea...
+
+📡 GET https://js.arcgis.com/4.33/esri/core/sql/TimeOnly.js
+
+✅ 200 https://js.arcgis.com/4.33/esri/core/sql/TimeOnly.js
+   Type: application/javascript
+📡 GET https://js.arcgis.com/4.33/esri/arcade/kernel.js
+
+✅ 200 https://js.arcgis.com/4.33/esri/arcade/kernel.js
+   Type: application/javascript
+
+✅ 200 https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tilemap/11/800/512/32/32?f=json
+   Type: application/json
+
+✅ 200 https://js.arcgis.com/4.33/esri/chunks/libtess.js
+   Type: application/javascript
+
+✅ 200 https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tilemap/11/800/480/32/32?f=json
+   Type: application/json
+
+✅ 200 https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tilemap/10/384/256/32/32?f=json
+   Type: application/json
+
+✅ 200 https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tilemap/9/192/128/32/32?f=json
+   Type: application/json
+
+✅ 200 https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tilemap/8/96/64/32/32?f=json
+   Type: application/json
+
+✅ 200 https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer?f=json
+   Type: application/json;charset=utf-8
+
+✅ 200 https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tilemap/7/32/32/32/32?f=json
+   Type: application/json
+📡 GET https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/810/512
+📡 GET https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/810/513
+📡 GET https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/809/512
+📡 GET https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/809/513
+📡 GET https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/811/512
+📡 GET https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/811/513
+📡 GET https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/810/514
+📡 GET https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/809/514
+📡 GET https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/811/514
+📡 GET https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/808/512
+📡 GET https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/808/513
+📡 GET https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/808/514
+📡 GET https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/810/515
+📡 GET https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/809/515
+📡 GET https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/810/511
+📡 GET https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/809/511
+📡 GET https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/811/511
+📡 GET https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/808/511
+📡 GET https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/810/510
+📡 GET https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/809/510
+📡 GET https://cdn.arcgis.com/sharing/rest/content/items/7dc6cea0b1764a1f9af2e679f642f0f5/resources/sprites/sprite.json
+📡 GET https://cdn.arcgis.com/sharing/rest/content/items/7dc6cea0b1764a1f9af2e679f642f0f5/resources/sprites/sprite.png
+📡 GET https://js.arcgis.com/4.33/esri/chunks/_commonjsHelpers.js
+📡 GET https://outagemap.mlgw.org/geojson.php
+
+✅ 200 https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/810/512
+   Type: image/jpeg
+
+✅ 200 https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/810/513
+   Type: image/jpeg
+
+✅ 200 https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/808/514
+   Type: image/jpeg
+
+✅ 200 https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/808/513
+   Type: image/jpeg
+
+✅ 200 https://cdn.arcgis.com/sharing/rest/content/items/7dc6cea0b1764a1f9af2e679f642f0f5/resources/sprites/sprite.json
+   Type: application/json;charset=utf-8
+
+✅ 200 https://cdn.arcgis.com/sharing/rest/content/items/7dc6cea0b1764a1f9af2e679f642f0f5/resources/sprites/sprite.png
+   Type: image/png
+
+✅ 200 https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/810/514
+   Type: image/jpeg
+
+✅ 200 https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/808/512
+   Type: image/jpeg
+📡 GET https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/811/510
+📡 GET https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/811/515
+📡 GET https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/807/512
+📡 GET https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/807/513
+📡 GET https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/808/510
+
+✅ 200 https://js.arcgis.com/4.33/esri/chunks/_commonjsHelpers.js
+   Type: application/javascript
+📡 GET https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/808/515
+📡 GET https://js.arcgis.com/4.33/esri/core/libs/libtess/libtess.wasm
+
+✅ 200 https://static.arcgis.com/attribution/Elevation/World_Hillshade?f=json
+   Type: text/plain;charset=utf-8
+
+✅ 200 https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/808/511
+   Type: image/jpeg
+
+✅ 200 https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/808/510
+   Type: image/jpeg
+
+✅ 200 https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/810/511
+   Type: image/jpeg
+
+✅ 200 https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/810/510
+   Type: image/jpeg
+
+✅ 200 https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/810/515
+   Type: image/jpeg
+
+✅ 200 https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/808/515
+   Type: image/jpeg
+
+✅ 200 https://js.arcgis.com/4.33/esri/core/libs/libtess/libtess.wasm
+   Type: application/wasm
+📡 GET https://static.arcgis.com/attribution/Vector/World_Basemap_v2?f=json
+📡 GET https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tilemap/10/384/256/32/32?f=json
+📡 GET https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tilemap/10/384/224/32/32?f=json
+📡 GET https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tilemap/9/192/128/32/32?f=json
+📡 GET https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tilemap/8/96/64/32/32?f=json
+📡 GET https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tilemap/7/32/32/32/32?f=json
+📡 GET https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tilemap/6/0/0/32/32?f=json
+
+✅ 200 https://outagemap.mlgw.org/geojson.php
+   Type: application/json
+
+✅ 200 https://static.arcgis.com/attribution/Vector/World_Basemap_v2?f=json
+   Type: text/plain;charset=utf-8
+📡 GET https://js.arcgis.com/4.33/esri/themes/base/fonts/fonts/b8b15cdf-85d1-4120-8daa-48863d803939.woff2
+📡 GET https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/807/511
+
+✅ 200 https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tilemap/10/384/256/32/32?f=json
+   Type: application/json;charset=utf-8
+
+✅ 200 https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tilemap/9/192/128/32/32?f=json
+   Type: application/json;charset=utf-8
+
+✅ 200 https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tilemap/7/32/32/32/32?f=json
+   Type: application/json;charset=utf-8
+
+✅ 200 https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tilemap/10/384/224/32/32?f=json
+   Type: application/json;charset=utf-8
+
+✅ 200 https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tilemap/6/0/0/32/32?f=json
+   Type: application/json;charset=utf-8
+
+✅ 200 https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tilemap/8/96/64/32/32?f=json
+   Type: application/json;charset=utf-8
+   🎯 OUTAGE DATA DETECTED!
+   💾 Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248883.json
+   Size: 743 bytes
+   Preview:
+{ "type": "FeatureCollection", "features": [ {"type": "Feature","properties": {"OUTAGE_NO": 1483022,"TIME_STAMP": "01/30/2026 01:03:46 PM","DURATION": "52 Mins","IMPACT": "Single Customer","STATUS": "Customer Svc is working this single customer outage","EST_REPAIR_TIME": "","CUR_CUST_AFF": 1,"OUT_CAUSE": " "}, "geometry": { "type": "Point", "coordinates": [ -89.92487, 35.17306 ] }, "id": 1},{"type": "Feature","properties": {"OUTAGE_NO": 1483023,"TIME_STAMP": "01/30/2026 01:17:46 PM","DURATION": ...
+
+📡 GET https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/807/514
+📡 GET https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/810/509
+📡 GET https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/809/509
+📡 GET https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/811/509
+📡 GET https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/807/510
+📡 GET https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tile/10/405/256.pbf
+📡 GET https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tile/10/405/257.pbf
+📡 GET https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tile/10/404/256.pbf
+📡 GET https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tile/10/404/257.pbf
+📡 GET https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tile/10/405/255.pbf
+📡 GET https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tile/10/404/255.pbf
+📡 GET https://js.arcgis.com/4.33/esri/views/2d/layers/features/FeaturePipelineWorker.js
+
+✅ 200 https://js.arcgis.com/4.33/esri/themes/base/fonts/fonts/b8b15cdf-85d1-4120-8daa-48863d803939.woff2
+   Type: binary/octet-stream
+
+✅ 200 https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/807/513
+   Type: image/jpeg
+
+✅ 200 https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/811/513
+   Type: image/jpeg
+
+✅ 200 https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/811/512
+   Type: image/jpeg
+
+✅ 200 https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/809/512
+   Type: image/jpeg
+📡 GET https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/807/515
+📡 GET https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/808/509
+📡 GET https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/807/509
+
+✅ 200 https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/809/513
+   Type: image/jpeg
+
+✅ 200 https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/810/509
+   Type: image/jpeg
+
+✅ 200 https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/811/511
+   Type: image/jpeg
+
+✅ 200 https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/809/511
+   Type: image/jpeg
+
+✅ 200 https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tile/10/405/256.pbf
+   Type: application/octet-stream
+
+✅ 200 https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tile/10/405/257.pbf
+   Type: application/octet-stream
+
+✅ 200 https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/809/510
+   Type: image/jpeg
+
+✅ 200 https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/809/514
+   Type: image/jpeg
+
+✅ 200 https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/811/514
+   Type: image/jpeg
+
+✅ 200 https://services.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/808/509
+   Type: image/jpeg
+📡 GET https://js.arcgis.com/4.33/esri/chunks/libtess.js
+
+✅ 200 https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tile/10/404/256.pbf
+   Type: application/octet-stream
+
+✅ 200 https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tile/10/404/257.pbf
+   Type: application/octet-stream
+
+✅ 200 https://js.arcgis.com/4.33/esri/views/2d/layers/features/FeaturePipelineWorker.js
+   Type: application/javascript
+📡 GET https://js.arcgis.com/4.33/esri/core/sql/UnknownTimeZone.js
+
+✅ 200 https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tile/10/405/255.pbf
+   Type: application/octet-stream
+
+✅ 200 https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/tile/10/404/255.pbf
+   Type: application/octet-stream
+
+✅ 200 https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/811/510
+   Type: image/jpeg
+
+✅ 200 https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/807/512
+   Type: image/jpeg
+
+✅ 200 https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/809/515
+   Type: image/jpeg
+📡 GET https://js.arcgis.com/4.33/esri/chunks/libtess.js
+
+✅ 200 https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/807/511
+   Type: image/jpeg
+
+✅ 200 https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/811/515
+   Type: image/jpeg
+
+✅ 200 https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/807/514
+   Type: image/jpeg
+
+✅ 200 https://js.arcgis.com/4.33/esri/chunks/libtess.js
+   Type: application/javascript
+📡 GET https://js.arcgis.com/4.33/esri/chunks/_commonjsHelpers.js
+
+✅ 200 https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/809/509
+   Type: image/jpeg
+
+✅ 200 https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/807/510
+   Type: image/jpeg
+
+✅ 200 https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/811/509
+   Type: image/jpeg
+
+✅ 200 https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/807/509
+   Type: image/jpeg
+
+✅ 200 https://server.arcgisonline.com/arcgis/rest/services/Elevation/World_Hillshade/MapServer/tile/11/807/515
+   Type: image/jpeg
+
+✅ 200 https://js.arcgis.com/4.33/esri/chunks/libtess.js
+   Type: application/javascript
+📡 GET https://js.arcgis.com/4.33/esri/chunks/_commonjsHelpers.js
+
+✅ 200 https://js.arcgis.com/4.33/esri/core/sql/UnknownTimeZone.js
+   Type: application/javascript
+   🎯 OUTAGE DATA DETECTED!
+   💾 Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248974.json
+   Size: 994541 bytes
+   Preview:
+// All material copyright Esri, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.33/esri/copyright.txt for details.
+//>>built
+require({cache:{"esri/core/screenUtils":function(){define(["exports"],(function(e){"use strict";const t=/^-?(\d+(\.\d+)?)\s*((px)|(pt))?$/i;function r(e){return e?72*e/96:0}function s(e=0,t=0){return{x:e,y:t}}e.castRenderScreenPointArray=function(e){return e},e.castRenderScreenPointArray3=function(e){return e},e.castScreenPointArray=function...
+
+📡 GET https://js.arcgis.com/4.33/esri/arcade/ArcadeDate.js
+
+✅ 200 https://js.arcgis.com/4.33/esri/chunks/_commonjsHelpers.js
+   Type: application/javascript
+
+✅ 200 https://js.arcgis.com/4.33/esri/arcade/ArcadeDate.js
+   Type: application/javascript
+📡 GET https://js.arcgis.com/4.33/esri/arcade/enum.js
+📡 GET https://js.arcgis.com/4.33/esri/core/libs/libtess/libtess.wasm
+📡 GET https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/resources/fonts/Noto%20Sans%20Regular/0-255.pbf
+📡 GET https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/resources/fonts/Noto%20Sans%20Bold/0-255.pbf
+📡 GET https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/resources/fonts/Noto%20Sans%20Italic/0-255.pbf
+
+✅ 200 https://js.arcgis.com/4.33/esri/chunks/_commonjsHelpers.js
+   Type: application/javascript
+📡 GET https://js.arcgis.com/4.33/esri/core/libs/libtess/libtess.wasm
+📡 GET https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/resources/fonts/Roboto%20Condensed%20Light%20Italic/0-255.pbf
+
+✅ 200 https://js.arcgis.com/4.33/esri/core/libs/libtess/libtess.wasm
+   Type: application/wasm
+
+✅ 200 https://js.arcgis.com/4.33/esri/arcade/enum.js
+   Type: application/javascript
+📡 GET https://js.arcgis.com/4.33/esri/arcade/executionError.js
+
+✅ 200 https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/resources/fonts/Noto%20Sans%20Bold/0-255.pbf
+   Type: application/octet-stream
+
+✅ 200 https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/resources/fonts/Noto%20Sans%20Regular/0-255.pbf
+   Type: application/octet-stream
+
+✅ 200 https://js.arcgis.com/4.33/esri/core/libs/libtess/libtess.wasm
+   Type: application/wasm
+
+✅ 200 https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/resources/fonts/Noto%20Sans%20Italic/0-255.pbf
+   Type: application/octet-stream
+
+✅ 200 https://js.arcgis.com/4.33/esri/arcade/executionError.js
+   Type: application/javascript
+📡 GET https://js.arcgis.com/4.33/esri/core/sql/DateOnly.js
+
+✅ 200 https://basemaps.arcgis.com/arcgis/rest/services/World_Basemap_v2/VectorTileServer/resources/fonts/Roboto%20Condensed%20Light%20Italic/0-255.pbf
+   Type: application/octet-stream
+
+✅ 200 https://js.arcgis.com/4.33/esri/core/sql/DateOnly.js
+   Type: application/javascript
+   🎯 OUTAGE DATA DETECTED!
+   💾 Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803249221.json
+   Size: 7853 bytes
+   Preview:
+// All material copyright Esri, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.33/esri/copyright.txt for details.
+//>>built
+define(["exports","../core/string"],(function(e,r){"use strict";var o;e.ExecutionErrorCodes=void 0,(o=e.ExecutionErrorCodes||(e.ExecutionErrorCodes={})).AsyncNotEnabled="AsyncNotEnabled",o.ModulesNotSupported="ModulesNotSupported",o.CircularModules="CircularModules",o.CannotCompareDateAndTime="CannotCompareDateAndTime",o.NeverReach="NeverRea...
+
+📡 GET https://js.arcgis.com/4.33/esri/core/sql/TimeOnly.js
+
+✅ 200 https://js.arcgis.com/4.33/esri/core/sql/TimeOnly.js
+   Type: application/javascript
+📡 GET https://js.arcgis.com/4.33/esri/arcade/kernel.js
+
+✅ 200 https://js.arcgis.com/4.33/esri/arcade/kernel.js
+   Type: application/javascript
+📡 GET https://js.arcgis.com/4.33/esri/core/sql/WhereClause.js
+
+✅ 200 https://js.arcgis.com/4.33/esri/core/sql/WhereClause.js
+   Type: application/javascript
+📡 GET https://js.arcgis.com/4.33/esri/chunks/libtess.js
+
+✅ 200 https://js.arcgis.com/4.33/esri/chunks/libtess.js
+   Type: application/javascript
+📡 GET https://js.arcgis.com/4.33/esri/chunks/_commonjsHelpers.js
+
+✅ 200 https://js.arcgis.com/4.33/esri/chunks/_commonjsHelpers.js
+   Type: application/javascript
+📡 GET https://js.arcgis.com/4.33/esri/core/libs/libtess/libtess.wasm
+
+✅ 200 https://js.arcgis.com/4.33/esri/core/libs/libtess/libtess.wasm
+   Type: application/wasm
+📡 GET https://static.arcgis.com/fonts/noto-sans-bold/0-255.pbf
+
+✅ 200 https://static.arcgis.com/fonts/noto-sans-bold/0-255.pbf
+   Type: binary/octet-stream
+📡 GET https://js.arcgis.com/4.33/esri/widgets/Popup.js
+
+✅ 200 https://js.arcgis.com/4.33/esri/widgets/Popup.js
+   Type: application/javascript
+   🎯 OUTAGE DATA DETECTED!
+   💾 Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803249997.json
+   Size: 376642 bytes
+   Preview:
+// All material copyright Esri, All Rights Reserved, unless otherwise specified.
+// See https://js.arcgis.com/4.33/esri/copyright.txt for details.
+//>>built
+require({cache:{"esri/widgets/Features":function(){define(["require","exports","../chunks/tslib.es6","../intl","../core/Collection","../core/Logger","../core/promiseUtils","../core/reactiveUtils","../core/scheduling","../core/throttle","../core/accessorSupport/decorators/property","../core/has","../core/RandomLCG","../core/accessorSupport/de...
+
+📸 Screenshot saved
+
+🔍 Found 1 frame(s)
+
+Frame 0: https://outagemap.mlgw.org/OutageSummary.php
+
+================================================================================
+📊 DISCOVERY SUMMARY
+================================================================================
+Found 32 API endpoint(s) with outage data
+
+🎯 DISCOVERED API ENDPOINTS:
+
+1. GET https://outagemap.mlgw.org/OutageSummary.php
+   Status: 200
+   Content-Type: text/html; charset=UTF-8
+   Size: 19588 bytes
+   Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803247681.json
+
+2. GET https://js.arcgis.com/4.33/map-components/index.js
+   Status: 200
+   Content-Type: application/javascript
+   Size: 29978 bytes
+   Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803247861.json
+
+3. GET https://js.arcgis.com/4.33/init.js
+   Status: 200
+   Content-Type: application/javascript
+   Size: 1662641 bytes
+   Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803247961.json
+
+4. GET https://js.arcgis.com/4.33/esri/layers/GeoJSONLayer.js
+   Status: 200
+   Content-Type: application/javascript
+   Size: 14479 bytes
+   Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248106.json
+
+5. GET https://js.arcgis.com/4.33/esri/views/MapView.js
+   Status: 200
+   Content-Type: application/javascript
+   Size: 350491 bytes
+   Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248112.json
+
+6. GET https://js.arcgis.com/4.33/esri/layers/TileLayer.js
+   Status: 200
+   Content-Type: application/javascript
+   Size: 65451 bytes
+   Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248163.json
+
+7. GET blob:https://outagemap.mlgw.org/9dee7c61-a55a-4a53-b8e0-9e12c6d9d04b
+   Status: 200
+   Content-Type: text/javascript
+   Size: 5084 bytes
+   Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248181.json
+
+8. GET https://js.arcgis.com/4.33/esri/core/workers/init.js
+   Status: 200
+   Content-Type: application/javascript
+   Size: 692458 bytes
+   Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248197.json
+
+9. GET blob:https://outagemap.mlgw.org/9dee7c61-a55a-4a53-b8e0-9e12c6d9d04b
+   Status: 200
+   Content-Type: text/javascript
+   Size: 5084 bytes
+   Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248198.json
+
+10. GET https://js.arcgis.com/4.33/esri/views/2d/mapViewDeps.js
+   Status: 200
+   Content-Type: application/javascript
+   Size: 1310058 bytes
+   Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248214.json
+
+11. GET https://js.arcgis.com/4.33/esri/core/workers/init.js
+   Status: 200
+   Content-Type: application/javascript
+   Size: 692458 bytes
+   Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248223.json
+
+12. GET https://js.arcgis.com/4.33/esri/views/2d/layers/TileLayerView2D.js
+   Status: 200
+   Content-Type: application/javascript
+   Size: 50988 bytes
+   Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248226.json
+
+13. GET https://js.arcgis.com/4.33/esri/views/2d/layers/VectorTileLayerView2D.js
+   Status: 200
+   Content-Type: application/javascript
+   Size: 137500 bytes
+   Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248227.json
+
+14. GET blob:https://outagemap.mlgw.org/9dee7c61-a55a-4a53-b8e0-9e12c6d9d04b
+   Status: 200
+   Content-Type: text/javascript
+   Size: 5084 bytes
+   Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248230.json
+
+15. GET https://js.arcgis.com/4.33/esri/views/2d/layers/FeatureLayerView2D.js
+   Status: 200
+   Content-Type: application/javascript
+   Size: 203124 bytes
+   Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248237.json
+
+16. GET https://js.arcgis.com/4.33/esri/core/workers/init.js
+   Status: 200
+   Content-Type: application/javascript
+   Size: 692458 bytes
+   Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248242.json
+
+17. GET blob:https://outagemap.mlgw.org/9dee7c61-a55a-4a53-b8e0-9e12c6d9d04b
+   Status: 200
+   Content-Type: text/javascript
+   Size: 5084 bytes
+   Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248244.json
+
+18. GET https://js.arcgis.com/4.33/esri/core/workers/init.js
+   Status: 200
+   Content-Type: application/javascript
+   Size: 692458 bytes
+   Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248258.json
+
+19. GET blob:https://outagemap.mlgw.org/9dee7c61-a55a-4a53-b8e0-9e12c6d9d04b
+   Status: 200
+   Content-Type: text/javascript
+   Size: 5084 bytes
+   Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248260.json
+
+20. GET https://js.arcgis.com/4.33/esri/core/workers/init.js
+   Status: 200
+   Content-Type: application/javascript
+   Size: 692458 bytes
+   Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248277.json
+
+21. GET blob:https://outagemap.mlgw.org/9dee7c61-a55a-4a53-b8e0-9e12c6d9d04b
+   Status: 200
+   Content-Type: text/javascript
+   Size: 5084 bytes
+   Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248279.json
+
+22. GET https://js.arcgis.com/4.33/esri/core/workers/init.js
+   Status: 200
+   Content-Type: application/javascript
+   Size: 692458 bytes
+   Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248293.json
+
+23. GET blob:https://outagemap.mlgw.org/9dee7c61-a55a-4a53-b8e0-9e12c6d9d04b
+   Status: 200
+   Content-Type: text/javascript
+   Size: 5084 bytes
+   Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248295.json
+
+24. GET https://js.arcgis.com/4.33/esri/core/workers/init.js
+   Status: 200
+   Content-Type: application/javascript
+   Size: 692458 bytes
+   Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248309.json
+
+25. GET blob:https://outagemap.mlgw.org/9dee7c61-a55a-4a53-b8e0-9e12c6d9d04b
+   Status: 200
+   Content-Type: text/javascript
+   Size: 5084 bytes
+   Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248313.json
+
+26. GET https://js.arcgis.com/4.33/esri/core/workers/init.js
+   Status: 200
+   Content-Type: application/javascript
+   Size: 692458 bytes
+   Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248327.json
+
+27. GET https://js.arcgis.com/4.33/esri/layers/graphics/sources/geojson/GeoJSONSourceWorker.js
+   Status: 200
+   Content-Type: application/javascript
+   Size: 273460 bytes
+   Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248378.json
+
+28. GET https://js.arcgis.com/4.33/esri/arcade/executionError.js
+   Status: 200
+   Content-Type: application/javascript
+   Size: 7853 bytes
+   Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248657.json
+
+29. GET https://outagemap.mlgw.org/geojson.php
+   Status: 200
+   Content-Type: application/json
+   Size: 743 bytes
+   Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248883.json
+
+30. GET https://js.arcgis.com/4.33/esri/views/2d/layers/features/FeaturePipelineWorker.js
+   Status: 200
+   Content-Type: application/javascript
+   Size: 994541 bytes
+   Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803248974.json
+
+31. GET https://js.arcgis.com/4.33/esri/arcade/executionError.js
+   Status: 200
+   Content-Type: application/javascript
+   Size: 7853 bytes
+   Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803249221.json
+
+32. GET https://js.arcgis.com/4.33/esri/widgets/Popup.js
+   Status: 200
+   Content-Type: application/javascript
+   Size: 376642 bytes
+   Saved to: /Users/jefffranzen/tn-power-tracker/mlgw-outage-data-1769803249997.json
+
+✅ API endpoint(s) discovered! Testing with curl...
+
+🧪 Testing endpoint: https://outagemap.mlgw.org/OutageSummary.php
+
+Summary saved to: /Users/jefffranzen/tn-power-tracker/mlgw-api-final-summary.json
+
+⏸️  Browser will stay open for 2 minutes for manual inspection.
+Press Ctrl+C to close early.
+

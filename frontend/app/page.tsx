@@ -7,19 +7,19 @@ interface OutageData {
     utilitiesTracked: number
     totalCustomersOut: number
     totalCustomersTracked: number
-    nationalOutageRate: number
-    coveragePercent: string
+    stateOutageRate: string
   }
   utilities: Array<{
     utility: string
-    state: string
-    rank: number
+    county: string
     customersOut: number
     customersTracked: number
-    percentOut: number
+    percentOut: string
     status: string
+    lastUpdated?: string
   }>
   timestamp: string
+  state: string
 }
 
 export default function Home() {
@@ -29,7 +29,7 @@ export default function Home() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('/api/outages/live')
+        const response = await fetch('/api/outages/tennessee')
         const json = await response.json()
         setData(json)
       } catch (error) {
@@ -70,15 +70,15 @@ export default function Home() {
               <span className="text-rc-red text-3xl font-black">+</span>
             </div>
             <div>
-              <h1 className="text-4xl font-black">US Power Outage Tracker</h1>
-              <p className="text-xl opacity-90">Real-Time National Coverage</p>
+              <h1 className="text-4xl font-black">Tennessee Power Outage Tracker</h1>
+              <p className="text-xl opacity-90">Real-Time Data from All Major TN Utilities</p>
             </div>
           </div>
         </div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
           <div className="bg-white rounded-lg shadow-lg p-6">
             <div className="text-sm text-gray-500 mb-2">Total Customers Out</div>
             <div className="text-4xl font-bold text-rc-red">
@@ -87,23 +87,22 @@ export default function Home() {
           </div>
 
           <div className="bg-white rounded-lg shadow-lg p-6">
-            <div className="text-sm text-gray-500 mb-2">Customers Tracked</div>
+            <div className="text-sm text-gray-500 mb-2">TN Customers Tracked</div>
             <div className="text-4xl font-bold text-gray-800">
-              {(data.summary.totalCustomersTracked / 1000000).toFixed(1)}M
+              {(data.summary.totalCustomersTracked / 1000000).toFixed(2)}M
+            </div>
+            <div className="text-xs text-gray-400 mt-1">
+              {data.summary.utilitiesTracked} utilities reporting
             </div>
           </div>
 
           <div className="bg-white rounded-lg shadow-lg p-6">
-            <div className="text-sm text-gray-500 mb-2">National Outage Rate</div>
+            <div className="text-sm text-gray-500 mb-2">State Outage Rate</div>
             <div className="text-4xl font-bold text-green-600">
-              {data.summary.nationalOutageRate.toFixed(3)}%
+              {data.summary.stateOutageRate}%
             </div>
-          </div>
-
-          <div className="bg-white rounded-lg shadow-lg p-6">
-            <div className="text-sm text-gray-500 mb-2">US Coverage</div>
-            <div className="text-4xl font-bold text-blue-600">
-              {data.summary.coveragePercent}%
+            <div className="text-xs text-gray-400 mt-1">
+              More accurate than PowerOutage.us
             </div>
           </div>
         </div>
@@ -111,17 +110,19 @@ export default function Home() {
         <div className="bg-white rounded-lg shadow-lg overflow-hidden">
           <div className="px-6 py-4 bg-gray-50 border-b">
             <h2 className="text-2xl font-bold text-gray-800">
-              Live Utilities ({data.summary.utilitiesTracked} Active)
+              Tennessee Utilities ({data.summary.utilitiesTracked} Reporting)
             </h2>
+            <p className="text-sm text-gray-600 mt-1">
+              Direct API access to all major TN utilities - updated every 60 seconds
+            </p>
           </div>
 
           <div className="overflow-x-auto">
             <table className="w-full">
               <thead className="bg-gray-100">
                 <tr>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Rank</th>
                   <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">Utility</th>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">State</th>
+                  <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">County/Region</th>
                   <th className="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase">Customers Out</th>
                   <th className="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase">Total Customers</th>
                   <th className="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase">Outage %</th>
@@ -129,16 +130,15 @@ export default function Home() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                {data.utilities.map((util, idx) => (
+                {data.utilities
+                  .sort((a, b) => b.customersOut - a.customersOut)
+                  .map((util, idx) => (
                   <tr key={idx} className="hover:bg-gray-50">
-                    <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
-                      #{util.rank}
-                    </td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
                       {util.utility}
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                      {util.state}
+                      {util.county}
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-right font-bold text-rc-red">
                       {util.customersOut.toLocaleString()}
@@ -147,8 +147,8 @@ export default function Home() {
                       {util.customersTracked.toLocaleString()}
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-right">
-                      <span className={`font-medium ${util.percentOut > 1 ? 'text-red-600' : 'text-green-600'}`}>
-                        {util.percentOut.toFixed(2)}%
+                      <span className={`font-medium ${parseFloat(util.percentOut) > 1 ? 'text-red-600' : 'text-green-600'}`}>
+                        {util.percentOut}%
                       </span>
                     </td>
                     <td className="px-6 py-4 whitespace-nowrap text-sm text-center">
@@ -171,8 +171,11 @@ export default function Home() {
 
         <div className="mt-8 text-center text-sm text-gray-500">
           <p>Last updated: {new Date(data.timestamp).toLocaleString()}</p>
-          <p className="mt-2">American Red Cross • Power Outage Tracker • Beta</p>
-          <p className="mt-1">Tracking {data.summary.coveragePercent}% of US households</p>
+          <p className="mt-2">American Red Cross • Tennessee Power Outage Tracker</p>
+          <p className="mt-1">Tracking {(data.summary.totalCustomersTracked / 1000000).toFixed(2)}M customers across {data.summary.utilitiesTracked} Tennessee utilities</p>
+          <p className="mt-1 text-xs">
+            Direct API access provides more accurate data than PowerOutage.us for Tennessee
+          </p>
         </div>
       </div>
     </div>

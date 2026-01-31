@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<title>Memphis Light, Gas and Water - Outage Map</title>
+	<link rel="stylesheet" type="text/css" href="https://www.mlgw.com/css/global_header.css">
+	<link rel="stylesheet" type="text/css" href="https://www.mlgw.com/css/landing_and_sub.css">
+	<link rel="stylesheet" type="text/css" href="https://www.mlgw.com/css/residential.css">
+	<link rel="stylesheet" type="text/css" href="https://www.mlgw.com/css/secondary_nav.css">
+	<link rel="stylesheet" type="text/css" href="https://www.mlgw.com/css/global_footer.css">
+	<script src="https://www.mlgw.com/includes/form_check.js"></script>
+	<!-- <script src="https://www.mlgw.com/includes/jquery-3.3.1.min.js"></script> -->
+	<!-- The integrity hash needs to be updated each time we change jQuery (or any file that changes) -->
+	<script src="https://www.mlgw.com/includes/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+	<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-WJPS4Q6HB7"></script> <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());   gtag('config', 'G-WJPS4Q6HB7'); </script>
+</head>
+<body>
+<div class="mainContainer">
+	<script>
+// Animated DD Menus...
+$(document).ready( function () {
+	// This method closes all sub-menus when clicking anywhere off of them.
+	// First, hide all sub-menus.
+	$('.mmSubMenuContent').hide();
+
+	$('.mmItem, .secondaryMenuIcon').click( function(event) {
+		var theIdName = $(this).attr('id');
+		var theClassName = $(this).prop('class');
+
+		$('.mmSubMenuContent, .secondaryMenuContainer').slideUp(200);
+
+		event.stopPropagation();
+
+		if (theIdName == 'mmResidential') {
+			$('#SID1').slideToggle(300);
+		}
+		if (theIdName == 'mmCommercial') {
+			$('#SID2').slideToggle(300);
+		}
+		if (theIdName == 'mmBuilders') {
+			$('#SID3').slideToggle(300);
+		}
+		if (theIdName == 'mmCommunity') {
+			$('#SID4').slideToggle(300);
+		}
+
+		if (theIdName == 'mmAbout') {
+			$('#SID5').slideToggle(300);
+		}
+
+		if (theIdName == 'mmMobile') {
+			$('#mmMobileSubMenu').slideToggle(300);
+        }
+
+		if (theClassName == 'secondaryMenuIcon') {
+			$('.secondaryMenuContainer').slideToggle(300);
+		}
+		// alert('id = ' + theIdName + '\nClass = ' + theClassName);
+	} );
+
+	$(document).click( function() {
+		$('.mmSubMenuContent').slideUp(300);
+		$('.secondaryMenuContainer').slideUp(300);
+	} );
+} );
+</script>
+	<div class="headerContainer">
+		<div class="headerTopContainer">
+			<div class="headerTopLeftContainer">
+				<div class="headerSocialContainer">
+					<a href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Fwww.mlgw.com%2F&region=follow_link&screen_name=mlgw&source=followbutton&variant=2.0" target="_blank"><img src="https://www.mlgw.com/images/header_twitter_icon.png" alt="Connect with us on X" title="Connect with us on X/Twitter"></a>
+					<a href="https://www.facebook.com/MLGW1" target="_blank"><img src="https://www.mlgw.com/images/header_facebook_icon.png" alt="Connect with us on Facebook" title="Connect with us on Facebook"></a>
+					<a href="https://mlgw.blogspot.com/" target="_blank"><img src="https://www.mlgw.com/images/header_blog_icon.png" alt="Read our most recent blog" title="Read our most recent blog"></a>
+					<a href="https://www.youtube.com/user/MLGWWaysToSave" target="_blank"><img src="https://www.mlgw.com/images/header_youtube_icon.png" alt="Watch us on YouTube" title="Watch us on YouTube"></a>
+					<a href="https://instagram.com/mlgwofficial" target="_blank"><img src="https://www.mlgw.com/images/header_insta_icon.png" alt="Connect with us on Instagram" title="Connect with us on Instagram"></a>
+				</div>
+			</div>
+			<div class="headerTopRightContainer">
+				<div class="headerSearchContainer">
+					<form name="headerSearchForm" class="headerSearchForm" action="https://www.mlgw.com/search_results.php" method="get" onsubmit="checkMinCharLength(headerSearchForm.q.value, 3);">
+						<input type="text" name="q" maxlength="128" class="headerSearchField" value="Search..." onfocus="headerSearchForm.q.value=''">
+						<input type="image" name="headerSearchButton" id="headerSearchButton" src="https://www.mlgw.com/images/header_search_button.png" alt="SEARCH">
+					</form>
+				</div>	
+			</div>
+		</div>
+		<!-- End Top of Header -->
+		<!-- Bottom of Header -->
+		<div class="headerBottomContainer">
+			<!-- Bottom Left of Header -->
+			<div class="headerBottomLeftContainer">
+				<div class="mmContainer">
+					<div class="mmItem mmItemSelected" id="mmResidential">Residential</div>
+					<div class="mmItem" id="mmCommercial">Business</div>
+					<div class="mmItem" id="mmBuilders">Builders</div>
+					<div class="mmItem" id="mmMobile">Main Menu</div>
+					<!-- Mobile Menu -->
+					<div class="mmLargeArrowRight"></div>
+                    <div class="mmSubMenuContent mmMobileSubMenuContent" id="mmMobileSubMenu" style="display: none;">
+                        <div class="mmArrowUpMobile"></div>
+                        <div class="mmSubMenuMobileContentCol">
+                            <div class="mmSubMenuItem"><a href="https://www.mlgw.com/MyMLGWaccount">My Account</a></div>
+                            <div class="mmSubHR"></div>
+                            <div class="mmSubMenuItem"><a href="https://www.mlgw.com/residential">Residential</a></div>
+                            <div class="mmSubHR"></div>
+                            <div class="mmSubMenuItem"><a href="https://www.mlgw.com/commercial">Commercial</a></div>
+                            <div class="mmSubHR"></div> 
+                            <div class="mmSubMenuItem"><a href="https://www.mlgw.com/builders">Builders</a></div>
+                            <div class="mmSubHR"></div>
+                            <div class="mmSubMenuItem"><a href="https://www.mlgw.com/community">Community</a></div>
+                            <div class="mmSubHR"></div>
+                            <div class="mmSubMenuItem"><a href="https://www.mlgw.com/about">About</a></div>
+                            <div class="mmSubHR"></div>
+                            <div class="mmSubMenuItem"><a href="https://www.mlgw.com/contact">Contact</a></div>
+                        </div>
+                    </div>
+                    <!-- End Mobile Menu -->
+				</div>
+			</div>
+			<!-- END Bottom Left Side of Header -->
+			<!-- Logo -->
+			<div class="headerLogoContainer"><a href="https://www.mlgw.com"><img src="https://www.mlgw.com/images/header_logo.png" alt="MLGW Home Page" title="MLGW Home Page"></a></div>
+			<!-- End Logo -->
+			<!-- Bottom Right Side of Header -->
+			<div class="headerBottomRightContainer">
+				<div class="mmContainer">
+				<div class="mmItem" id="mmCommunity">Community</div>
+				<div class="mmItem" id="mmAbout">About Us</div>
+				<div class="mmItem" id="mmContact"><a href="https://www.mlgw.com/contact">Contact Us</a></div>
+			</div>
+			<!-- End Bottom Right of Header -->
+		</div>
+		<!--- End Bottom of Header -->
+	</div>
+    <!-- END Header Container -->
+    <!-- Below: area for dropdown (sub) menus. -->
+	<div class="mmSubMenuContent" id="SID1" style="display: none;">
+		<div class="mmSubMenuContentCol">
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/residential/residentialmainpage>Residential</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/residential/yourmlgwbill>Your MLGW Bill</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/residential/paybillmainmenu>Payment Options</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/residential/dbf>2023 Delayed Billing FAQ</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/residential/assistanceprograms>Assistance Programs</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/residential/contactingmlgw>Contacting MLGW</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/residential/customerconnectionnewsletter>Customer Connection</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/residential/customerhandbook>Customer Handbook</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/residential/crossconnection>Cross Connection</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/residential/energysavingtools>Energy-Saving Tools</a></div>
+</div>
+<div class="mmSubMenuContentCol">
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/residential/facilityconnection>Facility Connection</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/residential/greenpower>Green Power</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/residential/Irrigation_res>Irrigation</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/residential/lol>Leased Outdoor Lighting</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/residential/telecomm>Leasing for Telecomm</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/residential/officeappointments>Office Appointments</a></div>
+	<div class="mmSubMenuItemSelected"><a href=https://www.mlgw.com/residential/outagemap>Outage Map</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/residential/requestservice>Request Service</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/residential/residentialrates>Residential Rates</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/residential/safety>Safety</a></div>
+</div>
+<div class="mmSubMenuContentCol">
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/residential/streetlightoutage>Streetlight Outage</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/residential/ResidentialTextAlerts>Text Alerts</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/residential/TreeTrimmingMain>Tree Trimming</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/residential/memphisled_about>Memphis LED Project</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/residential/BartlettLED>Bartlett LED Project</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/residential/waterservicelines>Water Service Lines</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/residential/reportbarricadecone>Report a Barricade or Cone</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/residential/Fire>Restoring Services After a Fire</a></div>
+<div class="mmSubMenuItem"></div>
+<div class="mmSubMenuItem"></div>
+</div>	</div>
+	<div class="mmSubMenuContent" id="SID2" style="display: none;">
+		<div class="mmSubMenuContentCol">
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/commercial/commercialmainpage>Business</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/commercial/yourmlgwbillcommercial>Your MLGW Bill</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/commercial/paybillmainmenu>Payment Options</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/commercial/code_e>Code Enforcement</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/commercial/commercialrates>Commercial Rates</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/commercial/contactingmlgwcommercial>Contacting MLGW</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/commercial/crossconnection>Cross Connection</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/commercial/economicdevelopment>Economic Development</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/commercial/energysavingtoolsincentives>Energy-Saving Tools</a></div>
+</div>
+<div class="mmSubMenuContentCol">
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/commercial/facilityconnection>Facility Connection</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/commercial/greenpower>Green Power</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/commercial/lol>Leased Outdoor Lighting</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/commercial/telecomm>Leasing for Telecomm</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/commercial/meterintelligence>Meter Intelligence</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/commercial/CNG-NGVs>NGV/CNG/LNGs</a></div>
+	<div class="mmSubMenuItemSelected"><a href=https://www.mlgw.com/commercial/outagemap>Outage Map</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/commercial/PA_Services>Pole Attachment Services</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/commercial/requestservicecommercial>Request Service</a></div>
+</div>
+<div class="mmSubMenuContentCol">
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/commercial/safety>Safety</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/commercial/streetlightoutage>Streetlight Outage</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/commercial/memphisled_about>Memphis LED Project</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/commercial/BartlettLED>Bartlett LED Project</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/commercial/TreeTrimmingMain>Tree Trimming</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/commercial/auction>Surplus Equipment Auction</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/commercial/reportbarricadecone>Report a Barricade or Cone</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/commercial/Fire>Restoring Services After a Fire</a></div>
+<div class="mmSubMenuItem"></div>
+</div>	</div>
+	<div class="mmSubMenuContent" id="SID3" style="display: none;">
+		<div class="mmSubMenuContentCol">
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/builders/buildersmainpage>Builders</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/builders/builderdeveloperportal>Builder Developer Portal</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/builders/builderservices>Builder Services Center</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/builders/crossconnection>Cross Connection</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/builders/customerengineering>Customer Engineering</a></div>
+</div>
+<div class="mmSubMenuContentCol">
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/builders/facilityconnection>Facility Connection</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/builders/landandmapping>Land and Mapping</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/builders/telecomm>Leasing for Telecomm</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/builders/buildersnewconstruction>New Construction</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/builders/residentialengineering>Residential Engineering</a></div>
+</div>
+<div class="mmSubMenuContentCol">
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/builders/safety>Safety</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/builders/memphisled_about>Memphis LED Project</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/builders/BartlettLED>Bartlett LED Project</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/builders/TreeTrimmingMain>Tree Trimming</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/builders/reportbarricadecone>Report a Barricade or Cone</a></div>
+</div>
+	</div>
+	<div class="mmSubMenuContent" id="SID4" style="display: none;">
+		<div class="mmSubMenuContentCol">
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/community/communitymainpage>Community</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/community/ablaze>A-Blazing Race</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/community/communityadvisorycouncil>Advisory Council</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/community/communitybirdonawire>Bird on a Wire Blog</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/community/fairsandexhibits>Community Calendar</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/community/communityoutreachnewsletter>Community Outreach</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/community/economicdevelopment>Economic Development</a></div>
+</div>
+<div class="mmSubMenuContentCol">
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/community/environment>Environment</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/community/communityflashbackfridays>Flashback Fridays</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/community/communityespanol>MLGW en español</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/community/publiceducationprogram>Public Education Program</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/community/schoolenrichment>School Enrichment</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/community/sponsorship>Sponsorship Request</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/community/artcontest>MLGW Art Contest</a></div>
+</div>
+<div class="mmSubMenuContentCol">
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/community/volunteerism>Volunteerism</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/community/utilityassistance>Utility Assistance</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/community/memphisled_about>Memphis LED Project</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/community/BartlettLED>Bartlett LED Project</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/community/TreeTrimmingMain>Tree Trimming</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/community/waterservicelines>Water Service Lines</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/community/auction>Surplus Equipment Auction</a></div>
+</div>
+	</div>
+	<div class="mmSubMenuContent" id="SID5" style="display: none;">
+		<div class="mmSubMenuContentCol">
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/about/aboutmainpage>About</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/about/boardofcommissioners>Board of Commissioners</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/about/executives>Senior Leadership Council</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/about/annualreport>Annual Report</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/about/monthlyfinancialreports>Monthly Financial Reports</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/about/waterqualityreport>Water Quality Report</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/about/history>A History of Performance</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/about/budgetbook>Budget Book</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/about/jobopportunities>Careers at MLGW</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/about/performancescorecard>Corporate Scorecard</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/about/customerconnectionnewsletter>Customer Connection</a></div>
+</div>
+<div class="mmSubMenuContentCol">
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/about/DMP>Drought Management Plan</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/about/aboutefficiencystudy>Efficiency Study</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/about/ElectricVehicles>Electric Vehicles</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/about/energyedge>Energy Edge</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/about/environment>Environment</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/about/mlgweventscalendar>Events Calendar</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/about/mlgwgreenpowerswitch>Green Power</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/about/governed>How MLGW is Governed</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/about/memphisenergizedtv>Memphis Energized TV</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/about/memphisled_about>Memphis LED Project</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/about/aboutmlgwauctionhub>MLGW Auction Hub</a></div>
+</div>
+<div class="mmSubMenuContentCol">
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/about/newsreleases>News Releases</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/about/brochures>Online Brochures</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/about/about_powerupmemphis>Power Up Memphis TV</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/about/purchasingcontractingabout>Procurement</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/about/ratesurveyabout>Rate Survey</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/about/strategicplan>Road Map to Reliability</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/about/speakerstours>Speakers and Tours</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/about/TreeTrimmingMain>Tree Trimming</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/about/coveragerule>Transparency in Coverage</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/about/wdt>Workforce Development</a></div>
+	<div class="mmSubMenuItem"><a href=https://www.mlgw.com/about/auction>Surplus Equipment Auction</a></div>
+</div>
+	</div>
+	<noscript>
+	<div style="width: 75%; margin: auto; padding: 75px; text-align: left; font-size: 17px; background-color: #fff; position: relative; border: 3px solid #999; top: -37px; z-index: 101;">
+		<b>JavaScript must be enabled in order for you to use all of MLGW.COM.</b><br><br>
+		However, it seems JavaScript is either disabled or not supported by your browser.<br><br>
+		To view MLGW.COM correctly, and be able to utilize the site to its potential, enable
+		JavaScript by changing your browser options, and try again.
+	</div>
+	</noscript>
+	<div class="mainContentContainer">
+		<div class="landingHeadingRow">
+			<div class="mousetracksContainer">
+				<a href="https://www.mlgw.com"><img src="https://www.mlgw.com/images/mousetracks_home.png" title="Back to Home Page" alt="Back to Home Page"></a>
+				<div class="mousetracksGrayPath"><a href="https://www.mlgw.com/residential/">Residential</a>&nbsp;/&nbsp;</div><div class="mousetracksCurrentPage">Outage Map</div>			</div>
+			<a class="secondaryMenuIcon"><img src="https://www.mlgw.com/images/secondary_menu_icon.png" alt="Menu for this page"></a>
+		</div>
+		<div class="secondaryMenuContainer" style="display: none;">
+			                <div class="secondaryMenuItem">
+                            <a href="http://www.mlgw.com/residential/" >Residential</a>
+                        </div>
+                            <div class="secondaryMenuItem">
+                            <a href="https://www.mlgw.com/residential/yourmlgwbill">Your MLGW Bill</a>
+                        </div>
+                            <div class="secondaryMenuItem">
+                            <a href="http://www.mlgw.com/residential/payingyourbill_b" >Payment Options</a>
+                        </div>
+                            <div class="secondaryMenuItem">
+                            <a href="https://www.mlgw.com/delayedbills2023" >2023 Delayed Billing FAQ</a>
+                        </div>
+                            <div class="secondaryMenuItem">
+                            <a href="https://www.mlgw.com/utilityassistance" >Assistance Programs</a>
+                        </div>
+                            <div class="secondaryMenuItem">
+                            <a href="https://www.mlgw.com/contact" >Contacting MLGW</a>
+                        </div>
+                            <div class="secondaryMenuItem">
+                            <a href="https://www.mlgw.com/residential/customerconnectionnewsletter">Customer Connection</a>
+                        </div>
+                            <div class="secondaryMenuItem">
+                            <a href="https://www.mlgw.com/residential/customerhandbook">Customer Handbook</a>
+                        </div>
+                            <div class="secondaryMenuItem">
+                            <a href="https://www.mlgw.com/residential/crossconnection">Cross Connection</a>
+                        </div>
+                            <div class="secondaryMenuItem">
+                            <a href="https://www.mlgw.com/residential/energysavingtools">Energy-Saving Tools</a>
+                        </div>
+                            <div class="secondaryMenuItem">
+                            <a href="https://www.mlgw.com/residential/facilityconnection">Facility Connection</a>
+                        </div>
+                            <div class="secondaryMenuItem">
+                            <a href="http://www.mlgw.com/about/mlgwgreenpowerswitch" >Green Power</a>
+                        </div>
+                            <div class="secondaryMenuItem">
+                            <a href="https://www.mlgw.com/residential/Irrigation_res">Irrigation</a>
+                        </div>
+                            <div class="secondaryMenuItem">
+                            <a href="https://www.mlgw.com/residential/lol">Leased Outdoor Lighting</a>
+                        </div>
+                            <div class="secondaryMenuItem">
+                            <a href="https://www.mlgw.com/residential/telecomm">Leasing for Telecomm</a>
+                        </div>
+                            <div class="secondaryMenuItem">
+                            <a href="https://www.mlgw.com/residential/officeappointments">Office Appointments</a>
+                        </div>
+                                <div class="secondaryMenuItemSelected">
+                                <a href="https://www.mlgw.com/residential/outagemap">Outage Map</a>
+                        </div>
+                            <div class="secondaryMenuItem">
+                            <a href="https://www.mlgw.com/residential/requestservice">Request Service</a>
+                        </div>
+                            <div class="secondaryMenuItem">
+                            <a href="https://www.mlgw.com/residential/residentialrates">Residential Rates</a>
+                        </div>
+                            <div class="secondaryMenuItem">
+                            <a href="https://www.mlgw.com/residential/safety">Safety</a>
+                        </div>
+                            <div class="secondaryMenuItem">
+                            <a href="https://www.mlgw.com/residential/streetlightoutage">Streetlight Outage</a>
+                        </div>
+                            <div class="secondaryMenuItem">
+                            <a href="https://www.mlgw.com/textalerts" >Text Alerts</a>
+                        </div>
+                            <div class="secondaryMenuItem">
+                            <a href="https://www.mlgw.com/TreeTrimming" >Tree Trimming</a>
+                        </div>
+                            <div class="secondaryMenuItem">
+                            <a href="https://www.mlgw.com/MemphisLED" >Memphis LED Project</a>
+                        </div>
+                            <div class="secondaryMenuItem">
+                            <a href="https://bartlett-public.lightedison.com/project-map" >Bartlett LED Project</a>
+                        </div>
+                            <div class="secondaryMenuItem">
+                            <a href="https://www.mlgw.com/residential/waterservicelines">Water Service Lines</a>
+                        </div>
+                            <div class="secondaryMenuItem">
+                            <a href="https://public.mlgw.org/barricadeRemoval/report" >Report a Barricade or Cone</a>
+                        </div>
+                            <div class="secondaryMenuItem">
+                            <a href="https://www.mlgw.com/residential/Fire">Restoring Services After a Fire</a>
+                        </div>
+            		</div>
+		<div class="headingUnderline">&nbsp;</div>
+		<div class="mainContent">
+			<p>Memphis Light, Gas and Water&#39;s <strong><a href="https://outagemap.mlgw.org/" target="_blank">Electric Outage Summary Map</a>&nbsp;</strong>provides&nbsp;you general information about the outage level across Shelby County. Detailed information about specific addresses is not available for home safety and security measures. All information displayed on this site is based on reported and known outages. For information about your specific outage, or if you have an outage and the section of the map you are in doesn&#39;t show any outages, call MLGW&#39;s Electric Outage Hotline, (901) 544-6500.<br />
+<span style="font-size:11px"><em><strong>Important Note</strong>: Customers using Internet Explorer 8 or older may not be able to access the outage map due to compatibility issues between IE 8 and Google Maps.</em></span></p>
+
+<ul>
+	<li style="text-align:left"><strong><a href="https://outagemap.mlgw.org/" target="_blank">View the Electric Outage Summary Map</a></strong></li>
+</ul>
+
+<div style="text-align:left">&nbsp;</div>
+
+<div style="text-align:left"><strong>Be Prepared for Outages</strong>:</div>
+
+<p>Remember to keep your telephone number(s) updated with MLGW so we can provide you with faster service when reporting outages.<br />
+<br />
+<br />
+<strong>Updated information will:</strong></p>
+
+<ul>
+	<li>Allow MLGW to contact customers of planned outages with our automated notification dialer.<br />
+	&nbsp;</li>
+	<li>Allow customers to report an electrical outage by telephone using the telephone number associated with their account.<br />
+	&nbsp;</li>
+	<li>Allow customers to obtain electrical restoration status by telephone using the telephone number associated with their account.</li>
+</ul>
+
+<p><br />
+<strong>To update your phone number information, you can do one of the following:</strong></p>
+
+<ul>
+	<li>Update your phone number in <a href="https://www.mlgw.com/MyMLGWaccount">My Account</a><br />
+	&nbsp;</li>
+	<li>For Residential Customers, please send an e-mail to <a href="mailto:mlgwcustomercare@mlgw.org">mlgwcustomercare@mlgw.org</a><br />
+	&nbsp;</li>
+	<li>For Commercial Customers, please send an e-mail to <a href="mailto:mlgwbsc@mlgw.org">mlgwbsc@mlgw.org</a><br />
+	&nbsp;</li>
+	<li>Customers&nbsp;can call (901) 544-6549.</li>
+</ul>
+
+<p>&nbsp;</p>		</div>
+	</div>
+	<div class="footerContainer">
+		<div class="footerContentContainer">
+			<div class="footerColumnContainer">
+				<div class="footerColumnContent">
+					<div class="footerColHeading footerLogoHover"><a href="https://www.mlgw.com"><img src="https://www.mlgw.com/images/footer_logo_white.png" style="width: 101px;" alt="MLGW Home Page Link" title="MLGW Home Page Link"></a></div>
+					220 South Main St.<br>
+					Memphis, TN 38103<br>
+					<div class="footerColLink" style="margin-top: 16px;"><a href="https://www.mlgw.com/contact">More Contact Info</a></div>
+				</div>
+				<div class="footerColumnContent hideGeneral">
+					<div class="footerColHeading">General</div>
+					<div class="footerColLink"><a href="https://www.mlgw.com/MyAccount" target="_blank">My Account</a></div>
+					<div class="footerColLink"><a href="https://www.mlgw.com/residential/energysavingtools">Energy-Saving Tools</a></div>
+					<div class="footerColLink"><a href="https://www.mlgw.com/jobs">Job Opportunities</a></div>
+					<div class="footerColLink"><a href="https://www.mlgw.com/residential/payingyourbill_b">Pay Your Bill</a></div>
+					<div class="footerColLink"><a href="https://www.mlgw.com/purchasingcontracting">Procurement</a></div>
+				</div>
+
+				<div class="footerColumnContent hidePrograms">
+					<div class="footerColHeading">Programs</div>
+					<div class="footerColLink"><a href="https://www.mlgw.com/residential/plus1">Plus-1</a></div>
+					<div class="footerColLink"><a href="https://www.mlgw.com/residential/giftofcomfort">Gift of Comfort</a></div>
+					<div class="footerColLink"><a href="https://www.mlgw.com/residential/ontrack">OnTrack</a></div>
+					<div class="footerColLink"><a href="https://www.mlgw.com//sharethepennies">Share the Pennies</a></div>
+					<div class="footerColLink"><a href="https://www.mlgw.com/residential/autopay">AutoPay</a></div>
+				</div>
+				<div class="footerColumnContent hidePolicies">
+					<div class="footerColHeading">Policies</div>
+					<div class="footerColLink"><a href="https://www.mlgw.com/residential/customercarepolicy">Customer Care Policy</a></div>
+					<div class="footerColLink"><a href="https://www.mlgw.com/images/content/files/pdf/ServicePolicyManual.pdf">Electric, Gas, Water</a></div>
+					<div class="footerColLink"><a href="https://www.mlgw.com/images/content/files/pdf/ScheduleofCharges.pdf">Schedule of Charges</a></div>
+					<div class="footerColLink"><a href="https://www.mlgw.com/images/content/files/New%20PDFs/MemphisIncentives-update.pdf">Incentive Policy</a></div>
+					<div class="footerColLink"><a href="https://www.mlgw.com/mlgwpublicrecords">Public Records</a></div>
+				</div>
+				<div class="footerColumnContent hideQuickLinks">
+					<div class="footerColHeading">Quick Links</div>
+					<div class="footerColLink"><a href="https://www.mlgw.com/reliability/">Renewal/Replacement of Infrastructure</a></div>
+					<div class="footerColLink"><a href="https://www.mlgw.com/residential/safety">Safety</a></div>
+					<div class="footerColLink"><a href="https://www.mlgw.com/contact">Contact MLGW</a></div>
+					<div class="footerColLink"><a href="https://www.mlgw.com/espanol">En Español</a></div>
+					<div class="footerColLink"><a href="https://www.mlgw.com/waterservicelines">Water Service lines</a></div>
+				</div>
+			</div>
+			<div class="footerBottomContainer">
+				<div class="footerCopy">All Information &copy; 2026 Memphis Light, Gas and Water Division (MLGW). All Rights Reserved.</div>
+				<div class=">footerPrivacyFeebackContainer">
+					<a class="footerPrivacy" href="https://www.mlgw.com/privacypolicy">Privacy Policy</a>
+					<a class="footerFeedback" href="https://www.mlgw.com/contact">Feedback</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Notice: SRI cannot be used for the two scripts below. Too dynamic. -->
+	<!-- audioeye.com -->
+	<script type="text/javascript">!function(){var b=function(){window.__AudioEyeSiteHash = "997b18e8eeddc188c5a1472547f39d59"; var a=document.createElement("script");a.src="https://wsmcdn.audioeye.com/aem.js";a.type="text/javascript";a.setAttribute("async","");document.getElementsByTagName("body")[0].appendChild(a)};"complete"!==document.readyState?window.addEventListener?window.addEventListener("load",b):window.attachEvent&&window.attachEvent("onload",b):b()}();</script>
+	<!-- Webchat -->
+	<script src=https://mlgwgenesyschatscript-6513.twil.io/chat.js async></script>
+	<!-- End Webchat --></div>
+</body>
+</html>

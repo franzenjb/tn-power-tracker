@@ -1,0 +1,47 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "OUTAGE_NO": 1483029,
+                "TIME_STAMP": "01/30/2026 02:40:38 PM",
+                "DURATION": "10 Mins",
+                "IMPACT": "Single Customer",
+                "STATUS": "The extent of the outage has been determined",
+                "EST_REPAIR_TIME": "",
+                "CUR_CUST_AFF": 1,
+                "OUT_CAUSE": " "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -90.09635,
+                    35.03403
+                ]
+            },
+            "id": 1
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "OUTAGE_NO": 1483027,
+                "TIME_STAMP": "01/30/2026 02:13:20 PM",
+                "DURATION": "38 Mins",
+                "IMPACT": "Single Customer",
+                "STATUS": "Customer Svc is working this single customer outage",
+                "EST_REPAIR_TIME": "",
+                "CUR_CUST_AFF": 1,
+                "OUT_CAUSE": " "
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -89.9779,
+                    35.0946
+                ]
+            },
+            "id": 2
+        }
+    ]
+}

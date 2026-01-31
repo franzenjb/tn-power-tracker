@@ -1,0 +1,61 @@
+[
+  {
+    "url": "https://www.mlgw.com/residential/outagemap",
+    "method": "GET",
+    "status": 200,
+    "contentType": "text/html; charset=UTF-8",
+    "headers": {
+      "connection": "Keep-Alive",
+      "content-type": "text/html; charset=UTF-8",
+      "date": "Fri, 30 Jan 2026 19:57:48 GMT",
+      "keep-alive": "timeout=5, max=100",
+      "server": "Apache/2.4.62 (Red Hat Enterprise Linux) OpenSSL/3.5.1",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "transfer-encoding": "chunked",
+      "x-content-type-options": "nosniff"
+    },
+    "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n\t<meta charset=\"utf-8\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\t<meta name=\"description\" content=\"\">\n\t<title>Memphis Light, Gas and Water - Outage Map</title>\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"https://www.mlgw.com/css/global_header.css\">\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"https://www.mlgw.com/css/landing_and_sub.css\">\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"https://www.mlgw.com/css/residential.css\">\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"https://www.mlgw.com/css/secondary_nav.css\">\n\t<link rel=\"stylesheet\" type=\"text/css\" href=\"https://www.mlgw.com/css/global_footer.css\">\n\t<script src=\"https://www.mlgw.com/includes/form_check.js\"></script>\n\t<!-- <script src=\"https://www.mlgw.com/includes/jquery-3.3.1.min.js\"></script> -->\n\t<!-- The integrity hash needs to be updated each time we change jQuery (or any file that changes) -->\n\t<script src=\"https://www.mlgw.com/includes/jquery-3.3.1.min.js\" integrity=\"sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT\" crossorigin=\"anonymous\"></script>\n\t<!-- Google tag (gtag.js) --> <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-WJPS4Q6HB7\"></script> <script>   window.dataLayer = window.dataLayer || [];   function gtag(){dataLayer.push(arguments);}   gtag('js', new Date());   gtag('config', 'G-WJPS4Q6HB7'); </script>\n</head>\n<body>\n<div class=\"mainContainer\">\n\t<script>\n// Animated DD Menus...\n$(document).ready( function () {\n\t// This method closes all sub-menus when clicking anywhere off of them.\n\t// First, hide all sub-menus.\n\t$('.mmSubMenuContent').hide();\n\n\t$('.mmItem, .secondaryMenuIcon').click( function(event) {\n\t\tvar theIdName = $(this).attr('id');\n\t\tvar theClassName = $(this).prop('class');\n\n\t\t$('.mmSubMenuContent, .secondaryMenuContainer').slideUp(200);\n\n\t\tevent.stopPropagation();\n\n\t\tif (theIdName == 'mmResidential') {\n\t\t\t$('#SID1').slideToggle(300);\n\t\t}\n\t\tif (theIdName == 'mmCommerci"
+  },
+  {
+    "url": "https://apps.usw2.pure.cloud/messenger/i18n/en-us.json",
+    "method": "GET",
+    "status": 200,
+    "contentType": "application/json",
+    "headers": {
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "cache-control": "max-age=0, no-cache",
+      "content-encoding": "gzip",
+      "x-amz-version-id": "JOoBsAzF8Pt..zRTFKlrhjhbsdBalYk3",
+      "etag": "\"965d14ae8b67ace4917382a6f6428f35\"",
+      "x-amz-request-id": "65MXTGB426TKFQXM",
+      "content-length": "3682",
+      "date": "Fri, 30 Jan 2026 19:57:51 GMT",
+      "content-type": "application/json",
+      "last-modified": "Thu, 08 Jan 2026 08:15:51 GMT",
+      "server": "nginx",
+      "x-amz-id-2": "Sv6iL7dRWXQe9f4HO67s9SiOkIRMCw4uuTfBuAaa/MTJB8cpTj6uT+M/W2KxMMHovqWlHBDp9SYQByPdFi3aZ1nm7Z0TLy6yAsZScN90cUU="
+    },
+    "body": "{\n  \"language\": \"en-us\",\n  \"home\": {\n    \"headerTitle\": \"Welcome\",\n    \"headerSubTitle\": \"We're here to help\",\n    \"ariaHomeScreenOpenStatus\": \"HomeScreen is opened\",\n    \"ariaExpandMenu\": \"Expand menu\"\n  },\n  \"conversations\": {\n    \"headerTitle\": \"Message Us\",\n    \"inputMessagePlaceholder\": \"Send a message...\",\n    \"typeMessagePlaceholder\": \"Type your message here\",\n    \"startConversationMessage\": \"This is the beginning of your conversation with us. Please send a message to get started.\",\n    \"autoStartConversationMessage\": \"This is the beginning of your conversation with us.\",\n    \"sessionExpirationWarningMessage\": \"Please note that the session will expire after <%sessionMinutes%> minutes of inactivity.\",\n    \"notSignedInMessage\": \"You're operating as anonymous.\",\n    \"signedInMessage\": \"You are now signed-in.\",\n    \"signedInMessageWithName\": \"You signed-in as <%username%>\",\n    \"signedOutMessage\": \"You've been signed out from this session.\",\n    \"agentDefaultName\": \"Agent\",\n    \"botDefaultName\": \"Bot\",\n    \"customerDefaultName\": \"You\",\n    \"cancelButton\": \"Cancel\",\n    \"closeButton\": \"Close\",\n    \"startConversationButtonTitle\": \"Message us\",\n    \"continueConversationButtonTitle\": \"Continue\",\n    \"openConversationButtonTitle\": \"Open\",\n    \"startNewConversation\": \"Start new\",\n    \"startConversationCardTitle\": \"Start a conversation\",\n    \"continueConversationCardTitle\": \"Continue the conversation\",\n    \"yourConversationCardTitle\": \"Your conversation\",\n    \"yesButton\": \"Yes\",\n    \"noButton\": \"No\",\n    \"okButton\": \"Ok\",\n    \"sureButton\": \"Yes, I'm Sure\",\n    \"downloadButton\": \"Download\",\n    \"openInNewTabButton\": \"Open in new tab\",\n    \"signInButton\": \"Sign-in\",\n    \"clearButton\": \"Clear\",\n    \"previewFile\": \"Click to preview the File\",\n    \"pdfPreviewTitle\": \"Messenger PDF Preview\",\n    \"textFilePreviewTitle\": \"Messenger Text File Preview\",\n    \"disconnectMessage\": \"Your conversation has ended\",\n    \"disconnectMessageSend\": \"Resume conversation by sending a new messa"
+  },
+  {
+    "url": "https://apps.usw2.pure.cloud/messenger/i18n/en-us.json",
+    "method": "GET",
+    "status": 200,
+    "contentType": "application/json",
+    "headers": {
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "cache-control": "max-age=0, no-cache",
+      "content-encoding": "gzip",
+      "x-amz-version-id": "JOoBsAzF8Pt..zRTFKlrhjhbsdBalYk3",
+      "etag": "\"965d14ae8b67ace4917382a6f6428f35\"",
+      "x-amz-request-id": "Q7XQDQ3CNRMRQ41Q",
+      "content-length": "3682",
+      "date": "Fri, 30 Jan 2026 19:57:51 GMT",
+      "last-modified": "Thu, 08 Jan 2026 08:15:51 GMT",
+      "content-type": "application/json",
+      "server": "nginx",
+      "x-amz-id-2": "eQv3zZkmflr5T9pVOCGkFJQOBv8qDStJcW0dIp94RQ4zBYjabZ5bqF7za6O9wFW74cszGKs6Llg="
+    },
+    "body": "{\n  \"language\": \"en-us\",\n  \"home\": {\n    \"headerTitle\": \"Welcome\",\n    \"headerSubTitle\": \"We're here to help\",\n    \"ariaHomeScreenOpenStatus\": \"HomeScreen is opened\",\n    \"ariaExpandMenu\": \"Expand menu\"\n  },\n  \"conversations\": {\n    \"headerTitle\": \"Message Us\",\n    \"inputMessagePlaceholder\": \"Send a message...\",\n    \"typeMessagePlaceholder\": \"Type your message here\",\n    \"startConversationMessage\": \"This is the beginning of your conversation with us. Please send a message to get started.\",\n    \"autoStartConversationMessage\": \"This is the beginning of your conversation with us.\",\n    \"sessionExpirationWarningMessage\": \"Please note that the session will expire after <%sessionMinutes%> minutes of inactivity.\",\n    \"notSignedInMessage\": \"You're operating as anonymous.\",\n    \"signedInMessage\": \"You are now signed-in.\",\n    \"signedInMessageWithName\": \"You signed-in as <%username%>\",\n    \"signedOutMessage\": \"You've been signed out from this session.\",\n    \"agentDefaultName\": \"Agent\",\n    \"botDefaultName\": \"Bot\",\n    \"customerDefaultName\": \"You\",\n    \"cancelButton\": \"Cancel\",\n    \"closeButton\": \"Close\",\n    \"startConversationButtonTitle\": \"Message us\",\n    \"continueConversationButtonTitle\": \"Continue\",\n    \"openConversationButtonTitle\": \"Open\",\n    \"startNewConversation\": \"Start new\",\n    \"startConversationCardTitle\": \"Start a conversation\",\n    \"continueConversationCardTitle\": \"Continue the conversation\",\n    \"yourConversationCardTitle\": \"Your conversation\",\n    \"yesButton\": \"Yes\",\n    \"noButton\": \"No\",\n    \"okButton\": \"Ok\",\n    \"sureButton\": \"Yes, I'm Sure\",\n    \"downloadButton\": \"Download\",\n    \"openInNewTabButton\": \"Open in new tab\",\n    \"signInButton\": \"Sign-in\",\n    \"clearButton\": \"Clear\",\n    \"previewFile\": \"Click to preview the File\",\n    \"pdfPreviewTitle\": \"Messenger PDF Preview\",\n    \"textFilePreviewTitle\": \"Messenger Text File Preview\",\n    \"disconnectMessage\": \"Your conversation has ended\",\n    \"disconnectMessageSend\": \"Resume conversation by sending a new messa"
+  }
+]
