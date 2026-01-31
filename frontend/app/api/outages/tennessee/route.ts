@@ -74,12 +74,14 @@ export async function GET() {
     const results = await Promise.all(
       TN_UTILITIES.map(async (utility) => {
         try {
-          const response = await fetch(utility.url, {
-            headers: {
-              'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36',
-              'Referer': utility.type === 'mlgw' ? 'https://outagemap.mlgw.org/' : undefined
-            }
-          });
+          const headers: HeadersInit = {
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
+          };
+          if (utility.type === 'mlgw') {
+            headers['Referer'] = 'https://outagemap.mlgw.org/';
+          }
+
+          const response = await fetch(utility.url, { headers });
           const data = await response.json();
 
           let customersOut = 0;
